@@ -213,15 +213,15 @@ width: auto;
         width: 70%;
     }
     #aboutPage .page-about .blur-1{
-        border-radius: 50%;
-        background-color: #01F0FF;
-        filter: blur(250px);
-        opacity: .8;
-        position: absolute;
-        width: 342px;
-        height: 501px;
-        left: -24px;
-        top: 169px;
+       border-radius: 50%;
+    background-color: #01F0FF;
+    filter: blur(250px);
+    opacity: .8;
+    position: absolute;
+    width: 342px;
+    height: 501px;
+    left: -24px;
+    top: 169px;
     }
     #aboutPage .page-about .bg-our-vison {
         position: absolute;
