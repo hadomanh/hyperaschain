@@ -1,0 +1,234 @@
+
+/* ==============ABOUT US================= */
+section{
+    padding: 40px 0;
+}
+#aboutPage{
+    background: #172932;
+    color: white;
+    text-transform: capitalize;
+}
+#aboutPage .page-about .blur-1{
+    border-radius: 50%;
+    background-color: #01F0FF;
+    filter: blur(250px);
+    opacity: .8;
+    position: absolute;
+    width: 386px;
+    height: 501px;
+    left: 1127px;
+    top: 169px;
+}
+#aboutPage .core-team .blur-2{
+    border-radius: 50%;
+    background-color: #01F0FF;
+    filter: blur(239px);
+    opacity: .8;
+    position: absolute;
+    width: 501px;
+    height: 501px;
+    left: -218px;
+    top: 1160px;
+}
+img{
+    width: 100%;
+}
+#aboutPage .banner-about{
+    text-align: center;
+    padding: 50px 0;
+}
+#aboutPage .banner-about .title-about{
+   font-size: 48px;
+   font-weight: 600;
+}
+#aboutPage .page-about h3{
+    background: linear-gradient(89.08deg, #FF0097 -0.65%, #00D3FF 24.51%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+#aboutPage .page-about .our-vision{
+    position: relative;
+    z-index: 1;
+}
+#aboutPage .page-about .bg-our-vison{
+    position: absolute;
+    width: 70%;
+    height: 491px;
+    left: 0px;
+    top: 653px;
+    background: #243C48;
+}
+#aboutPage .core-team h3{
+    background: linear-gradient(89.08deg, #FF0097 47.35%, #00D3FF 53.51%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-align: center;
+    font-weight: 700;
+}
+#aboutPage .advisors h3{
+    background: linear-gradient(89.08deg, #FF0097 47.35%, #00D3FF 53.51%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-align: center;
+    font-weight: 700;
+}
+#aboutPage .social a{
+    font-size: 25px;
+    margin-top: 15px;
+    padding-bottom: 10px;
+    margin: 15px 10px 0;
+}
+#aboutPage  .social i{
+    color: #aaaaaa;
+}
+#aboutPage  .social i:hover{
+    color: #1d9bf0;
+}
+#aboutPage .position {
+font-size: 14px;
+}
+#aboutPage  .item img{
+width: auto;
+}
+#aboutPage .investor-partners{
+    background-color: #FFFFFF;
+}
+#aboutPage .investor-partners .title-invetor{
+    background: linear-gradient(89.08deg, #FF0097 47.35%, #00D3FF 53.51%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-align: center;
+    font-weight: 700;
+}
+#aboutPage .investor-partners .collum{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 20%;
+}
+#aboutPage .investor-partners .collum1{
+    position: relative;
+    width: 20%;
+}
+#aboutPage .investor-partners .item .investor-logo{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-left: 10%;
+}
+#aboutPage .investor-partners .logo-about{
+    padding: 45px 0;
+}
+@media (max-width: 1440px) {
+    #aboutPage .page-about .blur-1{
+        border-radius: 50%;
+        background-color: #01F0FF;
+        filter: blur(250px);
+        opacity: .8;
+        position: absolute;
+        width: 309px;
+        height: 501px;
+        left: 1127px;
+        top: 169px;
+    }
+}
+@media (max-width: 1366px) {
+    #aboutPage .page-about .blur-1{
+        border-radius: 50%;
+        background-color: #01F0FF;
+        filter: blur(250px);
+        opacity: .8;
+        position: absolute;
+        width: 230px;
+        height: 501px;
+        left: 1127px;
+        top: 169px;
+    }
+}
+@media (max-width: 1180px) {
+    #aboutPage .page-about .blur-1{
+        border-radius: 50%;
+        background-color: #01F0FF;
+        filter: blur(75px);
+        opacity: .8;
+        position: absolute;
+        width: 40px;
+        height: 501px;
+        left: 982px;
+        top: 169px;    
+    }
+    #aboutPage .page-about .bg-our-vison {
+        position: absolute;
+        width: 80%;
+        height: 436px;
+        left: 0px;
+        top: 541px;
+        background: #243C48;
+    }    
+}
+@media (max-width: 992px) {}
+@media (max-width: 768px) {
+    #aboutPage .investor-partners .collum{
+        width: 40%;
+    }
+    #aboutPage .investor-partners .collum1{
+        position: relative;
+        width: 40%;
+    }
+    #aboutPage .page-about .blur-1{
+        border-radius: 50%;
+        background-color: #01F0FF;
+        filter: blur(250px);
+        opacity: .8;
+        position: absolute;
+        width: 342px;
+        height: 501px;
+        left: 424px;
+        top: 169px;
+    }
+    #aboutPage .page-about .bg-our-vison {
+        position: absolute;
+        width: 80%;
+        height: 436px;
+        left: 0px;
+        top: 624px;
+        background: #243C48;
+    }    
+}
+@media (max-width: 576px) {
+    #aboutPage .investor-partners .collum{
+        width: 60%;
+    }
+    #aboutPage .investor-partners .collum1{
+        position: relative;
+        width: 70%;
+    }
+    #aboutPage .page-about .blur-1{
+        border-radius: 50%;
+        background-color: #01F0FF;
+        filter: blur(250px);
+        opacity: .8;
+        position: absolute;
+        width: 342px;
+        height: 501px;
+        left: -24px;
+        top: 169px;
+    }
+    #aboutPage .page-about .bg-our-vison {
+        position: absolute;
+        width: 100%;
+        height: 436px;
+        left: 0px;
+        top: 895px;
+        background: #243C48;
+    }    
+}
