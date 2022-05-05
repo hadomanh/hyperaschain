@@ -159,25 +159,25 @@
                     </div>
                 </div>
                 <div class="row investor-logo justify-content-center">
-                    <div class="col-lg col-md-4 col-sm-6 mt-4 collum1"> 
+                    <div class="col-lg col-md-4 col-sm-6 collum1 logo-about"> 
                         <a href="http://www.vnpost.vn/" target="blank">
                             <span></span>
                             <img src="{{ asset('img/explorer-logo.png') }}" alt="">
                         </a>
                     </div>
-                    <div class=" col-lg col-md-4 col-sm-6 collum1">
+                    <div class=" col-lg col-md-4 col-sm-6 collum1 logo-about">
                         <a href="http://www.vietinbankcapital.vn/vi-vn/" target="blank">
                             <span></span>
                             <img src="{{ asset('img/sawtooth-logo.png') }}" alt="">
                         </a>
                     </div>
-                    <div class=" col-lg col-md-4 col-sm-6 collum1">
+                    <div class=" col-lg col-md-4 col-sm-6 collum1 logo-about">
                         <a href="https://www.linkedin.com/company/acentus-capital" target="blank">
                            <span></span>
                            <img src="{{ asset('img/iroha-logo.png') }}" alt="">
                         </a>
                     </div>
-                    <div class=" col-lg col-md-4 col-sm-6 collum1">
+                    <div class=" col-lg col-md-4 col-sm-6 collum1 logo-about">
                         <a href="http://www.petroland.com.vn/" target="blank">
                             <span></span>
                             <img src="{{ asset('img/caliper-logo.png') }}" alt="">
