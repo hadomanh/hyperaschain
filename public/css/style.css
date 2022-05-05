@@ -1,0 +1,108 @@
+#overviewPage {
+    
+}
+#overviewPage .banner {
+    
+}
+section{
+    padding-bottom: 30px;
+}
+p{
+    font-size: 12px;
+    color: #58595B;
+}
+span{
+    background-image: linear-gradient(to right, #00d3ff, #0bbcff, #879aff, #d567e5, #ff0097);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.list-style{
+    list-style: none;
+}
+ul{
+    padding: 0px;
+}
+li {
+    color: #fff;
+    font-size: 12px;
+}
+b {
+    padding-bottom: 20px;
+    color: #fff;
+}
+h2{
+    color: #fff;
+}
+/*============content-header-overview================*/
+.content-header-overview .border-image-header{
+    top: 73%;
+    width: 100%;
+}
+.text-content-top-overview{
+    top: 71%;
+    z-index: 1;
+    right: 42%;
+    font-size: 48px;
+}
+.bottom-overview{
+    padding-bottom: 300px;
+}
+/*============content-top-overview================*/
+.text-road-map{
+    padding-bottom: 100px;
+}
+.content-top-overview .content-text-hyra{
+    width: 250px;
+}
+.text-overview h1{
+    color: #fff;
+}
+.text-ecosystem {
+    top: 65%;
+    right: 44%;
+}
+.box-content-hyra-1{
+    top: 57%;
+    right: 31%;
+}
+.box-content-hyra-2{
+    top: 35%;
+    right: 34%;
+}
+.content-text-hyra-4{
+    bottom: 30%;
+    right: 30%;
+}
+.content-text-hyra1{
+    bottom: 42%;
+    right: 35%;
+}
+.text-technology{
+    padding-bottom: 100px;
+}
+/*============content-bottom-overview================*/
+.roadmap1{
+    background-image: url(/img/bg-galaxy.jpg);
+}
+.box-iframe-ytb{
+    top: -150px;
+    position: relative;
+    background-image: linear-gradient(to right, #00d3ff, #0bbcff, #879aff, #d567e5, #ff0097);
+    width: 600px;
+    height: 300px;
+}
+.icon-technology img{
+    background: #EC008CB2;
+    padding: 15px;
+    border-radius: 999px;
+    width: 76px;
+    height: 76px;
+}
+.position-text-readmore{
+    top: 5%;
+    right: 34%;
+    font-size: 18px;
+}
+.aaa{
+    bottom: 100px;
+}
