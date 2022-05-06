@@ -145,7 +145,7 @@
 
 	<!-- Investor & Partners -->
 	<section class="investor">
-		<div class="container">
+		<div class="container pt-5 pb-5">
 			<div class="text-center">
 				<h2 class="titleSection">Investor & Partners</h2>
 				<p>We choose to go with partners who share the same business ecosystem and corporate culture value system. We work with major service providers to blockchainise conventional business models. </p>
@@ -167,7 +167,7 @@
 
 			<div class="text-center">
 				<h2 class="titleSection">As seen on</h2>
-				<div class="row justify-content-center pb-5">
+				<div class="row justify-content-center">
 				<div class="col-lg-auto col-sm-6 col-6 items"><img src="{{ asset('img/Yahoo-Finance.png')}}" alt=""></div>
 				<div class="col-lg-auto col-sm-6 col-6 items"><img src="{{ asset('img/Viettimes.png')}}" alt=""></div>
 				<div class="col-lg-auto col-sm-6 col-6 items"><img src="{{ asset('img/UNasdaq.png')}}" alt=""></div>
