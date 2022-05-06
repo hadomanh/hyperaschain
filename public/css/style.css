@@ -31,9 +31,6 @@ section{
     left: -218px;
     top: 1160px;
 }
-img{
-    width: 100%;
-}
 #aboutPage .banner-about{
     text-align: center;
     padding: 50px 0;
@@ -233,6 +230,10 @@ width: auto;
         background: #243C48;
     }    
 }
+
+
+/* home page  */
+
 header .top {
     letter-spacing: 20px;
     font-size: 20px;
