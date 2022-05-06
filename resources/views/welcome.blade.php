@@ -43,7 +43,7 @@
 				</div>
 				<div class="col-md-3">
 					<div class="wallet">
-						<img src="{{ asset ('img/logoHyraDex.png') }}" alt="">
+						<img src="{{ asset ('img/logoHyradex.png') }}" alt="">
 					</div>
 
 				</div>
