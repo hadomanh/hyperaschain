@@ -24,19 +24,19 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 topNav justify-content-evenly">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Technology</a>
+                        <a class="nav-link active fw-500" href="#">Technology</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Ecosystem</a>
+                        <a class="nav-link active fw-500" href="#">Ecosystem</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">External Environment</a>
+                        <a class="nav-link active fw-500" href="#">External Environment</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Resources</a>
+                        <a class="nav-link active fw-500" href="#" tabindex="-1" aria-disabled="true">Resources</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Company</a>
+                        <a class="nav-link active fw-500" href="#" tabindex="-1" aria-disabled="true">Company</a>
                     </li>
                 </ul>
             </div>
