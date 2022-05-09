@@ -20,10 +20,20 @@ Route::get('/', function () {
     return view('welcome');
 })->name('home');
 
+<<<<<<< HEAD
 Route::get('/overview', function () {
     return view('overview');
 })->name('overview');
 
+=======
+Route::get('/about-us', function () {
+    return view('about-us');
+})->name('about-us');
+
+Route::get('/community', function () {
+    return view('community');
+})->name('community');
+>>>>>>> master
 Auth::routes();
 
 Route::middleware('auth')->prefix('admin')->group(function () {

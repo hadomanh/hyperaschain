@@ -21,6 +21,7 @@
 	<meta property="og:description" content="KING DEX" />
 	<meta property="og:image" content="" />
 	<meta property="og:site_name" content="KING DEX" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 	<!-- Css File -->
 	<link href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
@@ -114,10 +115,12 @@
 							</div>
 						</div>
 					</div>
-					<hr>
+					<hr class="hrFooter">
 					<div class="text-center footerE pb-3">
 						<div>Copyright © 2021 - 2022 Hyperaschain.com. All rights reserved.</div>
-						<div>Privacy Notice | Legal | Status | Cookie Preferences</div>
+						<div>
+							<a href="">Privacy Notice</a> | <a href="">Legal</a> | <a href="">Status</a> | <a href="">Cookie Preferences</a>
+						</div>
 					</div>
 				</div>
 
