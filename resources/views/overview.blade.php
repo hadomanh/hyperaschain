@@ -143,7 +143,7 @@
                         </h2>
                         <img class="image-roadmap" src="{{ asset('img/icon-roadmap-pink.png')}}" alt="">
                         <div class="progress progress-box">
-                            <div class="progress-bar progress-color" role="progressbar" style="width: 65%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar progress-color box-shadow-progress" role="progressbar" style="width: 65%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                     <ul class="font-size-imageroadmap">
@@ -165,7 +165,7 @@
                         </h2>
                         <img class="image-roadmap" src="{{ asset('img/icon-roadmap-pink.png')}}" alt="">
                         <div class="progress progress-box-1 justify-content-end">
-                            <div class="progress-bar progress-color-1" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar progress-color-1 box-shadow-progress" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                     <ul class="font-size-imageroadmap">
@@ -190,7 +190,7 @@
                         </h2>
                         <img class="image-roadmap" src="{{ asset('img/icon-roadmap-blue.png')}}" alt="">
                         <div class="progress progress-box-2 justify-content-center">
-                            <div class="progress-bar progress-color-2" role="progressbar" style="width: 25%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar progress-color-2 box-shadow-progress" role="progressbar" style="width: 25%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                     <ul class="font-size-imageroadmap">
@@ -215,7 +215,7 @@
                         </h2>
                         <img class="image-roadmap" src="{{ asset('img/icon-roadmap-blue.png')}}" alt="">
                         <div class="progress progress-box-3 progress-background-color-blue">
-                            <div class="progress-bar progress-color-3" role="progressbar" style="width: 35%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar progress-color-3 box-shadow-progress" role="progressbar" style="width: 35%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                         <ul class="font-size-imageroadmap">
@@ -233,8 +233,8 @@
                             Q4. 2022
                         </h2>
                         <img class="image-roadmap" src="{{ asset('img/icon-roadmap-blue.png')}}" alt="">
-                        <div class="progress progress-box-4 progress-background-color-blue justify-content-end">
-                            <div class="progress-bar progress-color-4" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                        <div class="progress progress-box-4 progress-background-color-blue justify-content-end  ">
+                            <div class="progress-bar progress-color-4 box-shadow-progress" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                         <ul class="font-size-imageroadmap">
@@ -252,7 +252,7 @@
                         </h2>
                         <img class="image-roadmap" src="{{ asset('img/icon-roadmap-blue.png')}}" alt="">
                         <div class="progress progress-box-3 progress-background-color-blue">
-                            <div class="progress-bar progress-color-5" role="progressbar" style="width: 25%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div class="progress-bar progress-color-5 box-shadow-progress" role="progressbar" style="width: 25%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
                         </div>
                     </div>
                     <ul class="font-size-imageroadmap">
