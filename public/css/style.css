@@ -5,7 +5,19 @@
 #overviewPage .banner {
     
 }
-
+#overviewPage .ecosystem{
+    background: linear-gradient(89.08deg, #FF0097 47.35%, #00D3FF 53.51%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-align: center;
+    font-weight: 700;
+}
+.ecosystem{
+    position: relative;
+    bottom: 50px;
+}
 p{
     font-size: 16px;
 }
@@ -39,9 +51,9 @@ h2{
 }
 /* ==============ABOUT US================= */
 
-section {
-    padding: 100px 0;
-}
+/* section {
+    padding: 40px 0;
+} */
 
 #aboutPage {
     background: #172932;
@@ -127,6 +139,7 @@ section {
     position: relative; 
     bottom: 45px;
 }
+
 /*============content-header-overview================*/
 
 /*============content-top-overview================*/
