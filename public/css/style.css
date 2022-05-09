@@ -76,21 +76,11 @@ section {
 
 #aboutPage .banner-about {
     text-align: center;
-    padding: 50px 0;
 }
 
 #aboutPage .banner-about .title-about {
     font-size: 48px;
     font-weight: 600;
-}
-
-#aboutPage .page-about h3 {
-    background: linear-gradient(89.08deg, #FF0097 -0.65%, #00D3FF 24.51%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    padding-bottom: 20px;
-    font-weight: 700;
 }
 
 #aboutPage .page-about .our-vision {
@@ -106,27 +96,9 @@ section {
     top: 623px;
     background: #243C48;
 }
-
-#aboutPage .core-team h3 {
-    background: linear-gradient(89.08deg, #FF0097 47.35%, #00D3FF 53.51%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
-    text-align: center;
-    font-weight: 700;
-}
-
-#aboutPage .advisors h3 {
-    background: linear-gradient(89.08deg, #FF0097 47.35%, #00D3FF 53.51%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
-    text-align: center;
-    font-weight: 700;
-    position: relative; 
-    bottom: 45px;
+#aboutPage .partners {
+    color: #000;
+    background: linear-gradient(298.28deg, #FFFFFF 27.73%, rgba(255, 255, 255, 0.88) 91.27%);
 }
 /*============content-header-overview================*/
 
@@ -819,7 +791,7 @@ hr {
     background-image: linear-gradient(to right, #cfebed, #fff);
 }
 
-.investor .items {
+.items {
     margin: 40px 20px;
     display: flex;
     justify-content: center;
