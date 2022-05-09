@@ -233,6 +233,12 @@ h2{
 .content-header-roadmap{
     margin-bottom: 50px;
 }
+.progress{
+    overflow: visible;
+}
+.box-shadow-progress{
+    box-shadow: 0px 0px 10px 1px #9829f0;
+}
 .progress-box{
     transform: rotate(20deg);
     width: 19%;
