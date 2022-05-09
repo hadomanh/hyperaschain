@@ -1,57 +1,67 @@
+#overviewPage {}
 
-/* ==============HEADER=============== */
+#overviewPage .banner {}
 
-header .top {
-    letter-spacing: 20px;
-    font-size: 20px;
-    background: #172932;
+#overviewPage .ecosystem {
+    background: linear-gradient(89.08deg, #FF0097 47.35%, #00D3FF 53.51%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-align: center;
+    font-weight: 700;
 }
 
-header .top a {
-    color: #5D696F;
+.ecosystem {
+    position: relative;
+    bottom: 50px;
 }
 
-header .top .faq-text {
-    letter-spacing: 0px;
-    color: #5D696F;
-    font-size: 12px;
-    display: flex;
-    align-items: center;
-}
-
-img {
-    max-width: 100%;
-}
-
-.navbar-brand {
+p {
     font-size: 16px;
 }
 
-.btnPink {
-    background: #EC008C;
-    color: #fff;
-}
-
-nav {
-    background: #172932;
-    border-top: 1px solid #28555F;
+.list-style {
+    list-style: none;
 }
 
 ul {
-    margin-bottom: 0rem;
+    padding: 0px;
 }
 
-.navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .show>.nav-link {
+li {
+    color: #fff;
+    font-size: 16px;
+}
+
+h2 {
     color: #fff;
 }
 
-.topNav {
-    width: 100%;
+.text-gradient {
+    background: linear-gradient(89.08deg, #FF0097 47.35%, #00D3FF 53.51%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+
+#overviewPage .banner {
+    background: #172A33 url(../img/banner-overview.jpg) no-repeat center bottom / cover;
+    text-align: center;
+    padding: 200px 0 240px;
+    color: #fff;
+}
+
+#overviewPage .ecosystem {
+    /* background: url(../img/bg-ecosystem.png) no-repeat center top / cover; */
+}
+
+
 /* ==============ABOUT US================= */
-section{
+
+
+section {
     padding: 40px 0;
+
 }
 section .title-banner{
     font-size: 48px;
@@ -63,11 +73,15 @@ section .title-banner{
     z-index: 1;
 }
 #aboutPage{
+}
+
+#aboutPage {
     background: #172932;
     color: white;
     text-transform: capitalize;
 }
-#aboutPage .page-about .blur-1{
+
+#aboutPage .page-about .blur-1 {
     border-radius: 50%;
     background-color: #01F0FF;
     filter: blur(250px);
@@ -78,7 +92,8 @@ section .title-banner{
     left: 1127px;
     top: 169px;
 }
-#aboutPage .core-team .blur-2{
+
+#aboutPage .core-team .blur-2 {
     border-radius: 50%;
     background-color: #01F0FF;
     filter: blur(239px);
@@ -89,19 +104,15 @@ section .title-banner{
     left: -218px;
     top: 1160px;
 }
-#aboutPage .page-about h3{
-    background: linear-gradient(89.08deg, #FF0097 -0.65%, #00D3FF 24.51%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    padding-bottom: 20px;
-    font-weight: 700;
+#aboutPage .banner-about {
+    text-align: center;
 }
-#aboutPage .page-about .our-vision{
+#aboutPage .page-about .our-vision {
     position: relative;
     z-index: 1;
 }
-#aboutPage .page-about .bg-our-vison{
+
+#aboutPage .page-about .bg-our-vison {
     position: absolute;
     width: 80%;
     height: 488px;
@@ -109,46 +120,268 @@ section .title-banner{
     top: 623px;
     background: #243C48;
 }
-#aboutPage .core-team h3{
-    background: linear-gradient(89.08deg, #FF0097 47.35%, #00D3FF 53.51%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
-    text-align: center;
-    font-weight: 700;
+
+#aboutPage .partners {
+    color: #000;
+    background: linear-gradient(298.28deg, #FFFFFF 27.73%, rgba(255, 255, 255, 0.88) 91.27%);
 }
-#aboutPage .advisors h3{
-    background: linear-gradient(89.08deg, #FF0097 47.35%, #00D3FF 53.51%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
-    text-align: center;
-    font-weight: 700;
+
+
+/*============content-header-overview================*/
+
+
+/*============content-top-overview================*/
+
+.text-road-map {
+    padding-bottom: 100px;
 }
-#aboutPage .social a{
+
+.content-top-overview {
+    padding-bottom: 200px;
+}
+
+.text-overview h1 {
+    color: #fff;
+}
+
+.text-ecosystem {
+    top: 65%;
+    right: 44%;
+}
+
+.box-content-hyra-1 {
+    top: 28%;
+    right: 30%;
+}
+
+.box-content-hyra-2 {
+    top: 20%;
+    right: 20%;
+}
+
+.content-text-hyra-4 {
+    bottom: 19%;
+    right: 28%;
+}
+
+.content-text-hyra1 {
+    bottom: 23%;
+    right: 19%;
+}
+
+.text-hyrainvest {
+    max-width: 360px;
+    text-align: justify;
+}
+
+.text-technology {
+    padding-bottom: 50px;
+}
+
+
+/*============content-bottom-overview================*/
+
+.roadmap1 {
+    background-image: url(/img/bg-galaxy.jpg);
+}
+
+.text-technology-content {
+    color: #fff;
+    width: 242px;
+    padding-bottom: 50px;
+}
+
+.text-technology-content h5 {
+    padding: 10px 0px 10px 0px;
+}
+
+.box-iframe-ytb {
+    top: -150px;
+    position: relative;
+    background-image: linear-gradient(to right, #00d3ff, #0bbcff, #879aff, #d567e5, #ff0097);
+    width: 600px;
+    height: 355px;
+}
+
+.button-youtube {
+    top: 20px;
+    right: 20px;
+}
+
+.icon-technology {
+    background: #EC008CB2;
+    padding: 10px;
+    border-radius: 999px;
+}
+
+.position-text-readmore {
+    font-size: 18px;
+    text-align: center;
+}
+
+.position-image-roadmap {
+    bottom: 100px;
+}
+
+.text-view {
+    top: 55px;
+}
+
+.image-roadmap {
+    padding: 0px 20px 25px;
+}
+
+.font-size-imageroadmap {
+    max-width: 150px;
+    margin: 0 auto;
+}
+
+.font-size-imageroadmap>li {
+    padding-bottom: 8px;
+}
+
+.content-roadmap-bottom {
+    padding-bottom: 50px;
+}
+
+.content-header-roadmap {
+    margin-bottom: 50px;
+}
+
+.progress{
+    overflow: visible;
+}
+.box-shadow-progress{
+    box-shadow: 0px 0px 10px 1px #9829f0;
+}
+.progress-box {
+    transform: rotate(20deg);
+    width: 19%;
+    height: 2px;
+    background-color: #EC008C;
+    position: absolute;
+    top: 28%;
+}
+
+.progress-color {
+    background-color: #fff;
+}
+
+.progress-box-1 {
+    transform: rotate(-22deg);
+    width: 52%;
+    height: 2px;
+    background-color: #EC008C;
+    position: absolute;
+    top: 40%;
+    right: 72%;
+}
+
+.progress-color-1 {
+    background-color: #fff;
+    position: relative;
+    right: 10px;
+}
+
+.progress-box-2 {
+    transform: rotate(22deg);
+    width: 51%;
+    height: 2px;
+    background-color: #EC008C;
+    position: absolute;
+    top: 24%;
+    right: 75%;
+}
+
+.progress-color-2 {
+    background-color: #fff;
+    position: relative;
+    left: 12px;
+}
+
+.progress-box-3 {
+    transform: rotate(-22deg);
+    width: 59%;
+    height: 2px;
+    background-color: #EC008C;
+    position: absolute;
+    top: 40%;
+    right: 65%
+}
+
+.progress-color-3 {
+    position: relative;
+    left: 20px;
+    background-color: #fff;
+}
+
+.progress-box-4 {
+    transform: rotate(22deg);
+    width: 59%;
+    height: 2px;
+    background-color: #EC008C;
+    position: absolute;
+    top: 24%;
+    right: 75%;
+}
+
+.progress-color-4 {
+    background-color: #fff;
+    position: relative;
+    right: 25px;
+}
+
+.progress-color-5 {
+    position: relative;
+    left: 25px;
+    background-color: #fff;
+}
+
+.progress-box-end {
+    transform: rotate(20deg);
+    width: 29%;
+    height: 2px;
+    background-color: #2fdddd;
+    position: absolute;
+    top: 38%;
+    right: 4%;
+}
+
+.progress-background-color-blue {
+    background-color: #2fdddd;
+}
+
+
+/*=================== aboutPage ======================*/
+
+#aboutPage .social a {
     font-size: 25px;
     margin-top: 15px;
     padding-bottom: 10px;
     margin: 15px 10px 0;
 }
-#aboutPage  .social i{
+
+#aboutPage .social i {
     color: #aaaaaa;
 }
-#aboutPage  .social i:hover{
+
+#aboutPage .social i:hover {
     color: #1d9bf0;
 }
+
 #aboutPage .position {
-font-size: 14px;
+    font-size: 14px;
 }
-#aboutPage  .item img{
-width: auto;
+
+#aboutPage .item img {
+    width: auto;
 }
-#aboutPage .investor-partners{
+
+#aboutPage .investor-partners {
     background-color: #FFFFFF;
 }
-#aboutPage .investor-partners .title-invetor{
+
+#aboutPage .investor-partners .title-invetor {
     background: linear-gradient(89.08deg, #FF0097 47.35%, #00D3FF 53.51%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -157,38 +390,42 @@ width: auto;
     text-align: center;
     font-weight: 700;
 }
-#aboutPage .investor-partners .collum{
+
+#aboutPage .investor-partners .collum {
     display: flex;
     justify-content: center;
     position: relative;
     width: 20%;
 }
-#aboutPage .investor-partners .collum1{
+
+#aboutPage .investor-partners .collum1 {
     position: relative;
     width: 20%;
 }
-#aboutPage .investor-partners .item .investor-logo{
+
+#aboutPage .investor-partners .item .investor-logo {
     display: flex;
     justify-content: center;
     width: 80%;
     margin-left: 10%;
 }
-#aboutPage .investor-partners .logo-about{
+
+#aboutPage .investor-partners .logo-about {
     padding: 45px 0;
 }
 
 
+/* =============== COMMUNITY ============== */
 
-/* ========================COMMUNITY============== */
-
-#community{
+#community {
     background: url(../img/bg-community.png) no-repeat;
     height: 800px;
     background-position: center;
     background-size: cover;
     background-color: #243C48;
 }
-#community .blur-community{
+
+#community .blur-community {
     border-radius: 50%;
     background-color: #01F0FF;
     filter: blur(226px);
@@ -199,20 +436,37 @@ width: auto;
     left: 627px;
     top: 0;
 }
-#community .page-community{
+#community section {
+    padding: 0 !important;
+}
+
+#community .banner-community h1 {
+    text-align: center !important;
+    font-weight: 700;
+    font-size: 48px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    top: 200px;
+}
+
+#community .page-community {
     text-align: center !important;
     font-weight: 700;
     padding: 0 !important;
 }
-  #community .page-community .content {
+
+#community .page-community .content {
     position: absolute;
     bottom: 0;
     color: #f1f1f1;
     padding: 20px;
     bottom: 0;
     top: 300px;
-  }
-  #community .page-community .content h3{
+}
+
+#community .page-community .content h3 {
     background: linear-gradient(89.08deg, #FF0097 47.35%, #00D3FF 53.51%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -221,14 +475,16 @@ width: auto;
     text-align: center;
     font-weight: 700;
 }
-#community .page-community .content img{
+
+#community .page-community .content img {
     padding: 10px;
     width: auto;
 }
-#community .page-community .content .img-page-community{
-display: flex;
-justify-content: center;
-padding: 30px;
+
+#community .page-community .content .img-page-community {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
 }
 /* =====================HYPERAS-FAQ================ */
 #hyperas-faq .banner-hyperas-faq{
@@ -264,242 +520,9 @@ padding: 30px;
   
   
 /* =====================FOOTER=================== */
-footer {
-    color: #fff;
-}
-
-footer .footerM a {
-    letter-spacing: 20px;
-    color: #fff;
-    font-size: 20px;
-}
-
-.footerM {
-    background: #db0082;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
-a {
-    text-decoration: none;
-}
-
-footer .footerL li a {
-    color: #fff;
-    line-height: 40px;
-}
-
-footer .footerE {
-    font-size: 12px;
-}
-.footerL {
-    background-image: linear-gradient(#C40075, #db0082);
-}
-/* =====================RESPONSITE================= */
-@media (max-width: 1440px) {
-    #aboutPage .page-about .blur-1{
-        border-radius: 50%;
-        background-color: #01F0FF;
-        filter: blur(250px);
-        opacity: .8;
-        position: absolute;
-        width: 309px;
-        height: 501px;
-        left: 1127px;
-        top: 169px;
-    }
-}
-@media (max-width: 1366px) {
-    #aboutPage .page-about .blur-1{
-        border-radius: 50%;
-        background-color: #01F0FF;
-        filter: blur(250px);
-        opacity: .8;
-        position: absolute;
-        width: 230px;
-        height: 501px;
-        left: 1127px;
-        top: 169px;
-    }
-}
-@media (max-width: 1180px) {
-    #aboutPage .page-about .blur-1{
-        border-radius: 50%;
-        background-color: #01F0FF;
-        filter: blur(75px);
-        opacity: .8;
-        position: absolute;
-        width: 40px;
-        height: 501px;
-        left: 982px;
-        top: 169px;    
-    }
-    #aboutPage .page-about .bg-our-vison {
-        position: absolute;
-        width: 80%;
-        height: 436px;
-        left: 0px;
-        top: 541px;
-        background: #243C48;
-    }    
-}
-@media (max-width: 992px) {}
-@media (max-width: 768px) {
-    #aboutPage .investor-partners .collum{
-        width: 40%;
-    }
-    #aboutPage .investor-partners .collum1{
-        position: relative;
-        width: 40%;
-    }
-    #aboutPage .page-about .blur-1{
-        border-radius: 50%;
-        background-color: #01F0FF;
-        filter: blur(250px);
-        opacity: .8;
-        position: absolute;
-        width: 342px;
-        height: 501px;
-        left: 424px;
-        top: 169px;
-    }
-    #aboutPage .page-about .bg-our-vison {
-        position: absolute;
-        width: 80%;
-        height: 436px;
-        left: 0px;
-        top: 624px;
-        background: #243C48;
-    }   
-    #community .blur-community {
-        border-radius: 50%;
-        background-color: #01F0FF;
-        filter: blur(226px);
-        opacity: .7;
-        position: absolute;
-        width: 392px;
-        height: 501px;
-        left: 209px;
-        top: 0;
-    } 
-}
-@media (max-width: 576px) {
-    #aboutPage .investor-partners .collum{
-        width: 60%;
-    }
-    #aboutPage .investor-partners .collum1{
-        position: relative;
-        width: 70%;
-    }
-    #aboutPage .page-about .blur-1{
-       border-radius: 50%;
-    background-color: #01F0FF;
-    filter: blur(250px);
-    opacity: .8;
-    position: absolute;
-    width: 342px;
-    height: 501px;
-    left: -24px;
-    top: 169px;
-    }
-    #aboutPage .page-about .bg-our-vison {
-        position: absolute;
-        width: 100%;
-        height: 436px;
-        left: 0px;
-        top: 895px;
-        background: #243C48;
-    }    
-    #community{
-        background: url(../img/bg-community.png) no-repeat;
-        height: 900px;
-        background-position: center;
-        background-size: cover;
-        background-color: #172932;
-    }
-    #community .page-community .content .img-page-community {
-        display: flex;
-        justify-content: center;
-        padding: 0;
-        }
-     #community .banner-community h1{
-         font-weight: 700;
-         font-size: 36px;
-         color: white;
-         position: absolute;
-      }
-      #community .blur-community {
-        border-radius: 50%;
-        background-color: #01F0FF;
-        filter: blur(226px);
-        opacity: .7;
-        position: absolute;
-        width: 392px;
-        height: 501px;
-        left: -83px;
-        top: 0;
-      }
-}
 
 
-/* home page  */
-header{
-    position: relative;
-    z-index: 1;
-}
-header .top {
-    letter-spacing: 20px;
-    font-size: 20px;
-    background: #172932;
-}
-
-header .top a {
-    color: #5D696F;
-}
-
-header .top .faq-text {
-    letter-spacing: 0px;
-    color: #5D696F;
-    font-size: 12px;
-    display: flex;
-    align-items: center;
-}
-
-img {
-    max-width: 100%;
-}
-
-.navbar-brand {
-    font-size: 16px;
-}
-
-.btnPink {
-    background: #EC008C;
-    color: #fff;
-    font-weight: 500;
-}
-
-nav {
-    background: #172932;
-    border-top: 1px solid #28555F;
-}
-
-nav .nav-item .fw-500 {
-    font-weight: 500;
-}
-
-ul {
-    margin-bottom: 0rem;
-}
-
-.navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .show>.nav-link {
-    color: #fff;
-}
-
-.topNav {
-    width: 100%;
-}
+/* ===================== FOOTER =================== */
 
 .footerL {
     background-image: linear-gradient(#C40075, #db0082);
@@ -534,6 +557,228 @@ footer .footerE {
     font-size: 12px;
 }
 
+.footerE a {
+    color: #fff;
+}
+
+
+/* ===================== RESPONSITE ================= */
+
+@media (max-width: 1440px) {
+    #aboutPage .page-about .blur-1 {
+        border-radius: 50%;
+        background-color: #01F0FF;
+        filter: blur(250px);
+        opacity: .8;
+        position: absolute;
+        width: 309px;
+        height: 501px;
+        left: 1127px;
+        top: 169px;
+    }
+}
+
+@media (max-width: 1366px) {
+    #aboutPage .page-about .blur-1 {
+        border-radius: 50%;
+        background-color: #01F0FF;
+        filter: blur(250px);
+        opacity: .8;
+        position: absolute;
+        width: 230px;
+        height: 501px;
+        left: 1127px;
+        top: 169px;
+    }
+}
+
+@media (max-width: 1180px) {
+    #aboutPage .page-about .blur-1 {
+        border-radius: 50%;
+        background-color: #01F0FF;
+        filter: blur(75px);
+        opacity: .8;
+        position: absolute;
+        width: 40px;
+        height: 501px;
+        left: 982px;
+        top: 169px;
+    }
+    #aboutPage .page-about .bg-our-vison {
+        position: absolute;
+        width: 80%;
+        height: 436px;
+        left: 0px;
+        top: 541px;
+        background: #243C48;
+    }
+}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {
+    #aboutPage .investor-partners .collum {
+        width: 40%;
+    }
+    #aboutPage .investor-partners .collum1 {
+        position: relative;
+        width: 40%;
+    }
+    #aboutPage .page-about .blur-1 {
+        border-radius: 50%;
+        background-color: #01F0FF;
+        filter: blur(250px);
+        opacity: .8;
+        position: absolute;
+        width: 342px;
+        height: 501px;
+        left: 424px;
+        top: 169px;
+    }
+    #aboutPage .page-about .bg-our-vison {
+        position: absolute;
+        width: 80%;
+        height: 436px;
+        left: 0px;
+        top: 624px;
+        background: #243C48;
+    }
+    #community .blur-community {
+        border-radius: 50%;
+        background-color: #01F0FF;
+        filter: blur(226px);
+        opacity: .7;
+        position: absolute;
+        width: 392px;
+        height: 501px;
+        left: 209px;
+        top: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    #aboutPage .investor-partners .collum {
+        width: 60%;
+    }
+    #aboutPage .investor-partners .collum1 {
+        position: relative;
+        width: 70%;
+    }
+    #aboutPage .page-about .blur-1 {
+        border-radius: 50%;
+        background-color: #01F0FF;
+        filter: blur(250px);
+        opacity: .8;
+        position: absolute;
+        width: 342px;
+        height: 501px;
+        left: -24px;
+        top: 169px;
+    }
+    #aboutPage .page-about .bg-our-vison {
+        position: absolute;
+        width: 100%;
+        height: 436px;
+        left: 0px;
+        top: 895px;
+        background: #243C48;
+    }
+    #community {
+        background: url(../img/bg-community.png) no-repeat;
+        height: 900px;
+        background-position: center;
+        background-size: cover;
+        background-color: #172932;
+    }
+    #community .page-community .content .img-page-community {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+    #community .banner-community h1 {
+        font-weight: 700;
+        font-size: 36px;
+        color: white;
+        position: absolute;
+    }
+    #community .blur-community {
+        border-radius: 50%;
+        background-color: #01F0FF;
+        filter: blur(226px);
+        opacity: .7;
+        position: absolute;
+        width: 392px;
+        height: 501px;
+        left: -83px;
+        top: 0;
+    }
+}
+
+
+/* ========  HEADER ======== */
+
+header {
+    position: relative;
+    z-index: 1;
+}
+
+header .top {
+    letter-spacing: 20px;
+    font-size: 20px;
+    background: #172932;
+}
+
+header .top a {
+    color: #5D696F;
+}
+
+header .top .faq-text {
+    letter-spacing: 0px;
+    color: #5D696F;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand {
+    font-size: 16px;
+}
+
+nav {
+    background: #172932;
+    border-top: 1px solid #28555F;
+}
+
+nav .nav-item .fw-500 {
+    font-weight: 500;
+}
+
+.topNav {
+    width: 100%;
+}
+
+
+/* ========== HOME PAGE ========== */
+
+img {
+    max-width: 100%;
+}
+
+.btnPink {
+    background: #EC008C;
+    color: #fff;
+    font-weight: 500;
+}
+
+ul {
+    margin-bottom: 0rem;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+
 .hyperasChain {
     background: url(../img/hyperasChain.png) no-repeat center;
     background-size: cover;
@@ -553,6 +798,14 @@ footer .footerE {
     font-size: 38px;
 }
 
+#homepage .banner {
+    padding: 120px 0;
+}
+
+#homepage .wallet {
+    padding: 40px 0;
+}
+
 #homepage .boxshadownBlue {
     background: #0C94B0;
     color: #fff;
@@ -569,20 +822,8 @@ footer .footerE {
     margin: 5px;
 }
 
-#homepage .bannerRight {
-    margin-bottom: 250px;
-}
-
-#homepage .wallet {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
 .titleSection {
-    background: linear-gradient(to right, #db0082, #05B2D7);
+    background: linear-gradient(to right, #db0082, #00D3FF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
@@ -599,11 +840,6 @@ footer .footerE {
     height: 65px;
 }
 
-
-/* .roundPink .pd-4 {
-    padding: 4px;
-} */
-
 .bgGrilles {
     background: url(../img/grilles.png) #172A33 no-repeat center;
 }
@@ -616,7 +852,7 @@ footer .footerE {
     color: #db0082;
     border-image-slice: 1;
     border-width: 2px;
-    border-image-source: linear-gradient(to right, #db0082, #05B2D7);
+    border-image-source: linear-gradient(to right, #db0082, #00D3FF);
     padding: 10px 40px;
     font-size: 20px;
 }
@@ -632,7 +868,7 @@ footer .footerE {
     border-radius: 5px;
     text-align: center;
     color: #58595B;
-    padding: 10px 15px 10px 15px;
+    padding: 10px 15px 25px;
 }
 
 .environment p {
@@ -650,14 +886,18 @@ hr {
     background-image: linear-gradient(to right, #cfebed, #fff);
 }
 
-.investor .items {
+.items {
     margin: 40px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 .hrFooter {
     border-bottom: 1px solid #fff;
     height: 2px;
     background: #fff;
 }
+
+
+/* ========== brand-kit ==========  */
