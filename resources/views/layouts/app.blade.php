@@ -115,7 +115,7 @@
 							</div>
 						</div>
 					</div>
-					<hr>
+					<hr class="hrFooter">
 					<div class="text-center footerE pb-3">
 						<div>Copyright © 2021 - 2022 Hyperaschain.com. All rights reserved.</div>
 						<div>Privacy Notice | Legal | Status | Cookie Preferences</div>
