@@ -23,7 +23,9 @@ Route::get('/', function () {
 Route::get('/about-us', function () {
     return view('about-us');
 })->name('about-us');
-
+Route::get('/pagination/community', function () {
+    return view('pagination/community');
+})->name('pagination/community');
 Auth::routes();
 
 Route::middleware('auth')->prefix('admin')->group(function () {

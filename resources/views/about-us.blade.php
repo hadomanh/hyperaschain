@@ -9,7 +9,7 @@
 	</section>
     <section class="page-about">
         <div class="container-lg">
-            <div class="row">
+            <div class="row our-vision">
                 <div class="col-md-6 order-2 order-md-1">
                     <img src="{{ asset('img/hyperas-about-2.png') }}" alt="">
                 </div>

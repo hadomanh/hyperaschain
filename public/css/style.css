@@ -1,5 +1,54 @@
 
+/* ==============HEADER=============== */
 
+header .top {
+    letter-spacing: 20px;
+    font-size: 20px;
+    background: #172932;
+}
+
+header .top a {
+    color: #5D696F;
+}
+
+header .top .faq-text {
+    letter-spacing: 0px;
+    color: #5D696F;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+.navbar-brand {
+    font-size: 16px;
+}
+
+.btnPink {
+    background: #EC008C;
+    color: #fff;
+}
+
+nav {
+    background: #172932;
+    border-top: 1px solid #28555F;
+}
+
+ul {
+    margin-bottom: 0rem;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+
+.topNav {
+    width: 100%;
+}
 /* ==============ABOUT US================= */
 section{
     padding: 40px 0;
@@ -56,10 +105,10 @@ img{
 }
 #aboutPage .page-about .bg-our-vison{
     position: absolute;
-    width: 70%;
-    height: 491px;
+    width: 80%;
+    height: 565px;
     left: 0px;
-    top: 653px;
+    top: 673px;
     background: #243C48;
 }
 #aboutPage .core-team h3{
@@ -129,6 +178,106 @@ width: auto;
 #aboutPage .investor-partners .logo-about{
     padding: 45px 0;
 }
+
+
+
+/* ========================COMMUNITY============== */
+
+#community{
+    background: url(../img/bg-community.png) no-repeat;
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+    background-color: #243C48;
+}
+#community .blur-community{
+    border-radius: 50%;
+    background-color: #01F0FF;
+    filter: blur(226px);
+    opacity: .7;
+    position: absolute;
+    width: 386px;
+    height: 501px;
+    left: 627px;
+    top: -53px;
+}
+#community section {
+    padding: 0 !important;
+}
+#community .banner-community h1{
+text-align: center !important;
+font-weight: 700;
+font-size: 48px;
+color: white;
+position: absolute;
+bottom: 0;
+width: 100%;
+top: 200px;
+}
+#community .page-community{
+    text-align: center !important;
+    font-weight: 700;
+    padding: 0 !important;
+}
+  #community .page-community .content {
+    position: absolute;
+    bottom: 0;
+    color: #f1f1f1;
+    padding: 20px;
+    bottom: 0;
+    top: 300px;
+  }
+  #community .page-community .content h3{
+    background: linear-gradient(89.08deg, #FF0097 47.35%, #00D3FF 53.51%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-align: center;
+    font-weight: 700;
+}
+#community .page-community .content img{
+    padding: 10px;
+    width: auto;
+}
+#community .page-community .content .img-page-community{
+display: flex;
+justify-content: center;
+padding: 30px;
+}
+/* =====================FOOTER=================== */
+footer {
+    color: #fff;
+}
+
+footer .footerM a {
+    letter-spacing: 20px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.footerM {
+    background: #db0082;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer .footerL li a {
+    color: #fff;
+    line-height: 40px;
+}
+
+footer .footerE {
+    font-size: 12px;
+}
+.footerL {
+    background-image: linear-gradient(#C40075, #db0082);
+}
+/* =====================RESPONSITE================= */
 @media (max-width: 1440px) {
     #aboutPage .page-about .blur-1{
         border-radius: 50%;
@@ -232,85 +381,21 @@ width: auto;
         top: 895px;
         background: #243C48;
     }    
-}
-header .top {
-    letter-spacing: 20px;
-    font-size: 20px;
-    background: #172932;
-}
-
-header .top a {
-    color: #5D696F;
-}
-
-header .top .faq-text {
-    letter-spacing: 0px;
-    color: #5D696F;
-    font-size: 12px;
-    display: flex;
-    align-items: center;
-}
-
-img {
-    max-width: 100%;
-}
-
-.navbar-brand {
-    font-size: 16px;
-}
-
-.btnPink {
-    background: #EC008C;
-    color: #fff;
-}
-
-nav {
-    background: #172932;
-    border-top: 1px solid #28555F;
-}
-
-ul {
-    margin-bottom: 0rem;
-}
-
-.navbar-light .navbar-nav .nav-link.active,
-.navbar-light .navbar-nav .show>.nav-link {
-    color: #fff;
-}
-
-.topNav {
-    width: 100%;
-}
-
-.footerL {
-    background-image: linear-gradient(#C40075, #db0082);
-}
-
-footer {
-    color: #fff;
-}
-
-footer .footerM a {
-    letter-spacing: 20px;
-    color: #fff;
-    font-size: 20px;
-}
-
-.footerM {
-    background: #db0082;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
-a {
-    text-decoration: none;
-}
-
-footer .footerL li a {
-    color: #fff;
-    line-height: 40px;
-}
-
-footer .footerE {
-    font-size: 12px;
+    #community{
+        background: url(../img/bg-community.png) no-repeat;
+        height: 900px;
+        background-position: center;
+        background-size: cover;
+    }
+    #community .page-community .content .img-page-community {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        }
+     #community .banner-community h1{
+         font-weight: 700;
+         font-size: 36px;
+         color: white;
+         position: absolute;
+      }
 }
