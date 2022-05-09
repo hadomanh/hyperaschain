@@ -439,4 +439,12 @@ hr {
 
 .investor .items {
     margin: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hrFooter {
+    border-bottom: 1px solid #fff;
+    height: 2px;
+    background: #fff;
 }
