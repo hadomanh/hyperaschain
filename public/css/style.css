@@ -80,9 +80,6 @@ section{
     left: -218px;
     top: 1160px;
 }
-img{
-    width: 100%;
-}
 #aboutPage .banner-about{
     text-align: center;
     padding: 50px 0;
@@ -398,4 +395,222 @@ footer .footerE {
          color: white;
          position: absolute;
       }
+}
+
+
+/* home page  */
+
+header .top {
+    letter-spacing: 20px;
+    font-size: 20px;
+    background: #172932;
+}
+
+header .top a {
+    color: #5D696F;
+}
+
+header .top .faq-text {
+    letter-spacing: 0px;
+    color: #5D696F;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+.navbar-brand {
+    font-size: 16px;
+}
+
+.btnPink {
+    background: #EC008C;
+    color: #fff;
+    font-weight: 500;
+}
+
+nav {
+    background: #172932;
+    border-top: 1px solid #28555F;
+}
+
+nav .nav-item .fw-500 {
+    font-weight: 500;
+}
+
+ul {
+    margin-bottom: 0rem;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+
+.topNav {
+    width: 100%;
+}
+
+.footerL {
+    background-image: linear-gradient(#C40075, #db0082);
+}
+
+footer {
+    color: #fff;
+}
+
+footer .footerM a {
+    letter-spacing: 20px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.footerM {
+    background: #db0082;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer .footerL li a {
+    color: #fff;
+    line-height: 40px;
+}
+
+footer .footerE {
+    font-size: 12px;
+}
+
+.hyperasChain {
+    background: url(../img/hyperasChain.png) no-repeat center;
+    background-size: cover;
+    background-color: #085563;
+}
+
+.hyperasText {
+    background: linear-gradient(to right, #B82393, #05B2D7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.hyperasAsset {
+    font-size: 38px;
+}
+
+#homepage .boxshadownBlue {
+    background: #0C94B0;
+    color: #fff;
+    box-shadow: rgb(255 255 255 / 30%) 0px 5px 15px;
+    width: 50%;
+    margin: 5px;
+}
+
+#homepage .boxshadownPink {
+    color: #fff;
+    box-shadow: rgb(255 255 255 / 30%) 0px 5px 15px;
+    width: 50%;
+    background: #db0082;
+    margin: 5px;
+}
+
+#homepage .bannerRight {
+    margin-bottom: 250px;
+}
+
+#homepage .wallet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.titleSection {
+    background: linear-gradient(to right, #db0082, #05B2D7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.roundPink {
+    background: #c40075db;
+    border-radius: 50%;
+    padding: 14px;
+    width: 65px;
+    height: 65px;
+}
+
+
+/* .roundPink .pd-4 {
+    padding: 4px;
+} */
+
+.bgGrilles {
+    background: url(../img/grilles.png) #172A33 no-repeat center;
+}
+
+.bglinear-gradient {
+    background: linear-gradient(70deg, #172A33, #0E7D88);
+}
+
+#homepage .readmore {
+    color: #db0082;
+    border-image-slice: 1;
+    border-width: 2px;
+    border-image-source: linear-gradient(to right, #db0082, #05B2D7);
+    padding: 10px 40px;
+    font-size: 20px;
+}
+
+#homepage ul .external {
+    padding: 0 41px;
+    font-weight: 500;
+}
+
+#homepage .environment {
+    background: linear-gradient(242.01deg, #FFFFFF 20.82%, rgba(255, 255, 255, 0.79) 65.38%);
+    box-shadow: 17px 0px 28px rgb(85 198 208 / 15%);
+    border-radius: 5px;
+    text-align: center;
+    color: #58595B;
+    padding: 10px 15px 10px 15px;
+}
+
+.environment p {
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+hr {
+    color: #55C6D0;
+}
+
+.investor {
+    background-image: linear-gradient(to right, #cfebed, #fff);
+}
+
+.investor .items {
+    margin: 40px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hrFooter {
+    border-bottom: 1px solid #fff;
+    height: 2px;
+    background: #fff;
 }
