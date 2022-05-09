@@ -59,9 +59,21 @@ h2 {
 /* ==============ABOUT US================= */
 
 
-/* section {
+section {
     padding: 40px 0;
-} */
+
+}
+section .title-banner{
+    font-size: 48px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    position: relative;
+    z-index: 1;
+}
+#aboutPage{
+}
 
 #aboutPage {
     background: #172932;
@@ -92,16 +104,9 @@ h2 {
     left: -218px;
     top: 1160px;
 }
-
 #aboutPage .banner-about {
     text-align: center;
 }
-
-#aboutPage .banner-about .title-about {
-    font-size: 48px;
-    font-weight: 600;
-}
-
 #aboutPage .page-about .our-vision {
     position: relative;
     z-index: 1;
@@ -431,7 +436,6 @@ h2 {
     left: 627px;
     top: 0;
 }
-
 #community section {
     padding: 0 !important;
 }
@@ -482,6 +486,40 @@ h2 {
     justify-content: center;
     padding: 30px;
 }
+/* =====================HYPERAS-FAQ================ */
+#hyperas-faq .banner-hyperas-faq{
+    background: url(../img/bg-hyperas-faq.png) no-repeat;
+    height: 367px;
+    background-size: cover;
+}
+
+#hyperas-faq .banner-hyperas-faq .search{
+    position: relative;
+}
+#hyperas-faq .banner-hyperas-faq  .search i {
+    position: absolute;
+    right: 149px;
+    top: 18px;
+    color: #fff;
+  }
+  #hyperas-faq .banner-hyperas-faq .search .form-control{
+    height: 50px;
+    padding: 15px;
+    width: 80%;
+    background: linear-gradient(344.23deg, rgba(85, 186, 208, 0.57) -6.56%, rgba(85, 186, 208, 0.26) 115.47%);
+    border: 1.5px solid rgba(85, 198, 208, 0.4);
+    box-shadow: 17px 0px 28px rgba(85, 198, 208, 0.15);
+    backdrop-filter: blur(9px);
+    border-radius: 10px;
+  }
+  #hyperas-faq .banner-hyperas-faq .search .form-control:focus{
+    background-color: #fff;
+    box-shadow: none;
+    border-color: #eee;
+  }
+  
+  
+/* =====================FOOTER=================== */
 
 
 /* ===================== FOOTER =================== */
