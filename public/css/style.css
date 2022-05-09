@@ -103,9 +103,9 @@ section{
 #aboutPage .page-about .bg-our-vison{
     position: absolute;
     width: 80%;
-    height: 565px;
+    height: 488px;
     left: 0px;
-    top: 673px;
+    top: 623px;
     background: #243C48;
 }
 #aboutPage .core-team h3{
@@ -196,7 +196,7 @@ width: auto;
     width: 386px;
     height: 501px;
     left: 627px;
-    top: -53px;
+    top: 0;
 }
 #community section {
     padding: 0 !important;
@@ -349,7 +349,18 @@ footer .footerE {
         left: 0px;
         top: 624px;
         background: #243C48;
-    }    
+    }   
+    #community .blur-community {
+        border-radius: 50%;
+        background-color: #01F0FF;
+        filter: blur(226px);
+        opacity: .7;
+        position: absolute;
+        width: 392px;
+        height: 501px;
+        left: 209px;
+        top: 0;
+    } 
 }
 @media (max-width: 576px) {
     #aboutPage .investor-partners .collum{
@@ -383,6 +394,7 @@ footer .footerE {
         height: 900px;
         background-position: center;
         background-size: cover;
+        background-color: #172932;
     }
     #community .page-community .content .img-page-community {
         display: flex;
@@ -395,11 +407,25 @@ footer .footerE {
          color: white;
          position: absolute;
       }
+      #community .blur-community {
+        border-radius: 50%;
+        background-color: #01F0FF;
+        filter: blur(226px);
+        opacity: .7;
+        position: absolute;
+        width: 392px;
+        height: 501px;
+        left: -83px;
+        top: 0;
+      }
 }
 
 
 /* home page  */
-
+header{
+    position: relative;
+    z-index: 1;
+}
 header .top {
     letter-spacing: 20px;
     font-size: 20px;
