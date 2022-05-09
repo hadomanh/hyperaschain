@@ -4,18 +4,12 @@
 #overviewPage .banner {
     
 }
-section{
-    padding-bottom: 30px;
-}
+
 p{
-    font-size: 12px;
-    color: #58595B;
+    font-size: 16px;
+   
 }
-span{
-    background-image: linear-gradient(to right, #00d3ff, #0bbcff, #879aff, #d567e5, #ff0097);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
+
 .list-style{
     list-style: none;
 }
@@ -24,35 +18,42 @@ ul{
 }
 li {
     color: #fff;
-    font-size: 12px;
-}
-b {
-    padding-bottom: 20px;
-    color: #fff;
+    font-size: 16px;
 }
 h2{
     color: #fff;
 }
+.text-gradient {
+    background: linear-gradient(89.08deg, #FF0097 47.35%, #00D3FF 53.51%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#overviewPage .banner {
+    background: #172A33 url(../img/banner-overview.jpg) no-repeat center bottom / cover;
+    text-align: center;
+    padding: 200px 0 240px;
+    color: #fff;
+}
+#overviewPage .ecosystem {
+    /* background: url(../img/bg-ecosystem.png) no-repeat center top / cover; */
+    background: linear-gradient(89.08deg, #FF0097 47.35%, #00D3FF 53.51%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-align: center;
+    font-weight: 700;
+    position: relative; 
+    bottom: 45px;
+}
 /*============content-header-overview================*/
-.content-header-overview .border-image-header{
-    top: 73%;
-    width: 100%;
-}
-.text-content-top-overview{
-    top: 71%;
-    z-index: 1;
-    right: 42%;
-    font-size: 48px;
-}
-.bottom-overview{
-    padding-bottom: 300px;
-}
+
 /*============content-top-overview================*/
 .text-road-map{
     padding-bottom: 100px;
 }
-.content-top-overview .content-text-hyra{
-    width: 250px;
+.content-top-overview{
+    padding-bottom: 200px;
 }
 .text-overview h1{
     color: #fff;
@@ -62,47 +63,245 @@ h2{
     right: 44%;
 }
 .box-content-hyra-1{
-    top: 57%;
-    right: 31%;
-}
-.box-content-hyra-2{
-    top: 35%;
-    right: 34%;
-}
-.content-text-hyra-4{
-    bottom: 30%;
+    top: 28%;
     right: 30%;
 }
+.box-content-hyra-2{
+    top: 20%;
+    right: 20%;
+}
+.content-text-hyra-4{
+    bottom: 19%;
+    right: 28%;
+}
 .content-text-hyra1{
-    bottom: 42%;
-    right: 35%;
+    bottom: 23%;
+    right: 19%;
+}
+.text-hyrainvest{
+    max-width: 360px;
+    text-align: justify;
 }
 .text-technology{
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 /*============content-bottom-overview================*/
 .roadmap1{
     background-image: url(/img/bg-galaxy.jpg);
+}
+.text-technology-content{
+    color: #fff;
+    width: 242px;
+    padding-bottom: 50px;
+}
+.text-technology-content h5{
+    padding: 10px 0px 10px 0px;
 }
 .box-iframe-ytb{
     top: -150px;
     position: relative;
     background-image: linear-gradient(to right, #00d3ff, #0bbcff, #879aff, #d567e5, #ff0097);
     width: 600px;
-    height: 300px;
+    height: 355px;
 }
-.icon-technology img{
+.button-youtube{
+    top: 20px;
+    right: 20px;
+}
+.icon-technology {
     background: #EC008CB2;
-    padding: 15px;
+    padding: 10px;
     border-radius: 999px;
-    width: 76px;
-    height: 76px;
 }
 .position-text-readmore{
-    top: 5%;
-    right: 34%;
     font-size: 18px;
+    text-align: center;
 }
-.aaa{
+.position-image-roadmap{
     bottom: 100px;
+}
+.text-view{
+    top: 55px;
+}
+.image-roadmap{
+    padding: 0px 20px 25px;
+}
+.font-size-imageroadmap{
+    max-width: 150px;
+    margin: 0 auto;
+}
+.font-size-imageroadmap > li{
+    padding-bottom: 8px;
+}
+.content-roadmap-bottom{
+    padding-bottom: 50px;
+}
+.content-header-roadmap{
+    margin-bottom: 50px;
+}
+.progress-box{
+    transform: rotate(20deg);
+    width: 19%;
+    height: 2px;
+    background-color: #EC008C;
+    position: absolute;
+    top: 28%;
+}
+.progress-color{
+    background-color: #fff;
+}
+.progress-box-1{
+    transform: rotate(-22deg);
+    width: 52%;
+    height: 2px;
+    background-color: #EC008C;
+    position: absolute;
+    top: 40%;
+    right: 72%;
+}
+.progress-color-1{
+    background-color: #fff;
+    position: relative;
+    right: 10px;
+}
+.progress-box-2{
+    transform: rotate(22deg);
+    width: 51%;
+    height: 2px;
+    background-color: #EC008C;
+    position: absolute;
+    top: 24%;
+    right: 75%;
+}
+.progress-color-2{
+    background-color: #fff;
+    position: relative;
+    left: 12px;
+}
+.progress-box-3{
+    transform: rotate(-22deg);
+    width: 59%;
+    height: 2px;
+    background-color: #EC008C;
+    position: absolute;
+    top: 40%;
+    right: 65%
+}
+.progress-color-3{
+    position: relative;
+    left: 20px;
+    background-color: #fff;
+}
+.progress-box-4{
+    transform: rotate(22deg);
+    width: 59%;
+    height: 2px;
+    background-color: #EC008C;
+    position: absolute;
+    top: 24%;
+    right: 75%;
+}
+.progress-color-4{
+    background-color: #fff;
+    position: relative;
+    right: 25px;
+}
+.progress-color-5{
+    position: relative;
+    left: 25px;
+    background-color: #fff;
+}
+.progress-box-end{
+    transform: rotate(20deg);
+    width: 29%;
+    height: 2px;
+    background-color: #2fdddd;
+    position: absolute;
+    top: 38%;
+    right: 4%;
+}
+.progress-background-color-blue{
+    background-color: #2fdddd;
+}
+/*=======================================================*/
+header .top {
+    letter-spacing: 20px;
+    font-size: 20px;
+    background: #172932;
+}
+
+header .top a {
+    color: #5D696F;
+}
+
+header .top .faq-text {
+    letter-spacing: 0px;
+    color: #5D696F;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+.navbar-brand {
+    font-size: 16px;
+}
+
+.btnPink {
+    background: #EC008C;
+    color: #fff;
+}
+
+nav {
+    background: #172932;
+    border-top: 1px solid #28555F;
+}
+
+ul {
+    margin-bottom: 0rem;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+
+.topNav {
+    width: 100%;
+}
+
+.footerL {
+    background-image: linear-gradient(#C40075, #db0082);
+}
+
+footer {
+    color: #fff;
+}
+
+footer .footerM a {
+    letter-spacing: 20px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.footerM {
+    background: #db0082;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer .footerL li a {
+    color: #fff;
+    line-height: 40px;
+}
+
+footer .footerE {
+    font-size: 12px;
 }
