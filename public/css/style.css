@@ -756,7 +756,7 @@ footer .footerE {
 }
 
 .titleSection {
-    background: linear-gradient(to right, #db0082, #05B2D7);
+    background: linear-gradient(to right, #db0082, #00D3FF);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
@@ -785,7 +785,7 @@ footer .footerE {
     color: #db0082;
     border-image-slice: 1;
     border-width: 2px;
-    border-image-source: linear-gradient(to right, #db0082, #05B2D7);
+    border-image-source: linear-gradient(to right, #db0082, #00D3FF);
     padding: 10px 40px;
     font-size: 20px;
 }
