@@ -24,6 +24,10 @@ Route::get('/about-us', function () {
     return view('about-us');
 })->name('about-us');
 
+Route::get('/brand-kit', function () {
+    return view('brand-kit');
+})->name('brand-kit');
+
 Auth::routes();
 
 Route::middleware('auth')->prefix('admin')->group(function () {

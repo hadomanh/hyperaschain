@@ -3,7 +3,7 @@
 @section('content')
 <div id="homepage">
 	<!-- Hyperas Chain -->
-	<section class="hyperasChain text-white">
+	<section class="hyperasChain text-white banner">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-5 d-flex align-items-center">
@@ -19,36 +19,36 @@
 					</div>
 				</div>
 				<div class="col-md-7">
-					<div class="bannerRight"><img src="{{ asset('img/bannerRight.png') }}" alt=""></div>
+					<img src="{{ asset('img/bannerRight.png') }}" alt="">
 				</div>
 			</div>
 		</div>
 	</section>
 
 	<!-- Wallet -->
-	<section>
-		<div class="container">
+	<section class="wallet">
+		<div class="container text-center">
 			<div class="row">
 				<div class="col-md-3">
-					<div class="wallet">
+					<div>
 						<img src="{{ asset ('img/logoHyraScan.png') }}" alt="">
 					</div>
 
 				</div>
 				<div class="col-md-3">
-					<div class="wallet">
+					<div>
 						<img src="{{ asset ('img/logoHyraWallet.png') }}" alt="">
 					</div>
 
 				</div>
 				<div class="col-md-3">
-					<div class="wallet">
+					<div>
 						<img src="{{ asset ('img/logoHyradex.png') }}" alt="">
 					</div>
 
 				</div>
 				<div class="col-md-3">
-					<div class="wallet">
+					<div>
 						<img src="{{ asset ('img/logoHyraInvest.png') }}" alt="">
 					</div>
 
@@ -61,13 +61,13 @@
 	<!-- What is Hyperas Chain? -->
 	<section class="bgGrilles text-white">
 		<div class="container">
-			<div class="pt-5 pb-5">
+			<div class="pb-5">
 				<div class="text-center">
-					<h2 class="titleSection">What is Hyperas Chain?</h2>
+					<h1 class="titleSection">What is Hyperas Chain?</h1>
 				</div>
 				<p class="text-center">Hyperas chain is a blockchain infrastructure that helps connect other blockchains. With our non-invasive cross-chain technology Hyperas chain operates as a data conduit, allowing cross-chain communications between public and private protocols. Hyperas chain can transfer both assets and data without requiring any change on participating blockchains. Our unified infrastructure helps solutions run on multiple platforms by enabling interoperability among them and making the implementation as straightforward as possible from the developer's perspective.</p>
 			</div>
-			<div class="row pt-5 pb-5">
+			<div class="row pb-5">
 				<div class="col-md-3">
 					<div>
 						<div class="roundPink"><img src="{{ asset('img/compatibilty.png')}}" alt=""></div>
@@ -105,7 +105,7 @@
 
 			<div class="pt-5 pb-5">
 				<div class="text-center">
-					<h2 class="titleSection">External Environment</h2>
+					<h1 class="titleSection">External Environment</h1>
 				</div>
 				<ul class="list-unstyled d-flex justify-content-center hrBlue">
 					<li class="external">All</li>
@@ -120,21 +120,21 @@
 						<div class="environment">
 							<img src="{{ asset('img/divega.png')}}" alt="">
 							<p>Reverse auction E-com Platform</p>
-							<img src="{{ asset('img/arrowBlue.png')}}" alt="" class="pb-3">
+							<img src="{{ asset('img/arrowBlue.png')}}" alt="">
 						</div>
 					</div>
 					<div class="col-md-2">
 						<div class="environment">
 							<img src="{{ asset('img/rapitalbank.png')}}" alt="">
 							<p>Digital Banking</p>
-							<img src="{{ asset('img/arrowBlue.png')}}" alt="" class="pb-3">
+							<img src="{{ asset('img/arrowBlue.png')}}" alt="">
 						</div>
 					</div>
 					<div class="col-md-2">
 						<div class="environment">
 							<img src="{{ asset('img/pindias.png')}}" alt="">
 							<p>Digital Real Estate Exchange</p>
-							<img src="{{ asset('img/arrowBlue.png')}}" alt="" class="pb-3">
+							<img src="{{ asset('img/arrowBlue.png')}}" alt="">
 						</div>
 					</div>
 				</div>
@@ -145,9 +145,9 @@
 
 	<!-- Investor & Partners -->
 	<section class="investor">
-		<div class="container pt-5 pb-5">
+		<div class="container pb-5">
 			<div class="text-center">
-				<h2 class="titleSection">Investor & Partners</h2>
+				<h1 class="titleSection">Investor & Partners</h1>
 				<p>We choose to go with partners who share the same business ecosystem and corporate culture value system. We work with major service providers to blockchainise conventional business models. </p>
 			</div>
 			<div class="row justify-content-center">
@@ -166,7 +166,7 @@
 			<!-- As seen on -->
 
 			<div class="text-center">
-				<h2 class="titleSection">As seen on</h2>
+				<h1 class="titleSection">As seen on</h1>
 				<div class="row justify-content-center">
 				<div class="col-lg-auto col-sm-6 col-6 items"><img src="{{ asset('img/Yahoo-Finance.png')}}" alt=""></div>
 				<div class="col-lg-auto col-sm-6 col-6 items"><img src="{{ asset('img/Viettimes.png')}}" alt=""></div>
