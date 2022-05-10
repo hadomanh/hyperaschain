@@ -4,7 +4,9 @@
 <div id="community">
     <span class="blur-community"></span>
     <section class="banner-community">
-        <h1>COMMUNITY</h1>
+        <div class="container-lg">
+            <h1 class="title-banner">COMMUNITY</h1>
+        </div>
     </section> 
     <section class="page-community">
         <div class="container-lg">

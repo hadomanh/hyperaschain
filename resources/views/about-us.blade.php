@@ -4,7 +4,7 @@
 <div id="aboutPage">
     <section class="banner-about">
         <div class="container-lg">
-            <h1 class="title-about">ABOUT US</h1>
+            <h1 class="title-banner">ABOUT US</h1>
         </div>
     </section>
     <section class="page-about">
@@ -23,6 +23,8 @@
             </div>
             <div class="row pt-5 our-vision">
                 <div class="col-md-6">
+
+                    <h3>Our Vision</h3>
                     <h1 class="titleSection">Our Vision</h1>
                     <p>We choose to go with partners who share the same business ecosystem and corporate culture value system. We work with major service providers to blockchainise conventional business models. </p>
                     <p><strong>HYPERAS chain</strong> is the first decentralized interoperable and self-optimised blockchain infrastructure. We aim to push the current boundaries by solving one of the most prominent challenges facing blockchain technology - fragmentation of the blockchain ecosystems.</p>
