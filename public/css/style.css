@@ -19,6 +19,7 @@
 
 p {
     font-size: 16px;
+    padding: 10px 0;
 }
 
 .list-style {
@@ -518,12 +519,12 @@ section .title-banner{
       color: white;
       text-align: left;
   }
-  #hyperas-faq .categori .page-hyperas-faq .nav-link {
+.nav-link {
       background-color: #172932 !important;
       color: white;
       text-align: left;
   }
-  #hyperas-faq .categori .page-hyperas-faq .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
       color: #00D3FF;
   }
   #hyperas-faq .categori .page-hyperas-faq .tab-content p{
@@ -574,9 +575,80 @@ section .title-banner{
     left: -218px;
     top: 1810px;
 }
-/* =====================FOOTER=================== */
+/* =====================NEWS BLOG=================== */
+#news-blog{
+    background: #172932;
+}
 
-
+#news-blog  .page-news-blog h3{
+    background: linear-gradient(89.08deg, #FF0097 13.35%, #00D3FF 36.51%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-align: left;
+    font-weight: 700;
+    box-shadow: 0 1px (89.08deg, #FF0097 22.35%, #00D3FF 83.51%);
+    margin-top: 30px;
+  }
+  #news-blog .page-news-blog input[type=text] {
+    float: left;
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 5px;
+    width: 100%;
+    position: relative;
+    z-index: 1  ;
+  }
+  #news-blog .page-news-blog .collum-blog{
+    background: #233E4B;
+    color: white;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding: 9px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+#news-blog .page-news-blog .collum-blog:hover{
+    /* border-radius: 10px ; */
+    border: 2px solid #01F0FF;
+    /* padding: 10px; */
+    /* border-radius: 50px 20px; */
+}
+#news-blog .page-news-blog .collum-blog .title-pink{
+    background: #EC008C;
+    padding: 4px 15px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+#news-blog .page-news-blog .collum-blog .text-blog img{
+    padding-right: 1px #01F0FF;
+}
+#news-blog .page-news-blog .blur-news{
+    border-radius: 50%;
+    background-color: #01F0FF;
+    filter: blur(195px);
+    opacity: .8;
+    position: absolute;
+    width: 501px;
+    height: 501px;
+    left: 499px;
+    top: 209px;
+}
+#news-blog .page-news-blog .blur-blog{
+    border-radius: 50%;
+    background-color: #01F0FF;
+    filter: blur(195px);
+    opacity: .8;
+    position: absolute;
+    width: 501px;
+    height: 501px;
+    left: 1018px;
+    top: 1206px;
+}
 /* ===================== FOOTER =================== */
 
 .footerL {

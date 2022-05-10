@@ -37,6 +37,9 @@ Route::get('/hyperas-faq', function () {
     return view('hyperas-faq');
 })->name('hyperas-faq');
 Auth::routes();
+Route::get('/pagination/news-blog', function () {
+    return view('/pagination/news-blog');
+})->name('/pagination/news-blog');
 
 Route::middleware('auth')->prefix('admin')->group(function () {
     Route::get('/', 'HomeController@index')->name('admin.index');
