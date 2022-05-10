@@ -839,7 +839,6 @@ ul {
     align-items: center;
     justify-content: center;
 }
-
 hr {
     color: #55C6D0;
 }
@@ -863,3 +862,101 @@ hr {
 
 
 /* ========== brand-kit ==========  */
+
+
+/* ===========GUILDLINE-PAGES ========  */
+.guildline-content-top{
+    background: #172932;
+}
+.guildline-content-top h1{
+    padding: 202px 0px 37px 0px;
+}
+.guildline-content-top h3{
+    padding: 21px 0px 21px;
+}
+.guildline-content-top .content-text-guildline{
+    font-size: 16px;
+    line-height: 28.9px;
+    margin: 0px;
+    padding-bottom: 73px;
+}
+.guildline-content-top .image-guildline{
+    background: #EC008CB2;
+    border: 1px solid #EC008CB2;
+    padding: 15px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 13px 0px #EC008C;
+    max-width: 68px;
+}
+.guildline-content-top .progress-after::after{
+    content: "";
+    width: 136px;
+    height: 2px;
+    background: #01FFF0  ;
+    position: absolute;
+    bottom: 47%;
+    left: 82%;
+}
+
+.guildline-content-top .box-step{
+    padding-bottom: 47px;
+}
+.guildline-content-top .image-guildline-4{
+    padding: 2px;
+}
+.guildline-content-top .image-guildline{
+    width: 68px;
+    height: 68px;
+}
+/* =========== box-contact-hyperras ========  */
+.box-contact-hyperras{
+    background: #172932;
+}
+.box-contact-hyperras .bg-contact-hyperras{
+    padding-bottom: 80px;
+}
+.box-contact-hyperras .content-text-hyperras{
+    font-size: 33px;
+    line-height: 39px;
+    font-weight: 700;
+    background: linear-gradient(89.08deg, #FF0097 9%, #00D3FF 53.51%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.box-contact-hyperras .bg-box-submit input{
+    background: #5e7580;
+}
+.box-contact-hyperras .box-submit{
+    font-weight: 700;
+    background: linear-gradient(89.08deg, #FF0097 47.35%, #00D3FF 53.51%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;   
+}
+.box-contact-hyperras .form-floating{
+    padding-bottom: 20px;
+    width: 486px;
+}
+.box-contact-hyperras .form-floating input{
+    background: #5e757f;
+}
+.box-contact-hyperras .form-floating label{
+    color: #fff;
+}
+.box-contact-hyperras .box-message input{
+    height: 150px;
+}
+.box-contact-hyperras .button-box-submit button{
+    width: 100%;
+    height: 53px;
+    background: linear-gradient(89.08deg, #FF0097 31.35%, #00D3FF 98.51%);
+    box-shadow: 0px 1px 8px 0px #fff;
+    font-size: 20px;
+}
+.box-contact-hyperras .content-bg-contacthyperas{
+    bottom: 25%;
+    left: 51%;
+}

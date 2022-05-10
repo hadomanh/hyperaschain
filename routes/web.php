@@ -35,6 +35,11 @@ Route::get('/community', function () {
 })->name('community');
 Auth::routes();
 
+Route::get('/guide-line', function () {
+    return view('guide-line');
+})->name('guide-line');
+Auth::routes();
+
 Route::middleware('auth')->prefix('admin')->group(function () {
     Route::get('/', 'HomeController@index')->name('admin.index');
     Route::get('/news/toggle/{news}', [NewsController::class, 'toggle'])->name('news.toggle');
