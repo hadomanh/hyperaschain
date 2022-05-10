@@ -34,10 +34,21 @@ Route::get('/community', function () {
     return view('community');
 })->name('community');
 
+
+
+Route::get('/pagination/contact-hyperachain', function () {
+    return view('/pagination/contact-hyperachain');
+})->name('/pagination/contact-hyperachain');
+
+
+
 Route::get('/hyperas-faq', function () {
     return view('hyperas-faq');
 })->name('hyperas-faq');
 Auth::routes();
+Route::get('/pagination/news-blog', function () {
+    return view('/pagination/news-blog');
+})->name('/pagination/news-blog');
 
 Route::get('/brand-kit', function () {
     return view('brand-kit');

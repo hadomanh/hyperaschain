@@ -19,6 +19,7 @@
 
 p {
     font-size: 16px;
+    padding: 10px 0;
 }
 
 .list-style {
@@ -59,10 +60,7 @@ h2 {
 /* ==============ABOUT US================= */
 
 
-section {
-    padding: 40px 0;
 
-}
 section .title-banner{
     font-size: 48px;
     font-weight: 600;
@@ -517,12 +515,12 @@ section .title-banner{
       color: white;
       text-align: left;
   }
-  #hyperas-faq .categori .page-hyperas-faq .nav-link {
+.nav-link {
       background-color: #172932 !important;
       color: white;
       text-align: left;
   }
-  #hyperas-faq .categori .page-hyperas-faq .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
       color: #00D3FF;
   }
   #hyperas-faq .categori .page-hyperas-faq .tab-content p{
@@ -573,9 +571,80 @@ section .title-banner{
     left: -218px;
     top: 1810px;
 }
-/* =====================FOOTER=================== */
+/* =====================NEWS BLOG=================== */
+#news-blog{
+    background: #172932;
+}
 
-
+#news-blog  .page-news-blog h3{
+    background: linear-gradient(89.08deg, #FF0097 13.35%, #00D3FF 36.51%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-align: left;
+    font-weight: 700;
+    box-shadow: 0 1px (89.08deg, #FF0097 22.35%, #00D3FF 83.51%);
+    margin-top: 30px;
+  }
+  #news-blog .page-news-blog input[type=text] {
+    float: left;
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 5px;
+    width: 100%;
+    position: relative;
+    z-index: 1  ;
+  }
+  #news-blog .page-news-blog .collum-blog{
+    background: #233E4B;
+    color: white;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding: 9px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+#news-blog .page-news-blog .collum-blog:hover{
+    /* border-radius: 10px ; */
+    border: 2px solid #01F0FF;
+    /* padding: 10px; */
+    /* border-radius: 50px 20px; */
+}
+#news-blog .page-news-blog .collum-blog .title-pink{
+    background: #EC008C;
+    padding: 4px 15px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+#news-blog .page-news-blog .collum-blog .text-blog img{
+    padding-right: 1px #01F0FF;
+}
+#news-blog .page-news-blog .blur-news{
+    border-radius: 50%;
+    background-color: #01F0FF;
+    filter: blur(195px);
+    opacity: .8;
+    position: absolute;
+    width: 501px;
+    height: 501px;
+    left: 499px;
+    top: 209px;
+}
+#news-blog .page-news-blog .blur-blog{
+    border-radius: 50%;
+    background-color: #01F0FF;
+    filter: blur(195px);
+    opacity: .8;
+    position: absolute;
+    width: 501px;
+    height: 501px;
+    left: 1018px;
+    top: 1206px;
+}
 /* ===================== FOOTER =================== */
 
 .footerL {
@@ -956,9 +1025,6 @@ hr {
 
 
 /* ========== brand-kit ==========  */
-
-
-
 /* ===========GUILDLINE-PAGES ========  */
 .guildline-content-top{
     background: #172932;
@@ -1052,9 +1118,96 @@ hr {
     font-size: 20px;
 }
 .box-contact-hyperras .content-bg-contacthyperas{
-    bottom: 25%;
+    bottom: 17%;
     left: 51%;
 }
+/*======================contact-link-hyperaschain=============================*/
+.container > div{
+    padding-bottom: 30px;
+}
+.contact-link-hyperaschain{
+    background: #172932;
+}
+.contact-link-hyperaschain h1{
+    padding: 130px 0px 8px 0px;
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+}
+.contact-link-hyperaschain .text-content-top{
+    font-size: 32px;
+    line-height: 100%;
+    background: linear-gradient(89.08deg, #FF0097 47.35%, #00D3FF 53.51%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 90px;
+}
+.contact-link-hyperaschain .from-boxcontact{
+    width: 1116px;
+    margin: 0 auto;
+}
+.contact-link-hyperaschain .position-image{
+    display: inline-block;
+    bottom: 148%;
+    left: 40%;
+}
+.contact-link-hyperaschain .text-box-contact{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+}
+.contact-link-hyperaschain .text-box-contact-1{
+    max-width: 356px;
+    height: 122px;
+    background: #233E4B;
+    border-left: 1px solid #FF0097 ;
+    border-bottom: 1px solid #00D3FF;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+.contact-link-hyperaschain .text-box-contact-1 p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+}
+.contact-link-hyperaschain .text-box-contact-1 img{
+    background-color: #C40075;
+    padding: 12px;
+    border-radius: 100px;
+    box-shadow: 0px 0px 9px 0px #ec008c;
+}
+.contact-link-hyperaschain .text-box-contact-1 a{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #01FFF0;
+    text-decoration: underline;
+}
+.contact-link-hyperaschain{
+    
+}
+.contact-link-hyperaschain{
+    
+}
+.contact-link-hyperaschain{
+    
+}
+.contact-link-hyperaschain{
+    
+}
+.contact-link-hyperaschain{
+    
+}
+.contact-link-hyperaschain{
+    
+}
+
+/*==================================================*/
 #brandKit {
     color: #fff;
     background: #125661;
@@ -1074,6 +1227,7 @@ hr {
     background: #1C2F39;
     border: 3px solid #2B4958;
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15px);
     border-radius: 8px;
 }
 #brandKit .content {
