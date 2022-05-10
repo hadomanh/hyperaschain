@@ -33,9 +33,15 @@ Route::get('/about-us', function () {
 Route::get('/community', function () {
     return view('community');
 })->name('community');
+
 Route::get('/hyperas-faq', function () {
     return view('hyperas-faq');
 })->name('hyperas-faq');
+Auth::routes();
+
+Route::get('/brand-kit', function () {
+    return view('brand-kit');
+})->name('brand-kit');
 Auth::routes();
 
 Route::middleware('auth')->prefix('admin')->group(function () {

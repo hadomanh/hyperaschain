@@ -436,20 +436,7 @@ section .title-banner{
     left: 627px;
     top: 0;
 }
-#community section {
-    padding: 0 !important;
-}
 
-#community .banner-community h1 {
-    text-align: center !important;
-    font-weight: 700;
-    font-size: 48px;
-    color: white;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    top: 200px;
-}
 
 #community .page-community {
     text-align: center !important;
@@ -901,4 +888,40 @@ hr {
 
 
 /* ========== brand-kit ==========  */
+
+#brandKit {
+    color: #fff;
+    background: #125661;
+}
+#brandKit .title-brandkit {
+    background: linear-gradient(89.08deg, #FF0097 22.35%, #00D3FF 83.51%);
+    border-radius: 8px;
+    padding: 15px;
+    transform: scale(1.01);
+    margin-top: -2px;
+}
+#brandKit .icon {
+    color: #0C94B0;
+    padding: 10px;
+}
+#brandKit .bg {
+    background: #1C2F39;
+    border: 3px solid #2B4958;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 8px;
+}
+#brandKit .content {
+    padding: 15px 0 25px;
+    border-bottom: 1px solid #2B4958;
+    margin: 16px;
+}
+#brandKit .content-last {
+    padding: 15px 0;
+    border-bottom: 0;
+    margin: 16px;
+}
+.hrBrand {
+    margin: 0 16px;
+}
 
