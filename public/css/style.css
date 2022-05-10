@@ -1,6 +1,7 @@
 section {
     padding: 100px 0;
 }
+
 #overviewPage {}
 
 #overviewPage .banner {}
@@ -599,12 +600,14 @@ section .title-banner {
     top: 1810px;
 }
 
+
 /* =====================NEWS BLOG=================== */
-#news-blog{
+
+#news-blog {
     background: #172932;
 }
 
-#news-blog  .page-news-blog h3{
+#news-blog .page-news-blog h3 {
     background: linear-gradient(89.08deg, #FF0097 13.35%, #00D3FF 36.51%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -614,17 +617,19 @@ section .title-banner {
     font-weight: 700;
     box-shadow: 0 1px (89.08deg, #FF0097 22.35%, #00D3FF 83.51%);
     margin-top: 30px;
-  }
-  #news-blog .page-news-blog input[type=text] {
+}
+
+#news-blog .page-news-blog input[type=text] {
     float: left;
     padding: 10px;
     font-size: 17px;
     border-radius: 5px;
     width: 100%;
     position: relative;
-    z-index: 1  ;
-  }
-  #news-blog .page-news-blog .collum-blog{
+    z-index: 1;
+}
+
+#news-blog .page-news-blog .collum-blog {
     background: #233E4B;
     color: white;
     text-align: left;
@@ -635,23 +640,27 @@ section .title-banner {
     position: relative;
     z-index: 1;
 }
-#news-blog .page-news-blog .collum-blog:hover{
+
+#news-blog .page-news-blog .collum-blog:hover {
     /* border-radius: 10px ; */
     border: 2px solid #01F0FF;
     /* padding: 10px; */
     /* border-radius: 50px 20px; */
 }
-#news-blog .page-news-blog .collum-blog .title-pink{
+
+#news-blog .page-news-blog .collum-blog .title-pink {
     background: #EC008C;
     padding: 4px 15px;
     font-size: 16px;
     border-radius: 4px;
     margin: 10px 0;
 }
-#news-blog .page-news-blog .collum-blog .text-blog img{
+
+#news-blog .page-news-blog .collum-blog .text-blog img {
     padding-right: 1px #01F0FF;
 }
-#news-blog .page-news-blog .blur-news{
+
+#news-blog .page-news-blog .blur-news {
     border-radius: 50%;
     background-color: #01F0FF;
     filter: blur(195px);
@@ -662,7 +671,8 @@ section .title-banner {
     left: 499px;
     top: 209px;
 }
-#news-blog .page-news-blog .blur-blog{
+
+#news-blog .page-news-blog .blur-blog {
     border-radius: 50%;
     background-color: #01F0FF;
     filter: blur(195px);
@@ -673,6 +683,8 @@ section .title-banner {
     left: 1018px;
     top: 1206px;
 }
+
+
 /* ===================== FOOTER =================== */
 
 .footerL {
@@ -1030,6 +1042,7 @@ ul {
     align-items: center;
     justify-content: center;
 }
+
 hr {
     color: #55C6D0;
 }
@@ -1056,22 +1069,27 @@ hr {
 
 
 /* ===========GUILDLINE-PAGES ========  */
-.guildline-content-top{
+
+.guildline-content-top {
     background: #172932;
 }
-.guildline-content-top h1{
+
+.guildline-content-top h1 {
     padding: 202px 0px 37px 0px;
 }
-.guildline-content-top h3{
+
+.guildline-content-top h3 {
     padding: 21px 0px 21px;
 }
-.guildline-content-top .content-text-guildline{
+
+.guildline-content-top .content-text-guildline {
     font-size: 16px;
     line-height: 28.9px;
     margin: 0px;
     padding-bottom: 73px;
 }
-.guildline-content-top .image-guildline{
+
+.guildline-content-top .image-guildline {
     background: #EC008CB2;
     border: 1px solid #EC008CB2;
     padding: 15px;
@@ -1079,34 +1097,42 @@ hr {
     box-shadow: 0px 4px 13px 0px #EC008C;
     max-width: 68px;
 }
-.guildline-content-top .progress-after::after{
+
+.guildline-content-top .progress-after::after {
     content: "";
     width: 136px;
     height: 2px;
-    background: #01FFF0  ;
+    background: #01FFF0;
     position: absolute;
     bottom: 47%;
     left: 82%;
 }
 
-.guildline-content-top .box-step{
+.guildline-content-top .box-step {
     padding-bottom: 47px;
 }
-.guildline-content-top .image-guildline-4{
+
+.guildline-content-top .image-guildline-4 {
     padding: 2px;
 }
-.guildline-content-top .image-guildline{
+
+.guildline-content-top .image-guildline {
     width: 68px;
     height: 68px;
 }
+
+
 /* =========== box-contact-hyperras ========  */
-.box-contact-hyperras{
+
+.box-contact-hyperras {
     background: #172932;
 }
-.box-contact-hyperras .bg-contact-hyperras{
+
+.box-contact-hyperras .bg-contact-hyperras {
     padding-bottom: 80px;
 }
-.box-contact-hyperras .content-text-hyperras{
+
+.box-contact-hyperras .content-text-hyperras {
     font-size: 33px;
     line-height: 39px;
     font-weight: 700;
@@ -1116,44 +1142,53 @@ hr {
     background-clip: text;
     text-fill-color: transparent;
 }
-.box-contact-hyperras .bg-box-submit input{
+
+.box-contact-hyperras .bg-box-submit input {
     background: #5e7580;
 }
-.box-contact-hyperras .box-submit{
+
+.box-contact-hyperras .box-submit {
     font-weight: 700;
     background: linear-gradient(89.08deg, #FF0097 47.35%, #00D3FF 53.51%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-    text-fill-color: transparent;   
+    text-fill-color: transparent;
 }
-.box-contact-hyperras .form-floating{
+
+.box-contact-hyperras .form-floating {
     padding-bottom: 20px;
     width: 486px;
 }
-.box-contact-hyperras .form-floating input{
+
+.box-contact-hyperras .form-floating input {
     background: #5e757f;
 }
-.box-contact-hyperras .form-floating label{
+
+.box-contact-hyperras .form-floating label {
     color: #fff;
 }
-.box-contact-hyperras .box-message input{
+
+.box-contact-hyperras .box-message input {
     height: 150px;
 }
-.box-contact-hyperras .button-box-submit button{
+
+.box-contact-hyperras .button-box-submit button {
     width: 100%;
     height: 53px;
     background: linear-gradient(89.08deg, #FF0097 31.35%, #00D3FF 98.51%);
     box-shadow: 0px 1px 8px 0px #fff;
     font-size: 20px;
 }
-.box-contact-hyperras .content-bg-contacthyperas{
+
+.box-contact-hyperras .content-bg-contacthyperas {
     bottom: 25%;
     left: 51%;
 }
+
 #brandKit {
     color: #fff;
-    background: url(../img/bg-brand-kit.svg) #125661 no-repeat center; 
+    background: url(../img/bg-brand-kit.svg) #125661 no-repeat center;
     padding: 40px 0;
 }
 
@@ -1194,15 +1229,22 @@ hr {
     margin: 0 16px;
 }
 
+
 /* ========== hyra token page ========== */
 
 #hyraToken {
     color: #fff;
-    background: #172932;
+    background: url(../img/bg-hyra-token.png) #172933 no-repeat center bottom;
 }
+
 #hyraToken img {
     image-rendering: -webkit-optimize-contrast;
 }
+
 #hyraToken .swap {
     color: #01FFF0;
+}
+
+#hyraToken .pb-10 {
+    padding-bottom: 10.5rem;
 }
