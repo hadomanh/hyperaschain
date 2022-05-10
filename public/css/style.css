@@ -1,3 +1,6 @@
+section {
+    padding: 100px 0;
+}
 #overviewPage {}
 
 #overviewPage .banner {}
@@ -34,7 +37,7 @@ li {
     font-size: 16px;
 }
 
-h2 {
+#overviewPage h2 {
     color: #fff;
 }
 
@@ -58,12 +61,11 @@ h2 {
 
 /* ==============ABOUT US================= */
 
-
-section {
+#aboutPage section {
     padding: 40px 0;
-
 }
-section .title-banner{
+
+section .title-banner {
     font-size: 48px;
     font-weight: 600;
     color: white;
@@ -72,6 +74,7 @@ section .title-banner{
     position: relative;
     z-index: 1;
 }
+
 #aboutPage {
     background: #172932;
     color: white;
@@ -101,9 +104,11 @@ section .title-banner{
     left: -218px;
     top: 1160px;
 }
+
 #aboutPage .banner-about {
     text-align: center;
 }
+
 #aboutPage .page-about .our-vision {
     position: relative;
     z-index: 1;
@@ -208,7 +213,7 @@ section .title-banner{
 .icon-technology {
     background: #EC008CB2;
     padding: 10px;
-    border-radius: 999px;
+    border-radius: 50%;
 }
 
 .position-text-readmore {
@@ -245,12 +250,14 @@ section .title-banner{
     margin-bottom: 50px;
 }
 
-.progress{
+.progress {
     overflow: visible;
 }
-.box-shadow-progress{
+
+.box-shadow-progress {
     box-shadow: 0px 0px 10px 1px #9829f0;
 }
+
 .progress-box {
     transform: rotate(20deg);
     width: 19%;
@@ -469,23 +476,28 @@ section .title-banner{
     justify-content: center;
     padding: 30px;
 }
+
+
 /* =====================HYPERAS-FAQ================ */
-#hyperas-faq .banner-hyperas-faq{
+
+#hyperas-faq .banner-hyperas-faq {
     background: url(../img/bg-hyperas-faq.png) no-repeat;
     height: 367px;
     background-size: cover;
 }
 
-#hyperas-faq .banner-hyperas-faq .search{
+#hyperas-faq .banner-hyperas-faq .search {
     position: relative;
 }
-#hyperas-faq .banner-hyperas-faq  .search i {
+
+#hyperas-faq .banner-hyperas-faq .search i {
     position: absolute;
     right: 149px;
     top: 18px;
     color: #fff;
-  }
-#hyperas-faq .banner-hyperas-faq .search .form-control{
+}
+
+#hyperas-faq .banner-hyperas-faq .search .form-control {
     height: 50px;
     padding: 15px;
     width: 80%;
@@ -494,16 +506,19 @@ section .title-banner{
     box-shadow: 17px 0px 28px rgba(85, 198, 208, 0.15);
     backdrop-filter: blur(9px);
     border-radius: 10px;
-  }
-#hyperas-faq .banner-hyperas-faq .search .form-control:focus{
+}
+
+#hyperas-faq .banner-hyperas-faq .search .form-control:focus {
     background-color: #fff;
     box-shadow: none;
     border-color: #eee;
-  }
-#hyperas-faq .categori{
-    background: #172932 ;
 }
-#hyperas-faq .categori h3{
+
+#hyperas-faq .categori {
+    background: #172932;
+}
+
+#hyperas-faq .categori h3 {
     background: linear-gradient(89.08deg, #FF0097 13.35%, #00D3FF 36.51%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -513,45 +528,53 @@ section .title-banner{
     font-weight: 700;
     box-shadow: 0 3px #01FFF0;
     width: 20%;
-  }
-  #hyperas-faq .categori .page-hyperas-faq {
-      color: white;
-      text-align: left;
-  }
-  #hyperas-faq .categori .page-hyperas-faq .nav-link {
-      background-color: #172932 !important;
-      color: white;
-      text-align: left;
-  }
-  #hyperas-faq .categori .page-hyperas-faq .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
-      color: #00D3FF;
-  }
-  #hyperas-faq .categori .page-hyperas-faq .tab-content p{
-    box-shadow:0 1px white;
+}
+
+#hyperas-faq .categori .page-hyperas-faq {
+    color: white;
+    text-align: left;
+}
+
+#hyperas-faq .categori .page-hyperas-faq .nav-link {
+    background-color: #172932 !important;
+    color: white;
+    text-align: left;
+}
+
+#hyperas-faq .categori .page-hyperas-faq .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #00D3FF;
+}
+
+#hyperas-faq .categori .page-hyperas-faq .tab-content p {
+    box-shadow: 0 1px white;
     width: 100%;
     color: white;
     padding-bottom: 20px;
+}
 
-  }
-  #hyperas-faq .categori .page-hyperas-faq .tab-content .collapse .card{
+#hyperas-faq .categori .page-hyperas-faq .tab-content .collapse .card {
     background: #172932;
-  }
-  #hyperas-faq .categori .page-hyperas-faq .tab-content i{
+}
+
+#hyperas-faq .categori .page-hyperas-faq .tab-content i {
     display: flex;
     justify-content: flex-end;
     padding-right: 20px;
     color: #01FFF0;
 }
-  #hyperas-faq .categori .page-hyperas-faq h4{
-    background: linear-gradient(89.08deg, #FF0097 2.35%, #00D3FF 7.51%);  
+
+#hyperas-faq .categori .page-hyperas-faq h4 {
+    background: linear-gradient(89.08deg, #FF0097 2.35%, #00D3FF 7.51%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
     text-align: left;
     font-weight: 400;
-  }
-  #hyperas-faq  .blur-1 {
+}
+
+#hyperas-faq .blur-1 {
     border-radius: 50%;
     background-color: #01F0FF;
     filter: blur(188px);
@@ -574,7 +597,6 @@ section .title-banner{
     left: -218px;
     top: 1810px;
 }
-/* =====================FOOTER=================== */
 
 
 /* ===================== FOOTER =================== */
@@ -957,12 +979,15 @@ hr {
 }
 
 
-/* ========== brand-kit ==========  */
+/* ========== brand-kit page ==========  */
+
 
 #brandKit {
     color: #fff;
-    background: #125661;
+    background: url(../img/bg-brand-kit.svg) #125661 no-repeat center; 
+    padding: 40px 0;
 }
+
 #brandKit .title-brandkit {
     background: linear-gradient(89.08deg, #FF0097 22.35%, #00D3FF 83.51%);
     border-radius: 8px;
@@ -970,10 +995,12 @@ hr {
     transform: scale(1.01);
     margin-top: -2px;
 }
+
 #brandKit .icon {
     color: #0C94B0;
     padding: 10px;
 }
+
 #brandKit .bg {
     background: #1C2F39;
     border: 3px solid #2B4958;
@@ -981,17 +1008,32 @@ hr {
     backdrop-filter: blur(15px);
     border-radius: 8px;
 }
+
 #brandKit .content {
     padding: 15px 0 25px;
     border-bottom: 1px solid #2B4958;
     margin: 16px;
 }
+
 #brandKit .content-last {
     padding: 15px 0;
     border-bottom: 0;
     margin: 16px;
 }
-.hrBrand {
+
+#brandKit .hrBrand {
     margin: 0 16px;
 }
 
+/* ========== hyra token page ========== */
+
+#hyraToken {
+    color: #fff;
+    background: #172932;
+}
+#hyraToken img {
+    image-rendering: -webkit-optimize-contrast;
+}
+#hyraToken .swap {
+    color: #01FFF0;
+}

@@ -9,7 +9,7 @@
     <section>
         <div class="container">
             <div class="row">
-                <h1 class="text-center pt-3 pb-5">BRAND KIT</h1>
+                <h1 class="text-center pt-3 pb-5 fw-bold">BRAND KIT</h1>
                 <div class="col-md-6">
                     <div class="bg">
                         <h5 class="title-brandkit">Branding guideline</h5>
