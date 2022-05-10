@@ -623,6 +623,7 @@ section .title-banner {
     width: 100%;
     position: relative;
     z-index: 1  ;
+    border: 2px solid #FFFFFF;
   }
   #news-blog .page-news-blog .collum-blog{
     background: #233E4B;
@@ -631,7 +632,7 @@ section .title-banner {
     display: flex;
     flex-direction: column;
     padding: 9px;
-    border-radius: 10px;
+    border-radius: 10px ;
     position: relative;
     z-index: 1;
 }
@@ -670,6 +671,7 @@ section .title-banner {
     left: 1018px;
     top: 1206px;
 }
+
 /* ===================== FOOTER =================== */
 
 .footerL {
@@ -738,33 +740,6 @@ footer .footerE {
         top: 1206px;
     }
 }
-
-/* 
-#news-blog .page-news-blog .blur-news{
-    border-radius: 50%;
-    background-color: #01F0FF;
-    filter: blur(195px);
-    opacity: .8;
-    position: absolute;
-    width: 501px;
-    height: 501px;
-    left: 499px;
-    top: 209px;
-}
-#news-blog .page-news-blog .blur-blog{
-    border-radius: 50%;
-    background-color: #01F0FF;
-    filter: blur(195px);
-    opacity: .8;
-    position: absolute;
-    width: 501px;
-    height: 501px;
-    left: 1018px;
-    top: 1206px;
-}
- */
-
-
 @media (max-width: 1366px) {
     #aboutPage .page-about .blur-1 {
         border-radius: 50%;
@@ -864,6 +839,28 @@ footer .footerE {
         left: 209px;
         top: 0;
     }
+    #news-blog .page-news-blog .blur-news{
+        border-radius: 50%;
+        background-color: #01F0FF;
+        filter: blur(195px);
+        opacity: .8;
+        position: absolute;
+        width: 501px;
+        height: 501px;
+        left: 218px;
+        top: 209px;
+    }
+    #news-blog .page-news-blog .blur-blog{
+        border-radius: 50%;
+        background-color: #01F0FF;
+        filter: blur(195px);
+        opacity: .8;
+        position: absolute;
+        width: 501px;
+        height: 501px;
+        left: 265px;
+        top: 1206px;
+    } 
 }
 
 @media (max-width: 576px) {
@@ -922,7 +919,7 @@ footer .footerE {
         left: -83px;
         top: 0;
     }
-    #news-blog .page-news-blog .blur-news{
+   #news-blog .page-news-blog .blur-news{
         border-radius: 50%;
         background-color: #01F0FF;
         filter: blur(195px);
@@ -943,7 +940,7 @@ footer .footerE {
         height: 501px;
         left: 121px;
         top: 1206px;
-    }
+    } 
 }
 
 
