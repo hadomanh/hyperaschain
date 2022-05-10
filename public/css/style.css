@@ -72,9 +72,6 @@ section .title-banner{
     position: relative;
     z-index: 1;
 }
-#aboutPage{
-}
-
 #aboutPage {
     background: #172932;
     color: white;
@@ -437,7 +434,6 @@ section .title-banner{
     top: 0;
 }
 
-
 #community .page-community {
     text-align: center !important;
     font-weight: 700;
@@ -489,7 +485,7 @@ section .title-banner{
     top: 18px;
     color: #fff;
   }
-  #hyperas-faq .banner-hyperas-faq .search .form-control{
+#hyperas-faq .banner-hyperas-faq .search .form-control{
     height: 50px;
     padding: 15px;
     width: 80%;
@@ -499,13 +495,85 @@ section .title-banner{
     backdrop-filter: blur(9px);
     border-radius: 10px;
   }
-  #hyperas-faq .banner-hyperas-faq .search .form-control:focus{
+#hyperas-faq .banner-hyperas-faq .search .form-control:focus{
     background-color: #fff;
     box-shadow: none;
     border-color: #eee;
   }
-  
-  
+#hyperas-faq .categori{
+    background: #172932 ;
+}
+#hyperas-faq .categori h3{
+    background: linear-gradient(89.08deg, #FF0097 13.35%, #00D3FF 36.51%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-align: left;
+    font-weight: 700;
+    box-shadow: 0 3px #01FFF0;
+    width: 20%;
+  }
+  #hyperas-faq .categori .page-hyperas-faq {
+      color: white;
+      text-align: left;
+  }
+  #hyperas-faq .categori .page-hyperas-faq .nav-link {
+      background-color: #172932 !important;
+      color: white;
+      text-align: left;
+  }
+  #hyperas-faq .categori .page-hyperas-faq .nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+      color: #00D3FF;
+  }
+  #hyperas-faq .categori .page-hyperas-faq .tab-content p{
+    box-shadow:0 1px white;
+    width: 100%;
+    color: white;
+    padding-bottom: 20px;
+
+  }
+  #hyperas-faq .categori .page-hyperas-faq .tab-content .collapse .card{
+    background: #172932;
+  }
+  #hyperas-faq .categori .page-hyperas-faq .tab-content i{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    color: #01FFF0;
+}
+  #hyperas-faq .categori .page-hyperas-faq h4{
+    background: linear-gradient(89.08deg, #FF0097 2.35%, #00D3FF 7.51%);  
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-align: left;
+    font-weight: 400;
+  }
+  #hyperas-faq  .blur-1 {
+    border-radius: 50%;
+    background-color: #01F0FF;
+    filter: blur(188px);
+    opacity: .8;
+    position: absolute;
+    width: 386px;
+    height: 501px;
+    left: 1133px;
+    top: 279px;
+}
+
+#hyperas-faq .blur-2 {
+    border-radius: 50%;
+    background-color: #01F0FF;
+    filter: blur(239px);
+    opacity: .8;
+    position: absolute;
+    width: 501px;
+    height: 501px;
+    left: -218px;
+    top: 1810px;
+}
 /* =====================FOOTER=================== */
 
 
@@ -517,6 +585,8 @@ section .title-banner{
 
 footer {
     color: #fff;
+    position: relative;
+    z-index: 1;
 }
 
 footer .footerM a {
