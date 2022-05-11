@@ -70,6 +70,15 @@ section.banner h1 {
     font-size: 48px;
     line-height: 1;
 }
+section .title-banner {
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    z-index: 1;
+    font-size: 48px;
+    margin-bottom: 0;
+}
 .partnersElement {
     background-image: linear-gradient(to right, #cfebed, #fff);
 }
@@ -424,12 +433,10 @@ footer .copyright {
     text-align: center;
     font-weight: 700;
 }
-
 #community .page-community .content img {
     padding: 10px;
     width: auto;
 }
-
 #community .page-community .content .img-page-community {
     display: flex;
     justify-content: center;
@@ -438,9 +445,6 @@ footer .copyright {
 
 
 /* =====================HYPERAS-FAQ================ */
-#hyperas-faq section {
-    padding: 40px 0 ;
-}
 #hyperas-faq .banner-hyperas-faq {
     background: url(../img/bg-hyperas-faq.png) no-repeat;
     height: 367px;
@@ -465,10 +469,6 @@ footer .copyright {
     background: linear-gradient(344.23deg, rgba(85, 186, 208, 0.57) -6.56%, rgba(85, 186, 208, 0.26) 115.47%);
     border: 1.5px solid rgba(85, 198, 208, 0.4);
     box-shadow: 17px 0px 28px rgba(85, 198, 208, 0.15);
-
-
-    /* backdrop-filter: blur(9px); */
-
     border-radius: 10px;
 }
 
@@ -563,9 +563,6 @@ footer .copyright {
 }
 
 /* =====================NEWS BLOG=================== */
-#news-blog section {
-    padding: 40px 0 ;
-}
 #news-blog{
     background: #172932;
 }
