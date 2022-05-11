@@ -1045,6 +1045,24 @@ footer .copyright {
     color: #01FFF0;
     text-decoration: underline;
 }
+/*=======================hyra-staking-2.blade.php===========================*/
+.hyra-staking-page-1{
+    background: #172932;
+}
+.hyra-staking-page-1 h1{
+    color: #fff;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 65px;
+    padding: 109px 0px 98px 0px;
+}
+.hyra-staking-page-1{
+    
+}
+
+
+
+
 /*==================================================*/
 #brandKit {
     color: #fff;
