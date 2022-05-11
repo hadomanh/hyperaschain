@@ -883,30 +883,23 @@ footer .copyright {
 }
 
 /* ===========GUILDLINE-PAGES ========  */
-.guildline-content-top{
+#guideLinePage {
     background: #172932;
 }
-.guildline-content-top h1{
-    padding: 202px 0px 37px 0px;
-}
-.guildline-content-top h3{
+#guideLinePage .guildline-content-top h3{
     padding: 21px 0px 21px;
 }
-.guildline-content-top .content-text-guildline{
+#guideLinePage .guildline-content-top .content-text-guildline{
     font-size: 16px;
     line-height: 28.9px;
     margin: 0px;
     padding-bottom: 73px;
 }
-.guildline-content-top .image-guildline{
-    background: #EC008CB2;
-    border: 1px solid #EC008CB2;
-    padding: 15px;
-    border-radius: 50%;
-    box-shadow: 0px 4px 13px 0px #EC008C;
-    max-width: 68px;
+#guideLinePage .roundPink img{
+    width: 40px;
+    height: 40px;
 }
-.guildline-content-top .progress-after::after{
+#guideLinePage .guildline-content-top .progress-after::after{
     content: "";
     width: 136px;
     height: 2px;
@@ -915,38 +908,37 @@ footer .copyright {
     bottom: 47%;
     left: 82%;
 }
-
-.guildline-content-top .box-step{
-    padding-bottom: 47px;
-}
-.guildline-content-top .image-guildline-4{
+#guideLinePage .guildline-content-top .image-guildline-4{
     padding: 2px;
 }
-.guildline-content-top .image-guildline{
-    width: 68px;
-    height: 68px;
-}
 /* =========== box-contact-hyperras ========  */
-.box-contact-hyperras{
-    background: #172932;
-}
-.box-contact-hyperras .bg-contact-hyperras{
-    padding-bottom: 80px;
-}
-.box-contact-hyperras .content-text-hyperras{
+#guideLinePage .box-contact-hyperras .content-text-hyperras{
     font-size: 33px;
     line-height: 39px;
     font-weight: 700;
-    background: linear-gradient(89.08deg, #FF0097 9%, #00D3FF 53.51%);
+    text-align: left;
+    background: linear-gradient(to right, #B82393, #05B2D7);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
 }
-.box-contact-hyperras .bg-box-submit input{
+#guideLinePage .box-contact-hyperras .form-control {
+    background: #5e757e;
+    color: #fff;
+}
+::placeholder {
+    color: #fff;
+    opacity: 1;
+ }
+ :-ms-input-placeholder {
+    color: #fff;
+ }
+ ::-ms-input-placeholder {
+    color: #fff;
+ }
+#guideLinePage .box-contact-hyperras .bg-box-submit input{
     background: #5e7580;
 }
-.box-contact-hyperras .box-submit{
+#guideLinePage .box-contact-hyperras .box-submit{
     font-weight: 700;
     background: linear-gradient(89.08deg, #FF0097 47.35%, #00D3FF 53.51%);
     -webkit-background-clip: text;
@@ -954,44 +946,31 @@ footer .copyright {
     background-clip: text;
     text-fill-color: transparent;   
 }
-.box-contact-hyperras .form-floating{
-    padding-bottom: 20px;
-    width: 486px;
-}
-.box-contact-hyperras .form-floating input{
-    background: #5e757f;
-}
-.box-contact-hyperras .form-floating label{
-    color: #fff;
-}
-.box-contact-hyperras .box-message input{
-    height: 150px;
-}
-.box-contact-hyperras .button-box-submit button{
+#guideLinePage .box-contact-hyperras .button-box-submit button{
     width: 100%;
     height: 53px;
     background: linear-gradient(89.08deg, #FF0097 31.35%, #00D3FF 98.51%);
     box-shadow: 0px 1px 4px 0px #fff;
     font-size: 20px;
 }
-.box-contact-hyperras .content-bg-contacthyperas{
+#guideLinePage .box-contact-hyperras .content-bg-contacthyperas{
     bottom: 17%;
     left: 51%;
 }
 /*======================contact-link-hyperaschain=============================*/
-.contact-link-hyperaschain .container > div{
+#contact-hyperachain .contact-link-hyperaschain .container > div{
     padding-bottom: 30px;
 }
-.contact-link-hyperaschain{
+#contact-hyperachain .contact-link-hyperaschain{
     background: #172932;
 }
-.contact-link-hyperaschain h1{
+#contact-hyperachain .contact-link-hyperaschain h1{
     padding: 130px 0px 8px 0px;
     font-size: 48px;
     font-weight: 700;
     color: #fff;
 }
-.contact-link-hyperaschain .text-content-top{
+#contact-hyperachain .contact-link-hyperaschain .text-content-top{
     font-size: 32px;
     line-height: 100%;
     background: linear-gradient(89.08deg, #FF0097 47.35%, #00D3FF 53.51%);
@@ -999,16 +978,16 @@ footer .copyright {
     -webkit-text-fill-color: transparent;
     padding-bottom: 90px;
 }
-.contact-link-hyperaschain .from-boxcontact{
+#contact-hyperachain .contact-link-hyperaschain .from-boxcontact{
     width: 1116px;
     margin: 0 auto;
 }
-.contact-link-hyperaschain .position-image{
+#contact-hyperachain .contact-link-hyperaschain .position-image{
     display: inline-block;
     bottom: 148%;
     left: 40%;
 }
-.contact-link-hyperaschain .text-box-contact{
+#contact-hyperachain .contact-link-hyperaschain .text-box-contact{
     font-size: 24px;
     line-height: 32px;
     font-weight: 400;
@@ -1016,7 +995,7 @@ footer .copyright {
     text-align: center;
     padding-top: 20px;
 }
-.contact-link-hyperaschain .text-box-contact-1{
+#contact-hyperachain .contact-link-hyperaschain .text-box-contact-1{
     max-width: 356px;
     height: 122px;
     background: #233E4B;
@@ -1025,20 +1004,20 @@ footer .copyright {
     padding-bottom: 10px;
     border-radius: 10px;
 }
-.contact-link-hyperaschain .text-box-contact-1 p{
+#contact-hyperachain .contact-link-hyperaschain .text-box-contact-1 p{
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
     color: #fff;
     text-align: center;
 }
-.contact-link-hyperaschain .text-box-contact-1 img{
+#contact-hyperachain .contact-link-hyperaschain .text-box-contact-1 img{
     background-color: #C40075;
     padding: 12px;
     border-radius: 100px;
     box-shadow: 0px 0px 9px 0px #ec008c;
 }
-.contact-link-hyperaschain .text-box-contact-1 a{
+#contact-hyperachain .contact-link-hyperaschain .text-box-contact-1 a{
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
@@ -1046,23 +1025,97 @@ footer .copyright {
     text-decoration: underline;
 }
 /*=======================hyra-staking-2.blade.php===========================*/
-.hyra-staking-page-1{
+#hyra-staking-page-1{
     background: #172932;
+    /* background: red; */
 }
-.hyra-staking-page-1 h1{
+#hyra-staking-page-1 h1{
     color: #fff;
     font-weight: 700;
     font-size: 48px;
     line-height: 65px;
-    padding: 109px 0px 98px 0px;
+    padding: 59px 0px 98px 0px;
 }
-.hyra-staking-page-1{
-    
+#hyra-staking-page-1 span{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+#hyra-staking-page-1 .text-stake-hyra-top{
+    font-family: SVN-Gotham;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+#hyra-staking-page-1 .border-box-staking{
+
+}
+#hyra-staking-page-1 .distance-stake-hyra-top{
+    padding-left: 20px;
+}
+#hyra-staking-page-1 .box-content-top-1{
+    padding: 33px 0px 11px 38px;
+    justify-content: space-between;
+}
+#hyra-staking-page-1 .image-hyra-staking{
+    padding-left: 38px;
+}
+#hyra-staking-page-1 .box-content-top-2{
+    justify-content: space-between;
+    padding-left: 38px;
+}
+#hyra-staking-page-1 .box-wallet{
+
 }
 
-
-
-
+#hyra-staking-page-1 .text-hyra-box{
+    font-family: SVN-Gotham;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+}
+#hyra-staking-page-1 .text-number{
+    font-family: SVN-Gotham;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    padding-right: 28px;
+}
+#hyra-staking-page-1 .text-start{
+    font-family: SVN-Gotham;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 19px;
+    color: #01FFF0;
+    padding-bottom: 9px;
+}
+#hyra-staking-page-1 .border-box-connect{
+    font-family: SVN-Gotham;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #fff;
+    background: #EC008C;
+    border-radius: 5px;
+    padding: 15px;
+}
+#hyra-staking-page-1 .horizontal-hyra{
+    width: 330px;
+    margin: 0 auto;
+}
 /*==================================================*/
 #brandKit {
     color: #fff;
