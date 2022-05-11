@@ -40,6 +40,9 @@ Route::get('/pagination/contact-hyperachain', function () {
     return view('/pagination/contact-hyperachain');
 })->name('/pagination/contact-hyperachain');
 
+Route::get('/pagination/hyra-staking-2', function () {
+    return view('/pagination/hyra-staking-2');
+})->name('/pagination/hyra-staking-2');
 
 
 Route::get('/hyperas-faq', function () {
@@ -54,12 +57,20 @@ Route::get('/brand-kit', function () {
     return view('brand-kit');
 })->name('brand-kit');
 Auth::routes();
+
 Route::get('/hyra-token', function () {
     return view('hyra-token');
 })->name('hyra-token');
+
 Route::get('/guide-line', function () {
     return view('guide-line');
 })->name('guide-line');
+Auth::routes();
+
+Route::get('/hyra-validator', function () {
+    return view('hyra-validator');
+})->name('hyra-validator');
+
 Auth::routes();
 Route::middleware('auth')->prefix('admin')->group(function () {
     Route::get('/', 'HomeController@index')->name('admin.index');

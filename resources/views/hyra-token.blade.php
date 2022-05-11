@@ -49,7 +49,7 @@
                         </div>
                     </div>
                     <h1 class="titleSection">How can i buy HYRA ?</h1>
-                    <div class="row justify-content-center pt-4 pb-4">
+                    <div class="row justify-content-center pt-4 pb-10">
                         <div class="col-md-2 swap">
                             <img src="{{ asset('img/pancake.png') }}" alt="" class="pb-3">
                             <div>Swap on</div>

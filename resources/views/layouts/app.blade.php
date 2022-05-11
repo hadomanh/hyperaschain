@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<!-- Main Tag -->
 	<title>HYPERAS CHAIN</title>
-	<meta id="PagKeywords" name="keywords" content="KING DEX" />
+	<meta id="PagKeywords" name="keywords" content="HYPERAS CHAIN" />
 	<meta id="PagDescription" name="description" content="" />
 	<link id="LinkIcon" href="" type="image/x-icon" rel="shortcut icon" />
 	<link rel="icon" href="img/favicon.png" type="image/ico" />
@@ -17,10 +17,10 @@
 	<!-- Facebook Tag -->
 	<meta property="og:url" content="" />
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="KING DEX" />
-	<meta property="og:description" content="KING DEX" />
+	<meta property="og:title" content="HYPERAS CHAIN" />
+	<meta property="og:description" content="HYPERAS CHAIN" />
 	<meta property="og:image" content="" />
-	<meta property="og:site_name" content="KING DEX" />
+	<meta property="og:site_name" content="HYPERAS CHAIN" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
