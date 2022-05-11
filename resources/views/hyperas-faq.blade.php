@@ -6,7 +6,7 @@
     <span class="blur-1"></span>
         <div class="container-lg">
             <h1 class="title-banner">HYPERAS FAQ</h1>
-            <div class="search  d-flex justify-content-center">
+            <div class="search  d-flex justify-content-center mt-5">
                 <input type="text" class="form-control" placeholder="Search">
                 <i class="fa fa-search"></i>                    
             </div>
