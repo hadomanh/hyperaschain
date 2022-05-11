@@ -6,6 +6,12 @@ body {
     overflow-x: hidden;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 #overviewPage {}
 
 #overviewPage .banner {}
@@ -95,15 +101,7 @@ section .sectionHeading {
 section.banner h1 {
     font-size: 48px;
     line-height: 1;
-}
-section .title-banner {
     color: white;
-    text-align: center;
-    font-weight: 700;
-    position: relative;
-    z-index: 1;
-    font-size: 48px;
-    margin-bottom: 0;
 }
 .partnersElement {
     background-image: linear-gradient(to right, #cfebed, #fff);
@@ -194,9 +192,11 @@ header .navbar .nav-link {
     color: #fff;
     font-weight: 400;
 }
+
 header .navbar .dropdown-toggle::after {
     display: none;
 }
+
 header .navbar .dropdown-menu {
     box-shadow: 0px 4px 16px rgb(0 0 0 / 30%);
     border-radius: 8px;
@@ -206,6 +206,7 @@ header .navbar .dropdown-menu {
     margin-top: 10px;
     min-width: 12rem;
 }
+
 header .navbar .dropdown-menu:before {
     content: "";
     width: 0;
@@ -218,14 +219,18 @@ header .navbar .dropdown-menu:before {
     left: 50%;
     transform: translateX(-50%);
 }
+
 header .navbar .dropdown-item {
     padding: 10px 15px;
 }
-header .navbar .dropdown-item:focus, 
+
+header .navbar .dropdown-item:focus,
 header .navbar .dropdown-item:hover {
     color: #EC008C;
     background: none;
 }
+
+
 /*========================== HOMEPAGE ==========================*/
 
 #homepage .banner {
@@ -490,7 +495,6 @@ footer a {
 footer a :hover {
     color: #01FFF0;
 }
-
 footer {
     background: linear-gradient(#C40075, #db0082);
 }
@@ -515,11 +519,9 @@ footer .bottom {
 footer .bottom ul li {
     margin: 20px 0;
 }
-
 footer .bottom ul li a:hover {
     color: #01FFF0;
 }
-
 footer .copyright {
     border-top: 1px solid #fff;
     margin: 60px 100px 0;
@@ -532,83 +534,35 @@ footer .copyright {
 
 #community {
     background: url(../img/bg-community.png) no-repeat;
-    height: 800px;
-    background-position: center;
     background-size: cover;
     background-color: #243C48;
 }
-
-#community .blur-community {
-    border-radius: 50%;
-    background-color: #01F0FF;
-    filter: blur(226px);
-    opacity: .7;
-    position: absolute;
-    width: 386px;
-    height: 501px;
-    left: 627px;
-    top: 0;
-}
-
-#community .page-community {
-    text-align: center !important;
-    font-weight: 700;
-    padding: 0 !important;
-}
-
-#community .page-community .content {
-    position: absolute;
-    bottom: 0;
-    color: #f1f1f1;
-    padding: 20px;
-    bottom: 0;
-    top: 300px;
-}
-
-#community .page-community .content h3 {
-    background: linear-gradient(89.08deg, #FF0097 47.35%, #00D3FF 53.51%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
+#community .community-content{
     text-align: center;
-    font-weight: 700;
+    color: white;
 }
-#community .page-community .content img {
-    padding: 10px;
-    width: auto;
+ #community .page-community  img {
+    padding: 10px;  
 }
-#community .page-community .content .img-page-community {
-    display: flex;
-    justify-content: center;
-    padding: 30px;
-}
-
-
 /* =====================HYPERAS-FAQ================ */
-
-#hyperas-faq section {
-    padding: 40px 0;
-}
-
-#hyperas-faq .banner-hyperas-faq {
+#hyperas-faq .banner {
     background: url(../img/bg-hyperas-faq.png) no-repeat;
     height: 367px;
     background-size: cover;
 }
 
-#hyperas-faq .banner-hyperas-faq .search {
+#hyperas-faq .banne .search {
     position: relative;
 }
 
-#hyperas-faq .banner-hyperas-faq .search i {
+#hyperas-faq .banner .search i {
     position: absolute;
-    right: 149px;
-    top: 18px;
+    right: 263px;
+    bottom: 183px;
     color: #fff;
 }
 
-#hyperas-faq .banner-hyperas-faq .search .form-control {
+#hyperas-faq .banner .search .form-control {
     height: 50px;
     padding: 15px;
     width: 80%;
@@ -619,7 +573,7 @@ footer .copyright {
     border-radius: 10px;
 }
 
-#hyperas-faq .banner-hyperas-faq .search .form-control:focus {
+#hyperas-faq .banner .search .form-control:focus {
     background-color: #fff;
     box-shadow: none;
     border-color: #eee;
@@ -711,10 +665,6 @@ footer .copyright {
 
 
 /* =====================NEWS BLOG=================== */
-
-#news-blog section {
-    padding: 40px 0;
-}
 
 #news-blog {
     background: #172932;
@@ -1244,25 +1194,14 @@ footer .copyright {
     color: #01FFF0;
     text-decoration: underline;
 }
-
-
-/*=======================hyra-staking-2.blade.php===========================*/
-
-.hyra-staking-page-1 {
+/*=======================hyra-staking-2===========================*/
+#hyra-staking {
     background: #172932;
 }
-
-.hyra-staking-page-1 h1 {
-    color: #fff;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 65px;
-    padding: 109px 0px 98px 0px;
+#hyra-staking .page-hyra-staking .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background: #172932;
 }
-
-.hyra-staking-page-1 {}
-
-
 /*======================= brand-kit page ===========================*/
 
 #brandKit {
@@ -1270,7 +1209,6 @@ footer .copyright {
     background: url(../img/bg-brand-kit.svg) #125661 no-repeat center;
     padding: 40px 0;
 }
-
 #brandKit .title-brandkit {
     background: linear-gradient(89.08deg, #FF0097 22.35%, #00D3FF 83.51%);
     border-radius: 8px;
@@ -1410,4 +1348,4 @@ footer .copyright {
     background: linear-gradient(89.08deg, #DE0284 6.21%, #00A4C6 83.51%);
     box-shadow: 5px 5px 13px rgba(85, 198, 208, 0.5);
     border-radius: 6px;
-}
+  }

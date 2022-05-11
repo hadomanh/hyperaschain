@@ -117,7 +117,7 @@
 			</div>
 			<div class="text-center copyright">
 				<p class="mb-1">Copyright © 2021 - 2022 Hyperaschain.com. All rights reserved.</p>
-				<a href="">Privacy Notice</a> | <a href="">Legal</a> | <a href="">Status</a> | <a href="">Cookie Preferences</a>
+				<a href="#">Privacy Notice</a> | <a href="#">Legal</a> | <a href="#">Status</a> | <a href="#">Cookie Preferences</a>
 			</div>
 		</div>
 	</footer>
