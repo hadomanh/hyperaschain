@@ -78,11 +78,7 @@ section {
 section .sectionHeading,
 .text-gradient {
     display: inline-block;
-<<<<<<< HEAD
-    background: linear-gradient(to right, #f500b8, #00d2ff);
-=======
     background: linear-gradient(to right, #FF0097, #00D3FF);
->>>>>>> 2dff2d7c8b3772497d9a5f2b24a684e4af1ddacd
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
