@@ -3,59 +3,71 @@
 @section('content')
 
 <!-- brand kit -->
-
-
-<div id="brandKit">
-    <section>
+<div id="brandKitPage">
+    <section class="banner text-center">
+        <h1 class="mb-0">BRAND KIT</h1>
+    </section>
+    <section class="listGraphic pt-0">
         <div class="container">
             <div class="row">
-                <h1 class="text-center pt-3 pb-5 fw-bold">BRAND KIT</h1>
                 <div class="col-md-6">
-                    <div class="bg">
-                        <h5 class="title-brandkit">Branding guideline</h5>
-                        <div class="content d-flex align-items-baseline justify-content-between">
-                            <div>Logo PNG 1900x1900 Vertical</div>
-                            <div>
-                                <i class="fas fa-eye icon"></i> <i class="fas fa-download icon"></i>
-                            </div>
-                        </div>
-                        <div class="content d-flex align-items-baseline justify-content-between">
-                            <div>Logo PNG 1900x1900 Horizonal</div>
-                            <div>
-                                <i class="fas fa-eye icon"></i> <i class="fas fa-download icon"></i>
-                            </div>
-                        </div>
-                        <div class="content-last d-flex align-items-baseline justify-content-between">
-                            <div>Branding Guidline</div>
-                            <div>
-                                <i class="fas fa-eye icon"></i> <i class="fas fa-download icon"></i>
-                            </div>
-                        </div>
-                        
+                    <div class="item">
+                        <h5 class="titleBrandkit">Branding guideline</h5>
+                        <table class="table text-white mb-0">
+                            <tbody>
+                                <tr>
+                                    <td>Logo PNG 1900x1900 Vertical</td>
+                                    <td>
+                                        <a href="#"><i class="fas fa-eye icon"></i></a>
+                                        <a href=""><i class="fas fa-download icon"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Logo PNG 1900x1900 Horizonal</td>
+                                    <td>
+                                        <a href="#"><i class="fas fa-eye icon"></i></a>
+                                        <a href=""><i class="fas fa-download icon"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Branding Guidline</td>
+                                    <td>
+                                        <a href="#"><i class="fas fa-eye icon"></i></a>
+                                        <a href=""><i class="fas fa-download icon"></i></a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="bg">
-                        <h5 class="title-brandkit">Marketing tools</h5>
-                        <div class="content d-flex align-items-lg-baseline justify-content-between">
-                            <div>Social Avatar</div>
-                            <div>
-                                <i class="fas fa-eye icon"></i> <i class="fas fa-download icon"></i>
-                            </div>
-                        </div>
-                        <div class="content d-flex align-items-lg-baseline justify-content-between">
-                            <div>Cover Photo</div>
-                            <div>
-                                <i class="fas fa-eye icon"></i> <i class="fas fa-download icon"></i>
-                            </div>
-                        </div>
-                        <div class="content-last d-flex align-items-lg-baseline justify-content-between">
-                            <div>Wallpapers</div>
-                            <div>
-                                <i class="fas fa-eye icon"></i> <i class="fas fa-download icon"></i>
-                            </div>
-                        </div>
-                        
+                    <div class="item">
+                        <h5 class="titleBrandkit">Marketing tools</h5>
+                        <table class="table text-white mb-0">
+                            <tbody>
+                                <tr>
+                                    <td>Social Avatar</td>
+                                    <td>
+                                        <a href="#"><i class="fas fa-eye icon"></i></a>
+                                        <a href=""><i class="fas fa-download icon"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Cover Photo</td>
+                                    <td>
+                                        <a href="#"><i class="fas fa-eye icon"></i></a>
+                                        <a href=""><i class="fas fa-download icon"></i></a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Wallpapers</td>
+                                    <td>
+                                        <a href="#"><i class="fas fa-eye icon"></i></a>
+                                        <a href=""><i class="fas fa-download icon"></i></a>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
