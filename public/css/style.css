@@ -12,6 +12,17 @@ h3,
 h4,
 h5,
 h6 {
+#overviewPage {}
+
+#overviewPage .banner {}
+
+#overviewPage .ecosystem {
+    background: linear-gradient(89.08deg, #FF0097 47.35%, #00D3FF 53.51%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-align: center;
     font-weight: 700;
 }
 
@@ -463,6 +474,7 @@ header .navbar .dropdown-item:hover {
     height: 100%;
     z-index: -1;
 }
+
 #aboutPage .overview .squareBlur:before {
     content: "";
     background: rgb(36 60 72 / 50%);
@@ -480,13 +492,16 @@ footer a {
     color: #fff;
 }
 
+footer a :hover {
+    color: #01FFF0;
+}
 footer {
     background: linear-gradient(#C40075, #db0082);
 }
 
 footer .top {
     padding: 15px 0;
-    background: #c92d80;
+    background: #DB0082;
 }
 
 footer .top .footerSocial {
@@ -504,13 +519,17 @@ footer .bottom {
 footer .bottom ul li {
     margin: 20px 0;
 }
-
+footer .bottom ul li a:hover {
+    color: #01FFF0;
+}
 footer .copyright {
     border-top: 1px solid #fff;
     margin: 60px 100px 0;
     padding: 15px 0;
     font-size: 13px;
 }
+
+
 /* =============== COMMUNITY ============== */
 
 #community {
@@ -526,7 +545,6 @@ footer .copyright {
     padding: 10px;  
 }
 /* =====================HYPERAS-FAQ================ */
-
 #hyperas-faq .banner {
     background: url(../img/bg-hyperas-faq.png) no-repeat;
     height: 367px;
@@ -551,6 +569,7 @@ footer .copyright {
     background: linear-gradient(344.23deg, rgba(85, 186, 208, 0.57) -6.56%, rgba(85, 186, 208, 0.26) 115.47%);
     border: 1.5px solid rgba(85, 198, 208, 0.4);
     box-shadow: 17px 0px 28px rgba(85, 198, 208, 0.15);
+    /* backdrop-filter: blur(9px); */
     border-radius: 10px;
 }
 
@@ -1175,31 +1194,21 @@ footer .copyright {
     color: #01FFF0;
     text-decoration: underline;
 }
-
-
 /*=======================hyra-staking-2===========================*/
-
 #hyra-staking {
     background: #172932;
 }
-
 #hyra-staking .page-hyra-staking .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
     background: #172932;
 }
-
-
-/* #hyra-staking .page-hyra-staking .nav-item .action img {} */
-
-
-/*==================================================*/
+/*======================= brand-kit page ===========================*/
 
 #brandKit {
     color: #fff;
     background: url(../img/bg-brand-kit.svg) #125661 no-repeat center;
     padding: 40px 0;
 }
-
 #brandKit .title-brandkit {
     background: linear-gradient(89.08deg, #FF0097 22.35%, #00D3FF 83.51%);
     border-radius: 8px;
@@ -1339,69 +1348,4 @@ footer .copyright {
     background: linear-gradient(89.08deg, #DE0284 6.21%, #00A4C6 83.51%);
     box-shadow: 5px 5px 13px rgba(85, 198, 208, 0.5);
     border-radius: 6px;
-}
-
-
-/*******************************
-* ACCORDION WITH TOGGLE ICONS
-* Does not work properly if "in" is added after "collapse".
-*******************************/
-
-.panel-group .panel {
-    border-radius: 0;
-    box-shadow: none;
-    border-color: #EEEEEE;
-}
-
-.panel-default>.panel-heading {
-    padding: 0;
-    border-radius: 0;
-    color: #212121;
-    background-color: #FAFAFA;
-    border-color: #EEEEEE;
-}
-
-.panel-title {
-    font-size: 14px;
-}
-
-.panel-title>a {
-    display: block;
-    padding: 15px;
-    text-decoration: none;
-}
-
-.more-less {
-    float: right;
-    color: #212121;
-}
-
-.panel-default>.panel-heading+.panel-collapse>.panel-body {
-    border-top-color: #EEEEEE;
-}
-
-
-/* ----- v CAN BE DELETED v ----- */
-
-.demo {
-    padding-top: 60px;
-    padding-bottom: 110px;
-    color: black;
-}
-
-
-/* .demo-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    padding: 15px;
-    background-color: #212121;
-    text-align: center;
-}
-
-.demo-footer>a {
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 14px;
-    color: #fff;
-} */
+  }
