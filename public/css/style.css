@@ -96,7 +96,15 @@ section.banner h1 {
     font-size: 48px;
     line-height: 1;
 }
-
+section .title-banner {
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    z-index: 1;
+    font-size: 48px;
+    margin-bottom: 0;
+}
 .partnersElement {
     background-image: linear-gradient(to right, #cfebed, #fff);
 }
@@ -150,7 +158,7 @@ section.banner h1 {
 header {
     background: #172932;
     position: relative;
-    z-index: 1;
+    z-index: 3;
 }
 
 header .top {
@@ -186,8 +194,38 @@ header .navbar .nav-link {
     color: #fff;
     font-weight: 400;
 }
-
-
+header .navbar .dropdown-toggle::after {
+    display: none;
+}
+header .navbar .dropdown-menu {
+    box-shadow: 0px 4px 16px rgb(0 0 0 / 30%);
+    border-radius: 8px;
+    border: none;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+    min-width: 12rem;
+}
+header .navbar .dropdown-menu:before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #fff;
+    position: absolute;
+    top: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+header .navbar .dropdown-item {
+    padding: 10px 15px;
+}
+header .navbar .dropdown-item:focus, 
+header .navbar .dropdown-item:hover {
+    color: #EC008C;
+    background: none;
+}
 /*========================== HOMEPAGE ==========================*/
 
 #homepage .banner {
@@ -536,12 +574,10 @@ footer .copyright {
     text-align: center;
     font-weight: 700;
 }
-
 #community .page-community .content img {
     padding: 10px;
     width: auto;
 }
-
 #community .page-community .content .img-page-community {
     display: flex;
     justify-content: center;
