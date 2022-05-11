@@ -5,6 +5,18 @@ body {
     font-weight: 300;
     overflow-x: hidden;
 }
+#overviewPage {}
+
+#overviewPage .banner {}
+
+#overviewPage .ecosystem {
+    background: linear-gradient(89.08deg, #FF0097 47.35%, #00D3FF 53.51%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-align: center;
+}
 h1,h2,h3,h4,h5,h6 {
     font-weight: 700;
 }
@@ -448,7 +460,7 @@ footer .copyright {
 #hyperas-faq .banner .search i {
     position: absolute;
     right: 263px;
-    bottom: 183px;
+    bottom: 98px;
     color: #fff;
 }
 
@@ -474,13 +486,6 @@ footer .copyright {
 }
 
 #hyperas-faq .categori h3 {
-    background: linear-gradient(89.08deg, #FF0097 13.35%, #00D3FF 36.51%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
-    text-align: left;
-    font-weight: 700;
     box-shadow: 0 3px #01FFF0;
     width: 20%;
 }
@@ -519,7 +524,7 @@ footer .copyright {
     color: #01FFF0;
 }
 
-#hyperas-faq .categori .page-hyperas-faq h4 {
+/* #hyperas-faq .categori .page-hyperas-faq h4 {
     background: linear-gradient(89.08deg, #FF0097 2.35%, #00D3FF 7.51%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -527,7 +532,7 @@ footer .copyright {
     text-fill-color: transparent;
     text-align: left;
     font-weight: 400;
-}
+} */
 
 #hyperas-faq .blur-1 {
     border-radius: 50%;
