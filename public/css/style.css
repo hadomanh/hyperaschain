@@ -62,9 +62,12 @@ li {
 
 /* ==============ABOUT US================= */
 
+
+
+/* section .title-banner{
 #aboutPage section {
     padding: 40px 0;
-}
+} */
 
 section .title-banner {
     font-size: 48px;
@@ -507,7 +510,10 @@ section .title-banner {
     background: linear-gradient(344.23deg, rgba(85, 186, 208, 0.57) -6.56%, rgba(85, 186, 208, 0.26) 115.47%);
     border: 1.5px solid rgba(85, 198, 208, 0.4);
     box-shadow: 17px 0px 28px rgba(85, 198, 208, 0.15);
+
+
     /* backdrop-filter: blur(9px); */
+
     border-radius: 10px;
 }
 
@@ -1147,6 +1153,8 @@ hr {
 }
 
 
+
+/* ========== brand-kit ==========  */
 /* ========== brand-kit page ==========  */
 
 
@@ -1239,13 +1247,81 @@ hr {
     width: 100%;
     height: 53px;
     background: linear-gradient(89.08deg, #FF0097 31.35%, #00D3FF 98.51%);
-    box-shadow: 0px 1px 8px 0px #fff;
+    box-shadow: 0px 1px 4px 0px #fff;
     font-size: 20px;
 }
 .box-contact-hyperras .content-bg-contacthyperas{
-    bottom: 25%;
+    bottom: 17%;
     left: 51%;
 }
+/*======================contact-link-hyperaschain=============================*/
+.container > div{
+    padding-bottom: 30px;
+}
+.contact-link-hyperaschain{
+    background: #172932;
+}
+.contact-link-hyperaschain h1{
+    padding: 130px 0px 8px 0px;
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+}
+.contact-link-hyperaschain .text-content-top{
+    font-size: 32px;
+    line-height: 100%;
+    background: linear-gradient(89.08deg, #FF0097 47.35%, #00D3FF 53.51%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 90px;
+}
+.contact-link-hyperaschain .from-boxcontact{
+    width: 1116px;
+    margin: 0 auto;
+}
+.contact-link-hyperaschain .position-image{
+    display: inline-block;
+    bottom: 148%;
+    left: 40%;
+}
+.contact-link-hyperaschain .text-box-contact{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+}
+.contact-link-hyperaschain .text-box-contact-1{
+    max-width: 356px;
+    height: 122px;
+    background: #233E4B;
+    border-left: 1px solid #FF0097 ;
+    border-bottom: 1px solid #00D3FF;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+.contact-link-hyperaschain .text-box-contact-1 p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+}
+.contact-link-hyperaschain .text-box-contact-1 img{
+    background-color: #C40075;
+    padding: 12px;
+    border-radius: 100px;
+    box-shadow: 0px 0px 9px 0px #ec008c;
+}
+.contact-link-hyperaschain .text-box-contact-1 a{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #01FFF0;
+    text-decoration: underline;
+}
+/*==================================================*/
 #brandKit {
     color: #fff;
     background: url(../img/bg-brand-kit.svg) #125661 no-repeat center; 
@@ -1259,7 +1335,6 @@ hr {
     transform: scale(1.01);
     margin-top: -2px;
 }
-
 #brandKit .icon {
     color: #0C94B0;
     padding: 10px;
