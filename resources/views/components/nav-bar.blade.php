@@ -71,7 +71,7 @@
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="{{ route('about-us')}}">About us</a></li>
                             <li><a class="dropdown-item" href="#">Community</a></li>
-                            <li><a class="dropdown-item" href="{{ route('hyperas-faq')}}">FAQ</a></li>
+                            <li><a class="dropdown-item" href="{{ route('hyra-faq')}}">FAQ</a></li>
                             <li><a class="dropdown-item" href="{{ route('hyra-contact')}}">Contact</a></li>
                         </ul>
                     </li>

@@ -70,7 +70,7 @@
 						<h5>Company</h5>
 						<ul class="list-unstyled">
 							<li><a href="{{ route('about-us')}}">About us</a></li>
-							<li><a href="{{ route('hyperas-faq')}}">FAQs</a></li>
+							<li><a href="{{ route('hyra-faq')}}">FAQs</a></li>
 							<li><a href="{{ route('hyra-contact')}}">Contact us</a></li>
 						</ul>
 					</div>
