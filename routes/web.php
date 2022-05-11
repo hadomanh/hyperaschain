@@ -57,7 +57,6 @@ Route::get('/brand-kit', function () {
     return view('brand-kit');
 })->name('brand-kit');
 Auth::routes();
-
 Route::get('/hyra-token', function () {
     return view('hyra-token');
 })->name('hyra-token');
@@ -65,7 +64,6 @@ Route::get('/guide-line', function () {
     return view('guide-line');
 })->name('guide-line');
 Auth::routes();
-
 Route::middleware('auth')->prefix('admin')->group(function () {
     Route::get('/', 'HomeController@index')->name('admin.index');
     Route::get('/news/toggle/{news}', [NewsController::class, 'toggle'])->name('news.toggle');
