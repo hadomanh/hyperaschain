@@ -36,9 +36,9 @@ Route::get('/community', function () {
 
 
 
-Route::get('/pagination/contact-hyperachain', function () {
-    return view('/pagination/contact-hyperachain');
-})->name('/pagination/contact-hyperachain');
+Route::get('/hyra-contact', function () {
+    return view('hyra-contact');
+})->name('hyra-contact');
 
 Route::get('/pagination/hyra-staking-2', function () {
     return view('/pagination/hyra-staking-2');
@@ -49,9 +49,10 @@ Route::get('/hyperas-faq', function () {
     return view('hyperas-faq');
 })->name('hyperas-faq');
 Auth::routes();
-Route::get('/pagination/news-blog', function () {
-    return view('/pagination/news-blog');
-})->name('/pagination/news-blog');
+
+Route::get('/news-blog', function () {
+    return view('news-blog');
+})->name('news-blog');
 
 Route::get('/brand-kit', function () {
     return view('brand-kit');

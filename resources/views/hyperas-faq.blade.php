@@ -13,8 +13,8 @@
     </section>
     <section class="categori">
         <div class="container-lg">
-            <h3>Category</h3>
-            <div class="d-flex align-items-start page-hyperas-faq">
+            <h3 class="sectionHeading">Category</h3>
+            <div class="d-flex page-hyperas-faq">
                 <div class="nav flex-column nav-pills me-3 col-md-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                     <button class="nav-link active" id="most-popular-tab" data-bs-toggle="pill" data-bs-target="#most-popular" type="button" role="tab" aria-controls="most-popular" aria-selected="true">Most Popular</button>
                     <button class="nav-link" id="technology-tab" data-bs-toggle="pill" data-bs-target="#technology" type="button" role="tab" aria-controls="technology" aria-selected="false">Technology</button>
@@ -25,7 +25,7 @@
                 <div class="tab-content col-md-9" id="v-pills-tabContent">
                     <div class="tab-pane fade show active mb-4" id="most-popular" role="tabpanel" aria-labelledby="most-popular-tab">
                         <div class="row">
-                            <h4>Most Popular</h4>
+                            <h4 class="text-gradient">Most Popular</h4>
                             <p data-bs-toggle="collapse" href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
                                 When did Hyperas launch?
                                 <i class="bi bi-chevron-right"></i>
@@ -83,7 +83,7 @@
                         </div>
                         <div class="text-center mb-5"> SEE MORE</div>
                         <div class="row">
-                            <h4>Technology</h4>
+                            <h4 class="text-gradient">Technology</h4>
                             <p data-bs-toggle="collapse" href="#collapseExample7" aria-expanded="false" aria-controls="collapseExample">
                                 When did Hyperas launch?
                                 <i class="bi bi-chevron-right"></i>
@@ -163,7 +163,7 @@
                         </div>
                         <div class="text-center mb-5"> SEE MORE</div>
                         <div class="row">
-                            <h4>Team</h4>
+                            <h4 class="text-gradient">Team</h4>
                             <p data-bs-toggle="collapse" href="#collapseExample19" aria-expanded="false" aria-controls="collapseExample">
                                 Who is building Hyperas?
                                 <i class="bi bi-chevron-right"></i>
@@ -187,7 +187,7 @@
                     </div>
                     <div class="tab-pane fade" id="technology" role="tabpanel" aria-labelledby="technology-tab">
                         <div class="row">
-                            <h4>Technology</h4>
+                            <h4 class="text-gradient">Technology</h4>
                             <p data-bs-toggle="collapse" href="#collapseExample7" aria-expanded="false" aria-controls="collapseExample">
                                 When did Hyperas launch?
                                 <i class="bi bi-chevron-right"></i>
@@ -247,7 +247,7 @@
                     </div>
                     <div class="tab-pane fade" id="community1" role="tabpanel" aria-labelledby="community-tab">
                         <div class="row">
-                            <h4>Community</h4>
+                            <h4 class="text-gradient">Community</h4>
                             <p data-bs-toggle="collapse" href="#collapseExample13" aria-expanded="false" aria-controls="collapseExample">
                                 How can i join the community?
                                 <i class="bi bi-chevron-right"></i>
@@ -307,7 +307,7 @@
                     </div>
                     <div class="tab-pane fade" id="team" role="tabpanel" aria-labelledby="team-tab">
                         <div class="row">
-                            <h4>Team</h4>
+                            <h4 class="text-gradient">Team</h4>
                             <p data-bs-toggle="collapse" href="#collapseExample19" aria-expanded="false" aria-controls="collapseExample">
                                 Who is building Hyperas?
                                 <i class="bi bi-chevron-right"></i>
@@ -367,7 +367,7 @@
                     </div>
                     <div class="tab-pane fade" id="others" role="tabpanel" aria-labelledby="others-tab">
                         <div class="row">
-                            <h4>Others</h4>
+                            <h4 class="text-gradient">Others</h4>
                             <p data-bs-toggle="collapse" href="#collapseExample25" aria-expanded="false" aria-controls="collapseExample">
                                 When did Hyperas launch?
                                 <i class="bi bi-chevron-right"></i>
@@ -428,7 +428,7 @@
                 </div>
             </div>
         </div>
-        <span class="blur-2"></span>
+        <!-- <span class="blur-2"></span> -->
     </section>
 </div>
 @endsection

@@ -69,9 +69,9 @@
 						</ul>
 						<h5>Company</h5>
 						<ul class="list-unstyled">
-							<li><a href="">About us</a></li>
-							<li><a href="">FAQs</a></li>
-							<li><a href="">Contact us</a></li>
+							<li><a href="{{ route('about-us')}}">About us</a></li>
+							<li><a href="{{ route('hyperas-faq')}}">FAQs</a></li>
+							<li><a href="{{ route('hyra-contact')}}">Contact us</a></li>
 						</ul>
 					</div>
 					<div class="col-md-9">
@@ -79,7 +79,7 @@
 							<div class="col-md-3">
 								<h5>Technology</h5>
 								<ul class="list-unstyled">
-									<li><a href="">Overview</a></li>
+									<li><a href="{{ route('overview')}}">Overview</a></li>
 									<li><a href="">Stake</a></li>
 									<li><a href="">Roadmap</a></li>
 									<li><a href="">Whitepaper</a></li>
@@ -106,9 +106,9 @@
 							<div class="col-md-3">
 								<h5>Resource</h5>
 								<ul class="list-unstyled">
-									<li><a href="">Brand Kit</a></li>
-									<li><a href="">Blog</a></li>
-									<li><a href="">Guildeline</a></li>
+									<li><a href="{{ route('brand-kit')}}">Brand Kit</a></li>
+									<li><a href="{{ route('news-blog')}}">Blog</a></li>
+									<li><a href="{{ route('guide-line')}}">Guildeline</a></li>
 								</ul>
 							</div>
 						</div>
