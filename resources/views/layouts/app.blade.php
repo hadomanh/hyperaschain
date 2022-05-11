@@ -41,43 +41,40 @@
 
 	<!-- Footer -->
 	<footer>
-		<div class="footerM">
+		<div class="top">
 			<div class="container">
-				<div class="d-flex justify-content-between footerM">
-					<div>
+				<div class="d-flex justify-content-between align-items-center">
+					<div class="logoFooter">
 						<img src="{{ asset('img/logoFooter.png') }}" alt="">
 					</div>
-					<div>
-						<ul class="d-flex list-unstyled">
-							<li><a href=""><i class="fab fa-facebook-f"></i></a></li>
-							<li><a href=""><i class="fab fa-youtube"></i></a></li>
-							<li><a href=""><i class="fab fa-twitter"></i></a></li>
-							<li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
-							<li><a href=""><i class="fab fa-telegram-plane"></i></a></li>
-							<li><a href=""><i class="fab fa-github"></i></a></li>
-						</ul>
-					</div>
+					<ul class="list-unstyled d-flex footerSocial mb-0">
+						<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+						<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+						<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+						<li><a href="#"><i class="fab fa-telegram-plane"></i></a></li>
+						<li><a href="#"><i class="fab fa-github"></i></a></li>
+					</ul>
 				</div>
 			</div>
 		</div>
-		<div class="footerL">
+		<div class="bottom">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-4 mb-5">
-						<div class="mt-5 mb-5">
-							<h5>HYPERAS CHAIN LTD </h5>
-							<p><strong>Address</strong>: 10 Anson Road # 11-20 International Plaza Singapore (079903)</p>
-						</div>
+					<div class="col-md-3">
+						<h5>HYPERAS CHAIN LTD </h5>
+						<ul class="list-unstyled mb-5">
+							<li><strong>Address</strong>: 10 Anson Road # 11-20 International Plaza Singapore (079903)</li>
+						</ul>
 						<h5>Company</h5>
 						<ul class="list-unstyled">
 							<li><a href="">About us</a></li>
 							<li><a href="">FAQs</a></li>
 							<li><a href="">Contact us</a></li>
 						</ul>
-
 					</div>
-					<div class="col-md-8 mb-5">
-						<div class="row mt-5">
+					<div class="col-md-9">
+						<div class="row">
 							<div class="col-md-3">
 								<h5>Technology</h5>
 								<ul class="list-unstyled">
@@ -115,19 +112,13 @@
 							</div>
 						</div>
 					</div>
-					<hr class="hrFooter">
-					<div class="text-center footerE pb-3">
-						<div>Copyright © 2021 - 2022 Hyperaschain.com. All rights reserved.</div>
-						<div>
-							<a href="">Privacy Notice</a> | <a href="">Legal</a> | <a href="">Status</a> | <a href="">Cookie Preferences</a>
-						</div>
-					</div>
 				</div>
-
+			</div>
+			<div class="text-center copyright">
+				<p class="mb-1">Copyright © 2021 - 2022 Hyperaschain.com. All rights reserved.</p>
+				<a href="">Privacy Notice</a> | <a href="">Legal</a> | <a href="">Status</a> | <a href="">Cookie Preferences</a>
 			</div>
 		</div>
-
-
 	</footer>
 
 	<!-- Js File -->
