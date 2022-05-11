@@ -5,20 +5,8 @@ body {
     font-weight: 300;
     overflow-x: hidden;
 }
-
-
-#overviewPage {}
-
-#overviewPage .banner {}
-
-#overviewPage .ecosystem {
-    background: linear-gradient(89.08deg, #FF0097 47.35%, #00D3FF 53.51%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
-    text-align: center;
-    font-weight: 700;
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 700;    
 }
 a,
 a:hover {
@@ -132,7 +120,7 @@ section .title-banner {
 header {
     background: #172932;
     position: relative;
-    z-index: 1;
+    z-index: 3;
 }
 header .top {
     padding: 15px 0;
