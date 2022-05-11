@@ -483,7 +483,9 @@ section .title-banner {
 
 
 /* =====================HYPERAS-FAQ================ */
-
+#hyperas-faq section {
+    padding: 40px 0 ;
+}
 #hyperas-faq .banner-hyperas-faq {
     background: url(../img/bg-hyperas-faq.png) no-repeat;
     height: 367px;
@@ -606,6 +608,9 @@ section .title-banner {
 }
 
 /* =====================NEWS BLOG=================== */
+#news-blog section {
+    padding: 40px 0 ;
+}
 #news-blog{
     background: #172932;
 }
@@ -618,8 +623,9 @@ section .title-banner {
     text-fill-color: transparent;
     text-align: left;
     font-weight: 700;
-    box-shadow: 0 1px (89.08deg, #FF0097 22.35%, #00D3FF 83.51%);
     margin-top: 30px;
+    border-bottom: 4px solid #00D4FF;
+    border-image: linear-gradient(45deg,#FF0097,#00D4FF) 1;
   }
   #news-blog .page-news-blog input[type=text] {
     float: left;
@@ -641,6 +647,20 @@ section .title-banner {
     border-radius: 10px ;
     position: relative;
     z-index: 1;
+}
+#news-blog .page-news-blog .nav-link {
+    background-color: #172932 !important;
+    color: white;
+    text-align: left;
+}
+#news-blog .page-news-blog button span{ 
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+#news-blog .page-news-blog .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #00D3FF;
 }
 #news-blog .page-news-blog .collum-blog:hover{
     border: 2px solid #01F0FF;
@@ -677,7 +697,6 @@ section .title-banner {
     left: 1018px;
     top: 1206px;
 }
-
 /* ===================== FOOTER =================== */
 
 .footerL {
@@ -933,7 +952,7 @@ footer .footerE {
         position: absolute;
         width: 501px;
         height: 501px;
-        left: 0;
+        left: -185px;
         top: 209px;
     }
     #news-blog .page-news-blog .blur-blog{
@@ -944,7 +963,7 @@ footer .footerE {
         position: absolute;
         width: 501px;
         height: 501px;
-        left: 121px;
+        left: -185px;
         top: 1206px;
     } 
 }
