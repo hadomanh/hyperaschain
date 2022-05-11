@@ -5,8 +5,8 @@
 <div id="hyraValidater">
     <section>
         <div class="container">
+            <h1 class="text-center pt-3 fw-bold">HYPERAS VALIDATOR</h1>
             <div class="row d-flex justify-content-center">
-                <h1 class="text-center pt-3 fw-bold">HYPERAS VALIDATOR</h1>
                 <div class="col-md-4 bgNumber">
                     <div class="number">
                         <span class="pink">1,</span>
@@ -18,7 +18,7 @@
                 </div>
                 <div class="col-md-4 bgNumber">
                     <div class="number">
-                        <div class="titleSection numberR">3 2</div>
+                        <div class="sectionHeading numberR">3 2</div>
                     </div>
                     <strong>Current number of validantors on mainnet</strong>
                 </div>
@@ -38,14 +38,13 @@
                     </div>
 
                 </div>
-                <img src="{{ asset('img/square.png') }}" alt="" class="imgSquare">
-                <div class="text-center">
-                    <h1 class="titleSection numberR">What is Validator with PoA-based networks?</h1>
-                    <p class="text-center pt-5 pb-5">In PoA-based networks, transactions and blocks are validated by approved accounts, known as validators. Validators run software allowing them to put transactions in blocks. The process is automated and does not require validators to be constantly monitoring their computers. It, however, does require maintaining the computer (the authority node) uncompromised.</p>
-                    <div class="button-box-submit">
-                        <a type="button" class="btn">Become Validator</a>
-                    </div>
-                    
+            </div>
+            <div class="text-center"><img src="{{ asset('img/square.png') }}" alt="" class="imgSquare"></div>
+            <div class="text-center">
+                <h1 class="sectionHeading numberR">What is Validator with PoA-based networks?</h1>
+                <p class="pt-2 pb-4">In PoA-based networks, transactions and blocks are validated by approved accounts, known as validators. Validators run software allowing them to put transactions in blocks. The process is automated and does not require validators to be constantly monitoring their computers. It, however, does require maintaining the computer (the authority node) uncompromised.</p>
+                <div class="button-box-submit">
+                    <a type="button" class="btn">Become Validator</a>
                 </div>
 
             </div>
