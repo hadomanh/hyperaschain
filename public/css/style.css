@@ -4,19 +4,7 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     overflow-x: hidden;
-}
-
-#overviewPage {}
-
-#overviewPage .banner {}
-
-#overviewPage .ecosystem {
-    background: linear-gradient(89.08deg, #FF0097 47.35%, #00D3FF 53.51%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
-    text-align: center;
+    color: #fff;
 }
 
 h1,
@@ -90,7 +78,11 @@ section {
 section .sectionHeading,
 .text-gradient {
     display: inline-block;
+<<<<<<< HEAD
+    background: linear-gradient(to right, #f500b8, #00d2ff);
+=======
     background: linear-gradient(to right, #FF0097, #00D3FF);
+>>>>>>> 2dff2d7c8b3772497d9a5f2b24a684e4af1ddacd
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -103,10 +95,9 @@ section .sectionHeading {
 section.banner h1 {
     font-size: 48px;
     line-height: 1;
-    color: white;
 }
-
 .partnersElement {
+    color: #58595B;
     background-image: linear-gradient(to right, #cfebed, #fff);
 }
 
@@ -195,11 +186,9 @@ header .navbar .nav-link {
     color: #fff;
     font-weight: 400;
 }
-
 header .navbar .dropdown-toggle::after {
     display: none;
 }
-
 header .navbar .dropdown-menu {
     box-shadow: 0px 4px 16px rgb(0 0 0 / 30%);
     border-radius: 8px;
@@ -209,7 +198,6 @@ header .navbar .dropdown-menu {
     margin-top: 10px;
     min-width: 12rem;
 }
-
 header .navbar .dropdown-menu:before {
     content: "";
     width: 0;
@@ -222,22 +210,17 @@ header .navbar .dropdown-menu:before {
     left: 50%;
     transform: translateX(-50%);
 }
-
 header .navbar .dropdown-item {
     padding: 10px 15px;
 }
-
 header .navbar .dropdown-item:focus,
 header .navbar .dropdown-item:hover {
     color: #EC008C;
     background: none;
 }
-
-
 /*========================== HOMEPAGE ==========================*/
 
 #homepage .banner {
-    color: #fff;
     padding: 100px 0;
     background: #085563 url(../img/hyperasChain.png) no-repeat center bottom / cover;
 }
@@ -286,12 +269,12 @@ header .navbar .dropdown-item:hover {
     background: #172A33 url(../img/banner-overview.jpg) no-repeat center bottom / cover;
     text-align: center;
     padding: 200px 0 240px;
-    color: #fff;
 }
 
 #overviewPage .ecosystem {
     margin-top: -100px;
     padding: 50px 0 250px;
+    color: #58595B;
 }
 
 #overviewPage .ecosystem .sectionHeading {
@@ -440,7 +423,6 @@ header .navbar .dropdown-item:hover {
 
 #aboutPage {
     background: #172932;
-    color: #fff;
 }
 
 #aboutPage .overview .circleBlur-1 {
@@ -538,23 +520,47 @@ footer .copyright {
     padding: 15px 0;
     font-size: 13px;
 }
-
-
-/* =============== COMMUNITY ============== */
-
-#community {
-    background: url(../img/bg-community.png) no-repeat;
-    background-size: cover;
-    background-color: #243C48;
+/* ===================== COMMUNITY PAGE =================== */
+#communityPage {
+    padding: 50px 0;
+    background: url(../img/bg-community.jpg) no-repeat center center / cover;
 }
-
-#community .community-content {
-    text-align: center;
-    color: white;
+#communityPage .listCommunity a {
+    display: inline-block;
+    margin: 20px;
 }
-
-#community .page-community img {
-    padding: 10px;
+/* ===================== BRANDKIT PAGE =================== */
+#brandKitPage {
+    background: url(../img/bg-brandkit.jpg) #1b2931 no-repeat center top;
+}
+#brandKitPage .item {
+    background: #1C2F39;
+    border: 3px solid #2B4958;
+    padding: 0 15px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 16px rgb(0 0 0 / 10%);
+}
+#brandKitPage .titleBrandkit {
+    background: linear-gradient(89.08deg, #FF0097 22.35%, #00D3FF 83.51%);
+    border-radius: 8px;
+    padding: 15px;
+    margin: -3px -18px 0;
+}
+#brandKitPage table a {
+    color: #0C94B0;
+}
+#brandKitPage table tbody tr td {
+    border-color: #2B4958;
+    padding: 30px 0;
+}
+#brandKitPage table tbody tr:last-child td {
+    border: none;    
+}
+#brandKitPage table tbody tr td:last-child {
+    text-align: right;
+}
+#brandKitPage table tbody tr td:last-child a + a {
+    margin-left: 15px;
 }
 
 
@@ -1215,53 +1221,6 @@ footer .copyright {
 .nav-pills .show>.nav-link {
     background: #172932;
 }
-
-
-/*======================= brand-kit page ===========================*/
-
-#brandKit {
-    color: #fff;
-    background: url(../img/bg-brand-kit.svg) #125661 no-repeat center;
-    padding: 40px 0;
-}
-
-#brandKit .title-brandkit {
-    background: linear-gradient(89.08deg, #FF0097 22.35%, #00D3FF 83.51%);
-    border-radius: 8px;
-    padding: 15px;
-    transform: scale(1.01);
-    margin-top: -2px;
-}
-
-#brandKit .icon {
-    color: #0C94B0;
-    padding: 10px;
-}
-
-#brandKit .bg {
-    background: #1C2F39;
-    border: 3px solid #2B4958;
-    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(15px);
-    border-radius: 8px;
-}
-
-#brandKit .content {
-    padding: 15px 0 25px;
-    border-bottom: 1px solid #2B4958;
-    margin: 16px;
-}
-
-#brandKit .content-last {
-    padding: 15px 0;
-    border-bottom: 0;
-    margin: 16px;
-}
-
-#brandKit .hrBrand {
-    margin: 0 16px;
-}
-
 
 /* ========== hyra token page ========== */
 
