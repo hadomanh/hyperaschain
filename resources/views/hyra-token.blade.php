@@ -14,7 +14,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="">
-                        <img src="http://127.0.0.1:8000/img/coinHyra.png" alt="">
+                        <img src="{{ asset('img/coinHyra.png') }}" alt="">
                     </div>
                 </div>
                 <div class="col-md-6 d-flex align-items-center">
