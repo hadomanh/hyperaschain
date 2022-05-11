@@ -90,18 +90,8 @@ section .sectionHeading {
 section.banner h1 {
     font-size: 48px;
     line-height: 1;
-}
-
-section .title-banner {
     color: white;
-    text-align: center;
-    font-weight: 700;
-    position: relative;
-    z-index: 1;
-    font-size: 48px;
-    margin-bottom: 0;
 }
-
 .partnersElement {
     background-image: linear-gradient(to right, #cfebed, #fff);
 }
@@ -521,87 +511,40 @@ footer .copyright {
     padding: 15px 0;
     font-size: 13px;
 }
-
-
 /* =============== COMMUNITY ============== */
 
 #community {
     background: url(../img/bg-community.png) no-repeat;
-    height: 800px;
-    background-position: center;
     background-size: cover;
     background-color: #243C48;
 }
-
-#community .blur-community {
-    border-radius: 50%;
-    background-color: #01F0FF;
-    filter: blur(226px);
-    opacity: .7;
-    position: absolute;
-    width: 386px;
-    height: 501px;
-    left: 627px;
-    top: 0;
-}
-
-#community .page-community {
-    text-align: center !important;
-    font-weight: 700;
-    padding: 0 !important;
-}
-
-#community .page-community .content {
-    position: absolute;
-    bottom: 0;
-    color: #f1f1f1;
-    padding: 20px;
-    bottom: 0;
-    top: 300px;
-}
-
-#community .page-community .content h3 {
-    background: linear-gradient(89.08deg, #FF0097 47.35%, #00D3FF 53.51%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
+#community .community-content{
     text-align: center;
-    font-weight: 700;
+    color: white;
 }
-
-#community .page-community .content img {
-    padding: 10px;
-    width: auto;
+ #community .page-community  img {
+    padding: 10px;  
 }
-
-#community .page-community .content .img-page-community {
-    display: flex;
-    justify-content: center;
-    padding: 30px;
-}
-
-
 /* =====================HYPERAS-FAQ================ */
 
-#hyperas-faq .banner-hyperas-faq {
+#hyperas-faq .banner {
     background: url(../img/bg-hyperas-faq.png) no-repeat;
     height: 367px;
     background-size: cover;
 }
 
-#hyperas-faq .banner-hyperas-faq .search {
+#hyperas-faq .banne .search {
     position: relative;
 }
 
-#hyperas-faq .banner-hyperas-faq .search i {
+#hyperas-faq .banner .search i {
     position: absolute;
-    right: 149px;
-    top: 18px;
+    right: 263px;
+    bottom: 183px;
     color: #fff;
 }
 
-#hyperas-faq .banner-hyperas-faq .search .form-control {
+#hyperas-faq .banner .search .form-control {
     height: 50px;
     padding: 15px;
     width: 80%;
@@ -611,7 +554,7 @@ footer .copyright {
     border-radius: 10px;
 }
 
-#hyperas-faq .banner-hyperas-faq .search .form-control:focus {
+#hyperas-faq .banner .search .form-control:focus {
     background-color: #fff;
     box-shadow: none;
     border-color: #eee;
