@@ -40,6 +40,9 @@ Route::get('/pagination/contact-hyperachain', function () {
     return view('/pagination/contact-hyperachain');
 })->name('/pagination/contact-hyperachain');
 
+Route::get('/pagination/hyra-staking-2', function () {
+    return view('/pagination/hyra-staking-2');
+})->name('/pagination/hyra-staking-2');
 
 
 Route::get('/hyperas-faq', function () {
