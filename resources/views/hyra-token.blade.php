@@ -22,33 +22,25 @@
                 </div>
                 <div class="text-center">
                     <h1 class="sectionHeading">What is HYRA Token used for?</h1>
-                    <div class="row d-flex justify-content-center pt-5">
-                        <div class="col-md-3 text-technology-content text-center">
-                            <img class="icon-technology" src="{{ asset('img/token-1.png') }}" alt="">
-                            <p class="pt-4">
-                                Establishing a Proof-of-Authority Network
-                            </p>
+                    <div class="row d-flex justify-content-around pt-5">
+                        <div class="col-md-2 text-center">
+                            <div class="roundPink"><img src="{{ asset('img/token-1.png') }}"></div>
+                            <strong class="d-block pt-4">Establishing a Proof-of-Authority Network</strong>
                         </div>
-                        <div class="col-md-3 text-technology-content text-center">
-                            <img class="icon-technology" src="{{ asset('img/token-2.png') }}" alt="">
-                            <p class="pt-4">
-                                Establishing a Proof-of-Authority Network
-                            </p>
+                        <div class="col-md-2 text-center">
+                            <div class="roundPink"><img src="{{ asset('img/token-2.png') }}"></div>
+                            <strong class="d-block pt-4">Crypto Payments</strong>
                         </div>
-                        <div class="col-md-3 text-technology-content text-center">
-                            <img class="icon-technology" src="{{ asset('img/token-3.png') }}" alt="">
-                            <p class="pt-4">
-                                Establishing a Proof-of-Authority Network
-                            </p>
+                        <div class="col-md-2 text-center">
+                            <div class="roundPink"><img src="{{ asset('img/token-3.png') }}"></div>
+                            <strong class="d-block pt-4">On-Chain Governance</strong>
                         </div>
-                        <div class="col-md-3 text-technology-content text-center">
-                            <img class="icon-technology" src="{{ asset('img/token-4.png') }}" alt="">
-                            <p class="pt-4">
-                                Establishing a Proof-of-Authority Network
-                            </p>
+                        <div class="col-md-2 text-center">
+                            <div class="roundPink"><img src="{{ asset('img/token-4.png') }}"></div>
+                            <strong class="d-block pt-4">Network Fees</strong>
                         </div>
                     </div>
-                    <h1 class="sectionHeading">How can i buy HYRA ?</h1>
+                    <h1 class="sectionHeading pt-5">How can i buy HYRA ?</h1>
                     <div class="row justify-content-center pt-4 pb-10">
                         <div class="col-md-2 swap">
                             <img src="{{ asset('img/pancake.png') }}" alt="" class="pb-3">
