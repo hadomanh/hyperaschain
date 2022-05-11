@@ -55,6 +55,9 @@ Route::get('/brand-kit', function () {
 })->name('brand-kit');
 Auth::routes();
 
+Route::get('/hyra-token', function () {
+    return view('hyra-token');
+})->name('hyra-token');
 Route::get('/guide-line', function () {
     return view('guide-line');
 })->name('guide-line');
