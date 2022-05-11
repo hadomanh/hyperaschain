@@ -378,176 +378,6 @@ footer .copyright {
     padding: 15px 0;
     font-size: 13px;    
 }
-/*============content-bottom-overview================*/
-
-
-
-.text-technology-content {
-    color: #fff;
-    width: 242px;
-    padding-bottom: 50px;
-}
-
-.text-technology-content h5 {
-    padding: 10px 0px 10px 0px;
-}
-
-.box-iframe-ytb {
-    top: -150px;
-    position: relative;
-    background-image: linear-gradient(to right, #00d3ff, #0bbcff, #879aff, #d567e5, #ff0097);
-    width: 600px;
-    height: 355px;
-}
-
-.button-youtube {
-    top: 20px;
-    right: 20px;
-}
-
-.icon-technology {
-    background: #EC008CB2;
-    padding: 10px;
-    border-radius: 999px;
-}
-
-.position-text-readmore {
-    font-size: 18px;
-    text-align: center;
-}
-
-.position-image-roadmap {
-    bottom: 100px;
-}
-
-.text-view {
-    top: 55px;
-}
-
-.image-roadmap {
-    padding: 0px 20px 25px;
-}
-
-.font-size-imageroadmap {
-    max-width: 150px;
-    margin: 0 auto;
-}
-
-.font-size-imageroadmap>li {
-    padding-bottom: 8px;
-}
-
-.content-roadmap-bottom {
-    padding-bottom: 50px;
-}
-
-.content-header-roadmap {
-    margin-bottom: 50px;
-}
-
-.progress{
-    overflow: visible;
-}
-.box-shadow-progress{
-    box-shadow: 0px 0px 10px 1px #9829f0;
-}
-.progress-box {
-    transform: rotate(20deg);
-    width: 19%;
-    height: 2px;
-    background-color: #EC008C;
-    position: absolute;
-    top: 28%;
-}
-
-.progress-color {
-    background-color: #fff;
-}
-
-.progress-box-1 {
-    transform: rotate(-22deg);
-    width: 52%;
-    height: 2px;
-    background-color: #EC008C;
-    position: absolute;
-    top: 40%;
-    right: 72%;
-}
-
-.progress-color-1 {
-    background-color: #fff;
-    position: relative;
-    right: 10px;
-}
-
-.progress-box-2 {
-    transform: rotate(22deg);
-    width: 51%;
-    height: 2px;
-    background-color: #EC008C;
-    position: absolute;
-    top: 24%;
-    right: 75%;
-}
-
-.progress-color-2 {
-    background-color: #fff;
-    position: relative;
-    left: 12px;
-}
-
-.progress-box-3 {
-    transform: rotate(-22deg);
-    width: 59%;
-    height: 2px;
-    background-color: #EC008C;
-    position: absolute;
-    top: 40%;
-    right: 65%
-}
-
-.progress-color-3 {
-    position: relative;
-    left: 20px;
-    background-color: #fff;
-}
-
-.progress-box-4 {
-    transform: rotate(22deg);
-    width: 59%;
-    height: 2px;
-    background-color: #EC008C;
-    position: absolute;
-    top: 24%;
-    right: 75%;
-}
-
-.progress-color-4 {
-    background-color: #fff;
-    position: relative;
-    right: 25px;
-}
-
-.progress-color-5 {
-    position: relative;
-    left: 25px;
-    background-color: #fff;
-}
-
-.progress-box-end {
-    transform: rotate(20deg);
-    width: 29%;
-    height: 2px;
-    background-color: #2fdddd;
-    position: absolute;
-    top: 38%;
-    right: 4%;
-}
-
-.progress-background-color-blue {
-    background-color: #2fdddd;
-}
-
 /* =============== COMMUNITY ============== */
 
 #community {
@@ -568,21 +398,6 @@ footer .copyright {
     height: 501px;
     left: 627px;
     top: 0;
-}
-
-#community section {
-    padding: 0 !important;
-}
-
-#community .banner-community h1 {
-    text-align: center !important;
-    font-weight: 700;
-    font-size: 48px;
-    color: white;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    top: 200px;
 }
 
 #community .page-community {
@@ -620,6 +435,204 @@ footer .copyright {
     justify-content: center;
     padding: 30px;
 }
+
+
+/* =====================HYPERAS-FAQ================ */
+
+#hyperas-faq .banner-hyperas-faq {
+    background: url(../img/bg-hyperas-faq.png) no-repeat;
+    height: 367px;
+    background-size: cover;
+}
+
+#hyperas-faq .banner-hyperas-faq .search {
+    position: relative;
+}
+
+#hyperas-faq .banner-hyperas-faq .search i {
+    position: absolute;
+    right: 149px;
+    top: 18px;
+    color: #fff;
+}
+
+#hyperas-faq .banner-hyperas-faq .search .form-control {
+    height: 50px;
+    padding: 15px;
+    width: 80%;
+    background: linear-gradient(344.23deg, rgba(85, 186, 208, 0.57) -6.56%, rgba(85, 186, 208, 0.26) 115.47%);
+    border: 1.5px solid rgba(85, 198, 208, 0.4);
+    box-shadow: 17px 0px 28px rgba(85, 198, 208, 0.15);
+
+
+    /* backdrop-filter: blur(9px); */
+
+    border-radius: 10px;
+}
+
+#hyperas-faq .banner-hyperas-faq .search .form-control:focus {
+    background-color: #fff;
+    box-shadow: none;
+    border-color: #eee;
+}
+
+#hyperas-faq .categori {
+    background: #172932;
+}
+
+#hyperas-faq .categori h3 {
+    background: linear-gradient(89.08deg, #FF0097 13.35%, #00D3FF 36.51%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-align: left;
+    font-weight: 700;
+    box-shadow: 0 3px #01FFF0;
+    width: 20%;
+}
+
+#hyperas-faq .categori .page-hyperas-faq {
+    color: white;
+    text-align: left;
+}
+
+#hyperas-faq .categori .page-hyperas-faq .nav-link {
+    background-color: #172932 !important;
+    color: white;
+    text-align: left;
+}
+
+#hyperas-faq .categori .page-hyperas-faq .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #00D3FF;
+}
+
+#hyperas-faq .categori .page-hyperas-faq .tab-content p {
+    box-shadow: 0 1px white;
+    width: 100%;
+    color: white;
+    padding-bottom: 20px;
+}
+
+#hyperas-faq .categori .page-hyperas-faq .tab-content .collapse .card {
+    background: #172932;
+}
+
+#hyperas-faq .categori .page-hyperas-faq .tab-content i {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+    color: #01FFF0;
+}
+
+#hyperas-faq .categori .page-hyperas-faq h4 {
+    background: linear-gradient(89.08deg, #FF0097 2.35%, #00D3FF 7.51%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-align: left;
+    font-weight: 400;
+}
+
+#hyperas-faq .blur-1 {
+    border-radius: 50%;
+    background-color: #01F0FF;
+    filter: blur(188px);
+    opacity: .8;
+    position: absolute;
+    width: 386px;
+    height: 501px;
+    left: 1133px;
+    top: 279px;
+}
+
+#hyperas-faq .blur-2 {
+    border-radius: 50%;
+    background-color: #01F0FF;
+    filter: blur(239px);
+    opacity: .8;
+    position: absolute;
+    width: 501px;
+    height: 501px;
+    left: -218px;
+    top: 1810px;
+}
+
+/* =====================NEWS BLOG=================== */
+#news-blog{
+    background: #172932;
+}
+
+#news-blog  .page-news-blog h3{
+    background: linear-gradient(89.08deg, #FF0097 13.35%, #00D3FF 36.51%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-align: left;
+    font-weight: 700;
+    box-shadow: 0 1px (89.08deg, #FF0097 22.35%, #00D3FF 83.51%);
+    margin-top: 30px;
+  }
+  #news-blog .page-news-blog input[type=text] {
+    float: left;
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 5px;
+    width: 100%;
+    position: relative;
+    z-index: 1  ;
+    border: 2px solid #FFFFFF;
+  }
+  #news-blog .page-news-blog .collum-blog{
+    background: #233E4B;
+    color: white;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding: 9px;
+    border-radius: 10px ;
+    position: relative;
+    z-index: 1;
+}
+#news-blog .page-news-blog .collum-blog:hover{
+    border: 2px solid #01F0FF;
+}
+#news-blog .page-news-blog .collum-blog .title-pink{
+    background: #EC008C;
+    padding: 4px 15px;
+    font-size: 16px;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+#news-blog .page-news-blog .collum-blog .text-blog img{
+    padding-right: 10px;
+}
+#news-blog .page-news-blog .blur-news{
+    border-radius: 50%;
+    background-color: #01F0FF;
+    filter: blur(195px);
+    opacity: .8;
+    position: absolute;
+    width: 501px;
+    height: 501px;
+    left: 499px;
+    top: 209px;
+}
+#news-blog .page-news-blog .blur-blog{
+    border-radius: 50%;
+    background-color: #01F0FF;
+    filter: blur(195px);
+    opacity: .8;
+    position: absolute;
+    width: 501px;
+    height: 501px;
+    left: 1018px;
+    top: 1206px;
+}
+
 /* ===================== RESPONSITE ================= */
 
 @media (max-width: 1440px) {
@@ -634,8 +647,18 @@ footer .copyright {
         left: 1127px;
         top: 169px;
     }
+    #news-blog .page-news-blog .blur-blog{
+        border-radius: 50%;
+        background-color: #01F0FF;
+        filter: blur(195px);
+        opacity: .8;
+        position: absolute;
+        width: 501px;
+        height: 501px;
+        left: 937px ;
+        top: 1206px;
+    }
 }
-
 @media (max-width: 1366px) {
     #aboutPage .page-about .blur-1 {
         border-radius: 50%;
@@ -671,7 +694,30 @@ footer .copyright {
         background: #243C48;
     }
 }
-
+@media (max-width: 1024px) {
+    #news-blog .page-news-blog .blur-news{
+        border-radius: 50%;
+        background-color: #01F0FF;
+        filter: blur(195px);
+        opacity: .8;
+        position: absolute;
+        width: 501px;
+        height: 501px;
+        left: 400px;
+        top: 209px;
+    }
+    #news-blog .page-news-blog .blur-blog{
+        border-radius: 50%;
+        background-color: #01F0FF;
+        filter: blur(195px);
+        opacity: .8;
+        position: absolute;
+        width: 501px;
+        height: 501px;
+        left: 521px;
+        top: 1206px;
+    }
+}
 @media (max-width: 992px) {}
 
 @media (max-width: 768px) {
@@ -712,6 +758,28 @@ footer .copyright {
         left: 209px;
         top: 0;
     }
+    #news-blog .page-news-blog .blur-news{
+        border-radius: 50%;
+        background-color: #01F0FF;
+        filter: blur(195px);
+        opacity: .8;
+        position: absolute;
+        width: 501px;
+        height: 501px;
+        left: 218px;
+        top: 209px;
+    }
+    #news-blog .page-news-blog .blur-blog{
+        border-radius: 50%;
+        background-color: #01F0FF;
+        filter: blur(195px);
+        opacity: .8;
+        position: absolute;
+        width: 501px;
+        height: 501px;
+        left: 265px;
+        top: 1206px;
+    } 
 }
 
 @media (max-width: 576px) {
@@ -770,4 +838,245 @@ footer .copyright {
         left: -83px;
         top: 0;
     }
+   #news-blog .page-news-blog .blur-news{
+        border-radius: 50%;
+        background-color: #01F0FF;
+        filter: blur(195px);
+        opacity: .8;
+        position: absolute;
+        width: 501px;
+        height: 501px;
+        left: 0;
+        top: 209px;
+    }
+    #news-blog .page-news-blog .blur-blog{
+        border-radius: 50%;
+        background-color: #01F0FF;
+        filter: blur(195px);
+        opacity: .8;
+        position: absolute;
+        width: 501px;
+        height: 501px;
+        left: 121px;
+        top: 1206px;
+    } 
+}
+
+/* ===========GUILDLINE-PAGES ========  */
+.guildline-content-top{
+    background: #172932;
+}
+.guildline-content-top h1{
+    padding: 202px 0px 37px 0px;
+}
+.guildline-content-top h3{
+    padding: 21px 0px 21px;
+}
+.guildline-content-top .content-text-guildline{
+    font-size: 16px;
+    line-height: 28.9px;
+    margin: 0px;
+    padding-bottom: 73px;
+}
+.guildline-content-top .image-guildline{
+    background: #EC008CB2;
+    border: 1px solid #EC008CB2;
+    padding: 15px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 13px 0px #EC008C;
+    max-width: 68px;
+}
+.guildline-content-top .progress-after::after{
+    content: "";
+    width: 136px;
+    height: 2px;
+    background: #01FFF0  ;
+    position: absolute;
+    bottom: 47%;
+    left: 82%;
+}
+
+.guildline-content-top .box-step{
+    padding-bottom: 47px;
+}
+.guildline-content-top .image-guildline-4{
+    padding: 2px;
+}
+.guildline-content-top .image-guildline{
+    width: 68px;
+    height: 68px;
+}
+/* =========== box-contact-hyperras ========  */
+.box-contact-hyperras{
+    background: #172932;
+}
+.box-contact-hyperras .bg-contact-hyperras{
+    padding-bottom: 80px;
+}
+.box-contact-hyperras .content-text-hyperras{
+    font-size: 33px;
+    line-height: 39px;
+    font-weight: 700;
+    background: linear-gradient(89.08deg, #FF0097 9%, #00D3FF 53.51%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+.box-contact-hyperras .bg-box-submit input{
+    background: #5e7580;
+}
+.box-contact-hyperras .box-submit{
+    font-weight: 700;
+    background: linear-gradient(89.08deg, #FF0097 47.35%, #00D3FF 53.51%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;   
+}
+.box-contact-hyperras .form-floating{
+    padding-bottom: 20px;
+    width: 486px;
+}
+.box-contact-hyperras .form-floating input{
+    background: #5e757f;
+}
+.box-contact-hyperras .form-floating label{
+    color: #fff;
+}
+.box-contact-hyperras .box-message input{
+    height: 150px;
+}
+.box-contact-hyperras .button-box-submit button{
+    width: 100%;
+    height: 53px;
+    background: linear-gradient(89.08deg, #FF0097 31.35%, #00D3FF 98.51%);
+    box-shadow: 0px 1px 4px 0px #fff;
+    font-size: 20px;
+}
+.box-contact-hyperras .content-bg-contacthyperas{
+    bottom: 17%;
+    left: 51%;
+}
+/*======================contact-link-hyperaschain=============================*/
+.contact-link-hyperaschain .container > div{
+    padding-bottom: 30px;
+}
+.contact-link-hyperaschain{
+    background: #172932;
+}
+.contact-link-hyperaschain h1{
+    padding: 130px 0px 8px 0px;
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+}
+.contact-link-hyperaschain .text-content-top{
+    font-size: 32px;
+    line-height: 100%;
+    background: linear-gradient(89.08deg, #FF0097 47.35%, #00D3FF 53.51%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 90px;
+}
+.contact-link-hyperaschain .from-boxcontact{
+    width: 1116px;
+    margin: 0 auto;
+}
+.contact-link-hyperaschain .position-image{
+    display: inline-block;
+    bottom: 148%;
+    left: 40%;
+}
+.contact-link-hyperaschain .text-box-contact{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+}
+.contact-link-hyperaschain .text-box-contact-1{
+    max-width: 356px;
+    height: 122px;
+    background: #233E4B;
+    border-left: 1px solid #FF0097 ;
+    border-bottom: 1px solid #00D3FF;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+.contact-link-hyperaschain .text-box-contact-1 p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+}
+.contact-link-hyperaschain .text-box-contact-1 img{
+    background-color: #C40075;
+    padding: 12px;
+    border-radius: 100px;
+    box-shadow: 0px 0px 9px 0px #ec008c;
+}
+.contact-link-hyperaschain .text-box-contact-1 a{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #01FFF0;
+    text-decoration: underline;
+}
+/*==================================================*/
+#brandKit {
+    color: #fff;
+    background: url(../img/bg-brand-kit.svg) #125661 no-repeat center; 
+    padding: 40px 0;
+}
+
+#brandKit .title-brandkit {
+    background: linear-gradient(89.08deg, #FF0097 22.35%, #00D3FF 83.51%);
+    border-radius: 8px;
+    padding: 15px;
+    transform: scale(1.01);
+    margin-top: -2px;
+}
+#brandKit .icon {
+    color: #0C94B0;
+    padding: 10px;
+}
+
+#brandKit .bg {
+    background: #1C2F39;
+    border: 3px solid #2B4958;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 8px;
+}
+
+#brandKit .content {
+    padding: 15px 0 25px;
+    border-bottom: 1px solid #2B4958;
+    margin: 16px;
+}
+
+#brandKit .content-last {
+    padding: 15px 0;
+    border-bottom: 0;
+    margin: 16px;
+}
+
+#brandKit .hrBrand {
+    margin: 0 16px;
+}
+
+/* ========== hyra token page ========== */
+
+#hyraToken {
+    color: #fff;
+    background: #172932;
+}
+#hyraToken img {
+    image-rendering: -webkit-optimize-contrast;
+}
+#hyraToken .swap {
+    color: #01FFF0;
 }

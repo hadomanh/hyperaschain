@@ -33,6 +33,34 @@ Route::get('/about-us', function () {
 Route::get('/community', function () {
     return view('community');
 })->name('community');
+
+
+
+Route::get('/pagination/contact-hyperachain', function () {
+    return view('/pagination/contact-hyperachain');
+})->name('/pagination/contact-hyperachain');
+
+
+
+Route::get('/hyperas-faq', function () {
+    return view('hyperas-faq');
+})->name('hyperas-faq');
+Auth::routes();
+Route::get('/pagination/news-blog', function () {
+    return view('/pagination/news-blog');
+})->name('/pagination/news-blog');
+
+Route::get('/brand-kit', function () {
+    return view('brand-kit');
+})->name('brand-kit');
+Auth::routes();
+
+Route::get('/hyra-token', function () {
+    return view('hyra-token');
+})->name('hyra-token');
+Route::get('/guide-line', function () {
+    return view('guide-line');
+})->name('guide-line');
 Auth::routes();
 
 Route::middleware('auth')->prefix('admin')->group(function () {
