@@ -34,6 +34,14 @@ Route::get('/community', function () {
     return view('community');
 })->name('community');
 
+
+
+Route::get('/pagination/contact-hyperachain', function () {
+    return view('/pagination/contact-hyperachain');
+})->name('/pagination/contact-hyperachain');
+
+
+
 Route::get('/hyperas-faq', function () {
     return view('hyperas-faq');
 })->name('hyperas-faq');
@@ -47,15 +55,12 @@ Route::get('/brand-kit', function () {
 })->name('brand-kit');
 Auth::routes();
 
-<<<<<<< HEAD
 Route::get('/hyra-token', function () {
     return view('hyra-token');
 })->name('hyra-token');
-=======
 Route::get('/guide-line', function () {
     return view('guide-line');
 })->name('guide-line');
->>>>>>> master
 Auth::routes();
 
 Route::middleware('auth')->prefix('admin')->group(function () {
