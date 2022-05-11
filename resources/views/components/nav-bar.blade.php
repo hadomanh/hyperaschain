@@ -24,7 +24,7 @@
                             Technology
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Overview</a></li>
+                            <li><a class="dropdown-item" href="{{ route('overview')}}">Overview</a></li>
                             <li><a class="dropdown-item" href="#">Stake</a></li>
                             <li><a class="dropdown-item" href="#">Roadmap</a></li>
                             <li><a class="dropdown-item" href="#">Whitepaper</a></li>
@@ -58,10 +58,10 @@
                             Resources
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Brand kit</a></li>
-                            <li><a class="dropdown-item" href="#">Blog</a></li>
-                            <li><a class="dropdown-item" href="#">Guildeline</a></li>
-                            <li><a class="dropdown-item" href="#">Become Validator <img src="{{ asset('img/icon-authenticator.svg') }}" width="22" class="ms-2"></a></li>
+                            <li><a class="dropdown-item" href="{{ route('brand-kit')}}">Brand kit</a></li>
+                            <li><a class="dropdown-item" href="{{ route('news-blog')}}">Blog</a></li>
+                            <li><a class="dropdown-item" href="{{ route('guide-line')}}">Guildeline</a></li>
+                            <li><a class="dropdown-item" href="{{ route('hyra-validator')}}">Become Validator <img src="{{ asset('img/icon-authenticator.svg') }}" width="22" class="ms-2"></a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown">
@@ -69,10 +69,10 @@
                             Company
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">About us</a></li>
+                            <li><a class="dropdown-item" href="{{ route('about-us')}}">About us</a></li>
                             <li><a class="dropdown-item" href="#">Community</a></li>
-                            <li><a class="dropdown-item" href="#">FAQ</a></li>
-                            <li><a class="dropdown-item" href="#">Contact</a></li>
+                            <li><a class="dropdown-item" href="{{ route('hyperas-faq')}}">FAQ</a></li>
+                            <li><a class="dropdown-item" href="{{ route('hyra-contact')}}">Contact</a></li>
                         </ul>
                     </li>
                 </ul>
