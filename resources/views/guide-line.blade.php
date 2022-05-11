@@ -25,7 +25,7 @@
                     Step 2
                 </h3>
                 <p class="text-light">
-                    Hyperas conducts internal   of project information before proceeding to digitize assets.
+                    Hyperas conducts internal of project information before proceeding to digitize assets.
                 </p>
             </div>
             <div class="col-3 text-center box-step">
@@ -72,10 +72,10 @@
                     <label for="floatingInput">Message*</label>
                 </div>
                 <div class="button-box-submit">
-                    <button type="button" class="btn btn-primary">SUBMIT</button>
+                    <a type="button" class="btn" style="width: 100%;">SUBMIT</a>
                 </div>
             </div>
-            
+
         </div>
     </div>
 </section>

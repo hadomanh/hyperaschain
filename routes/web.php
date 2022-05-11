@@ -56,6 +56,11 @@ Route::get('/guide-line', function () {
 })->name('guide-line');
 Auth::routes();
 
+Route::get('/hyra-validator', function () {
+    return view('hyra-validator');
+})->name('hyra-validator');
+Auth::routes();
+
 Route::middleware('auth')->prefix('admin')->group(function () {
     Route::get('/', 'HomeController@index')->name('admin.index');
     Route::get('/news/toggle/{news}', [NewsController::class, 'toggle'])->name('news.toggle');

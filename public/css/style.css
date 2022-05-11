@@ -1015,11 +1015,10 @@ ul {
 
 #homepage .readmore {
     color: #db0082;
-    border-image-slice: 1;
-    border-width: 2px;
-    border-image-source: linear-gradient(to right, #db0082, #00D3FF);
     padding: 10px 40px;
     font-size: 20px;
+    border: 2px solid #FF0097;
+    border-image: linear-gradient(45deg,#FF0097,#00D4FF) 1;
 }
 
 #homepage ul .external {
@@ -1173,14 +1172,6 @@ hr {
     height: 150px;
 }
 
-.box-contact-hyperras .button-box-submit button {
-    width: 100%;
-    height: 53px;
-    background: linear-gradient(89.08deg, #FF0097 31.35%, #00D3FF 98.51%);
-    box-shadow: 0px 1px 8px 0px #fff;
-    font-size: 20px;
-}
-
 .box-contact-hyperras .content-bg-contacthyperas {
     bottom: 25%;
     left: 51%;
@@ -1247,4 +1238,87 @@ hr {
 
 #hyraToken .pb-10 {
     padding-bottom: 10.5rem;
+}
+
+
+/* ========== hyra validater page ========== */
+
+#hyraValidater {
+    background: url(../img/bg-validator.png) #172933 no-repeat center;
+    color: #fff;
+}
+
+#hyraValidater .number {
+    font-size: 55px;
+    font-weight: 700;
+}
+
+#hyraValidater .number .pink {
+    color: #FF0097;
+}
+
+#hyraValidater .number .purple {
+    color: #A44BBC;
+}
+
+#hyraValidater .number .blue {
+    color: #4898E2;
+}
+
+#hyraValidater .number .blue-light {
+    color: #00D4FF;
+}
+
+#hyraValidater .bgNumber {
+    background: #233E4B;
+    box-shadow: inset 58px -23px 165px #25838C;
+    border-radius: 7px;
+    padding: 0px 0 18px 20px;
+    margin: 30px;
+}
+
+#hyraValidater .numberR {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#hyraValidater .docText {
+    color: #01FFF0;
+    font-weight: 500;
+}
+
+#hyraValidater .docText a {
+    color: #01FFF0;
+}
+
+#hyraValidater .bgDocs {
+    border: 1px solid #01FFF0;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 20px;
+}
+
+#hyraValidater .bgleft .bgDocs {
+    background: linear-gradient(290.05deg, #246B76 0.55%, rgba(36, 107, 118, 0) 96.04%);
+}
+
+#hyraValidater .bgright .bgDocs {
+    background: linear-gradient(107.7deg, #246B76 -4.03%, rgba(36, 107, 118, 0) 90.57%);
+}
+
+#hyraValidater .imgSquare {
+    width: 50%;
+    mix-blend-mode: luminosity;
+    filter: drop-shadow(0px 4px 136px #106A76);
+}
+
+/* ========== all page ========== */
+
+.button-box-submit a {
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 40px;
+    background: linear-gradient(89.08deg, #DE0284 6.21%, #00A4C6 83.51%);
+    box-shadow: 5px 5px 13px rgba(85, 198, 208, 0.5);
+    border-radius: 6px;
 }
