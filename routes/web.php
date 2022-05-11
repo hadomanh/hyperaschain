@@ -34,6 +34,14 @@ Route::get('/community', function () {
     return view('community');
 })->name('community');
 
+
+
+Route::get('/pagination/contact-hyperachain', function () {
+    return view('/pagination/contact-hyperachain');
+})->name('/pagination/contact-hyperachain');
+
+
+
 Route::get('/hyperas-faq', function () {
     return view('hyperas-faq');
 })->name('hyperas-faq');
@@ -59,8 +67,8 @@ Auth::routes();
 Route::get('/hyra-validator', function () {
     return view('hyra-validator');
 })->name('hyra-validator');
-Auth::routes();
 
+Auth::routes();
 Route::middleware('auth')->prefix('admin')->group(function () {
     Route::get('/', 'HomeController@index')->name('admin.index');
     Route::get('/news/toggle/{news}', [NewsController::class, 'toggle'])->name('news.toggle');
