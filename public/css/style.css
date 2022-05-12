@@ -4,7 +4,19 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     overflow-x: hidden;
-    color: #fff;
+}
+
+#overviewPage {}
+
+#overviewPage .banner {}
+
+#overviewPage .ecosystem {
+    background: linear-gradient(89.08deg, #FF0097 47.35%, #00D3FF 53.51%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    text-align: center;
 }
 
 h1,
@@ -100,9 +112,10 @@ section .sectionHeading {
 section.banner h1 {
     font-size: 48px;
     line-height: 1;
+    color: white;
 }
+
 .partnersElement {
-    color: #58595B;
     background-image: linear-gradient(to right, #cfebed, #fff);
 }
 
@@ -199,9 +212,11 @@ header .navbar .nav-link {
     color: #fff;
     font-weight: 400;
 }
+
 header .navbar .dropdown-toggle::after {
     display: none;
 }
+
 header .navbar .dropdown-menu {
     box-shadow: 0px 4px 16px rgb(0 0 0 / 30%);
     border-radius: 8px;
@@ -211,6 +226,7 @@ header .navbar .dropdown-menu {
     margin-top: 10px;
     min-width: 12rem;
 }
+
 header .navbar .dropdown-menu:before {
     content: "";
     width: 0;
@@ -223,17 +239,22 @@ header .navbar .dropdown-menu:before {
     left: 50%;
     transform: translateX(-50%);
 }
+
 header .navbar .dropdown-item {
     padding: 10px 15px;
 }
+
 header .navbar .dropdown-item:focus,
 header .navbar .dropdown-item:hover {
     color: #EC008C;
     background: none;
 }
+
+
 /*========================== HOMEPAGE ==========================*/
 
 #homepage .banner {
+    color: #fff;
     padding: 100px 0;
     background: #085563 url(../img/hyperasChain.png) no-repeat center bottom / cover;
 }
@@ -282,12 +303,12 @@ header .navbar .dropdown-item:hover {
     background: #172A33 url(../img/banner-overview.jpg) no-repeat center bottom / cover;
     text-align: center;
     padding: 200px 0 240px;
+    color: #fff;
 }
 
 #overviewPage .ecosystem {
     margin-top: -100px;
     padding: 50px 0 250px;
-    color: #58595B;
 }
 
 #overviewPage .ecosystem .sectionHeading {
@@ -436,6 +457,7 @@ header .navbar .dropdown-item:hover {
 
 #aboutPage {
     background: #172932;
+    color: #fff;
 }
 
 #aboutPage .overview .circleBlur-1 {
@@ -533,47 +555,20 @@ footer .copyright {
     padding: 15px 0;
     font-size: 13px;
 }
-/* ===================== COMMUNITY PAGE =================== */
-#communityPage {
-    padding: 50px 0;
-    background: url(../img/bg-community.jpg) no-repeat center center / cover;
+/* =============== COMMUNITY ============== */
+#community {
+    background: url(../img/bg-community.png) no-repeat;
+    background-size: cover;
+    background-color: #243C48;
 }
-#communityPage .listCommunity a {
-    display: inline-block;
-    margin: 20px;
+
+#community .community-content {
+    text-align: center;
+    color: white;
 }
-/* ===================== BRANDKIT PAGE =================== */
-#brandKitPage {
-    background: url(../img/bg-brandkit.jpg) #1b2931 no-repeat center top;
-}
-#brandKitPage .item {
-    background: #1C2F39;
-    border: 3px solid #2B4958;
-    padding: 0 15px;
-    border-radius: 8px;
-    box-shadow: 0px 4px 16px rgb(0 0 0 / 10%);
-}
-#brandKitPage .titleBrandkit {
-    background: linear-gradient(89.08deg, #FF0097 22.35%, #00D3FF 83.51%);
-    border-radius: 8px;
-    padding: 15px;
-    margin: -3px -18px 0;
-}
-#brandKitPage table a {
-    color: #0C94B0;
-}
-#brandKitPage table tbody tr td {
-    border-color: #2B4958;
-    padding: 30px 0;
-}
-#brandKitPage table tbody tr:last-child td {
-    border: none;    
-}
-#brandKitPage table tbody tr td:last-child {
-    text-align: right;
-}
-#brandKitPage table tbody tr td:last-child a + a {
-    margin-left: 15px;
+
+#community .page-community img {
+    padding: 10px;
 }
 /* ===================== VALIDATOR PAGE =================== */
 #hyraValidator {
@@ -669,7 +664,8 @@ footer .copyright {
     margin-top: -15px;
     color: #01FFF0;
 }
-/* #hyperas-faq .categori .page-hyperas-faq h4 {
+
+ #hyperas-faq .page-hyperas-faq h4 {
     background: linear-gradient(89.08deg, #FF0097 2.35%, #00D3FF 7.51%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -677,7 +673,7 @@ footer .copyright {
     text-fill-color: transparent;
     text-align: left;
     font-weight: 400;
-}
+} 
 /* =====================NEWS BLOG=================== */
 #news-blog {
     background: #172932;
@@ -687,15 +683,11 @@ footer .copyright {
     border-bottom: 4px solid #00D4FF;
     border-image: linear-gradient(45deg, #FF0097, #00D4FF) 1;
 }
-#news-blog .page-news-blog input[type=text] {
-    float: left;
-    padding: 10px;
-    font-size: 17px;
-    border-radius: 5px;
-    width: 100%;
+#news-blog .page-news-blog .input-group i{
+    color: black;
     position: relative;
-    z-index: 1;
-    border: 2px solid #FFFFFF;
+    top: 10px;
+    left: -30px;
 }
 #news-blog .page-news-blog .collum-blog {
     background: #233E4B;
@@ -731,23 +723,36 @@ footer .copyright {
 
 
 /* ===========GUILDLINE-PAGES ========  */
-#guideLinePage {
+
+.guildline-content-top {
     background: #172932;
 }
-#guideLinePage .guildline-content-top h3{
+
+.guildline-content-top h1 {
+    padding: 202px 0px 37px 0px;
+}
+
+.guildline-content-top h3 {
     padding: 21px 0px 21px;
 }
-#guideLinePage .guildline-content-top .content-text-guildline{
+
+.guildline-content-top .content-text-guildline {
     font-size: 16px;
     line-height: 28.9px;
     margin: 0px;
     padding-bottom: 73px;
 }
-#guideLinePage .roundPink img{
-    width: 40px;
-    height: 40px;
+
+.guildline-content-top .image-guildline {
+    background: #EC008CB2;
+    border: 1px solid #EC008CB2;
+    padding: 15px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 13px 0px #EC008C;
+    max-width: 68px;
 }
-#guideLinePage .guildline-content-top .progress-after::after{
+
+.guildline-content-top .progress-after::after {
     content: "";
     width: 136px;
     height: 2px;
@@ -756,37 +761,47 @@ footer .copyright {
     bottom: 47%;
     left: 82%;
 }
-#guideLinePage .guildline-content-top .image-guildline-4{
+
+.guildline-content-top .box-step {
+    padding-bottom: 47px;
+}
+
+.guildline-content-top .image-guildline-4 {
     padding: 2px;
 }
+
+.guildline-content-top .image-guildline {
+    width: 68px;
+    height: 68px;
+}
+
+
 /* =========== box-contact-hyperras ========  */
-#guideLinePage .box-contact-hyperras .content-text-hyperras{
+
+.box-contact-hyperras {
+    background: #172932;
+}
+
+.box-contact-hyperras .bg-contact-hyperras {
+    padding-bottom: 80px;
+}
+
+.box-contact-hyperras .content-text-hyperras {
     font-size: 33px;
     line-height: 39px;
     font-weight: 700;
-    text-align: left;
-    background: linear-gradient(to right, #B82393, #05B2D7);
+    background: linear-gradient(89.08deg, #FF0097 9%, #00D3FF 53.51%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
 }
-#guideLinePage .box-contact-hyperras .form-control {
-    background: #5e757e;
-    color: #fff;
-}
-::placeholder {
-    color: #fff;
-    opacity: 1;
- }
- :-ms-input-placeholder {
-    color: #fff;
- }
- ::-ms-input-placeholder {
-    color: #fff;
- }
-#guideLinePage .box-contact-hyperras .bg-box-submit input{
+
+.box-contact-hyperras .bg-box-submit input {
     background: #5e7580;
 }
-#guideLinePage .box-contact-hyperras .box-submit{
+
+.box-contact-hyperras .box-submit {
     font-weight: 700;
     background: linear-gradient(89.08deg, #FF0097 47.35%, #00D3FF 53.51%);
     -webkit-background-clip: text;
@@ -794,29 +809,25 @@ footer .copyright {
     background-clip: text;
     text-fill-color: transparent;
 }
-#guideLinePage .button-box-submit button{
-    width: 100%;
-    height: 53px;
-    background: linear-gradient(89.08deg, #FF0097 31.35%, #00D3FF 98.51%);
-    box-shadow: 0px 1px 4px 0px #fff;
-    font-size: 20px;
+
+.box-contact-hyperras .form-floating {
+    padding-bottom: 20px;
+    width: 486px;
 }
 
-/*======================contact-link-hyperaschain=============================*/
-#contact-hyperachain .box-contact-hyperras .content-text-hyperras{
-    font-size: 33px;
-    line-height: 39px;
-    font-weight: 700;
-    text-align: left;
-    background: linear-gradient(to right, #B82393, #05B2D7);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.box-contact-hyperras .form-floating input {
+    background: #5e757f;
 }
-#contact-hyperachain .box-contact-hyperras .form-control{
-    background: #5e757e;
+
+.box-contact-hyperras .form-floating label {
     color: #fff;
 }
-#contact-hyperachain .button-box-submit button{
+
+.box-contact-hyperras .box-message input {
+    height: 150px;
+}
+
+.box-contact-hyperras .button-box-submit button {
     width: 100%;
     height: 53px;
     background: linear-gradient(89.08deg, #FF0097 31.35%, #00D3FF 98.51%);
@@ -824,43 +835,59 @@ footer .copyright {
     font-size: 20px;
 }
 
+.box-contact-hyperras .content-bg-contacthyperas {
+    bottom: 17%;
+    left: 51%;
+}
 
 
+/*======================contact-link-hyperaschain=============================*/
 
+.contact-link-hyperaschain .container>div {
+    padding-bottom: 30px;
+}
 
-
-
-
-#contact-hyperachain {
+.contact-link-hyperaschain {
     background: #172932;
 }
-#contact-hyperachain .contact-link-hyperaschain h1{
+
+.contact-link-hyperaschain h1 {
     padding: 130px 0px 8px 0px;
     font-size: 48px;
     font-weight: 700;
     color: #fff;
 }
-#contact-hyperachain .text-content-top{
+
+.contact-link-hyperaschain .text-content-top {
     font-size: 32px;
     line-height: 100%;
     background: linear-gradient(89.08deg, #FF0097 47.35%, #00D3FF 53.51%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    padding-bottom: 90px;
 }
-#contact-hyperachain .contact-link-hyperaschain .from-boxcontact{
+
+.contact-link-hyperaschain .from-boxcontact {
     width: 1116px;
     margin: 0 auto;
 }
 
-#contact-hyperachain .contact-link-hyperaschain .text-box-contact{
+.contact-link-hyperaschain .position-image {
+    display: inline-block;
+    bottom: 148%;
+    left: 40%;
+}
+
+.contact-link-hyperaschain .text-box-contact {
     font-size: 24px;
     line-height: 32px;
     font-weight: 400;
     color: #fff;
     text-align: center;
-    padding-top: 35px;
+    padding-top: 20px;
 }
-#contact-hyperachain .contact-link-hyperaschain .text-box-contact-1{
+
+.contact-link-hyperaschain .text-box-contact-1 {
     max-width: 356px;
     height: 122px;
     background: #233E4B;
@@ -869,109 +896,100 @@ footer .copyright {
     padding-bottom: 10px;
     border-radius: 10px;
 }
-#contact-hyperachain .contact-link-hyperaschain .text-box-contact-1 p{
+
+.contact-link-hyperaschain .text-box-contact-1 p {
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
     color: #fff;
     text-align: center;
 }
-#contact-hyperachain .roundPink img{
-    width: 40px;
-    height: 40px;
+
+.contact-link-hyperaschain .text-box-contact-1 img {
+    background-color: #C40075;
+    padding: 12px;
+    border-radius: 100px;
+    box-shadow: 0px 0px 9px 0px #ec008c;
 }
-#contact-hyperachain .round-pink-position{
-    bottom: 72%;
-    left: 40%;
-}
-#contact-hyperachain .contact-link-hyperaschain .text-box-contact-1 a{
+
+.contact-link-hyperaschain .text-box-contact-1 a {
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
     color: #01FFF0;
     text-decoration: underline;
 }
-/*=======================hyra-staking-2.blade.php===========================*/
-#hyra-staking-page-1{
+
+
+/*=======================hyra-staking-2===========================*/
+
+#hyra-staking {
     background: #172932;
-    /* background: red; */
-}
-#hyra-staking-page-1 h1{
-    color: #fff;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 65px;
-    padding: 59px 0px 98px 0px;
-}
-#hyra-staking-page-1 span{
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 27px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #fff;
-}
-#hyra-staking-page-1 .text-stake-hyra-top{
-    font-family: SVN-Gotham;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #fff;
-}
-#hyra-staking-page-1 .distance-stake-hyra-top{
-    padding-left: 20px;
-}
-#hyra-staking-page-1 .box-content-top-1{
-    padding: 33px 0px 11px 38px;
-    justify-content: space-between;
-}
-#hyra-staking-page-1 .image-hyra-staking{
-    padding-left: 38px;
-}
-#hyra-staking-page-1 .box-content-top-2{
-    justify-content: space-between;
-    padding-left: 38px;
 }
 
-#hyra-staking-page-1 .text-hyra-box{
-    font-family: SVN-Gotham;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 21px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #fff;
+#hyra-staking .page-hyra-staking .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background: #172932;
 }
-#hyra-staking-page-1 .text-number{
-    font-family: SVN-Gotham;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 22px;
-    letter-spacing: 0em;
-    text-align: left;
+
+
+/*======================= brand-kit page ===========================*/
+
+#brandKit {
     color: #fff;
-    padding-right: 28px;
+    background: url(../img/bg-brand-kit.svg) #125661 no-repeat center;
+    padding: 40px 0;
 }
-#hyra-staking-page-1 .text-start{
-    font-family: SVN-Gotham;
-    font-size: 14px;
-    font-style: italic;
-    font-weight: 700;
-    line-height: 19px;
-    color: #01FFF0;
-    padding-bottom: 9px;
-}
-#hyra-staking-page-1 .border-box-connect{
-    font-family: SVN-Gotham;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 22px;
-    color: #fff;
-    background: #EC008C;
-    border-radius: 5px;
+
+#brandKit .title-brandkit {
+    background: linear-gradient(89.08deg, #FF0097 22.35%, #00D3FF 83.51%);
+    border-radius: 8px;
     padding: 15px;
+    transform: scale(1.01);
+    margin-top: -2px;
+}
+
+#brandKit .icon {
+    color: #0C94B0;
+    padding: 10px;
+}
+
+#brandKit .bg {
+    background: #1C2F39;
+    border: 3px solid #2B4958;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 8px;
+}
+
+#brandKit .content {
+    padding: 15px 0 25px;
+    border-bottom: 1px solid #2B4958;
+    margin: 16px;
+}
+
+#brandKit .content-last {
+    padding: 15px 0;
+    border-bottom: 0;
+    margin: 16px;
+}
+
+#brandKit .hrBrand {
+    margin: 0 16px;
 }
 
 
+/* ========== hyra token page ========== */
+
+#hyraToken {
+    color: #fff;
+    background: url(../img/bg-hyra-token.png) #172933 no-repeat center bottom;
+}
+
+#hyraToken img {
+    image-rendering: -webkit-optimize-contrast;
+}
+
+#hyraToken .swap {
+    color: #01FFF0;
+}
