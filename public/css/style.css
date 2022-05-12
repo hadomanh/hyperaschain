@@ -258,6 +258,10 @@ header .navbar .dropdown-item:hover {
     height: 45px;
 }
 
+#homepage .environment .item .arrow :hover {
+    background: url('../img/arorowWhite.png');
+}
+
 
 /*========================== OVERVIEW PAGE ==========================*/
 
