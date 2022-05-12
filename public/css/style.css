@@ -917,55 +917,55 @@ footer .copyright {
     text-align: left;
     font-weight: 400;
 }
-/* =====================NEWS BLOG=================== */
-
-#news-blog {
+/* ===================== NEWS BLOG PAGE =================== */
+#newsPage {
     background: #172932;
-}
-
-#news-blog .page-news-blog h3 {
-    margin-top: 30px;
-    border-bottom: 4px solid #00D4FF;
-    border-image: linear-gradient(45deg, #FF0097, #00D4FF) 1;
-}
-
-#news-blog .page-news-blog input[type=text] {
-    float: left;
-    padding: 10px;
-    font-size: 17px;
-    border-radius: 5px;
-    width: 100%;
     position: relative;
-    z-index: 1;
-    border: 2px solid #FFFFFF;
 }
-
-#news-blog .page-news-blog .collum-blog {
-    background: #233E4B;
-    color: white;
-    border-radius: 10px;
-    padding: 10px;
+#newsPage .circleBlur-1 {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+}
+#newsPage .circleBlur-2 {
+    bottom: 0;
+    right: 0;
+}
+#newsPage .search .icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    color: #0C94B0;
+    font-size: 18px;
+}
+#newsPage .filter .title:after {
+    content: "";
+    background: red;
+    display: block;
+    height: 2px;
+    margin-top: 10px;
+    background: linear-gradient(to right, #FF0097, #00D3FF);
+}
+#newsPage .filter ul li {
+    margin: 15px 0;
+}
+#newsPage .listNews > div {
     margin-bottom: 20px;
 }
-
-#news-blog .page-news-blog .collum-blog:hover {
-    border: 2px solid #01F0FF;
+#newsPage .newsItem {
+    background: #233E4B;
+    box-shadow: 4px 4px 26px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    padding: 10px;
+    height: 100%;
 }
-
-#news-blog .page-news-blog .collum-blog .title-pink {
+#newsPage .newsItem .cate {
     background: #EC008C;
-    padding: 4px 15px;
-    font-size: 16px;
-    border-radius: 4px;
-    margin: 5px 0;
+    border-radius: 2px;
+    display: inline-block;
+    padding: 3px 10px;
 }
-
-#news-blog .page-news-blog .collum-blog .icon-user {
-    padding-right: 10px;
-    width: auto;
-}
-
-
 /* ===================== RESPONSITE ================= */
 @media (max-width: 992px) {
     
