@@ -567,7 +567,38 @@ footer .copyright {
     margin-left: 15px;
 }
 
-
+/* =====================hyra-staking================ */
+#hyra-staking {
+    background: #172932;
+}
+#hyra-staking .box-connect-wallet{
+    border: 1px solid red;
+}
+#hyra-staking .box-connect-wallet img{
+    width: 62px;
+    height: 62px;
+}
+#hyra-staking .icon-prink{
+    top: 49%;
+    left: 9%;
+}
+#hyra-staking .style-text{
+    font-style: italic;
+    color: #01FFF0  ;
+}
+#hyra-staking .icon-prink img{
+    background: #EC008C;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    box-shadow: 0px 2px 11px #ec008c;
+}
+#hyra-staking .box-connect{
+    background: #EC008C ;
+    border: 1px solid #EC008C;
+   padding: 13px;
+   cursor: pointer;
+}
 /* =====================HYPERAS-FAQ================ */
 
 #hyperas-faq .banner {
