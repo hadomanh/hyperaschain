@@ -140,7 +140,15 @@ section.banner h1 {
     height: 100%;
 }
 
-
+section .category .nav-link {
+    background-color: #172932 !important ;
+    color: white;
+    text-align: left;
+}
+ .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #00D3FF;
+}
 /*========================== HEADER ==========================*/
 
 header {
@@ -516,6 +524,12 @@ footer .copyright {
     padding: 15px 0;
     font-size: 13px;
 }
+/* =============== COMMUNITY ============== */
+#community {
+    background: url(../img/bg-community.png) no-repeat;
+    background-size: cover;
+    background-color: #243C48;
+
 /* ===================== COMMUNITY PAGE =================== */
 #communityPage {
     padding: 50px 0;
@@ -567,18 +581,19 @@ footer .copyright {
     height: 367px;
     background-size: cover;
 }
-
 #hyperas-faq .banne .search {
     position: relative;
 }
-
 #hyperas-faq .banner .search i {
     position: absolute;
     right: 263px;
-    bottom: 98px;
     color: #fff;
+    top: 282px;
 }
-
+#hyperas-faq  h3 {
+    box-shadow: 0 3px #01FFF0;
+    width: 20%;
+}
 #hyperas-faq .banner .search .form-control {
     height: 50px;
     padding: 15px;
@@ -586,59 +601,32 @@ footer .copyright {
     background: linear-gradient(344.23deg, rgba(85, 186, 208, 0.57) -6.56%, rgba(85, 186, 208, 0.26) 115.47%);
     border: 1.5px solid rgba(85, 198, 208, 0.4);
     box-shadow: 17px 0px 28px rgba(85, 198, 208, 0.15);
-    /* backdrop-filter: blur(9px); */
     border-radius: 10px;
 }
-
 #hyperas-faq .banner .search .form-control:focus {
     background-color: #fff;
     box-shadow: none;
     border-color: #eee;
 }
-
-#hyperas-faq .categori {
+#hyperas-faq  {
     background: #172932;
-}
-
-#hyperas-faq .categori h3 {
-    box-shadow: 0 3px #01FFF0;
-    width: 20%;
-}
-
-#hyperas-faq .categori .page-hyperas-faq {
     color: white;
     text-align: left;
 }
-
-#hyperas-faq .categori .page-hyperas-faq .nav-link {
-    background-color: #172932 !important;
-    color: white;
-    text-align: left;
-}
-
-#hyperas-faq .categori .page-hyperas-faq .nav-pills .nav-link.active,
-.nav-pills .show>.nav-link {
-    color: #00D3FF;
-}
-
-#hyperas-faq .categori .page-hyperas-faq .tab-content p {
+#hyperas-faq .page-hyperas-faq .tab-content p {
     box-shadow: 0 1px white;
-    width: 100%;
-    color: white;
     padding-bottom: 20px;
+    margin: 15px;
 }
-
-#hyperas-faq .categori .page-hyperas-faq .tab-content .collapse .card {
+#hyperas-faq .page-hyperas-faq .tab-content .collapse .card {
     background: #172932;
 }
-
-#hyperas-faq .categori .page-hyperas-faq .tab-content i {
+#hyperas-faq .page-hyperas-faq .tab-content i {
     display: flex;
     justify-content: flex-end;
-    padding-right: 20px;
+    margin-top: -15px;
     color: #01FFF0;
 }
-
 
 /* #hyperas-faq .categori .page-hyperas-faq h4 {
     background: linear-gradient(89.08deg, #FF0097 2.35%, #00D3FF 7.51%);
@@ -648,52 +636,16 @@ footer .copyright {
     text-fill-color: transparent;
     text-align: left;
     font-weight: 400;
-} */
-
-#hyperas-faq .blur-1 {
-    border-radius: 50%;
-    background-color: #01F0FF;
-    filter: blur(188px);
-    opacity: .8;
-    position: absolute;
-    width: 386px;
-    height: 501px;
-    left: 1133px;
-    top: 279px;
 }
-
-#hyperas-faq .blur-2 {
-    border-radius: 50%;
-    background-color: #01F0FF;
-    filter: blur(239px);
-    opacity: .8;
-    position: absolute;
-    width: 501px;
-    height: 501px;
-    left: -218px;
-    top: 1810px;
-}
-
-
 /* =====================NEWS BLOG=================== */
-
 #news-blog {
     background: #172932;
 }
-
 #news-blog .page-news-blog h3 {
-    background: linear-gradient(89.08deg, #FF0097 13.35%, #00D3FF 36.51%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
-    text-align: left;
-    font-weight: 700;
     margin-top: 30px;
     border-bottom: 4px solid #00D4FF;
     border-image: linear-gradient(45deg, #FF0097, #00D4FF) 1;
 }
-
 #news-blog .page-news-blog input[type=text] {
     float: left;
     padding: 10px;
@@ -704,77 +656,30 @@ footer .copyright {
     z-index: 1;
     border: 2px solid #FFFFFF;
 }
-
 #news-blog .page-news-blog .collum-blog {
     background: #233E4B;
     color: white;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    padding: 9px;
     border-radius: 10px;
-    position: relative;
-    z-index: 1;
+    padding: 10px;
+    margin-bottom: 20px;
 }
-
-#news-blog .page-news-blog .nav-link {
-    background-color: #172932 !important;
-    color: white;
-    text-align: left;
+img{
+    width: 100%;
 }
-
-#news-blog .page-news-blog button span {
-    color: white;
-    position: relative;
-    z-index: 1;
-}
-
-#news-blog .page-news-blog .nav-pills .nav-link.active,
-.nav-pills .show>.nav-link {
-    color: #00D3FF;
-}
-
 #news-blog .page-news-blog .collum-blog:hover {
     border: 2px solid #01F0FF;
 }
-
 #news-blog .page-news-blog .collum-blog .title-pink {
     background: #EC008C;
     padding: 4px 15px;
     font-size: 16px;
     border-radius: 4px;
-    margin: 10px 0;
+    margin: 5px 0;
 }
-
-#news-blog .page-news-blog .collum-blog .text-blog img {
+#news-blog .page-news-blog .collum-blog .icon-user{
     padding-right: 10px;
+    width: auto;
 }
-
-#news-blog .page-news-blog .blur-news {
-    border-radius: 50%;
-    background-color: #01F0FF;
-    filter: blur(195px);
-    opacity: .8;
-    position: absolute;
-    width: 501px;
-    height: 501px;
-    left: 499px;
-    top: 209px;
-}
-
-#news-blog .page-news-blog .blur-blog {
-    border-radius: 50%;
-    background-color: #01F0FF;
-    filter: blur(195px);
-    opacity: .8;
-    position: absolute;
-    width: 501px;
-    height: 501px;
-    left: 1018px;
-    top: 1206px;
-}
-
-
 /* ===================== RESPONSITE ================= */
 
 @media (max-width: 1440px) {
@@ -788,17 +693,6 @@ footer .copyright {
         height: 501px;
         left: 1127px;
         top: 169px;
-    }
-    #news-blog .page-news-blog .blur-blog {
-        border-radius: 50%;
-        background-color: #01F0FF;
-        filter: blur(195px);
-        opacity: .8;
-        position: absolute;
-        width: 501px;
-        height: 501px;
-        left: 937px;
-        top: 1206px;
     }
 }
 
@@ -835,31 +729,6 @@ footer .copyright {
         left: 0px;
         top: 541px;
         background: #243C48;
-    }
-}
-
-@media (max-width: 1024px) {
-    #news-blog .page-news-blog .blur-news {
-        border-radius: 50%;
-        background-color: #01F0FF;
-        filter: blur(195px);
-        opacity: .8;
-        position: absolute;
-        width: 501px;
-        height: 501px;
-        left: 400px;
-        top: 209px;
-    }
-    #news-blog .page-news-blog .blur-blog {
-        border-radius: 50%;
-        background-color: #01F0FF;
-        filter: blur(195px);
-        opacity: .8;
-        position: absolute;
-        width: 501px;
-        height: 501px;
-        left: 521px;
-        top: 1206px;
     }
 }
 
@@ -902,28 +771,6 @@ footer .copyright {
         height: 501px;
         left: 209px;
         top: 0;
-    }
-    #news-blog .page-news-blog .blur-news {
-        border-radius: 50%;
-        background-color: #01F0FF;
-        filter: blur(195px);
-        opacity: .8;
-        position: absolute;
-        width: 501px;
-        height: 501px;
-        left: 218px;
-        top: 209px;
-    }
-    #news-blog .page-news-blog .blur-blog {
-        border-radius: 50%;
-        background-color: #01F0FF;
-        filter: blur(195px);
-        opacity: .8;
-        position: absolute;
-        width: 501px;
-        height: 501px;
-        left: 265px;
-        top: 1206px;
     }
 }
 
@@ -982,28 +829,6 @@ footer .copyright {
         height: 501px;
         left: -83px;
         top: 0;
-    }
-    #news-blog .page-news-blog .blur-news {
-        border-radius: 50%;
-        background-color: #01F0FF;
-        filter: blur(195px);
-        opacity: .8;
-        position: absolute;
-        width: 501px;
-        height: 501px;
-        left: -185px;
-        top: 209px;
-    }
-    #news-blog .page-news-blog .blur-blog {
-        border-radius: 50%;
-        background-color: #01F0FF;
-        filter: blur(195px);
-        opacity: .8;
-        position: absolute;
-        width: 501px;
-        height: 501px;
-        left: -185px;
-        top: 1206px;
     }
 }
 
