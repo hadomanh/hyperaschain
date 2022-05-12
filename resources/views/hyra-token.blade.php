@@ -15,13 +15,13 @@
                 </div>
                 <div class="col-md-6 d-flex align-items-center">
                     <div>
-                        <h1 class="titleSection">What Is HYRA Token?</h1>
+                        <h1 class="sectionHeading">What Is HYRA Token?</h1>
                         <p>HYRA is the primary token on the Hyperas network. Hyra is used for securing the network through staking, for governance, for payments, and for fees.</p>
                     </div>
 
                 </div>
                 <div class="text-center">
-                    <h1 class="titleSection">What is HYRA Token used for?</h1>
+                    <h1 class="sectionHeading">What is HYRA Token used for?</h1>
                     <div class="row d-flex justify-content-center pt-5">
                         <div class="col-md-3 text-technology-content text-center">
                             <img class="icon-technology" src="{{ asset('img/token-1.png') }}" alt="">
@@ -48,7 +48,7 @@
                             </p>
                         </div>
                     </div>
-                    <h1 class="titleSection">How can i buy HYRA ?</h1>
+                    <h1 class="sectionHeading">How can i buy HYRA ?</h1>
                     <div class="row justify-content-center pt-4 pb-10">
                         <div class="col-md-2 swap">
                             <img src="{{ asset('img/pancake.png') }}" alt="" class="pb-3">

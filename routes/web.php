@@ -45,9 +45,9 @@ Route::get('/pagination/hyra-staking-2', function () {
 })->name('/pagination/hyra-staking-2');
 
 
-Route::get('/hyperas-faq', function () {
-    return view('hyperas-faq');
-})->name('hyperas-faq');
+Route::get('/hyra-faq', function () {
+    return view('hyra-faq');
+})->name('hyra-faq');
 Auth::routes();
 
 Route::get('/news-blog', function () {
