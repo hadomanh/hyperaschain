@@ -8,7 +8,7 @@
 	<meta id="PagKeywords" name="keywords" content="HYPERAS CHAIN" />
 	<meta id="PagDescription" name="description" content="" />
 	<link id="LinkIcon" href="" type="image/x-icon" rel="shortcut icon" />
-	<link rel="icon" href="img/favicon.png" type="image/ico" />
+	<link rel="icon" href="{{ asset('img/favicon.png') }}" type="image/ico" />
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />

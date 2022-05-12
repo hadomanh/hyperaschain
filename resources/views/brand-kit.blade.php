@@ -10,7 +10,7 @@
     <section class="listGraphic pt-0">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 pb-5">
                     <div class="item">
                         <h5 class="titleBrandkit">Branding guideline</h5>
                         <table class="table text-white mb-0">

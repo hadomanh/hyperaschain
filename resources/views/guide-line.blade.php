@@ -1,91 +1,65 @@
 @extends('layouts.app')
 
 @section('content')
-<div id="guideLinePage"  class="text-center">
-    <section class="banner">
-        <h1 class=" text-light">
-            GUILDLINE
-        </h1>
-        <p class=" content-text-guildline text-light">
-            A decentralized exchange where cryptocurrencies and other digital assets (NFTs) are listed. Hyra Dex is considered a great step <br> forward in the mission of currency liberalization, decentralized crypto-assets of the Hyperas Chain ecosystem...
-        </p>
-    </section>
-    <section class="guildline-content-top text-center">
-        <div class="container">
-            <div class="row d-flex">
-                <div class="col-3">
+<div id="guideLinePage">
+    <span class="circleBlur-1"></span>
+    <span class="circleBlur-2"></span>
+    <div class="container position-relative">
+        <section class="banner text-center">
+            <h1 class="mb-5">GUILDLINE</h1>
+            <p class="mb-0">A decentralized exchange where cryptocurrencies and other digital assets (NFTs) are listed. Hyra Dex is considered a great step <br> forward in the mission of currency liberalization, decentralized crypto-assets of the Hyperas Chain ecosystem...</p>
+        </section>
+        <section class="steps text-center">
+            <div class="row g-0">
+                <div class="col-md-3">
                     <div class="roundPink">
-                        <img src="{{ asset('img/Framee.png') }}" alt="">
+                        <img src="{{ asset('img/icon-step-1.png') }}" alt="">
                     </div>
-                    <h3 class="text-light progress-after position-relative">
-                        Step 1
-                    </h3>
-                    <p class="text-light">
-                        Fill out the registration form to send us information.
-                    </p>
+                    <h3 class="stepName">Step 1</h3>
+                    <p class="px-3">Fill out the registration form to send us information.</p>
                 </div>
-                <div class="col-3 ">   
+                <div class="col-md-3">
                     <div class="roundPink">
-                        <img src="{{ asset('img/Framee1.png') }}" alt="">
+                        <img src="{{ asset('img/icon-step-2.png') }}" alt="">
                     </div>
-                    <h3 class="text-light progress-after position-relative">
-                        Step 2
-                    </h3>
-                    <p class="text-light">
-                        Hyperas conducts internal   of project information before proceeding to digitize assets.
-                    </p>
+                    <h3 class="stepName">Step 2</h3>
+                    <p class="px-3">Hyperas conducts internal   of project information before proceeding to digitize assets.</p>
                 </div>
-                <div class="col-3">
+                <div class="col-md-3">
                     <div class="roundPink">
-                        <img src="{{ asset('img/New_Symbol_4_copy.png') }}" alt="">
+                        <img src="{{ asset('img/icon-step-3.png') }}" alt="">
                     </div>
-                    <h3 class="text-light progress-after position-relative">
-                        Step 3
-                    </h3>
-                    <p class="text-light">
-                        Digitize assets through Hyperas Chain
-                    </p>
+                    <h3 class="stepName">Step 3</h3>
+                    <p class="px-3">Digitize assets through Hyperas Chain</p>
                 </div>
-                <div class="col-3">
-                   
+                <div class="col-md-3">
                     <div class="roundPink">
-                        <img src="{{ asset('img/Framee3.png') }}" alt="">
+                        <img src="{{ asset('img/icon-step-4.png') }}" alt="">
                     </div>
-                    <h3 class="text-light position-relative">
-                        Step 4
-                    </h3>
-                    <p class="text-light">
-                        Publish digital assets to appropriate platforms depending on the needs of the project.
-                    </p>
+                    <h3 class="stepName">Step 4</h3>
+                    <p class="px-3">Publish digital assets to appropriate platforms depending on the needs of the project.</p>
                 </div>
             </div>
-        </div>
-    </section>
-    <section class="box-contact-hyperras ">
-        <div class="container">
-            <div class="row">
-                <div class="col-6">
-
-                </div>
-                <div class=" col-6 content-bg-contacthyperas">
-                    <p class="content-text-hyperras">
-                        Contact Hyperas
-                    </p>
+        </section>
+        <section class="contactFormElement bgGrad rounded-10">
+            <div class="inner rounded-10">
+                <div class="row">
+                    <div class="col-md-6 offset-md-6">
+                        <h3 class="sectionHeading">Contact Hyperas</h3>
                         <div class="mb-3">
-                            <input type="text" class="form-control form-control-lg" placeholder="Your Name*">
+                            <input type="text" class="form-control" placeholder="Your Name*">
                         </div>
                         <div class="mb-3">
-                            <input type="text" class="form-control form-control-lg" placeholder="Your Email*">
+                            <input type="text" class="form-control" placeholder="Your Email*">
                         </div>
                         <div class="mb-3">
-                            <input class="form-control form-control-lg "  placeholder ="Message*" rows="3"></input>
+                            <textarea class="form-control" placeholder="Message*" rows="6"></textarea>
                         </div>
-                        <div class="button-box-submit">
-                            <button type="button" class="btn btn-primary"><a href="">SUBMIT</a></button>
-                        </div>
+                        <button type="button" class="btn btn-lg w-100 btnGrad">SUBMIT</button>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
 </div>
 @endsection

@@ -1,83 +1,70 @@
 @extends('layouts.app')
 
 @section('content')
-<div id="contact-hyperachain" class="text-center">
-    <section class="banner">
-    <h1 class="">
-                CONTACT
-            </h1>
-            <p class=" text-content-top">
-                Get in touch with the Hyperas team
-            </p>
-    </section>
-    <section class="contact-link-hyperaschain">
-        <div class="container">
-            
-            <div class="row box-contact-world justify-content-between from-boxcontact">
-                <div class="col-4 text-box-contact-1 position-relative">
-                    <div class=" roundPink position-absolute round-pink-position">
-                        <img src="{{ asset('img/Vector-contact.png')}}" alt="">
-                    </div>
-                    <h3 class="text-box-contact">
-                        For general chat
-                    </h3>
-                    <p>
-                        Join the <a href="Telegram">Telegram</a>
-                    </p>
-                    
-                </div>
-                <div class="col-4 text-box-contact-1 position-relative">
-                <div class=" roundPink position-absolute round-pink-position">
-                        <img src="{{ asset('img/Framecontact.png')}}" alt="">
-                    </div>
-                    <h3 class="text-box-contact">
-                        For press inquiries
-                    </h3>
-                    <p>
-                        Please fill out this <a href="Form">Form</a>
-                    </p>
-                </div>
-                <div class="col-4 text-box-contact-1 position-relative">
-                <div class=" roundPink position-absolute round-pink-position">
-                        <img src="{{ asset('img/Framecontact1.png')}}" alt="">
-                    </div>
-                    <h3 class="text-box-contact">
-                        For all other inquiries
-                    </h3>
-                    <div class="text-center">
-                        <p>
-                            <a href="Hyperas.com/FAQ">Hyperas.com/FAQ</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div> 
-    </session>
-    <section class="box-contact-hyperras ">
-        <div class="container">
+<div id="contactPage">
+    <span class="circleBlur-1"></span>
+    <span class="circleBlur-2"></span>
+    <div class="container position-relative">
+        <section class="banner text-center">
+            <h1>CONTACT</h1>
+            <p class="fs-3 text-gradient">Get in touch with the Hyperas team</p>
+        </section>
+        <section class="text-center">
             <div class="row">
-                <div class="col-6">
-
+                <div class="col-md-4">
+                    <div class="contactWrap">
+                        <div class="contactItem">
+                            <div class="roundPink">
+                                <img src="{{ asset('img/Vector-contact.png')}}" alt="">
+                            </div>
+                            <h4>For general chat</h4>
+                            <div>Join the <a href="#">Telegram</a></div>
+                        </div>
+                    </div>
                 </div>
-                <div class=" col-6 ">
-                    <p class="content-text-hyperras">
-                        Contact Hyperas
-                    </p>
-                        <div class="mb-3">
-                            <input type="text" class="form-control form-control-lg" placeholder="Your Name*">
+                <div class="col-md-4">
+                    <div class="contactWrap">
+                        <div class="contactItem">
+                            <div class="roundPink">
+                                <img src="{{ asset('img/Framecontact.png')}}" alt="">
+                            </div>
+                            <h4>For press inquiries</h4>
+                            <div>Please fill out this <a href="#">Form</a></div>
                         </div>
-                        <div class="mb-3">
-                            <input type="text" class="form-control form-control-lg" placeholder="Your Email*">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="contactWrap">
+                        <div class="contactItem">
+                            <div class="roundPink">
+                                <img src="{{ asset('img/Framecontact1.png')}}" alt="">
+                            </div>
+                            <h4>For all other inquiries</h4>
+                            <div><a href="#">Hyperas.com/FAQ</a></div>
                         </div>
-                        <div class="mb-3">
-                            <input class="form-control form-control-lg " placeholder="Message*" rows="3">
-                        </div>
-                        <div class="button-box-submit">
-                            <button type="button" class="btn btn-primary"><a href="">SUBMIT</a></button>
-                        </div>
+                    </div>            
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+        <section class="contactFormElement bgGrad rounded-10">
+            <div class="inner rounded-10">
+                <div class="row">
+                    <div class="col-md-6 offset-md-6">
+                        <h3 class="sectionHeading">Contact Hyperas</h3>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Your Name*">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Your Email*">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" placeholder="Message*" rows="6"></textarea>
+                        </div>
+                        <button type="button" class="btn btn-lg w-100 btnGrad">SUBMIT</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 </div>
 @endsection
