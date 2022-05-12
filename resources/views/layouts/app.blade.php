@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<!-- Main Tag -->
 	<title>HYPERAS CHAIN</title>
-	<meta id="PagKeywords" name="keywords" content="KING DEX" />
+	<meta id="PagKeywords" name="keywords" content="HYPERAS CHAIN" />
 	<meta id="PagDescription" name="description" content="" />
 	<link id="LinkIcon" href="" type="image/x-icon" rel="shortcut icon" />
 	<link rel="icon" href="img/favicon.png" type="image/ico" />
@@ -17,10 +17,10 @@
 	<!-- Facebook Tag -->
 	<meta property="og:url" content="" />
 	<meta property="og:type" content="website" />
-	<meta property="og:title" content="KING DEX" />
-	<meta property="og:description" content="KING DEX" />
+	<meta property="og:title" content="HYPERAS CHAIN" />
+	<meta property="og:description" content="HYPERAS CHAIN" />
 	<meta property="og:image" content="" />
-	<meta property="og:site_name" content="KING DEX" />
+	<meta property="og:site_name" content="HYPERAS CHAIN" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
@@ -69,9 +69,9 @@
 						</ul>
 						<h5>Company</h5>
 						<ul class="list-unstyled">
-							<li><a href="">About us</a></li>
-							<li><a href="">FAQs</a></li>
-							<li><a href="">Contact us</a></li>
+							<li><a href="{{ route('about-us')}}">About us</a></li>
+							<li><a href="{{ route('hyra-faq')}}">FAQs</a></li>
+							<li><a href="{{ route('hyra-contact')}}">Contact us</a></li>
 						</ul>
 					</div>
 					<div class="col-md-9">
@@ -79,7 +79,7 @@
 							<div class="col-md-3">
 								<h5>Technology</h5>
 								<ul class="list-unstyled">
-									<li><a href="">Overview</a></li>
+									<li><a href="{{ route('overview')}}">Overview</a></li>
 									<li><a href="">Stake</a></li>
 									<li><a href="">Roadmap</a></li>
 									<li><a href="">Whitepaper</a></li>
@@ -106,9 +106,9 @@
 							<div class="col-md-3">
 								<h5>Resource</h5>
 								<ul class="list-unstyled">
-									<li><a href="">Brand Kit</a></li>
-									<li><a href="">Blog</a></li>
-									<li><a href="">Guildeline</a></li>
+									<li><a href="{{ route('brand-kit')}}">Brand Kit</a></li>
+									<li><a href="{{ route('news-blog')}}">Blog</a></li>
+									<li><a href="{{ route('guide-line')}}">Guildeline</a></li>
 								</ul>
 							</div>
 						</div>
@@ -117,7 +117,7 @@
 			</div>
 			<div class="text-center copyright">
 				<p class="mb-1">Copyright © 2021 - 2022 Hyperaschain.com. All rights reserved.</p>
-				<a href="">Privacy Notice</a> | <a href="">Legal</a> | <a href="">Status</a> | <a href="">Cookie Preferences</a>
+				<a href="#">Privacy Notice</a> | <a href="#">Legal</a> | <a href="#">Status</a> | <a href="#">Cookie Preferences</a>
 			</div>
 		</div>
 	</footer>
