@@ -1245,8 +1245,7 @@ footer .copyright {
 /* ========== hyra validater page ========== */
 
 #hyraValidater {
-    background: url(../img/bg-validator.png) #172933 no-repeat center;
-    color: #fff;
+    background: url(../img/bg-validator.jpg) #1b2a32 no-repeat center top / cover;
 }
 
 #hyraValidater .number {
