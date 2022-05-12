@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
+
 body {
     font-size: 16px;
     font-family: 'Source Sans Pro', sans-serif;
@@ -154,14 +155,16 @@ section.banner h1 {
 }
 
 section .category .nav-link {
-    background-color: #172932 !important ;
+    background-color: #172932 !important;
     color: white;
     text-align: left;
 }
- .nav-pills .nav-link.active,
+
+.nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
     color: #00D3FF;
 }
+
 /*========================== HEADER ==========================*/
 
 header {
@@ -550,6 +553,7 @@ footer .copyright {
     padding: 15px 0;
     font-size: 13px;
 }
+
 /* =============== COMMUNITY ============== */
 #community {
     background: url(../img/bg-community.png) no-repeat;
@@ -574,19 +578,23 @@ footer .copyright {
     height: 367px;
     background-size: cover;
 }
+
 #hyperas-faq .banne .search {
     position: relative;
 }
+
 #hyperas-faq .banner .search i {
     position: absolute;
     right: 263px;
     color: #fff;
     top: 282px;
 }
-#hyperas-faq  h3 {
+
+#hyperas-faq h3 {
     box-shadow: 0 3px #01FFF0;
     width: 20%;
 }
+
 #hyperas-faq .banner .search .form-control {
     height: 50px;
     padding: 15px;
@@ -596,24 +604,29 @@ footer .copyright {
     box-shadow: 17px 0px 28px rgba(85, 198, 208, 0.15);
     border-radius: 10px;
 }
+
 #hyperas-faq .banner .search .form-control:focus {
     background-color: #fff;
     box-shadow: none;
     border-color: #eee;
 }
-#hyperas-faq  {
+
+#hyperas-faq {
     background: #172932;
     color: white;
     text-align: left;
 }
+
 #hyperas-faq .page-hyperas-faq .tab-content p {
     box-shadow: 0 1px white;
     padding-bottom: 20px;
     margin: 15px;
 }
+
 #hyperas-faq .page-hyperas-faq .tab-content .collapse .card {
     background: #172932;
 }
+
 #hyperas-faq .page-hyperas-faq .tab-content i {
     display: flex;
     justify-content: flex-end;
@@ -621,7 +634,7 @@ footer .copyright {
     color: #01FFF0;
 }
 
- #hyperas-faq .page-hyperas-faq h4 {
+#hyperas-faq .page-hyperas-faq h4 {
     background: linear-gradient(89.08deg, #FF0097 2.35%, #00D3FF 7.51%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -629,22 +642,26 @@ footer .copyright {
     text-fill-color: transparent;
     text-align: left;
     font-weight: 400;
-} 
+}
+
 /* =====================NEWS BLOG=================== */
 #news-blog {
     background: #172932;
 }
+
 #news-blog .page-news-blog h3 {
     margin-top: 30px;
     border-bottom: 4px solid #00D4FF;
     border-image: linear-gradient(45deg, #FF0097, #00D4FF) 1;
 }
-#news-blog .page-news-blog .input-group i{
+
+#news-blog .page-news-blog .input-group i {
     color: black;
     position: relative;
     top: 10px;
     left: -30px;
 }
+
 #news-blog .page-news-blog .collum-blog {
     background: #233E4B;
     color: white;
@@ -652,9 +669,11 @@ footer .copyright {
     padding: 10px;
     margin-bottom: 20px;
 }
+
 #news-blog .page-news-blog .collum-blog:hover {
-    border: 2px solid #01F0FF;
+    box-shadow: 0px 0px 10px 1px #01F0FF;
 }
+
 #news-blog .page-news-blog .collum-blog .title-pink {
     background: #EC008C;
     padding: 4px 15px;
@@ -662,10 +681,12 @@ footer .copyright {
     border-radius: 4px;
     margin: 5px 0;
 }
-#news-blog .page-news-blog .collum-blog .icon-user{
+
+#news-blog .page-news-blog .collum-blog .icon-user {
     padding-right: 10px;
     width: auto;
 }
+
 /* ===================== RESPONSITE ================= */
 
 @media (max-width: 1440px) {
@@ -708,6 +729,7 @@ footer .copyright {
         left: 982px;
         top: 169px;
     }
+
     #aboutPage .page-about .bg-our-vison {
         position: absolute;
         width: 80%;
@@ -724,10 +746,12 @@ footer .copyright {
     #aboutPage .investor-partners .collum {
         width: 40%;
     }
+
     #aboutPage .investor-partners .collum1 {
         position: relative;
         width: 40%;
     }
+
     #aboutPage .page-about .blur-1 {
         border-radius: 50%;
         background-color: #01F0FF;
@@ -739,6 +763,7 @@ footer .copyright {
         left: 424px;
         top: 169px;
     }
+
     #aboutPage .page-about .bg-our-vison {
         position: absolute;
         width: 80%;
@@ -747,6 +772,7 @@ footer .copyright {
         top: 624px;
         background: #243C48;
     }
+
     #community .blur-community {
         border-radius: 50%;
         background-color: #01F0FF;
@@ -764,10 +790,12 @@ footer .copyright {
     #aboutPage .investor-partners .collum {
         width: 60%;
     }
+
     #aboutPage .investor-partners .collum1 {
         position: relative;
         width: 70%;
     }
+
     #aboutPage .page-about .blur-1 {
         border-radius: 50%;
         background-color: #01F0FF;
@@ -779,6 +807,7 @@ footer .copyright {
         left: -24px;
         top: 169px;
     }
+
     #aboutPage .page-about .bg-our-vison {
         position: absolute;
         width: 100%;
@@ -787,6 +816,7 @@ footer .copyright {
         top: 895px;
         background: #243C48;
     }
+
     #community {
         background: url(../img/bg-community.png) no-repeat;
         height: 900px;
@@ -794,17 +824,20 @@ footer .copyright {
         background-size: cover;
         background-color: #172932;
     }
+
     #community .page-community .content .img-page-community {
         display: flex;
         justify-content: center;
         padding: 0;
     }
+
     #community .banner-community h1 {
         font-weight: 700;
         font-size: 36px;
         color: white;
         position: absolute;
     }
+
     #community .blur-community {
         border-radius: 50%;
         background-color: #01F0FF;
@@ -1029,6 +1062,59 @@ footer .copyright {
     background: #172932;
 }
 
+#hyra-staking .page-hyra-staking .accordion-item .accordion-button,
+.accordion-body {
+    background: #172932;
+    color: white;
+    padding: 25px;
+}
+
+.accordion-button {
+    box-shadow: inset 0 -1px 0 #ffffff
+}
+
+#hyra-staking .page-hyra-staking .accordion-button::after {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    content: "";
+    background-image: url(../img/close-selec.png);
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    transition: transform .2s ease-in-out;
+}
+
+#hyra-staking .page-hyra-staking .accordion-button:not(.collapsed)::after {
+    background-image: url(../img/close-selec.png);
+    transform: rotate(-180deg);
+}
+
+#hyra-staking .page-hyra-staking .page-cave .accordion-item {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(344.23deg, rgba(85, 186, 208, 0.285) -6.56%, rgba(85, 186, 208, 0.13) 115.47%);
+    border-radius: 10px;
+}
+
+#hyra-staking .page-hyra-staking .page-cave .accordion-item p {
+    margin-bottom: 0;
+}
+
+#hyra-staking .page-hyra-staking .page-cave .accordion-item a {
+    color: hsla(176, 100%, 50%, 1);
+}
+
+.title-shadow {
+    text-shadow: 0 -0.5em 0.2em #fff, 0.01em -0.02em 0.15em rgb(0, 255, 229), 0.01em -0.05em 0.15em rgb(0, 234, 255), 0.02em -0.15em 0.2em rgb(0, 255, 251), 0.04em -0.2em 0.3em rgb(0, 255, 251), 0.05em -0.25em 0.4em rgb(0, 255, 255), 0.06em -0.2em 0.9em rgb(0, 255, 255), 0.1em -0.1em 1em rgb(0, 255, 242);
+    color: #172932;
+    font-size: 30px ;
+    font-family: 'SVN-Gotham';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+}
+
 
 /*======================= brand-kit page ===========================*/
 
@@ -1095,6 +1181,11 @@ footer .copyright {
     padding-bottom: 10.5rem;
 }
 
+.icon-earn {
+    position: absolute;
+    left: 44px;
+    top: 66px;
+}
 
 /* ========== hyra validater page ========== */
 
