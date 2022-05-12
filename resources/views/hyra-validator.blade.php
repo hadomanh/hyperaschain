@@ -2,7 +2,7 @@
 
 @section('content')
 
-<div id="hyraValidater">
+<div id="hyraValidator">
     <div class="container">
         <section class="banner text-center">
             <h1 class="mb-0">HYPERAS VALIDATOR</h1>
