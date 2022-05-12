@@ -266,42 +266,6 @@
                                     Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
                                 </div>
                             </div>
-                            <!-- <p data-bs-toggle="collapse" href="#collapseExample15" aria-expanded="false" aria-controls="collapseExample">
-                            How many chains can Hyperas connect?
-                                <i class="bi bi-chevron-right"></i>
-                            </p>
-                            <div class="collapse" id="collapseExample15">
-                                <div class="card card-body">
-                                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                                </div>
-                            </div>
-                            <p data-bs-toggle="collapse" href="#collapseExample16" aria-expanded="false" aria-controls="collapseExample">
-                            Can Hyperas connect any blockchain?
-                                <i class="bi bi-chevron-right"></i>
-                            </p>
-                            <div class="collapse" id="collapseExample16">
-                                <div class="card card-body">
-                                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                                </div>
-                            </div>
-                            <p data-bs-toggle="collapse" href="#collapseExample17" aria-expanded="false" aria-controls="collapseExample">
-                            At what stage is development now?
-                                <i class="bi bi-chevron-right"></i>
-                            </p>
-                            <div class="collapse" id="collapseExample17">
-                                <div class="card card-body">
-                                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                                </div>
-                            </div>
-                            <p data-bs-toggle="collapse" href="#collapseExample18" aria-expanded="false" aria-controls="collapseExample">
-                            When did Hyperas launch?
-                                <i class="bi bi-chevron-right"></i>
-                            </p>
-                            <div class="collapse" id="collapseExample18">
-                                <div class="card card-body">
-                                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                                </div>
-                            </div> -->
                         </div>
                         <div class="text-center"> SEE MORE</div>
                     </div>
@@ -326,42 +290,6 @@
                                     Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
                                 </div>
                             </div>
-                            <!-- <p data-bs-toggle="collapse" href="#collapseExample21" aria-expanded="false" aria-controls="collapseExample">
-                            How many chains can Hyperas connect?
-                                <i class="bi bi-chevron-right"></i>
-                            </p>
-                            <div class="collapse" id="collapseExample21">
-                                <div class="card card-body">
-                                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                                </div>
-                            </div>
-                            <p data-bs-toggle="collapse" href="#collapseExample22" aria-expanded="false" aria-controls="collapseExample">
-                            Can Hyperas connect any blockchain?
-                                <i class="bi bi-chevron-right"></i>
-                            </p>
-                            <div class="collapse" id="collapseExample22">
-                                <div class="card card-body">
-                                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                                </div>
-                            </div>
-                            <p data-bs-toggle="collapse" href="#collapseExample23" aria-expanded="false" aria-controls="collapseExample">
-                            At what stage is development now?
-                                <i class="bi bi-chevron-right"></i>
-                            </p>
-                            <div class="collapse" id="collapseExample23">
-                                <div class="card card-body">
-                                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                                </div>
-                            </div>
-                            <p data-bs-toggle="collapse" href="#collapseExample24" aria-expanded="false" aria-controls="collapseExample">
-                            When did Hyperas launch?
-                                <i class="bi bi-chevron-right"></i>
-                            </p>
-                            <div class="collapse" id="collapseExample24">
-                                <div class="card card-body">
-                                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                                </div>
-                            </div> -->
                         </div>
                         <div class="text-center"> SEE MORE</div>
                     </div>
