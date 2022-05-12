@@ -3,11 +3,11 @@
 @section('content')
 
 <div id="hyraValidater">
-    <section class="banner text-center">
-        <h1 class="mb-0">HYPERAS VALIDATOR</h1>
-    </section>
-    <section>
-        <div class="container">
+    <div class="container">
+        <section class="banner text-center">
+            <h1 class="mb-0">HYPERAS VALIDATOR</h1>
+        </section>
+        <section>
             <div class="row d-flex justify-content-center">
                 <div class="col-md-4">
                     <div class="bgNumber">
@@ -54,7 +54,8 @@
                 </div>
 
             </div>
-    </section>
+        </section>
+    </div>
 </div>
 
 
