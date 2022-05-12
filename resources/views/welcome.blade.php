@@ -8,20 +8,20 @@
 			<div class="row align-items-center">
 				<div class="col-md-auto">
 					<h1 class="sectionHeading mb-0">Hyperas Chain</p>
-					<h3 class="subHeading">The chain of hyper assets</h3>
-					<div class="row mt-4">
-						<div class="col-md-6">
-							<a href="#" class="d-block btn btnBlue boxShadowBlue text-center">Smart Contract</a>
+						<h3 class="subHeading">The chain of hyper assets</h3>
+						<div class="row mt-4">
+							<div class="col-md-6">
+								<a href="#" class="d-block btn btnBlue boxShadowBlue text-center">Smart Contract</a>
+							</div>
+							<div class="col-md-6">
+								<a href="#" class="d-block btn btnPink boxShadowBlue">Smart Contract</a>
+							</div>
 						</div>
-						<div class="col-md-6">
-							<a href="#" class="d-block btn btnPink boxShadowBlue">Smart Contract</a>
+						<div class="mt-3 small">
+							<a href="#">
+								<span class="me-2 text-decoration-underline fw-normal">Audited by</span> <img src="{{ asset('img/certiklogo.png') }}" width="80">
+							</a>
 						</div>
-					</div>
-					<div class="mt-3 small">
-						<a href="#">
-							<span class="me-2 text-decoration-underline fw-normal">Audited by</span> <img src="{{ asset('img/certiklogo.png') }}" width="80">
-						</a>
-					</div>
 				</div>
 				<div class="col-md text-center">
 					<img src="{{ asset('img/bannerRight.png') }}" alt="">
@@ -29,7 +29,7 @@
 			</div>
 		</div>
 	</section>
-	
+
 	<!-- Wallet -->
 	<section class="wallet">
 		<div class="container text-center">
@@ -89,11 +89,11 @@
 			<div class="container">
 				<h2 class="sectionHeading">External Environment</h2>
 				<ul class="list-unstyled d-flex justify-content-center">
-					<li class="external">All</li>
-					<li class="external">Real Eastate</li>
-					<li class="external">E-Com</li>
-					<li class="external">Healthcare</li>
-					<li class="external">Other</li>
+					<li>All</li>
+					<li>Real Eastate</li>
+					<li>E-Com</li>
+					<li>Healthcare</li>
+					<li>Other</li>
 				</ul>
 				<hr size="4">
 				<div class="row justify-content-center mt-5">
@@ -101,21 +101,21 @@
 						<div class="item">
 							<img src="{{ asset('img/divega.png')}}" alt="">
 							<p class="text d-flex align-items-center justify-content-center">Reverse auction E-com Platform</p>
-							<img src="{{ asset('img/arrowBlue.png')}}" alt="" class="arrow">
+								<a href="#"><div class="arrow"></div></a>
 						</div>
 					</div>
 					<div class="col-md-2">
 						<div class="item">
 							<img src="{{ asset('img/rapitalbank.png')}}" alt="">
 							<p class="text d-flex align-items-center justify-content-center">Digital Banking</p>
-							<img src="{{ asset('img/arrowBlue.png')}}" alt="" class="arrow">
+								<a href="#"><div class="arrow"></div></a>
 						</div>
 					</div>
 					<div class="col-md-2">
 						<div class="item">
 							<img src="{{ asset('img/pindias.png')}}" alt="">
 							<p class="text d-flex align-items-center justify-content-center">Digital Real Estate Exchange</p>
-							<img src="{{ asset('img/arrowBlue.png')}}" alt="" class="arrow">
+								<a href="#"><div class="arrow"></div></a>
 						</div>
 					</div>
 				</div>
@@ -157,11 +157,11 @@
 					<div class="col-auto item"><a href="#"><img src="{{ asset('img/Doanh-Nhan-Sai-Gon.png')}}" alt=""></a></div>
 					<div class="col-auto item"><a href="#"><img src="{{ asset('img/Cafe-F.png')}}" alt=""></a></div>
 					<div class="col-auto item"><a href="#"><img src="{{ asset('img/Bloomberg.png')}}" alt=""></a></div>
-					</div>
 				</div>
 			</div>
-		</section>
 	</div>
+	</section>
+</div>
 </div>
 
 @endsection

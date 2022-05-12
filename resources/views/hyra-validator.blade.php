@@ -9,22 +9,26 @@
     <section>
         <div class="container">
             <div class="row d-flex justify-content-center">
-                <div class="col-md-4 bgNumber">
-                    <div class="number">
-                        <span class="pink">1,</span>
-                        <span class="purple">2</span>
-                        <span class="blue">3</span>
-                        <span class="blue-light">4</span>
+                <div class="col-md-4">
+                    <div class="bgNumber">
+                        <div class="number">
+                            <span class="pink">1,</span>
+                            <span class="purple">2</span>
+                            <span class="blue">3</span>
+                            <span class="blue-light">4</span>
+                        </div>
+                        <h6>Current number of validators on mainnet</h6>
                     </div>
-                    <strong>Current number of validators on mainnet</strong>
                 </div>
-                <div class="col-md-4 bgNumber">
-                    <div class="">
-                        <div class="sectionHeading number">3 2</div>
+                <div class="col-md-4 ">
+                    <div class="bgNumber">
+                        <div>
+                            <div class="sectionHeading number">3 2</div>
+                        </div>
+                        <h6>Current Superminority</h6>
                     </div>
-                    <strong>Current number of validantors on mainnet</strong>
                 </div>
-                <div class="col-5 bgleft">
+                <div class="col-md-5 bgleft">
                     <div class="bgDocs">
                         <h2 class="fw-bold">Get Started</h2>
                         <p>Go here for documentation related to all things Validator, from validator requirements, to troubleshooting.</p>
@@ -32,7 +36,7 @@
                     </div>
 
                 </div>
-                <div class="col-5 bgright">
+                <div class="col-md-5 bgright">
                     <div class="bgDocs">
                         <h2 class="fw-bold">Validator Explorer</h2>
                         <p>View the current list of validators, their ranking by stake amount, and information about commission below.</p>
