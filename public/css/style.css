@@ -535,13 +535,12 @@ footer .copyright {
 #news-blog .page-news-blog .collum-blog {
     background: #233E4B;
     color: white;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    padding: 9px;
     border-radius: 10px;
-    position: relative;
-    z-index: 1;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+img{
+    width: 100%;
 }
 #news-blog .page-news-blog .collum-blog:hover {
     border: 2px solid #01F0FF;
@@ -551,10 +550,11 @@ footer .copyright {
     padding: 4px 15px;
     font-size: 16px;
     border-radius: 4px;
-    margin: 10px 0;
+    margin: 5px 0;
 }
-#news-blog .page-news-blog .collum-blog .text-blog img {
+#news-blog .page-news-blog .collum-blog .icon-user{
     padding-right: 10px;
+    width: auto;
 }
 /* ===================== RESPONSITE ================= */
 
