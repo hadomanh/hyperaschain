@@ -252,6 +252,10 @@ header .navbar .dropdown-item:hover {
     font-weight: 400;
 }
 
+#homepage .environment ul li:hover {
+    color: #01FFF0;
+}
+
 #homepage .environment .item {
     background: linear-gradient(242.01deg, #FFFFFF 20.82%, rgba(255, 255, 255, 0.79) 65.38%);
     box-shadow: 17px 0px 28px rgb(85 198 208 / 15%);
@@ -265,6 +269,19 @@ header .navbar .dropdown-item:hover {
 #homepage .environment .text {
     height: 45px;
 }
+
+
+#homepage .environment .item .arrow {
+    background: url('../img/arrowBlue.png');
+    width: 24px;
+    height: 25px;
+    display: inline-block;
+}
+
+#homepage .environment .item .arrow:hover {
+    background: url('../img/arorowWhite.png');
+}
+
 
 
 /*========================== OVERVIEW PAGE ==========================*/
@@ -495,7 +512,7 @@ footer {
 
 footer .top {
     padding: 15px 0;
-    background: #c92d80;
+    background: #DB0082;
 }
 
 footer .top .footerSocial {
@@ -703,6 +720,39 @@ footer .copyright {
 }
 /* ===================== RESPONSITE ================= */
 
+@media (max-width: 390px)
+{
+    section.banner h1 {
+        font-size: 38px;
+    }
+}
+
+@media (max-width: 990px)
+{
+    header .navbar .buyHyra {
+        margin-left: 30px;
+    }
+
+    header .navbar .navbar-toggler {
+        background: #0094B0;
+    }
+
+    header .navbar .navbar-toggler .navbar-toggler-icon{
+        color: #EC008C;
+    }
+}
+
+@media (max-width: 1398px)
+{
+    header .navbar {
+        font-size: 14px;
+    }
+
+    header .navbar .buyHyra a{
+        font-size: 14px;
+    }
+}
+
 @media (max-width: 1440px) {
     #aboutPage .page-about .blur-1 {
         border-radius: 50%;
@@ -852,6 +902,53 @@ footer .copyright {
         top: 0;
     }
 }
+
+@media (max-width: 1398px) { 
+    #hyraValidater .bgDocs p {
+        height: 72px;
+    }
+
+    #hyraValidater .bgNumber h6 {
+        height: 40px;
+    }
+}
+
+@media (max-width: 990px) {
+    #hyraValidater .bgDocs h2 {
+        height: 70px;
+    }
+
+    #hyraValidater .number {
+        font-size: 45px !important;
+    }
+
+    #hyraValidater .bgDocs p {
+        height: 130px;
+    }
+}
+
+@media (max-width: 766px) {
+    #hyraValidater .bgDocs h2 {
+        height: 35px;
+    }
+
+    #hyraValidater .bgDocs p {
+        height: 35px;
+    }
+
+    #hyraValidater .imgSquare {
+        width: 77% !important;
+    }
+}
+
+@media (max-width: 480px) {
+    #hyraValidater .bgDocs p {
+        height: 70px;
+    }
+}
+
+
+
 
 
 /* ===========GUILDLINE-PAGES ========  */
@@ -1051,8 +1148,8 @@ footer .copyright {
     background: #233E4B;
     box-shadow: inset 58px -23px 165px #25838C;
     border-radius: 7px;
-    padding: 0px 0 18px 20px;
-    margin: 30px;
+    padding: 0px 18px 18px 20px;
+    margin: 20px;
 }
 
 #hyraValidater .docText {
