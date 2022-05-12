@@ -101,21 +101,21 @@
 						<div class="item">
 							<img src="{{ asset('img/divega.png')}}" alt="">
 							<p class="text d-flex align-items-center justify-content-center">Reverse auction E-com Platform</p>
-							<img src="{{ asset('img/arrowBlue.png')}}" alt="">
+							<img src="{{ asset('img/arrowBlue.png')}}" alt="" class="arrow">
 						</div>
 					</div>
 					<div class="col-md-2">
 						<div class="item">
 							<img src="{{ asset('img/rapitalbank.png')}}" alt="">
 							<p class="text d-flex align-items-center justify-content-center">Digital Banking</p>
-							<img src="{{ asset('img/arrowBlue.png')}}" alt="">
+							<img src="{{ asset('img/arrowBlue.png')}}" alt="" class="arrow">
 						</div>
 					</div>
 					<div class="col-md-2">
 						<div class="item">
 							<img src="{{ asset('img/pindias.png')}}" alt="">
 							<p class="text d-flex align-items-center justify-content-center">Digital Real Estate Exchange</p>
-							<img src="{{ asset('img/arrowBlue.png')}}" alt="">
+							<img src="{{ asset('img/arrowBlue.png')}}" alt="" class="arrow">
 						</div>
 					</div>
 				</div>
