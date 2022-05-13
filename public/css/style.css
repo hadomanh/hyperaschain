@@ -145,19 +145,16 @@ section.banner h1 {
     padding: 15px;
     resize: none;
 }
-.contactFormElement .form-control:focus {
-    box-shadow: none;
-    outline: none;    
+.filterElement .title:after {
+    content: "";
+    background: red;
+    display: block;
+    height: 2px;
+    margin-top: 10px;
+    background: linear-gradient(to right, #FF0097, #00D3FF);
 }
-.contactFormElement .form-control::placeholder {
-    color: #fff;
-    opacity: 1;
-}
-.contactFormElement .form-control:-ms-input-placeholder {
-    color: #fff;
-}
-.contactFormElement .form-control::-ms-input-placeholder {
-    color: #fff;
+.filterElement ul li {
+    margin: 15px 0;
 }
 .bgGalaxy {
     background: url(../img/bg-galaxy.jpg) no-repeat center center / cover;
@@ -178,22 +175,26 @@ section.banner h1 {
     height: 100%;
 }
 
-section .category .nav-link {
-    background-color: #172932 !important;
-    color: white;
-    text-align: left;
-    padding: 15px 0;
-}
-.nav-pills .nav-link.active,
-.nav-pills .show>.nav-link {
-    color: #00D3FF;
-}
 [class*="circleBlur-"] {
     position: absolute;
     width: 400px;
     height: 400px;
     background: #01F0FF;
     filter: blur(514px);
+}
+.form-control:focus {
+    box-shadow: none;
+    outline: none;    
+}
+.form-control::placeholder {
+    color: #fff;
+    opacity: 1;
+}
+.form-control:-ms-input-placeholder {
+    color: #fff;
+}
+.form-control::-ms-input-placeholder {
+    color: #fff;
 }
 /*========================== HEADER ==========================*/
 
@@ -792,14 +793,10 @@ footer .copyright {
 }
 
 #hyra-staking .page-hyra-staking .accordion-item .accordion-button,
-.accordion-body {
+#hyra-staking .accordion-body {
     background: #172932;
     color: white;
     padding: 25px;
-}
-
-.accordion-button {
-    box-shadow: inset 0 -1px 0 #ffffff
 }
 
 #hyra-staking .page-hyra-staking .accordion-button::after {
@@ -842,83 +839,67 @@ footer .copyright {
     line-height: 19px;
     text-transform: uppercase;
 }
-/* =====================HYPERAS-FAQ================ */
-#hyperas-faq .banner {
-    background: url(../img/bg-hyperas-faq.png) no-repeat;
-    background-size: cover;
+/* ===================== FAQ =================== */
+#faqPage {
+    background: #172932 url(../img/bg-faq.jpg) repeat-x center top / contain;
 }
-#hyperas-faq .banne .search {
-    position: relative;
+#faqPage .circleBlur-1 {
+    top: 0;
+    right: 0;
 }
-#hyperas-faq .banner .search i {
-    position: absolute;
-    right: 263px;
-    color: #fff;
-    top: 282px;
+#faqPage .circleBlur-2 {
+    left: 0;
+    bottom: 0;
 }
-#hyperas-faq .banner .search .form-control {
-    height: 60px;
-    padding: 10px;
-    width: 80%;
+#faqPage .banner {
+    padding: 80px 0 0;
+}
+#faqPage .banner .search .form-control {
     background: linear-gradient(344.23deg, rgba(85, 186, 208, 0.57) -6.56%, rgba(85, 186, 208, 0.26) 115.47%);
     border: 1.5px solid rgba(85, 198, 208, 0.4);
     box-shadow: 17px 0px 28px rgba(85, 198, 208, 0.15);
     border-radius: 10px;
-    margin-bottom: -25px;
+    padding: 12px 50px 12px 15px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 25px;
 }
-#hyperas-faq .banner .search .form-control:focus {
-    background-color: #fff;
+#faqPage .banner .search .form-control:focus {    
+    background: linear-gradient(344.23deg, rgba(85, 186, 208, 0.57) -6.56%, rgba(85, 186, 208, 0.26) 115.47%);
+}
+#faqPage .banner .search i {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 25px;
+}
+#faqPage .listFaq .item {
+    margin-bottom: 30px;
+}
+#faqPage .listFaq .accordion-button {
+    padding: 15px 0;
+    color: #fff;
     box-shadow: none;
-    border-color: #eee;
 }
-#hyperas-faq {
-    background: #172932;
-    color: white;
-    text-align: left;
+#faqPage .listFaq .accordion-button,
+#faqPage .listFaq .accordion-item {
+    background: none;
 }
-#hyperas-faq .page-hyperas-faq .accordion-item .accordion-button, 
-.accordion-body{
-    background: #172932;
-    color: white;
-    text-align: left;
-    box-shadow: inset 0 -1px 0 #c4c4c4;
-    text-align: left;
-    padding: 20px 0;
+#faqPage .listFaq .accordion-item {
+    border-color: #fff;
 }
-#hyperas-faq .page-hyperas-faq .accordion-button::after {
-    background-image: url(../img/close-selec.png);
+#faqPage .listFaq .accordion-body {
+    padding: 0 0 15px;
+}
+#faqPage .listFaq .accordion-button::after {
+    background: url(../img/close-selec.png) no-repeat center center / 15px;
     transform: rotate(-90deg);
 }
-#hyperas-faq .page-hyperas-faq .accordion-button:not(.collapsed)::after {
+#faqPage .listFaq .accordion-button:not(.collapsed)::after {
     background-image: url(../img/close-selec.png);
     transform: rotate(-180deg);
-}
-#hyperas-faq .page-hyperas-faq .accordion-button:hover{
-    color: #00d3ff;
-}
-#hyperas-faq .page-hyperas-faq .tab-content {
-    margin-top: -24px;
-}
-#hyperas-faq .page-hyperas-faq h3 {
-    background: linear-gradient(89.08deg, #FF0097 2.35%, #00D3FF 7.51%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
-    text-align: left;
-    font-weight: 400;
-}
-#hyperas-faq h4 {
-    box-shadow: 0 3px #01FFF0;
-    width: 24%;
-}
-#hyperas-faq .page-hyperas-faq .see-more{
-    display: flex;
-    justify-content: center;
-    padding: 20px 0;
-}
-#hyperas-faq .page-hyperas-faq .see-more:hover{
-    color: #01FFF0;
 }
 /* ===================== NEWS BLOG PAGE =================== */
 #newsPage {
@@ -941,17 +922,6 @@ footer .copyright {
     right: 10px;
     color: #0C94B0;
     font-size: 18px;
-}
-#newsPage .filter .title:after {
-    content: "";
-    background: red;
-    display: block;
-    height: 2px;
-    margin-top: 10px;
-    background: linear-gradient(to right, #FF0097, #00D3FF);
-}
-#newsPage .filter ul li {
-    margin: 15px 0;
 }
 #newsPage .listNews > div {
     margin-bottom: 20px;
