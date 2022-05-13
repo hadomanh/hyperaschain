@@ -182,6 +182,7 @@ section .category .nav-link {
     background-color: #172932 !important;
     color: white;
     text-align: left;
+    padding: 15px 0;
 }
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
@@ -832,83 +833,73 @@ footer .copyright {
 }
 
 .title-shadow {
-    text-shadow: 0 -0.5em 0.2em #fff, 0.01em -0.02em 0.15em rgb(0, 255, 229), 0.01em -0.05em 0.15em rgb(0, 234, 255), 0.02em -0.15em 0.2em rgb(0, 255, 251), 0.04em -0.2em 0.3em rgb(0, 255, 251), 0.05em -0.25em 0.4em rgb(0, 255, 255), 0.06em -0.2em 0.9em rgb(0, 255, 255), 0.1em -0.1em 1em rgb(0, 255, 242);
+    /* text-shadow: 0 -0.01em 0.01em #fff, 0.02em -0.01em 0.1em rgb(0 255 229), 0.1em -0.1em 0.1em rgb(0 234 255), 0.1em -0.1em 0.1em rgb(0 255 251), 0.1em -0.1em 0.1em rgb(0 255 251), 0.1em -0.1em 0.1em rgb(0 255 255), 0.1em -0.1em 0.1em rgb(0 255 255), 0.1em -0.1em 0.1em rgb(0 255 242); */
     color: #172932;
-    font-size: 30px ;
     font-family: 'SVN-Gotham';
     font-style: italic;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 30px;
     line-height: 19px;
     text-transform: uppercase;
 }
-
-
 /* =====================HYPERAS-FAQ================ */
-
 #hyperas-faq .banner {
     background: url(../img/bg-hyperas-faq.png) no-repeat;
-    height: 367px;
     background-size: cover;
 }
-
 #hyperas-faq .banne .search {
     position: relative;
 }
-
 #hyperas-faq .banner .search i {
     position: absolute;
     right: 263px;
     color: #fff;
     top: 282px;
 }
-
-#hyperas-faq h3 {
-    box-shadow: 0 3px #01FFF0;
-    width: 20%;
-}
-
 #hyperas-faq .banner .search .form-control {
-    height: 50px;
-    padding: 15px;
+    height: 60px;
+    padding: 10px;
     width: 80%;
     background: linear-gradient(344.23deg, rgba(85, 186, 208, 0.57) -6.56%, rgba(85, 186, 208, 0.26) 115.47%);
     border: 1.5px solid rgba(85, 198, 208, 0.4);
     box-shadow: 17px 0px 28px rgba(85, 198, 208, 0.15);
     border-radius: 10px;
+    margin-bottom: -25px;
 }
-
 #hyperas-faq .banner .search .form-control:focus {
     background-color: #fff;
     box-shadow: none;
     border-color: #eee;
 }
-
 #hyperas-faq {
     background: #172932;
     color: white;
     text-align: left;
 }
-
-#hyperas-faq .page-hyperas-faq .tab-content p {
-    box-shadow: 0 1px white;
-    padding-bottom: 20px;
-    margin: 15px;
-}
-
-#hyperas-faq .page-hyperas-faq .tab-content .collapse .card {
+#hyperas-faq .page-hyperas-faq .accordion-item .accordion-button, 
+.accordion-body{
     background: #172932;
+    color: white;
+    text-align: left;
+    box-shadow: inset 0 -1px 0 #c4c4c4;
+    text-align: left;
+    padding: 20px 0;
 }
-
-#hyperas-faq .page-hyperas-faq .tab-content i {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: -15px;
-    color: #01FFF0;
+#hyperas-faq .page-hyperas-faq .accordion-button::after {
+    background-image: url(../img/close-selec.png);
+    transform: rotate(-90deg);
 }
-
-
-#hyperas-faq .page-hyperas-faq h4 {
+#hyperas-faq .page-hyperas-faq .accordion-button:not(.collapsed)::after {
+    background-image: url(../img/close-selec.png);
+    transform: rotate(-180deg);
+}
+#hyperas-faq .page-hyperas-faq .accordion-button:hover{
+    color: #00d3ff;
+}
+#hyperas-faq .page-hyperas-faq .tab-content {
+    margin-top: -24px;
+}
+#hyperas-faq .page-hyperas-faq h3 {
     background: linear-gradient(89.08deg, #FF0097 2.35%, #00D3FF 7.51%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -916,6 +907,18 @@ footer .copyright {
     text-fill-color: transparent;
     text-align: left;
     font-weight: 400;
+}
+#hyperas-faq h4 {
+    box-shadow: 0 3px #01FFF0;
+    width: 24%;
+}
+#hyperas-faq .page-hyperas-faq .see-more{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+#hyperas-faq .page-hyperas-faq .see-more:hover{
+    color: #01FFF0;
 }
 /* ===================== NEWS BLOG PAGE =================== */
 #newsPage {
