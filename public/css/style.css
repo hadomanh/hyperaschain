@@ -98,6 +98,9 @@ section .sectionHeading {
     margin-bottom: 25px;
 }
 
+section.banner {
+    padding-top: 80px;
+}
 section.banner h1 {
     font-size: 48px;
     line-height: 1;
@@ -599,7 +602,6 @@ footer .copyright {
 /* ===================== COMMUNITY PAGE =================== */
 
 #communityPage {
-    padding: 50px 0;
     background: url(../img/bg-community.jpg) no-repeat center center / cover;
 }
 
@@ -722,7 +724,7 @@ footer .copyright {
 }
 /* ===================== CONTACT PAGE =================== */
 #contactPage {
-    padding: 40px 0;
+    padding-bottom: 40px;
     background: #172932;
     position: relative;
 }
@@ -751,6 +753,19 @@ footer .copyright {
     left: 50%;
     transform: translateX(-50%);
     top: -40px;
+}
+/* ===================== TOKEN PAGE =================== */
+#tokenPage {
+    padding-bottom: 80px;
+    background: #172932 url(../img/bg-hyra-token.jpg) repeat-x center bottom / contain;
+}
+#tokenPage .circleBlur-1 {
+    top: 0;
+    left: 50%;
+    transform: translateY(-50%);
+}
+#tokenPage .hyraToken {
+    margin: -200px 0;
 }
 /* =====================hyra-staking================ */
 
