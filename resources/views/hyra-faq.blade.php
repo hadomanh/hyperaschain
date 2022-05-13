@@ -13,7 +13,7 @@
     </section>
     <section class="page-hyperas-faq">
         <div class="container-lg">
-            <h3 class="sectionHeading ">Category</h3>
+            <h4 class="text-gradient">Category</h4>
             <div class="d-flex">
                 <div class="nav flex-column nav-pills me-3 col-md-3 category" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                     <button class="nav-link active" id="most-popular-tab" data-bs-toggle="pill" data-bs-target="#most-popular" type="button" role="tab" aria-controls="most-popular" aria-selected="true">Most Popular</button>
@@ -22,340 +22,115 @@
                     <button class="nav-link" id="team-tab" data-bs-toggle="pill" data-bs-target="#team" type="button" role="tab" aria-controls="team" aria-selected="false">Team</button>
                     <button class="nav-link" id="others-tab" data-bs-toggle="pill" data-bs-target="#others" type="button" role="tab" aria-controls="others" aria-selected="false">Others</button>
                 </div>
-                <div class="tab-content col-md-9" id="v-pills-tabContent">
-                    <div class="tab-pane fade show active mb-4" id="most-popular" role="tabpanel" aria-labelledby="most-popular-tab">
+                <div class="tab-content col-md-9 " id="v-pills-tabContent">
+                    <div class="tab-pane fade show active" id="most-popular" role="tabpanel" aria-labelledby="most-popular-tab">
                         <div class="row">
-                            <h4 class="title-hyperas">Most Popular</h4>
-                            <p data-bs-toggle="collapse" href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
-                                When did Hyperas launch?
-                                <i class="bi bi-chevron-right"></i>
-                            </p>
-                            <div class="collapse" id="collapseExample1">
-                                <div class="card card-body">
-                                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                            <h3 class="title-hyperas">Technology</h3>
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                                <div class="accordion-item">
+                                    <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                        What is Hyperas?
+                                    </div>
+                                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                                    </div>
                                 </div>
-                            </div>
-                            <p data-bs-toggle="collapse" href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
-                                Why do we need Hyperas?
-                                <i class="bi bi-chevron-right"></i>
-                            </p>
-                            <div class="collapse" id="collapseExample2">
-                                <div class="card card-body">
-                                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                                <div class="accordion-item">
+                                    <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                        Why do we need Hyperas?
+                                    </div>
+                                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                                    </div>
                                 </div>
-                            </div>
-                            <p data-bs-toggle="collapse" href="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">
-                                How many chains can Hyperas connect?
-                                <i class="bi bi-chevron-right"></i>
-                            </p>
-                            <div class="collapse" id="collapseExample3">
-                                <div class="card card-body">
-                                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                                <div class="accordion-item">
+                                    <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                        How many chains can Hyperas connect?
+                                    </div>
+                                    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                    </div>
                                 </div>
-                            </div>
-                            <p data-bs-toggle="collapse" href="#collapseExample4" aria-expanded="false" aria-controls="collapseExample">
-                                Can Hyperas connect any blockchain?
-                                <i class="bi bi-chevron-right"></i>
-                            </p>
-                            <div class="collapse" id="collapseExample4">
-                                <div class="card card-body">
-                                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                                <div class="accordion-item">
+                                    <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse4" aria-expanded="false" aria-controls="flush-collapse4">
+                                        Can Hyperas connect any blockchain?
+                                    </div>
+                                    <div id="flush-collapse4" class="accordion-collapse collapse" aria-labelledby="flush-heading4" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                    </div>
                                 </div>
-                            </div>
-                            <p data-bs-toggle="collapse" href="#collapseExample5" aria-expanded="false" aria-controls="collapseExample">
-                                At what stage is development now?
-                                <i class="bi bi-chevron-right"></i>
-                            </p>
-                            <div class="collapse" id="collapseExample5">
-                                <div class="card card-body">
-                                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                                <div class="accordion-item">
+                                    <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse5" aria-expanded="false" aria-controls="flush-collapse5">
+                                        At what stage is development now?
+                                    </div>
+                                    <div id="flush-collapse5" class="accordion-collapse collapse" aria-labelledby="flush-heading5" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                    </div>
                                 </div>
-                            </div>
-                            <p data-bs-toggle="collapse" href="#collapseExample6" aria-expanded="false" aria-controls="collapseExample">
-                                When did Hyperas launch?
-                                <i class="bi bi-chevron-right"></i>
-                            </p>
-                            <div class="collapse" id="collapseExample6">
-                                <div class="card card-body">
-                                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                                <div class="accordion-item">
+                                    <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse6" aria-expanded="false" aria-controls="flush-collapse6">
+                                        When did Hyperas launch?
+                                    </div>
+                                    <div id="flush-collapse6" class="accordion-collapse collapse" aria-labelledby="flush-heading6" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="text-center mb-5"> SEE MORE</div>
-                        <div class="row">
-                            <h4 class="title-hyperas">Technology</h4>
-                            <p data-bs-toggle="collapse" href="#collapseExample7" aria-expanded="false" aria-controls="collapseExample">
-                                When did Hyperas launch?
-                                <i class="bi bi-chevron-right"></i>
-                            </p>
-                            <div class="collapse" id="collapseExample7">
-                                <div class="card card-body">
-                                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                                </div>
-                            </div>
-                            <p data-bs-toggle="collapse" href="#collapseExample8" aria-expanded="false" aria-controls="collapseExample">
-                                Why do we need Hyperas?
-                                <i class="bi bi-chevron-right"></i>
-                            </p>
-                            <div class="collapse" id="collapseExample8">
-                                <div class="card card-body">
-                                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                                </div>
-                            </div>
-                            <p data-bs-toggle="collapse" href="#collapseExample9" aria-expanded="false" aria-controls="collapseExample">
-                                How many chains can Hyperas connect?
-                                <i class="bi bi-chevron-right"></i>
-                            </p>
-                            <div class="collapse" id="collapseExample9">
-                                <div class="card card-body">
-                                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                                </div>
-                            </div>
-                            <p data-bs-toggle="collapse" href="#collapseExample10" aria-expanded="false" aria-controls="collapseExample">
-                                Can Hyperas connect any blockchain?
-                                <i class="bi bi-chevron-right"></i>
-                            </p>
-                            <div class="collapse" id="collapseExample10">
-                                <div class="card card-body">
-                                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                                </div>
-                            </div>
-                            <p data-bs-toggle="collapse" href="#collapseExample11" aria-expanded="false" aria-controls="collapseExample">
-                                At what stage is development now?
-                                <i class="bi bi-chevron-right"></i>
-                            </p>
-                            <div class="collapse" id="collapseExample11">
-                                <div class="card card-body">
-                                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                                </div>
-                            </div>
-                            <p data-bs-toggle="collapse" href="#collapseExample12" aria-expanded="false" aria-controls="collapseExample">
-                                When did Hyperas launch?
-                                <i class="bi bi-chevron-right"></i>
-                            </p>
-                            <div class="collapse" id="collapseExample12">
-                                <div class="card card-body">
-                                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="text-center mb-5"> SEE MORE</div>
-                        <div class="row">
-                            <h4 class="title-hyperas">Community</h4>
-                            <p data-bs-toggle="collapse" href="#collapseExample13" aria-expanded="false" aria-controls="collapseExample">
-                                How can i join the community?
-                                <i class="bi bi-chevron-right"></i>
-                            </p>
-                            <div class="collapse" id="collapseExample13">
-                                <div class="card card-body">
-                                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                                </div>
-                            </div>
-                            <p data-bs-toggle="collapse" href="#collapseExample14" aria-expanded="false" aria-controls="collapseExample">
-                                How can i help support Hyperas?
-                                <i class="bi bi-chevron-right"></i>
-                            </p>
-                            <div class="collapse" id="collapseExample14">
-                                <div class="card card-body">
-                                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="text-center mb-5"> SEE MORE</div>
-                        <div class="row">
-                            <h4 class="title-hyperas">Team</h4>
-                            <p data-bs-toggle="collapse" href="#collapseExample19" aria-expanded="false" aria-controls="collapseExample">
-                                Who is building Hyperas?
-                                <i class="bi bi-chevron-right"></i>
-                            </p>
-                            <div class="collapse" id="collapseExample19">
-                                <div class="card card-body">
-                                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                                </div>
-                            </div>
-                            <p data-bs-toggle="collapse" href="#collapseExample20" aria-expanded="false" aria-controls="collapseExample">
-                                Who can I contact regarding a press inquiry?
-                                <i class="bi bi-chevron-right"></i>
-                            </p>
-                            <div class="collapse" id="collapseExample20">
-                                <div class="card card-body">
-                                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="text-center mb-5/"> SEE MORE</div>
                     </div>
-                    <div class="tab-pane fade" id="technology" role="tabpanel" aria-labelledby="technology-tab">
-                        <div class="row">
-                            <h4 class="title-hyperas">Technology</h4>
-                            <p data-bs-toggle="collapse" href="#collapseExample7" aria-expanded="false" aria-controls="collapseExample">
-                                When did Hyperas launch?
-                                <i class="bi bi-chevron-right"></i>
-                            </p>
-                            <div class="collapse" id="collapseExample7">
-                                <div class="card card-body">
-                                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                    <span class="see-more"> SEE MORE</span>
+                    <div class="row">
+                        <h3 class="title-hyperas">Community</h3>
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse7" aria-expanded="false" aria-controls="flush-collapse7">
+                                    How can i join the community?
+                                </div>
+                                <div id="flush-collapse7" class="accordion-collapse collapse" aria-labelledby="flush-heading7" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
                                 </div>
                             </div>
-                            <p data-bs-toggle="collapse" href="#collapseExample8" aria-expanded="false" aria-controls="collapseExample">
-                                Why do we need Hyperas?
-                                <i class="bi bi-chevron-right"></i>
-                            </p>
-                            <div class="collapse" id="collapseExample8">
-                                <div class="card card-body">
-                                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                            <div class="accordion-item">
+                                <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse8" aria-expanded="false" aria-controls="flush-collapse8">
+                                    Why do we need Hyperas?
                                 </div>
-                            </div>
-                            <p data-bs-toggle="collapse" href="#collapseExample9" aria-expanded="false" aria-controls="collapseExample">
-                                How many chains can Hyperas connect?
-                                <i class="bi bi-chevron-right"></i>
-                            </p>
-                            <div class="collapse" id="collapseExample9">
-                                <div class="card card-body">
-                                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                                </div>
-                            </div>
-                            <p data-bs-toggle="collapse" href="#collapseExample10" aria-expanded="false" aria-controls="collapseExample">
-                                Can Hyperas connect any blockchain?
-                                <i class="bi bi-chevron-right"></i>
-                            </p>
-                            <div class="collapse" id="collapseExample10">
-                                <div class="card card-body">
-                                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                                </div>
-                            </div>
-                            <p data-bs-toggle="collapse" href="#collapseExample11" aria-expanded="false" aria-controls="collapseExample">
-                                At what stage is development now?
-                                <i class="bi bi-chevron-right"></i>
-                            </p>
-                            <div class="collapse" id="collapseExample11">
-                                <div class="card card-body">
-                                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                                </div>
-                            </div>
-                            <p data-bs-toggle="collapse" href="#collapseExample12" aria-expanded="false" aria-controls="collapseExample">
-                                When did Hyperas launch?
-                                <i class="bi bi-chevron-right"></i>
-                            </p>
-                            <div class="collapse" id="collapseExample12">
-                                <div class="card card-body">
-                                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                                <div id="flush-collapse8" class="accordion-collapse collapse" aria-labelledby="flush-heading8" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
                                 </div>
                             </div>
                         </div>
-                        <div class="text-center"> SEE MORE</div>
                     </div>
-                    <div class="tab-pane fade" id="community1" role="tabpanel" aria-labelledby="community-tab">
-                        <div class="row">
-                            <h4 class="title-hyperas">Community</h4>
-                            <p data-bs-toggle="collapse" href="#collapseExample13" aria-expanded="false" aria-controls="collapseExample">
-                                How can i join the community?
-                                <i class="bi bi-chevron-right"></i>
-                            </p>
-                            <div class="collapse" id="collapseExample13">
-                                <div class="card card-body">
-                                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                    <span class="see-more"> SEE MORE</span>
+                    <div class="row">
+                        <h3 class="title-hyperas">Team</h3>
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse9" aria-expanded="false" aria-controls="flush-collapse9">
+                                    Who is building Hyperas?
+                                </div>
+                                <div id="flush-collapse9" class="accordion-collapse collapse" aria-labelledby="flush-heading9" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
                                 </div>
                             </div>
-                            <p data-bs-toggle="collapse" href="#collapseExample14" aria-expanded="false" aria-controls="collapseExample">
-                                How can i help support Hyperas?
-                                <i class="bi bi-chevron-right"></i>
-                            </p>
-                            <div class="collapse" id="collapseExample14">
-                                <div class="card card-body">
-                                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                            <div class="accordion-item">
+                                <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse10" aria-expanded="false" aria-controls="flush-collapse10">
+                                    Who can I contact regarding a press inquiry?
+                                </div>
+                                <div id="flush-collapse10" class="accordion-collapse collapse" aria-labelledby="flush-heading10" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
                                 </div>
                             </div>
                         </div>
-                        <div class="text-center"> SEE MORE</div>
                     </div>
-                    <div class="tab-pane fade" id="team" role="tabpanel" aria-labelledby="team-tab">
-                        <div class="row">
-                            <h4 class="title-hyperas">Team</h4>
-                            <p data-bs-toggle="collapse" href="#collapseExample19" aria-expanded="false" aria-controls="collapseExample">
-                                Who is building Hyperas?
-                                <i class="bi bi-chevron-right"></i>
-                            </p>
-                            <div class="collapse" id="collapseExample19">
-                                <div class="card card-body">
-                                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                                </div>
-                            </div>
-                            <p data-bs-toggle="collapse" href="#collapseExample20" aria-expanded="false" aria-controls="collapseExample">
-                                Who can I contact regarding a press inquiry?
-                                <i class="bi bi-chevron-right"></i>
-                            </p>
-                            <div class="collapse" id="collapseExample20">
-                                <div class="card card-body">
-                                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="text-center"> SEE MORE</div>
-                    </div>
-                    <div class="tab-pane fade" id="others" role="tabpanel" aria-labelledby="others-tab">
-                        <div class="row">
-                            <h4 class="title-hyperas">Others</h4>
-                            <p data-bs-toggle="collapse" href="#collapseExample25" aria-expanded="false" aria-controls="collapseExample">
-                                When did Hyperas launch?
-                                <i class="bi bi-chevron-right"></i>
-                            </p>
-                            <div class="collapse" id="collapseExample25">
-                                <div class="card card-body">
-                                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                                </div>
-                            </div>
-                            <p data-bs-toggle="collapse" href="#collapseExample26" aria-expanded="false" aria-controls="collapseExample">
-                                Why do we need Hyperas?
-                                <i class="bi bi-chevron-right"></i>
-                            </p>
-                            <div class="collapse" id="collapseExample26">
-                                <div class="card card-body">
-                                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                                </div>
-                            </div>
-                            <p data-bs-toggle="collapse" href="#collapseExample27" aria-expanded="false" aria-controls="collapseExample">
-                                How many chains can Hyperas connect?
-                                <i class="bi bi-chevron-right"></i>
-                            </p>
-                            <div class="collapse" id="collapseExample27">
-                                <div class="card card-body">
-                                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                                </div>
-                            </div>
-                            <p data-bs-toggle="collapse" href="#collapseExample28" aria-expanded="false" aria-controls="collapseExample">
-                                Can Hyperas connect any blockchain?
-                                <i class="bi bi-chevron-right"></i>
-                            </p>
-                            <div class="collapse" id="collapseExample28">
-                                <div class="card card-body">
-                                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                                </div>
-                            </div>
-                            <p data-bs-toggle="collapse" href="#collapseExample29" aria-expanded="false" aria-controls="collapseExample">
-                                At what stage is development now?
-                                <i class="bi bi-chevron-right"></i>
-                            </p>
-                            <div class="collapse" id="collapseExample29">
-                                <div class="card card-body">
-                                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                                </div>
-                            </div>
-                            <p data-bs-toggle="collapse" href="#collapseExample30" aria-expanded="false" aria-controls="collapseExample">
-                                When did Hyperas launch?
-                                <i class="bi bi-chevron-right"></i>
-                            </p>
-                            <div class="collapse" id="collapseExample30">
-                                <div class="card card-body">
-                                    Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="text-center"> SEE MORE</div>
-                    </div>
+                    <span class="see-more"> SEE MORE</span>
                 </div>
+                <div class="tab-pane fade" id="technology" role="tabpanel" aria-labelledby="technology-tab"></div>
+                <div class="tab-pane fade" id="community1" role="tabpanel" aria-labelledby="community-tab"></div>
+                <div class="tab-pane fade" id="team" role="tabpanel" aria-labelledby="team-tab"></div>
+                <div class="tab-pane fade" id="others" role="tabpanel" aria-labelledby="others-tab"></div>
             </div>
         </div>
+        <!-- </div> -->
         <!-- <span class="blur-2"></span> -->
     </section>
 </div>
