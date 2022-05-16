@@ -33,6 +33,9 @@ Route::get('/about-us', function () {
 Route::get('/community', function () {
     return view('community');
 })->name('community');
+Route::get('/staking', function () {
+    return view('staking');
+})->name('staking');
 
 
 

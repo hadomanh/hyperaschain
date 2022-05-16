@@ -29,6 +29,7 @@
 	<link href="{{ asset('css/style.css') }}" rel="stylesheet">
 
 	<!-- Fontawesome -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
@@ -132,6 +133,24 @@
 		$(document).ready(function() {
 			$(".navbarToggler, .backdrop, .menuOpen header .nav-link, .closeMenu").click(function() {
 				$("body").toggleClass("menuOpen");
+			});
+		});
+	</script>
+	<script>
+		$(document).ready(function() {
+			$(window).scroll(function() {
+				if ($(this).scrollTop() > 50) {
+					$('#back-to-top').fadeIn();
+				} else {
+					$('#back-to-top').fadeOut();
+				}
+			});
+			// scroll body to 0px on click
+			$('#back-to-top').click(function() {
+				$('body,html').animate({
+					scrollTop: 0
+				}, 400);
+				return false;
 			});
 		});
 	</script>
