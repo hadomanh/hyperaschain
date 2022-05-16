@@ -7,7 +7,7 @@
     <section class="banner text-center">
         <h1 class="mb-0">BRAND KIT</h1>
     </section>
-    <section class="listGraphic pt-0">
+    <section class="listGraphic">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 pb-5">

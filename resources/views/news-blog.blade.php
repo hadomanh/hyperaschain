@@ -15,7 +15,7 @@
                         <input class="form-control" placeholder="Search" type="text">
                         <i class="fas fa-search icon"></i>
                     </div>
-                    <div class="filter">
+                    <div class="filterElement">
                         <h3 class="title mb-4"><span class="text-gradient">Category</span></h3>
                         <ul class="list-unstyled">
                             <li><a href="#">Announcements</a></li>
