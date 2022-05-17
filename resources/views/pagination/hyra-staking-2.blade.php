@@ -10,7 +10,7 @@
             <div class="container-lg">
                 <div class="row menu-hyra">
                     <div class="col-md-2">
-                        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                        <ul class="nav nav-pills mt-3" id="pills-tab" role="tablist">
                             <li class="nav-item" role="presentation">
                                 <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
                                     <img src="{{ asset('img/umbrella-menu.png') }}">
@@ -23,35 +23,46 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-5"></div>
-                    <div class="col-md-5 d-flex justify-content-end">
-                        <form>
-                            <div class="mb-0">
-                                <label for="exampleInputEmail1" class="form-label">Sort by</label>
-                                <input type="text" class="form-control">
+                    <div class="col-md-5 mt-3">
+                        <div class="slideOne">
+                            <input type="checkbox" value="None" id="slideOne" name="check" />
+                            <label for="slideOne" class="text-checkbox"></label>
+                            <p>Staked only</p>
+                        </div>
+                        <div class="slideThree">
+                            <input type="checkbox" value="None" id="slideThree" name="check" />
+                            <label for="slideThree"></label>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <div class="col-md-5">
+                                <label class="form-label">Sort by</label>
+                                <select class="form-select" aria-label=".form-select-lg example">
+                                    <option selected>Hot</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
                             </div>
-                        </form>
-                        <form>
-                            <!-- <div class="mb-0">
-                                <label for="exampleInputEmail1" class="form-label">Search</label>
-                                <input type="text" class="form-control">
-                            </div> -->
-                            <div class="search">
-                            <label for="exampleInputEmail1" class="form-label">Sort by</label>
-                                <input type="text" class="form-control" placeholder="Search Pools">
-                                <!-- <i class="fas fa-search"></i> -->
+                            <div class="col-md-7">
+                                <label class="form-label">Search</label>
+                                <div class="input-group">
+                                    <input class="form-control" type="" value="" id="example-search-input" placeholder="Search">
+                                    <i class="fa fa-search"></i>
+                                </div>
                             </div>
-                        </form>
+                        </div>
                     </div>
                     <div class="tab-content" id="pills-tabContent">
                         <div class="tab-pane fade show active page-cave" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
                             <div class="accordion accordion-flush" id="accordionFlushExample">
-                                <div class="accordion-item abc">
+                                <div class="accordion-item firstly">
                                     <h2 class="accordion-header" id="flush-headingOne"></h2>
                                     <div class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                                         <div class="col-md-1">
                                             <img src="{{ asset('img/hyra-earn.png') }}">
-                                            <img src="{{ asset('img/transaction.png') }}" class="icon-earn-1">
+                                            <img src="{{ asset('img/icon-earn1.png') }}" class="icon-earn-1">
                                         </div>
                                         <div class="col-md-2">
                                             <h6>Stake HYRA</h6>
