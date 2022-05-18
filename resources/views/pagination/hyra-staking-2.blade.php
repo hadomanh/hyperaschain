@@ -7,7 +7,6 @@
             <h1 class="mb-0">GETTING STARTED HYRA STAKING</h1>
         </section>
         <section class="page-hyra-staking text-white">
-            <!-- <div class="container-lg"> -->
             <div class="row menu-hyra">
                 <div class="col-md-2">
                     <ul class="nav nav-pills mt-3" id="pills-tab" role="tablist">
@@ -119,7 +118,6 @@
                                                 <button class="btn-staking">Connect Wallet</button>
                                             </div>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
@@ -245,7 +243,6 @@
                                                 <button class="btn-staking">Connect Wallet</button>
                                             </div>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
@@ -370,7 +367,6 @@
                                                 <button class="btn-staking">Connect Wallet</button>
                                             </div>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
@@ -433,7 +429,6 @@
                                                 <button class="btn-staking">Connect Wallet</button>
                                             </div>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
@@ -496,7 +491,6 @@
                                                 <button class="btn-staking">Connect Wallet</button>
                                             </div>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
@@ -507,7 +501,6 @@
                     </div>
                 </div>
             </div>
-            <!-- </div> -->
         </section>
     </div>
 </div>
