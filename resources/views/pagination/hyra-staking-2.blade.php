@@ -26,7 +26,7 @@
                     <div class="row mt-4">
                         <div class="form-check form-switch col-md-4 ">
                             <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
-                            <label class="form-check-label" for="flexSwitchCheckChecked">Staked only</label>
+                            <label>Staked only</label>
                         </div>
                         <div class="col-md-6 switch btn-color-mode-switch">
                             <input type="checkbox" name="color_mode" id="color_mode" value="1">
