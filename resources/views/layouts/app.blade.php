@@ -50,10 +50,10 @@
 						<img src="{{ asset('img/logoFooter.png') }}" alt="">
 					</div>
 					<ul class="list-unstyled d-flex footerSocial mb-0">
-						<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-						<li><a href="#"><i class="fab fa-youtube"></i></a></li>
-						<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-						<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+						<li><a href="https://www.facebook.com/hyperaschain"><i class="fab fa-facebook-f"></i></a></li>
+						<li><a href="https://www.youtube.com/channel/UC76gQwZQzZS4cPKYUOvnABQ"><i class="fab fa-youtube"></i></a></li>
+						<li><a href="https://twitter.com/hyperaschain"><i class="fab fa-twitter"></i></a></li>
+						<li><a href="https://www.linkedin.com/company/hyperaschainofficial"><i class="fab fa-linkedin-in"></i></a></li>
 						<li><a href="#"><i class="fab fa-telegram-plane"></i></a></li>
 						<li><a href="#"><i class="fab fa-github"></i></a></li>
 					</ul>
@@ -127,7 +127,6 @@
 	<script type="text/javascript" src="{{ asset('js/jquery-3.6.0.min.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('js/bootstrap5-dropdown-ml-hack.js') }}"></script>
-
 	<script>
 		$(document).ready(function() {
 			$("#stakingPage .poolTable .moreInfo").click(function(){
