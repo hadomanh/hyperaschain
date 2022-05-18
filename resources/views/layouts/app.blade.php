@@ -127,30 +127,22 @@
 	<script type="text/javascript" src="{{ asset('js/jquery-3.6.0.min.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('js/bootstrap5-dropdown-ml-hack.js') }}"></script>
-	<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
 	<script>
 		$(document).ready(function() {
-			$(".navbarToggler, .backdrop, .menuOpen header .nav-link, .closeMenu").click(function() {
-				$("body").toggleClass("menuOpen");
+			$("#stakingPage .poolTable .moreInfo").click(function(){
+				$(this).closest(".item").toggleClass("active");
 			});
-		});
-	</script>
-	<script>
-		$(document).ready(function() {
-			$(window).scroll(function() {
-				if ($(this).scrollTop() > 50) {
-					$('#back-to-top').fadeIn();
-				} else {
-					$('#back-to-top').fadeOut();
-				}
+			$("#stakingPage .displayType i").click(function(){
+				$(this).siblings().removeClass("active");				
+				$(this).addClass("active");
+				$("#stakingPage .itemDisplay").addClass("d-none");
 			});
-			// scroll body to 0px on click
-			$('#back-to-top').click(function() {
-				$('body,html').animate({
-					scrollTop: 0
-				}, 400);
-				return false;
+			$("#stakingPage .displayType .typeGrid").click(function(){
+				$("#stakingPage .itemDisplay.displayGrid").removeClass("d-none");
+			});
+			$("#stakingPage .displayType .typeList").click(function(){
+				$("#stakingPage .itemDisplay.displayList").removeClass("d-none");
 			});
 		});
 	</script>
