@@ -55,7 +55,7 @@
                         <div class="mb-3">
                             <textarea class="form-control" placeholder="Message*" rows="6"></textarea>
                         </div>
-                        <button type="button" class="btn btn-lg w-100 btnGrad">SUBMIT</button>
+                        <button  type="button" class="btn btn-lg w-100 btnGrad">SUBMIT</button>
                     </div>
                 </div>
             </div>

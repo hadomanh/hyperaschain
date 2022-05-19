@@ -3,10 +3,10 @@
     <div class="top">
         <div class="container">
             <ul class="list-unstyled d-flex align-items-center justify-content-end mb-0">
-                <li><a href=""><i class="fab fa-twitter"></i></a></li>
-                <li><a href=""><i class="fab fa-telegram-plane"></i></a></li>
-                <li><a href=""><i class="fab fa-github"></i></a></li>
-                <li class="faq-text"><a href="">FAQ</a></li>
+                <li><a href="https://twitter.com/hyperaschain" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="" target="_blank"><i class="fab fa-telegram-plane"></i></a></li>
+                <li><a href="" target="_blank"><i class="fab fa-github"></i></a></li>
+                <li class="faq-text"><a href="{{ route('hyra-faq')}}">FAQ</a></li>
             </ul>
         </div>
     </div>

@@ -50,12 +50,12 @@
 						<img src="{{ asset('img/logoFooter.png') }}" alt="">
 					</div>
 					<ul class="list-unstyled d-flex footerSocial mb-0">
-						<li><a href="https://www.facebook.com/hyperaschain"><i class="fab fa-facebook-f"></i></a></li>
-						<li><a href="https://www.youtube.com/channel/UC76gQwZQzZS4cPKYUOvnABQ"><i class="fab fa-youtube"></i></a></li>
-						<li><a href="https://twitter.com/hyperaschain"><i class="fab fa-twitter"></i></a></li>
-						<li><a href="https://www.linkedin.com/company/hyperaschainofficial"><i class="fab fa-linkedin-in"></i></a></li>
-						<li><a href="#"><i class="fab fa-telegram-plane"></i></a></li>
-						<li><a href="#"><i class="fab fa-github"></i></a></li>
+						<li><a href="https://www.facebook.com/hyperaschain" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+						<li><a href="https://www.youtube.com/channel/UC76gQwZQzZS4cPKYUOvnABQ" target="_blank"><i class="fab fa-youtube"></i></a></li>
+						<li><a href="https://twitter.com/hyperaschain" target="_blank"><i class="fab fa-twitter" target="_blank"></i></a></li>
+						<li><a href="https://www.linkedin.com/company/hyperaschainofficial" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+						<li><a href="#"><i class="fab fa-telegram-plane"target="_blank"></i></a></li>
+						<li><a href="#"><i class="fab fa-github" target="_blank"></i></a></li>
 					</ul>
 				</div>
 			</div>
@@ -127,30 +127,21 @@
 	<script type="text/javascript" src="{{ asset('js/jquery-3.6.0.min.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('js/bootstrap.bundle.min.js') }}"></script>
 	<script type="text/javascript" src="{{ asset('js/bootstrap5-dropdown-ml-hack.js') }}"></script>
-	<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script>
 		$(document).ready(function() {
-			$(".navbarToggler, .backdrop, .menuOpen header .nav-link, .closeMenu").click(function() {
-				$("body").toggleClass("menuOpen");
+			$("#stakingPage .poolTable .moreInfo").click(function(){
+				$(this).closest(".item").toggleClass("active");
 			});
-		});
-	</script>
-	<script>
-		$(document).ready(function() {
-			$(window).scroll(function() {
-				if ($(this).scrollTop() > 50) {
-					$('#back-to-top').fadeIn();
-				} else {
-					$('#back-to-top').fadeOut();
-				}
+			$("#stakingPage .displayType i").click(function(){
+				$(this).siblings().removeClass("active");				
+				$(this).addClass("active");
+				$("#stakingPage .itemDisplay").addClass("d-none");
 			});
-			// scroll body to 0px on click
-			$('#back-to-top').click(function() {
-				$('body,html').animate({
-					scrollTop: 0
-				}, 400);
-				return false;
+			$("#stakingPage .displayType .typeGrid").click(function(){
+				$("#stakingPage .itemDisplay.displayGrid").removeClass("d-none");
+			});
+			$("#stakingPage .displayType .typeList").click(function(){
+				$("#stakingPage .itemDisplay.displayList").removeClass("d-none");
 			});
 		});
 	</script>

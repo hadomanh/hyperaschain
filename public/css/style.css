@@ -80,7 +80,11 @@ hr {
 .bgGrad {
     background: linear-gradient(to right, #FF0097, #00D3FF);
 }
-
+.goTop img {
+    margin-left: 5px;
+    position: relative;
+    top: -2px;
+}
 section {
     padding: 50px 0;
 }
@@ -199,6 +203,32 @@ section.banner h1 {
 .form-control::-ms-input-placeholder {
     color: #fff;
 }
+.form-switch .form-check-input {
+    width: 50px;
+    height: auto;
+    border: 1px solid rgba(1, 255, 240, 0.3);
+    border-radius: 30px;
+    background: none !important;
+    padding: 2px;
+    margin: 0 8px 0 0;
+    outline: none;
+    box-shadow: none;
+}
+.form-switch .form-check-input:before {
+    content: "";
+    left: 0;
+    top: 0;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    display: block;
+    border-radius: 50%;
+    background: #01FFF0;
+}
+.form-switch .form-check-input:checked:before {
+    left: auto;
+    right: -23px;
+}
 /*========================== HEADER ==========================*/
 
 header {
@@ -246,13 +276,15 @@ header .navbar .dropdown-toggle::after {
 }
 
 header .navbar .dropdown-menu {
-    box-shadow: 0px 4px 16px rgb(0 0 0 / 30%);
     border-radius: 8px;
     border: none;
     left: 50%;
     transform: translateX(-50%);
     margin-top: 10px;
     min-width: 12rem;
+    background: linear-gradient(180deg, #FFFFFF 18.75%, rgba(255, 255, 255, 0.633333) 100%);
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15px);
 }
 
 header .navbar .dropdown-menu:before {
@@ -493,8 +525,6 @@ header .navbar .dropdown-item:hover {
     position: relative;
     top: -130px;
 }
-
-
 /*========================== ABOUT PAGE ==========================*/
 
 #aboutPage {
@@ -609,8 +639,25 @@ footer .copyright {
     display: inline-block;
     margin: 20px;
 }
-
-
+#communityPage .listCommunity table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+#communityPage .listCommunity  tr {
+    border-bottom: 1px solid #ddd;
+  }
+  #communityPage .listCommunity td img {
+      padding: 15px;
+  }
+  #communityPage .listCommunity .text-green{
+      color: hsla(176, 100%, 50%, 1);
+      font-weight: 500;
+  }
+  #communityPage .listCommunity .text-pink{
+    color: hsla(324, 100%, 46%, 1);
+    font-weight: 500;
+}
 /* ===================== BRANDKIT PAGE =================== */
 
 #brandKitPage {
@@ -766,6 +813,175 @@ footer .copyright {
 }
 #tokenPage .hyraToken {
     margin: -200px 0;
+}
+/* ===================== STAKING PAGE =================== */
+#stakingPage {
+    background: #172932;
+    position: relative;
+}
+#stakingPage .circleBlur-1 {
+    top: 0;
+    left: 50%;
+    transform: translateY(-50%);
+}
+#stakingPage .poolTable .filter {
+    margin: 0 10px 20px;
+}
+#stakingPage .poolTable .filter .displayType i {
+    opacity: .3;
+    cursor: pointer;
+    font-size: 25px;
+    color: #01FFF0;
+}
+#stakingPage .poolTable .filter .displayType i:hover,
+#stakingPage .poolTable .filter .displayType i.active {
+    opacity: 1;
+}
+#stakingPage .poolTable .filter .displayType i.active {
+    color: #EC008C;
+}
+#stakingPage .poolTable .filter .form-control,
+#stakingPage .poolTable .filter .form-select {
+    background: #388992;
+    box-shadow: inset 58px -23px 85px #25838C;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+}
+#stakingPage .poolTable .filter .status {
+    border: 1px solid rgba(1, 255, 240, 0.3);
+    border-radius: 30px;
+    padding: 2px;
+}
+#stakingPage .poolTable .filter .status label {
+    display: inline-block;    
+    border-radius: 30px;
+    line-height: 1;
+    font-weight: 400;
+    padding: 5px 15px;
+}
+#stakingPage .poolTable .filter .status input:checked + label {
+    background: #EC008C;
+    box-shadow: 0px 4px 13px #EC008C;
+}
+#stakingPage .poolTable .filter .searchForm input {
+    width: 250px;
+    padding-right: 40px;
+}
+#stakingPage .poolTable .filter .sort .icon,
+#stakingPage .poolTable .filter .searchForm .icon {
+    position: absolute;
+    top: 42px;
+    right: 10px;
+    opacity: .7;
+}
+#stakingPage .poolTable .item {    
+    padding: 20px;
+    border-bottom: 1px solid #C4C4C4;    
+}
+#stakingPage .poolTable .item.active {
+    border-radius: 10px;
+    border-bottom: none;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(344.23deg, rgba(85, 186, 208, 0.285) -6.56%, rgba(85, 186, 208, 0.13) 115.47%);    
+}
+#stakingPage .poolTable [class*="cell-"] {
+    flex: 1 0 0;
+}
+#stakingPage .poolTable .cell-5 {
+    flex: 0 0 auto;
+}
+#stakingPage .poolTable a {
+    color: #01FFF0;
+}
+#stakingPage .poolTable .label {
+    color: #01FFF0;
+    margin-bottom: 5px;
+}
+#stakingPage .poolTable .iconWrap {
+    position: relative;
+    border-radius: 50%;
+    margin-right: 25px;
+    width: 75px;
+    height: 75px;
+}
+#stakingPage .poolTable .iconWrap img {
+    border: 2px solid #01FFF0;
+    border-radius: 50%;
+    width: 70px;
+}
+#stakingPage .poolTable .iconWrap .smallImg {
+    width: 50%;
+    position: absolute;
+    right: -10px;
+    bottom: 0;
+}
+#stakingPage .poolTable .moreInfo a:not(.collapsed) img {
+    transform: rotate(-180deg);
+}
+#stakingPage .poolTable .card-body {
+    background: none;
+    padding: 20px 0 0;
+    margin-top: 20px;
+    border-top: 1px solid rgba(1, 255, 240, 0.3);
+    border-width: 1px 0 0 0;
+}
+#stakingPage .poolTable .card-body .text {
+    width: 150px;
+}
+#stakingPage .poolTable .card-body .input-group {
+    border: 1px solid rgba(1, 255, 240, 0.3);
+    border-radius: 5px;
+    padding: 1px;
+}
+#stakingPage .poolTable .card-body .input-group .form-control {
+    border: none;
+}
+#stakingPage .poolTable .card-body .input-group .btn {
+    background: rgba(1, 255, 240, 0.3);
+    border: none;
+    padding: 0 15px;
+    border-radius: 3px;
+}
+#stakingPage .poolTable .card-body .form-control {
+    background: none;
+    color: #fff;
+    font-weight: 700;
+    border: 1px solid rgba(1, 255, 240, 0.3);
+}
+#stakingPage .poolTable .displayGrid .item {
+    background: rgba(1, 255, 240, 0.05);
+    border: 1px solid rgba(1, 255, 240, 0.1);
+    border-radius: 10px;
+}
+#stakingPage .poolTable .displayGrid .item:hover,
+#stakingPage .poolTable .displayGrid .item.active {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), linear-gradient(344.23deg, rgba(85, 186, 208, 0.285) -6.56%, rgba(85, 186, 208, 0.13) 115.47%);
+    border: 1px solid rgba(1, 255, 240, 0.3);
+}
+#stakingPage .poolTable .displayGrid .item .moreInfo {
+    margin-top: 15px;
+    padding: 10px 0 0;
+    border-top: 1px solid rgba(1, 255, 240, 0.1);
+    text-align: center;
+    font-weight: 700;
+}
+#stakingPage .poolTable .displayGrid .item:hover .moreInfo {
+    border-top-color: rgba(1, 255, 240, 0.3);
+}
+#stakingPage .poolTable .displayGrid .item .moreInfo .text-2,
+#stakingPage .poolTable .displayGrid .item.active .moreInfo .text-1 {
+    display: none;
+}
+#stakingPage .poolTable .displayGrid .item.active .moreInfo {
+    text-align: right;
+    border-top-color: rgba(1, 255, 240, 0.3);
+}
+#stakingPage .poolTable .displayGrid .item.active .moreInfo .text-2 {
+    display: inline-block;
+}
+#stakingPage .poolTable .displayGrid .item .card-body {
+    border-top: none;
+    margin: 0;
 }
 /* =====================hyra-staking================ */
 #hyra-staking {
