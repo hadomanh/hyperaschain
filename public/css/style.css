@@ -80,7 +80,11 @@ hr {
 .bgGrad {
     background: linear-gradient(to right, #FF0097, #00D3FF);
 }
-
+.goTop img {
+    margin-left: 5px;
+    position: relative;
+    top: -2px;
+}
 section {
     padding: 50px 0;
 }
@@ -199,6 +203,32 @@ section.banner h1 {
 .form-control::-ms-input-placeholder {
     color: #fff;
 }
+.form-switch .form-check-input {
+    width: 50px;
+    height: auto;
+    border: 1px solid rgba(1, 255, 240, 0.3);
+    border-radius: 30px;
+    background: none !important;
+    padding: 2px;
+    margin: 0 8px 0 0;
+    outline: none;
+    box-shadow: none;
+}
+.form-switch .form-check-input:before {
+    content: "";
+    left: 0;
+    top: 0;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    display: block;
+    border-radius: 50%;
+    background: #01FFF0;
+}
+.form-switch .form-check-input:checked:before {
+    left: auto;
+    right: -23px;
+}
 /*========================== HEADER ==========================*/
 
 header {
@@ -246,13 +276,15 @@ header .navbar .dropdown-toggle::after {
 }
 
 header .navbar .dropdown-menu {
-    box-shadow: 0px 4px 16px rgb(0 0 0 / 30%);
     border-radius: 8px;
     border: none;
     left: 50%;
     transform: translateX(-50%);
     margin-top: 10px;
     min-width: 12rem;
+    background: linear-gradient(180deg, #FFFFFF 18.75%, rgba(255, 255, 255, 0.633333) 100%);
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15px);
 }
 
 header .navbar .dropdown-menu:before {
@@ -493,8 +525,6 @@ header .navbar .dropdown-item:hover {
     position: relative;
     top: -130px;
 }
-
-
 /*========================== ABOUT PAGE ==========================*/
 
 #aboutPage {
@@ -784,6 +814,175 @@ footer .copyright {
 #tokenPage .hyraToken {
     margin: -200px 0;
 }
+/* ===================== STAKING PAGE =================== */
+#stakingPage {
+    background: #172932;
+    position: relative;
+}
+#stakingPage .circleBlur-1 {
+    top: 0;
+    left: 50%;
+    transform: translateY(-50%);
+}
+#stakingPage .poolTable .filter {
+    margin: 0 10px 20px;
+}
+#stakingPage .poolTable .filter .displayType i {
+    opacity: .3;
+    cursor: pointer;
+    font-size: 25px;
+    color: #01FFF0;
+}
+#stakingPage .poolTable .filter .displayType i:hover,
+#stakingPage .poolTable .filter .displayType i.active {
+    opacity: 1;
+}
+#stakingPage .poolTable .filter .displayType i.active {
+    color: #EC008C;
+}
+#stakingPage .poolTable .filter .form-control,
+#stakingPage .poolTable .filter .form-select {
+    background: #388992;
+    box-shadow: inset 58px -23px 85px #25838C;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+}
+#stakingPage .poolTable .filter .status {
+    border: 1px solid rgba(1, 255, 240, 0.3);
+    border-radius: 30px;
+    padding: 2px;
+}
+#stakingPage .poolTable .filter .status label {
+    display: inline-block;    
+    border-radius: 30px;
+    line-height: 1;
+    font-weight: 400;
+    padding: 5px 15px;
+}
+#stakingPage .poolTable .filter .status input:checked + label {
+    background: #EC008C;
+    box-shadow: 0px 4px 13px #EC008C;
+}
+#stakingPage .poolTable .filter .searchForm input {
+    width: 250px;
+    padding-right: 40px;
+}
+#stakingPage .poolTable .filter .sort .icon,
+#stakingPage .poolTable .filter .searchForm .icon {
+    position: absolute;
+    top: 42px;
+    right: 10px;
+    opacity: .7;
+}
+#stakingPage .poolTable .item {    
+    padding: 20px;
+    border-bottom: 1px solid #C4C4C4;    
+}
+#stakingPage .poolTable .item.active {
+    border-radius: 10px;
+    border-bottom: none;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(344.23deg, rgba(85, 186, 208, 0.285) -6.56%, rgba(85, 186, 208, 0.13) 115.47%);    
+}
+#stakingPage .poolTable [class*="cell-"] {
+    flex: 1 0 0;
+}
+#stakingPage .poolTable .cell-5 {
+    flex: 0 0 auto;
+}
+#stakingPage .poolTable a {
+    color: #01FFF0;
+}
+#stakingPage .poolTable .label {
+    color: #01FFF0;
+    margin-bottom: 5px;
+}
+#stakingPage .poolTable .iconWrap {
+    position: relative;
+    border-radius: 50%;
+    margin-right: 25px;
+    width: 75px;
+    height: 75px;
+}
+#stakingPage .poolTable .iconWrap img {
+    border: 2px solid #01FFF0;
+    border-radius: 50%;
+    width: 70px;
+}
+#stakingPage .poolTable .iconWrap .smallImg {
+    width: 50%;
+    position: absolute;
+    right: -10px;
+    bottom: 0;
+}
+#stakingPage .poolTable .moreInfo a:not(.collapsed) img {
+    transform: rotate(-180deg);
+}
+#stakingPage .poolTable .card-body {
+    background: none;
+    padding: 20px 0 0;
+    margin-top: 20px;
+    border-top: 1px solid rgba(1, 255, 240, 0.3);
+    border-width: 1px 0 0 0;
+}
+#stakingPage .poolTable .card-body .text {
+    width: 150px;
+}
+#stakingPage .poolTable .card-body .input-group {
+    border: 1px solid rgba(1, 255, 240, 0.3);
+    border-radius: 5px;
+    padding: 1px;
+}
+#stakingPage .poolTable .card-body .input-group .form-control {
+    border: none;
+}
+#stakingPage .poolTable .card-body .input-group .btn {
+    background: rgba(1, 255, 240, 0.3);
+    border: none;
+    padding: 0 15px;
+    border-radius: 3px;
+}
+#stakingPage .poolTable .card-body .form-control {
+    background: none;
+    color: #fff;
+    font-weight: 700;
+    border: 1px solid rgba(1, 255, 240, 0.3);
+}
+#stakingPage .poolTable .displayGrid .item {
+    background: rgba(1, 255, 240, 0.05);
+    border: 1px solid rgba(1, 255, 240, 0.1);
+    border-radius: 10px;
+}
+#stakingPage .poolTable .displayGrid .item:hover,
+#stakingPage .poolTable .displayGrid .item.active {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), linear-gradient(344.23deg, rgba(85, 186, 208, 0.285) -6.56%, rgba(85, 186, 208, 0.13) 115.47%);
+    border: 1px solid rgba(1, 255, 240, 0.3);
+}
+#stakingPage .poolTable .displayGrid .item .moreInfo {
+    margin-top: 15px;
+    padding: 10px 0 0;
+    border-top: 1px solid rgba(1, 255, 240, 0.1);
+    text-align: center;
+    font-weight: 700;
+}
+#stakingPage .poolTable .displayGrid .item:hover .moreInfo {
+    border-top-color: rgba(1, 255, 240, 0.3);
+}
+#stakingPage .poolTable .displayGrid .item .moreInfo .text-2,
+#stakingPage .poolTable .displayGrid .item.active .moreInfo .text-1 {
+    display: none;
+}
+#stakingPage .poolTable .displayGrid .item.active .moreInfo {
+    text-align: right;
+    border-top-color: rgba(1, 255, 240, 0.3);
+}
+#stakingPage .poolTable .displayGrid .item.active .moreInfo .text-2 {
+    display: inline-block;
+}
+#stakingPage .poolTable .displayGrid .item .card-body {
+    border-top: none;
+    margin: 0;
+}
 /* =====================hyra-staking================ */
 #hyra-staking {
     background: #172932;
@@ -794,21 +993,6 @@ footer .copyright {
 #hyra-staking .box-connect-wallet img {
     width: 62px;
     height: 62px;
-}
-#hyra-staking .icon-prink {
-    top: 49%;
-    left: 9%;
-}
-#hyra-staking .style-text {
-    font-style: italic;
-    color: #01FFF0;
-}
-#hyra-staking .icon-prink img {
-    background: #EC008C;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    box-shadow: 0px 2px 11px #ec008c;
 }
 #hyra-staking .box-connect {
     background: #EC008C;
@@ -821,44 +1005,47 @@ footer .copyright {
 #hyra-staking .page-hyra-staking .accordion-item .accordion-button{
     background: #172932;
     color: white;
-    padding: 15px 10px;  
+    padding: 15px 0;  
 }
-/* #hyra-staking .page-hyra-staking .page-cave .accordion-item {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(344.23deg, rgba(85, 186, 208, 0.285) -6.56%, rgba(85, 186, 208, 0.13) 115.47%);
-    border-radius: 10px;
-} */
-/* #hyra-staking .page-hyra-staking .accordion-item .accordion-button,
-#hyra-staking .page-hyra-staking .page-cave .accordion-body{
-    background: #172932;
-    color: white;
-    padding: 15px 10px;
-} */
-/* #hyra-staking .page-hyra-staking .abc, */
 #hyra-staking .page-hyra-staking .firstly .accordion-button,
 #hyra-staking .page-hyra-staking .firstly .accordion-body{
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(344.23deg, rgba(85, 186, 208, 0.285) -6.56%, rgba(85, 186, 208, 0.13) 115.47%);
 }
-.input-group input,
-.form-select{
+#hyra-staking .page-hyra-staking .input-group input,
+#hyra-staking .page-hyra-staking .form-select{
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(344.23deg, rgba(85, 186, 208, 0.57) -6.56%, rgba(85, 186, 208, 0.26) 115.47%);
     box-shadow: inset 58px -23px 85px #25838C;
-    border-radius: 5px;
+    border: solid 1px #3e94a7   ;
     color: white;
 }
-.input-group i{
+#hyra-staking .page-hyra-staking .form-select option{
+    background: #275b62;
+}
+#hyra-staking .page-hyra-staking .page-cave input{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(344.23deg, rgba(85, 186, 208, 0.285) -6.56%, rgba(85, 186, 208, 0.13) 115.47%);
+    border: 1px solid rgba(1, 255, 240, 0.3);
+    width: 80%;
+    color: white;
+}
+#hyra-staking .page-hyra-staking .input-group i{
     position: absolute;
     top: 13px;
     right: 10px;
 }
-.accordion-button {
-    box-shadow: inset 0 -1px 0 #ffffff
+#hyra-staking .page-hyra-staking .accordion-button {
+    box-shadow: inset 0 -1px 0 #ffffff;
+    margin: 0;
+}
+#hyra-staking .page-hyra-staking .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #172932;
 }
 #hyra-staking .page-hyra-staking .accordion-button::after {
     background-image: url(../img/close-selec.png);
+    margin-right: 20px;
 }
-#hyra-staking .page-hyra-staking .accordion-button:not(.collapsed)::after {
-    background-image: url(../img/close-selec.png);
-    transform: rotate(-180deg);
+#hyra-staking .page-hyra-staking .menu-hyra .nav-item .active img{
+    background: #172932;
+    filter: hue-rotate(137deg);
 }
 #hyra-staking .page-hyra-staking .page-cave .accordion-item p {
     margin-bottom: 0;
@@ -877,7 +1064,6 @@ footer .copyright {
     font-size: 14px;
     line-height: 19px;
     padding-bottom: 10px;
-    
     text-shadow: -1px 1px 0  #01FFF0,
                   1px 1px 0  #01FFF0,
                  1px -1px 0  #01FFF0,
@@ -893,118 +1079,95 @@ footer .copyright {
     border-radius: 7px;
     width: 80%;
 }
+#hyra-staking .page-hyra-staking .page-cave .form-select option{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(344.23deg, rgba(85, 186, 208, 0.57) -6.56%, rgba(85, 186, 208, 0.26) 115.47%);
+    box-shadow: inset 58px -23px 85px #25838C;
+    border-radius: 5px;
+}
 #hyra-staking .page-hyra-staking .page-cave .icon-earn-1{
     position: absolute;
-    top: 49px;
-    left: 37px;
+    top: 52px;
+    left: 67px;
 }
 #hyra-staking .page-hyra-staking .page-cave .icon-earn{
     position: absolute;
     top: 58px;
-    left: 47px;
+    left: 76px;
 }
 #hyra-staking .page-hyra-staking .page-cave label{
     font-weight: 700;
     font-size: 16px;
 }
-#hyra-staking .page-hyra-staking .page-cave input{
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(344.23deg, rgba(85, 186, 208, 0.285) -6.56%, rgba(85, 186, 208, 0.13) 115.47%);
-    border: 1px solid rgba(1, 255, 240, 0.3);
-    border-radius: 5px;
-    width: 80%;
-    color: white;
-}
-.accordion-button:not(.collapsed) {
+/* back to top */
+#hyra-staking .page-hyra-staking .page-cave .accordion-button:not(.collapsed) {
     box-shadow: inset 0 -1px 0 hsla(176, 100%, 50%, 0.3);
 }
-.back-to-top {
+#hyra-staking .page-hyra-staking .page-cave .back-to-top {
     color: #01FFF0;
     margin-top: 20px;
     text-align: center;
 }
-.back-to-top img{
+#hyra-staking .page-hyra-staking .page-cave .back-to-top img{
     transform: rotate(-180deg);
 }
-input[type=checkbox] {
-    visibility: hidden;
-}
-/* SLIDE ONE */
-.slideOne {
-    width: 36px;
-    height: 20px;
-    background: #172932;
-    position: absolute;
+/* checked */
+.form-switch .form-check-input:checked {
+    background-image: url(../img/checked.png);
+    background-color: #172932;
     border: 1.5px solid rgba(1, 255, 240, 0.3);
-    border-radius: 51px;
+    box-shadow: none;
 }
-.slideOne .text-checkbox {
-    display: block;
-    width: 14px;
-    height: 14px;
-    border-radius: 50px;
-    -webkit-transition: all .4s ease;
-    -moz-transition: all .4s ease;
-    -o-transition: all .4s ease;
-    -ms-transition: all .4s ease;
-    transition: all .4s ease;
-    cursor: pointer;
-    position: absolute;
-    top: 2px;
-    left: 1px;
-    background: #01FFF0;
+.form-switch .form-check-input{
+    background-image: url(../img/checked.png);
 }
-.slideOne input[type=checkbox]:checked + label {
-    left: 17px;
+.form-switch .form-check-input:focus {
+    background-image: url(../img/checked.png);
+    border: 1.5px solid rgba(1, 255, 240, 0.3);
+    box-shadow: none;
 }
-/* SLIDE THREE */
-.slideThree {
-    width: 100px;
-    height: 26px;
-    background: #172932;
-    margin: 0px auto;
-    border-radius: 50px;
+.btn-color-mode-switch > label.btn-color-mode-switch-inner{
+    width: 140px;
+    height: 30px;
+    background-color: #172932;
+    border: 1.5px solid rgba(1, 255, 240, 0.3);
+    border-radius: 26px;
     position: relative;
-    border: 1.5px solid rgba(1, 255, 240, 0.3);
-    border-radius: 51px;
+    transition: all 0.3s ease;
 }
-.slideThree:after {
-    content: 'Finished';
-    font: 12px/26px Arial, sans-serif;
-    color: #ffffff;
+.btn-color-mode-switch > label.btn-color-mode-switch-inner:before{
+    content: attr(data-on);
     position: absolute;
-    right: 5px;
-    /* z-index: 0; */
-    font-weight: bold;
-    text-shadow: 1px 1px 0px rgba(255,255,255,.15);
-    opacity: 1;
-    
+    font-size: 12px;
+    top: 7px;
+    right: 20px;
 }
-
-.slideThree:before {
-    content: 'Live ';
-    font: 12px/26px Arial, sans-serif;
-    color: #ffffff;
-    position: absolute;
-    left: 5px;
-    z-index: 0;
-    font-weight: bold;
-    text-shadow: 1px 1px 0px rgba(255,255,255,.15);
-}
-
-.slideThree label {
-    width: 50px;
-    height: 22px;
-    border-radius: 50px;
-    position: absolute;
-    top: 1px;
-    left: 1px;
-    z-index: 1;
+.btn-color-mode-switch > label.btn-color-mode-switch-inner:after{
+    content: attr(data-off);
+    width: 70px;
+    height: 25px;
     background: #EC008C;
-    box-shadow: 0px 4px 13px #ec008c;
+    box-shadow: 1px 7px 13px #EC008C;
+    border-radius: 47px;
+    position: absolute;
+    left: 2px;
+    top: 1px;
+    text-align: center;
+    transition: all 0.3s ease;
 }
-
-.slideThree input[type=checkbox]:checked + label {
-    left: 46px;
+.btn-color-mode-switch input[type="checkbox"]{
+    width: 50px;
+    height: 25px;
+    position: absolute;
+}
+.btn-color-mode-switch input[type="checkbox"]:checked + label.btn-color-mode-switch-inner:after{
+    content: attr(data-on);
+    left: 66px;
+    background: #EC008C;
+}
+.btn-color-mode-switch input[type="checkbox"]:checked + label.btn-color-mode-switch-inner:before{
+    content: attr(data-off);
+    right: auto;
+    left: 20px;
 }
 
 /* ===================== FAQ =================== */
