@@ -1045,7 +1045,7 @@ footer .copyright {
 }
 #hyra-staking .page-hyra-staking .menu-hyra .nav-item .active img{
     background: #172932;
-    filter: hue-rotate(137deg);
+    filter: contrast(116%) hue-rotate(144deg);
 }
 #hyra-staking .page-hyra-staking .page-cave .accordion-item p {
     margin-bottom: 0;
@@ -1055,7 +1055,7 @@ footer .copyright {
 #hyra-staking .page-hyra-staking .page-cave .accordion-item .text-color {
     color: hsla(176, 100%, 50%, 1);
 }
-#hyra-staking .page-hyra-staking .page-cave .title-shadow {
+#hyra-staking .page-hyra-staking .title-shadow {
     text-align: center;
     color: #172932;
     font-family: 'SVN-Gotham';
@@ -1069,7 +1069,7 @@ footer .copyright {
                  1px -1px 0  #01FFF0,
                 -1px -1px 0  #01FFF0;
 }
-#hyra-staking .page-hyra-staking .page-cave .btn-staking{
+#hyra-staking .page-hyra-staking .btn-staking{
     background: hsla(324, 100%, 46%, 1);
     color: white;
     border: 2px solid hsla(324, 100%, 46%, 1);
@@ -1077,7 +1077,7 @@ footer .copyright {
     padding: 5px 89px;
     font-weight: 700;
     border-radius: 7px;
-    width: 80%;
+    /* width: 80%; */
 }
 #hyra-staking .page-hyra-staking .page-cave .form-select option{
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(344.23deg, rgba(85, 186, 208, 0.57) -6.56%, rgba(85, 186, 208, 0.26) 115.47%);
@@ -1169,7 +1169,90 @@ footer .copyright {
     right: auto;
     left: 20px;
 }
-
+ /* =====================hyra-staking================  */
+#hyra-staking p {
+    font-size: 16px;
+    font-weight: 400;
+}
+#hyra-staking .box-hyra{
+    background: #21434d;
+    padding: 30px;
+}
+#hyra-staking .box-hyra{
+    border: 1px solid #55BAD049;
+    border-radius: 10px;
+}
+#hyra-staking .icon-box-hyra-1 img{
+    background-color: #EC008C;
+    height: 30%;
+    border-radius: 50%;
+    top: 55%;
+    left: 12%;
+}
+#hyra-staking .box-hyra span{
+font-size: 20px;
+font-weight: 700;
+}
+#hyra-staking .img-content >img{
+    width: 70px;
+}
+#hyra-staking .box-connect-wallet{
+    background: #EC008C;
+    text-align: center;
+    padding: 7px 11px 11px 11px;
+    width: 100%;
+    border-radius: 5px;
+}
+#hyra-staking .card-body{
+    background: #21434d;
+    padding: 0%;
+}
+#hyra-staking .card{
+    border: none;
+}
+#hyra-staking .size-image-walet a{
+    color: #01FFF0;
+}
+#hyra-staking .bg-box-bottom{
+    background: #21434d;
+    border: none;
+    color: #01FFF0;
+    font-weight: 700;
+}
+#hyra-staking .bg-box-bottom img{
+    top: 26%;
+    right: -20%;
+}
+#hyra-staking .text-start-staking {
+    color:#01FFF0 ;
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 700;
+}
+#hyra-staking .color-x{
+    color:#01FFF0 ;
+}
+.showInfo .text-1,
+#hyra-staking .showInfo.collapsed .text-2 {
+    display: none;
+}
+#hyra-staking .showInfo.collapsed .text-1 {
+    display: inline-block;
+    color: #01FFF0;
+    padding: 0px 135px 0px 135px;
+}
+#hyra-staking .text-2{
+    color: #01FFF0;
+    text-align: end;
+    margin-left: 295px;
+}
+#hyra-staking .text-2 img{
+    transform: rotate(180deg);
+}
+#hyra-staking #text-center-box{
+    font-size: 16px;
+    font-weight: 450;
+}
 /* ===================== FAQ =================== */
 #faqPage {
     background: #172932 url(../img/bg-faq.jpg) repeat-x center top / contain;

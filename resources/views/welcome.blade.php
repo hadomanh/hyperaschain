@@ -14,7 +14,7 @@
 								<a href="#" class="d-block btn btnBlue boxShadowBlue text-center">Smart Contract</a>
 							</div>
 							<div class="col-md-6">
-								<a href="#" class="d-block btn btnPink boxShadowBlue">Smart Contract</a>
+								<a href="#" class="d-block btn btnPink boxShadowBlue">White Paper</a>
 							</div>
 						</div>
 						<div class="mt-3 small">
@@ -101,21 +101,27 @@
 						<div class="item">
 							<img src="{{ asset('img/divega.png')}}" alt="">
 							<p class="text d-flex align-items-center justify-content-center">Reverse auction E-com Platform</p>
-								<a href="#"><div class="arrow"></div></a>
+							<a href="#">
+								<div class="arrow"></div>
+							</a>
 						</div>
 					</div>
 					<div class="col-md-2">
 						<div class="item">
 							<img src="{{ asset('img/rapitalbank.png')}}" alt="">
 							<p class="text d-flex align-items-center justify-content-center">Digital Banking</p>
-								<a href="#"><div class="arrow"></div></a>
+							<a href="#">
+								<div class="arrow"></div>
+							</a>
 						</div>
 					</div>
 					<div class="col-md-2">
 						<div class="item">
 							<img src="{{ asset('img/pindias.png')}}" alt="">
 							<p class="text d-flex align-items-center justify-content-center">Digital Real Estate Exchange</p>
-								<a href="#"><div class="arrow"></div></a>
+							<a href="#">
+								<div class="arrow"></div>
+							</a>
 						</div>
 					</div>
 				</div>
