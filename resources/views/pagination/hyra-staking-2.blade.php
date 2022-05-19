@@ -498,6 +498,514 @@
                         </div>
                     </div>
                     <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="box-hyra">
+                                    <div class="d-flex position-relative pb-4 pt-3 img-content">
+                                        <div style="margin-right: 30px;">
+                                            <img src="{{ asset('img/hyra-earn.png') }}">
+                                        </div>
+                                        <div class="ps-4">
+                                            <span class="text-content">Stake HYRA</span>
+                                            <p>Stake, Earn - And more!</p>
+                                        </div>
+                                        <div class=" icon-box-hyra-1">
+                                            <img class="position-absolute" src="{{asset('img/Group78.png')}}" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <p>FLEXIBLE APY:</p>
+                                        <p>17.38%</p>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <p>FLEXIBLE APY:</p>
+                                        <p>17.38%</p>
+                                    </div>
+                                    <div class="col-md text-center">
+                                        <p class="title-shadow">START STAKING</p>
+                                        <button class="btn-staking">Connect Wallet</button>
+                                    </div>
+
+                                    <hr>
+                                    <div class="text-center">
+                                        <div>
+                                            <p class="text-center ">
+                                                <a data-bs-toggle="collapse" href="#collapseExample-0" role="button" aria-expanded="true" aria-controls="collapseExample" class="showInfo collapsed">
+                                                    <span class="text-1 text-center-box">
+                                                        Details
+                                                        <img src="{{asset('img/Vecto-vr.png')}}" alt="">
+                                                    </span>
+                                                    <span class="text-2 text-center-box">
+                                                        Hide
+                                                        <img src="{{asset('img/Vecto-vr.png')}}" alt="">
+                                                    </span>
+                                                </a>
+                                            </p>
+                                            <div class="collapse" id="collapseExample-0" style="">
+                                                <div class="card card-body">
+                                                    <div>
+                                                        <div class="d-flex justify-content-between">
+                                                            <p class=" box-color-x font-size-connect-bottom color-text-blue">
+                                                                Total staked
+                                                            </p>
+                                                            <p>
+                                                                123,456,789 HYRA
+                                                            </p>
+                                                        </div>
+                                                        <div class="d-flex justify-content-between">
+                                                            <p class="box-color-x">
+                                                                Total locked:
+                                                            </p>
+                                                            <p>
+                                                                3,456,789 HYRA
+                                                            </p>
+                                                        </div>
+                                                        <div class="d-flex justify-content-between">
+                                                            <p>
+                                                                Performance Fee
+                                                            </p>
+                                                            <p>
+                                                                0~2%
+                                                            </p>
+                                                        </div>
+                                                        <div class=" text-end ">
+                                                            <a class="color-x" href="">
+                                                                See Token Info
+                                                                <img src="{{ asset('img/arrow-right.png') }}">
+                                                            </a>
+                                                        </div>
+                                                        <div class="text-end">
+                                                            <a class="color-x" href="">
+                                                                View Project Site
+                                                                <img src="{{ asset('img/arrow-right.png') }}">
+                                                            </a>
+                                                        </div>
+                                                        <div class="text-end">
+                                                            <a class="color-x" href="">
+                                                                View Tutorial
+                                                                <img src="{{ asset('img/arrow-right.png') }}">
+                                                            </a>
+                                                        </div>
+                                                        <div class="text-end">
+                                                            <a class="color-x" href="">
+                                                                View Contact
+                                                                <img src="{{ asset('img/arrow-right.png') }}">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="box-hyra">
+                                    <div class="d-flex position-relative pb-4 pt-3 img-content">
+                                        <img src="http://127.0.0.1:8000/img/Ellipse 18.png" alt="">
+                                        <div class="ps-4">
+                                            <span class="text-content">Earn HYRA</span>
+                                            <p>Stake HYRA</p>
+                                        </div>
+                                        <div class=" icon-box-hyra-1">
+                                            <img class="position-absolute" src="http://127.0.0.1:8000/img/Ellipse10.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <p>APR:</p>
+                                        <p>17.38%</p>
+                                    </div>
+                                    <div class="text-center text-start-staking pb-3">
+                                        Start Staking
+                                    </div>
+                                    <div class="box-connect-wallet">
+                                        <a href="#">Connect Wallet</a>
+                                    </div>
+                                    <hr>
+                                    <div>
+                                        <p class="text-center ">
+                                            <a data-bs-toggle="collapse" href="#collapseExample-1" role="button" aria-expanded="true" aria-controls="collapseExample" class="showInfo collapsed">
+                                                <span class="text-1 text-center-box">
+                                                    Details
+                                                    <img src="{{asset('img/Vecto-vr.png')}}" alt="">
+                                                </span>
+                                                <span class="text-2 text-center-box">
+                                                    Hide
+                                                    <img src="{{asset('img/Vecto-vr.png')}}" alt="">
+                                                </span>
+                                            </a>
+                                        </p>
+                                        <div class="collapse" id="collapseExample-1">
+                                            <div class="card card-body">
+                                                <div>
+                                                    <div class="d-flex justify-content-between">
+                                                        <p class=" box-color-x font-size-connect-bottom color-text-blue">
+                                                            Total staked
+                                                        </p>
+                                                        <p>
+                                                            123,456,789 HYRA
+                                                        </p>
+                                                    </div>
+                                                    <div class="d-flex justify-content-between">
+                                                        <p class="box-color-x">
+                                                            Ends in:
+                                                        </p>
+                                                        <p class="color-x">
+                                                            1,234,456 blocks
+                                                        </p>
+                                                    </div>
+                                                    <div class=" text-end ">
+                                                        <a class="color-x" href="">
+                                                            See Token Info
+                                                            <img src="{{ asset('img/arrow-right.png') }}">
+                                                        </a>
+                                                    </div>
+                                                    <div class="text-end">
+                                                        <a class="color-x" href="">
+                                                            View Project Site
+                                                            <img src="{{ asset('img/arrow-right.png') }}">
+                                                        </a>
+                                                    </div>
+                                                    <div class="text-end">
+                                                        <a class="color-x" href="">
+                                                            View Contact
+                                                            <img src="{{ asset('img/arrow-right.png') }}">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="box-hyra">
+                                    <div class="d-flex position-relative pb-4 pt-3 img-content">
+                                        <img src="http://127.0.0.1:8000/img/Ellipse 19.png" alt="">
+                                        <div class="ps-4">
+                                            <span class="text-content">Earn HYRA</span>
+                                            <p>Stake HYRA</p>
+                                        </div>
+                                        <div class=" icon-box-hyra-1">
+                                            <img class="position-absolute" src="http://127.0.0.1:8000/img/Ellipse10.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="d-flex justify-content-between">
+                                        <p>APR:</p>
+                                        <p>17.38%</p>
+                                    </div>
+                                    <div class="text-center text-start-staking pb-3">
+                                        Start Staking
+                                    </div>
+                                    <div class="box-connect-wallet">
+                                        <a href="#">Connect Wallet</a>
+                                    </div>
+                                    <hr>
+                                    <div>
+                                        <p class="text-center">
+                                            <a data-bs-toggle="collapse" href="#collapseExample-2" role="button" aria-expanded="true" aria-controls="collapseExample" class="showInfo collapsed">
+                                                <span class="text-1 text-center-box">
+                                                    Details
+                                                    <img src="{{asset('img/Vecto-vr.png')}}" alt="">
+                                                </span>
+                                                <span class="text-2 text-center-box">
+                                                    Hide
+                                                    <img src="{{asset('img/Vecto-vr.png')}}" alt="">
+                                                </span>
+                                            </a>
+                                        </p>
+                                        <div class="collapse" id="collapseExample-2">
+                                            <div class="card card-body">
+                                                <div>
+                                                    <div class="d-flex justify-content-between">
+                                                        <p class=" box-color-x font-size-connect-bottom color-text-blue">
+                                                            Total staked
+                                                        </p>
+                                                        <p>
+                                                            123,456,789 HYRA
+                                                        </p>
+                                                    </div>
+                                                    <div class="d-flex justify-content-between">
+                                                        <p class="box-color-x">
+                                                            Ends in:
+                                                        </p>
+                                                        <p>
+                                                            1,234,456 blocks
+                                                        </p>
+                                                    </div>
+                                                    <div class="text-end">
+                                                        <a href="">
+                                                            See Token Info
+                                                            <img src="{{ asset('img/arrow-right.png') }}">
+                                                        </a>
+                                                    </div>
+                                                    <div class="text-end">
+                                                        <a href="">
+                                                            View Project Site
+                                                            <img src="{{ asset('img/arrow-right.png') }}">
+                                                        </a>
+                                                    </div>
+                                                    <div class="text-end">
+                                                        <a href="">
+                                                            View Contact
+                                                            <img src="{{ asset('img/arrow-right.png') }}">
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="pt-3">
+                            <div class="row">
+                                <div class="col-4">
+                                    <div class="box-hyra">
+                                        <div class="d-flex position-relative pb-4 pt-3 img-content">
+                                            <img src="{{asset('img/Ellipse 11.png')}}" alt="">
+                                            <div class="ps-4">
+                                                <span class="text-content">Stake HYRA</span>
+                                                <p>Earn HYRA</p>
+                                            </div>
+                                            <div class=" icon-box-hyra-1">
+                                                <img class="position-absolute" src="{{asset('img/Ellipse10.png')}}" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <p>APR:</p>
+                                            <p>17.38%</p>
+                                        </div>
+                                        <div class="text-center text-start-staking pb-3">
+                                            Start Staking
+                                        </div>
+                                        <div class="box-connect-wallet">
+                                            <a href="#">Connect Wallet</a>
+                                        </div>
+                                        <hr>
+                                        <div>
+                                            <p class="text-center">
+                                                <a data-bs-toggle="collapse" href="#collapseExample-3" role="button" aria-expanded="true" aria-controls="collapseExample" class="showInfo collapsed">
+                                                    <span class="text-1 text-center-box">
+                                                        Details
+                                                        <img src="{{asset('img/Vecto-vr.png')}}" alt="">
+                                                    </span>
+                                                    <span class="text-2 text-center-box">
+                                                        Hide
+                                                        <img src="{{asset('img/Vecto-vr.png')}}" alt="">
+                                                    </span>
+                                                </a>
+                                            </p>
+                                            <div class="collapse" id="collapseExample-3">
+                                                <div class="card card-body">
+                                                    <div>
+                                                        <div class="d-flex justify-content-between">
+                                                            <p class=" box-color-x font-size-connect-bottom color-text-blue">
+                                                                Total staked
+                                                            </p>
+                                                            <p>
+                                                                123,456,789 HYRA
+                                                            </p>
+                                                        </div>
+                                                        <div class="d-flex justify-content-between">
+                                                            <p class=" box-color-x font-size-connect-bottom color-text-blue">
+                                                                Total staked
+                                                            </p>
+                                                            <p>
+                                                                3,456,789 HYRA
+                                                            </p>
+                                                        </div>
+                                                        <div class="text-end">
+                                                            <a href="">
+                                                                See Token Info
+                                                                <img src="{{ asset('img/arrow-right.png') }}">
+                                                            </a>
+                                                        </div>
+                                                        <div class="text-end">
+                                                            <a href="">
+                                                                View Project Site
+                                                                <img src="{{ asset('img/arrow-right.png') }}">
+                                                            </a>
+                                                        </div>
+                                                        <div class="text-end">
+                                                            <a href="">
+                                                                View Tutorial
+                                                                <img src="{{ asset('img/arrow-right.png') }}">
+                                                            </a>
+                                                        </div>
+                                                        <div class="text-end">
+                                                            <a href="">
+                                                                View Contact
+                                                                <img src="{{ asset('img/arrow-right.png') }}">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="box-hyra">
+                                        <div class="d-flex position-relative pb-4 pt-3 img-content">
+                                            <img src="http://127.0.0.1:8000/img/Ellipse 12.png" alt="">
+                                            <div class="ps-4">
+                                                <span class="text-content">Earn HYRA</span>
+                                                <p>Stake HYRA</p>
+                                            </div>
+                                            <div class=" icon-box-hyra-1">
+                                                <img class="position-absolute" src="http://127.0.0.1:8000/img/Ellipse10.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <p>APR:</p>
+                                            <p>17.38%</p>
+                                        </div>
+                                        <div class="text-center text-start-staking pb-3">
+                                            Start Staking
+                                        </div>
+                                        <div class="box-connect-wallet">
+                                            <a href="#">Connect Wallet</a>
+                                        </div>
+                                        <hr>
+                                        <div>
+                                            <p class="text-center">
+                                                <a data-bs-toggle="collapse" href="#collapseExample-4" role="button" aria-expanded="true" aria-controls="collapseExample" class="showInfo collapsed">
+                                                    <span class="text-1 text-center-box">
+                                                        Details
+                                                        <img src="{{asset('img/Vecto-vr.png')}}" alt="">
+                                                    </span>
+                                                    <span class="text-2 text-center-box">
+                                                        Hide
+                                                        <img src="{{asset('img/Vecto-vr.png')}}" alt="">
+                                                    </span>
+                                                </a>
+                                            </p>
+                                            <div class="collapse" id="collapseExample-4">
+                                                <div class="card card-body">
+                                                    <div>
+                                                        <div class="d-flex justify-content-between">
+                                                            <p class=" box-color-x font-size-connect-bottom color-text-blue">
+                                                                Total staked
+                                                            </p>
+                                                            <p>
+                                                                123,456,789 HYRA
+                                                            </p>
+                                                        </div>
+                                                        <div class="d-flex justify-content-between">
+                                                            <p class="box-color-x">
+                                                                Ends in:
+                                                            </p>
+                                                            <p>
+                                                                1,234,456 blocks
+                                                            </p>
+                                                        </div>
+                                                        <div class="text-end">
+                                                            <a href="">
+                                                                See Token Info
+                                                                <img src="{{ asset('img/arrow-right.png') }}">
+                                                            </a>
+                                                        </div>
+                                                        <div class="text-end">
+                                                            <a href="">
+                                                                View Project Site
+                                                                <img src="{{ asset('img/arrow-right.png') }}">
+                                                            </a>
+                                                        </div>
+                                                        <div class="text-end">
+                                                            <a href="">
+                                                                View Contact
+                                                                <img src="{{ asset('img/arrow-right.png') }}">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-4">
+                                    <div class="box-hyra">
+                                        <div class="d-flex position-relative pb-4 pt-3 img-content">
+                                            <img src="http://127.0.0.1:8000/img/Ellipseeeeeee1.png" alt="">
+                                            <div class="ps-4">
+                                                <span class="text-content">Earn HYRA</span>
+                                                <p>Stake HYRA</p>
+                                            </div>
+                                            <div class=" icon-box-hyra-1">
+                                                <img class="position-absolute" src="http://127.0.0.1:8000/img/Ellipse10.png" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <p>APR:</p>
+                                            <p>17.38%</p>
+                                        </div>
+                                        <div class="text-center text-start-staking pb-3">
+                                            Start Staking
+                                        </div>
+                                        <div class="box-connect-wallet">
+                                            <a href="#">Connect Wallet</a>
+                                        </div>
+                                        <hr>
+                                        <div>
+                                            <p class="text-center">
+                                                <a data-bs-toggle="collapse" href="#collapseExample-5" role="button" aria-expanded="true" aria-controls="collapseExample" class="showInfo collapsed">
+                                                    <span class="text-1 text-center-box">
+                                                        Details
+                                                        <img src="{{asset('img/Vecto-vr.png')}}" alt="">
+                                                    </span>
+                                                    <span class="text-2" id="text-center-box">
+                                                        Hide
+                                                        <img src="{{asset('img/Vecto-vr.png')}}" alt="">
+                                                    </span>
+                                                </a>
+                                            </p>
+                                            <div class="collapse" id="collapseExample-5">
+                                                <div class="card card-body">
+                                                    <div>
+                                                        <div class="d-flex justify-content-between">
+                                                            <p class=" box-color-x font-size-connect-bottom color-text-blue">
+                                                                Total staked
+                                                            </p>
+                                                            <p>
+                                                                123,456,789 HYRA
+                                                            </p>
+                                                        </div>
+                                                        <div class="d-flex justify-content-between">
+                                                            <p class="box-color-x">
+                                                                Ends in:
+                                                            </p>
+                                                            <p>
+                                                                1,234,456 blocks
+                                                            </p>
+                                                        </div>
+                                                        <div class="text-end">
+                                                            <a href="">
+                                                                See Token Info
+                                                                <img src="{{ asset('img/arrow-right.png') }}">
+                                                            </a>
+                                                        </div>
+                                                        <div class="text-end">
+                                                            <a href="">
+                                                                View Project Site
+                                                                <img src="{{ asset('img/arrow-right.png') }}">
+                                                            </a>
+                                                        </div>
+                                                        <div class="text-end">
+                                                            <a href="">
+                                                                View Contact
+                                                                <img src="{{ asset('img/arrow-right.png') }}">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
