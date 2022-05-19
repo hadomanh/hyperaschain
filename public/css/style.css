@@ -609,8 +609,25 @@ footer .copyright {
     display: inline-block;
     margin: 20px;
 }
-
-
+#communityPage .listCommunity table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+#communityPage .listCommunity  tr {
+    border-bottom: 1px solid #ddd;
+  }
+  #communityPage .listCommunity td img {
+      padding: 15px;
+  }
+  #communityPage .listCommunity .text-green{
+      color: hsla(176, 100%, 50%, 1);
+      font-weight: 500;
+  }
+  #communityPage .listCommunity .text-pink{
+    color: hsla(324, 100%, 46%, 1);
+    font-weight: 500;
+}
 /* ===================== BRANDKIT PAGE =================== */
 
 #brandKitPage {

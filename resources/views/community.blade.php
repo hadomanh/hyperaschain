@@ -18,17 +18,17 @@
                             </a>
                         </div>
                         <div class="col-md-4">
-                            <a href="https://www.linkedin.com/feed/" target="blank">
+                            <a href="https://www.linkedin.com/company/hyperaschainofficial" target="blank">
                                 <img src="{{ asset('img/linkedin.png') }}" alt="">
                             </a>
                         </div>
                         <div class="col-md-4">
-                            <a href="https://twitter.com/?lang=vi" target="blank">
+                            <a href="https://twitter.com/hyperaschain" target="blank">
                                 <img src="{{ asset('img/twitter.png') }}" alt="">
                             </a>
                         </div>
                         <div class="col-md-4">
-                            <a href="https://www.facebook.com/" target="blank">
+                            <a href="mailto:marcom@hyperaschain.com" target="blank">
                                 <img src="{{ asset('img/facebook.png') }}" alt="">
                             </a>
                         </div>
@@ -38,13 +38,52 @@
                             </a>
                         </div>
                         <div class="col-md-4">
-                            <a href="https://www.youtube.com/" target="blank">
+                            <a href="https://twitter.com/hyperaschain" target="blank">
                                 <img src="{{ asset('img/youtube.png') }}" alt="">
                             </a>
                         </div>
                     </div>
                 </div>
-            </div>            
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <h2 class="sectionHeading">Upcoming Event</h2>
+                    <div class="row">
+                        <table>
+                            <tr>
+                                <th></th>
+                                <th>Event</th>
+                                <th>Time</th>
+                                <th>Type</th>
+                            </tr>
+                            <tr>
+                                <td><img src="{{ asset('img/upcoming-1.png') }}" alt="" class="w-100s"></td>
+                                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit</td>
+                                <td>20.04.2022</td>
+                                <td class="text-green">Online</td>
+                            </tr>
+                            <tr>
+                                <td><img src="{{ asset('img/upcoming-4.png') }}" alt=""></td>
+                                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit</td>
+                                <td>20.04.2022</td>
+                                <td class="text-pink">Offline</td>
+                            </tr>
+                            <tr>
+                                <td><img src="{{ asset('img/upcoming-3.png') }}" alt=""></td>
+                                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit</td>
+                                <td>20.04.2022</td>
+                                <td class="text-green">Online</td>
+                            </tr>
+                            <tr>
+                                <td><img src="{{ asset('img/upcoming-2.png') }}" alt=""></td>
+                                <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit</td>
+                                <td>20.04.2022</td>
+                                <td class="text-green">Online</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
         </section>
     </div>
 </div>
