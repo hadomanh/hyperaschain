@@ -24,45 +24,45 @@
             <div class="row">
                 <div class="col-md-3 text-center">
                     <div class="roundPink"><img src="{{ asset('img/token-1.png') }}"></div>
-                    <div class="mt-4 fw-normal">Establishing a Proof-of-Authority Network</div>
+                    <div class="mt-4 font-regular">Establishing a Proof-of-Authority Network</div>
                 </div>
                 <div class="col-md-3">
                     <div class="roundPink"><img src="{{ asset('img/token-2.png') }}"></div>
-                    <div class="mt-4 fw-normal">Crypto Payments</div>
+                    <div class="mt-4 font-regular">Crypto Payments</div>
                 </div>
                 <div class="col-md-3">
                     <div class="roundPink"><img src="{{ asset('img/token-3.png') }}"></div>
-                    <div class="mt-4 fw-normal">On-Chain Governance</div>
+                    <div class="mt-4 font-regular">On-Chain Governance</div>
                 </div>
                 <div class="col-md-3">
                     <div class="roundPink"><img src="{{ asset('img/token-4.png') }}"></div>
-                    <div class="mt-4 fw-normal">Network Fees</div>
+                    <div class="mt-4 font-regular">Network Fees</div>
                 </div>
             </div>
         </section>
-        <section class="text-center">
+        <section class="text-center howToBuy">
             <h2 class="sectionHeading">How can i buy HYRA ?</h2>
             <div class="row justify-content-center">
                 <div class="col-md-2">
                     <a href="#">
                         <p><img src="{{ asset('img/pancake.png') }}" alt=""></p>
-                        <span>Swap on<br><span class="fw-bold">PancakeSwap</span></span>
+                        <span>Swap on<br><span class="font-regular">PancakeSwap</span></span>
                     </a>
                 </div>
                 <div class="col-md-2">
-                    <a href="#">
+                    <a href="#" class="comingSoon">
                         <p><img src="{{ asset('img/comingsoon-1.png') }}" alt=""></p>
                         <span>Coming Soon</span>
                     </a>
                 </div>
                 <div class="col-md-2">
-                    <a href="#">
+                    <a href="#" class="comingSoon">
                         <p><img src="{{ asset('img/comingsoon-2.png') }}" alt=""></p>
                         <span>Coming Soon</span>
                     </a>                    
                 </div>
                 <div class="col-md-2">
-                    <a href="#">
+                    <a href="#" class="comingSoon">
                         <p><img src="{{ asset('img/comingsoon-3.png') }}" alt=""></p>
                         <span>Coming Soon</span>
                     </a>

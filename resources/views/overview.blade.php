@@ -88,93 +88,94 @@
             </div>
 
             <section class="roadmap"> 
-                <div class="container text-center">
-                    <h2 class="sectionHeading">Road map</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation </p>
-                </div>
-                <div class="contentRoadmap">
-                    <div class="row g-0">
-                        <div class="col-md-2">
-                            <div class="item active">
-                                <h4 class="date">Q4. 2021</h4>
-                                <div class="imgWrap">
-                                    <span class="line"></span>
-                                    <img src="{{ asset('img/icon-roadmap-pink.png')}}" alt="">
+                <div class="container">
+                    <div class="text-center">
+                        <h2 class="sectionHeading">Road map</h2>
+                    </div>
+                    <div class="contentRoadmap">
+                        <div class="row g-0">
+                            <div class="col-md-2">
+                                <div class="item active">
+                                    <h4 class="date">Q4. 2021</h4>
+                                    <div class="imgWrap">
+                                        <span class="line"></span>
+                                        <img src="{{ asset('img/icon-roadmap-pink.png')}}" alt="">
+                                    </div>
+                                    <ul>
+                                        <li>Complete the legal records of Metaway Holdings member companies</li>
+                                        <li>Coduct mergers and acquisions (M&A) among member companies</li>
+                                        <li>Development of distinct Blockchain platform and products in the ecosystem</li>
+                                    </ul>
                                 </div>
-                                <ul>
-                                    <li>Complete the legal records of Metaway Holdings member companies</li>
-                                    <li>Coduct mergers and acquisions (M&A) among member companies</li>
-                                    <li>Development of distinct Blockchain platform and products in the ecosystem</li>
-                                </ul>
                             </div>
-                        </div>
-                        <div class="col-md-2">
-                            <div class="item active">
-                                <h4 class="date">Q1. 2022</h4>
-                                <div class="imgWrap">
-                                    <span class="line"></span>
-                                    <img src="{{ asset('img/icon-roadmap-pink.png')}}" alt="">
+                            <div class="col-md-2">
+                                <div class="item active">
+                                    <h4 class="date">Q1. 2022</h4>
+                                    <div class="imgWrap">
+                                        <span class="line"></span>
+                                        <img src="{{ asset('img/icon-roadmap-pink.png')}}" alt="">
+                                    </div>
+                                    <ul>
+                                        <li>R60 realated to Hyperas Chain (testnest)</li>
+                                        <li>Launch of Hyperas Scan (V1)</li>
+                                        <li>Audit Blockchain</li>
+                                        <li>Launch of testing version of Pindias Website (V1)</li>
+                                    </ul>
                                 </div>
-                                <ul>
-                                    <li>R60 realated to Hyperas Chain (testnest)</li>
-                                    <li>Launch of Hyperas Scan (V1)</li>
-                                    <li>Audit Blockchain</li>
-                                    <li>Launch of testing version of Pindias Website (V1)</li>
-                                </ul>
                             </div>
-                        </div>
-                        <div class="col-md-2">
-                            <div class="item">
-                                <h4 class="date">Q2. 2022</h4>
-                                <div class="imgWrap">
-                                    <span class="line"></span>
-                                    <img src="{{ asset('img/icon-roadmap-blue.png')}}" alt="">
+                            <div class="col-md-2">
+                                <div class="item">
+                                    <h4 class="date">Q2. 2022</h4>
+                                    <div class="imgWrap">
+                                        <span class="line"></span>
+                                        <img src="{{ asset('img/icon-roadmap-blue.png')}}" alt="">
+                                    </div>
+                                    <ul>
+                                        <li>Launch of Hyperas Chain (Mainet)</li>
+                                        <li>Launch of Hyperas Wallet</li>
+                                        <li>Launch of Hyperas NFT</li>
+                                        <li>Launch of official version Pindias (V2)</li>
+                                    </ul>
                                 </div>
-                                <ul>
-                                    <li>Launch of Hyperas Chain (Mainet)</li>
-                                    <li>Launch of Hyperas Wallet</li>
-                                    <li>Launch of Hyperas NFT</li>
-                                    <li>Launch of official version Pindias (V2)</li>
-                                </ul>
                             </div>
-                        </div>
-                        <div class="col-md-2">
-                            <div class="item">
-                                <h4 class="date">Q3. 2022</h4>
-                                <div class="imgWrap">
-                                    <span class="line"></span>
-                                    <img src="{{ asset('img/icon-roadmap-blue.png')}}" alt="">
-                                </div>
-                                <ul>
-                                    <li>Launch of Divega reverse aution e-commerce platform (V2)</li>
-                                    <li>Launch of Pindias app for Android & IOS (V2)</li>
-                                </ul>
-                            </div>                                
-                        </div>
-                        <div class="col-md-2">
-                            <div class="item">
-                                <h4 class="date">Q4. 2022</h4>
-                                <div class="imgWrap">
-                                    <span class="line"></span>
-                                    <img src="{{ asset('img/icon-roadmap-blue.png')}}" alt="">
-                                </div>
-                                <ul>
-                                    <li>Support of digitization of assets on Hyperas NFT</li>
-                                    <li>Support for trading and fundrasing via NFT Hyperas Dex Market</li>
-                                </ul>
+                            <div class="col-md-2">
+                                <div class="item">
+                                    <h4 class="date">Q3. 2022</h4>
+                                    <div class="imgWrap">
+                                        <span class="line"></span>
+                                        <img src="{{ asset('img/icon-roadmap-blue.png')}}" alt="">
+                                    </div>
+                                    <ul>
+                                        <li>Launch of Divega reverse aution e-commerce platform (V2)</li>
+                                        <li>Launch of Pindias app for Android & IOS (V2)</li>
+                                    </ul>
+                                </div>                                
                             </div>
-                        </div>
-                        <div class="col-md-2">
-                            <div class="item">
-                                <h4 class="date">Q1. 2023</h4>
-                                <div class="imgWrap">
-                                    <span class="line"></span>
-                                    <img src="{{ asset('img/icon-roadmap-blue.png')}}" alt="">
+                            <div class="col-md-2">
+                                <div class="item">
+                                    <h4 class="date">Q4. 2022</h4>
+                                    <div class="imgWrap">
+                                        <span class="line"></span>
+                                        <img src="{{ asset('img/icon-roadmap-blue.png')}}" alt="">
+                                    </div>
+                                    <ul>
+                                        <li>Support of digitization of assets on Hyperas NFT</li>
+                                        <li>Support for trading and fundrasing via NFT Hyperas Dex Market</li>
+                                    </ul>
                                 </div>
-                                <ul>
-                                    <li>Support of digitization of assets on Hyperas NFT</li>
-                                    <li>Support for trading and fundrasing via NFT Hyperas Dex Market</li>
-                                </ul>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="item">
+                                    <h4 class="date">Q1. 2023</h4>
+                                    <div class="imgWrap">
+                                        <span class="line"></span>
+                                        <img src="{{ asset('img/icon-roadmap-blue.png')}}" alt="">
+                                    </div>
+                                    <ul>
+                                        <li>Support of digitization of assets on Hyperas NFT</li>
+                                        <li>Support for trading and fundrasing via NFT Hyperas Dex Market</li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                     </div>

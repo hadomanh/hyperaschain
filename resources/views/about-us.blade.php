@@ -2,12 +2,12 @@
 
 @section('content')
 <div id="aboutPage">
+    <span class="circleBlur-1"></span>
+    <span class="circleBlur-2"></span>
     <section class="banner text-center">
         <h1 class="mb-0">ABOUT US</h1>
     </section>
-    <div class="overview">
-        <span class="circleBlur-1"></span>
-        <span class="circleBlur-2"></span>
+    <div class="overview">        
         <section>
             <div class="container">
                 <div class="row item">

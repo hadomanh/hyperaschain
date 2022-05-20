@@ -1,38 +1,109 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap');
-
+@font-face {
+    font-family: gotham-black-italic;
+    src: url(../fonts/gotham-black-italic.otf);
+}
+@font-face {
+    font-family: gotham-black;
+    src: url(../fonts/gotham-black.otf);
+}
+@font-face {
+    font-family: gotham-bold-italic;
+    src: url(../fonts/gotham-bold-italic.otf);
+}
+@font-face {
+    font-family: gotham-bold;
+    src: url(../fonts/gotham-bold.otf);
+}
+@font-face {
+    font-family: gotham-book-italic;
+    src: url(../fonts/gotham-book-italic.otf);
+}
+@font-face {
+    font-family: gotham-book;
+    src: url(../fonts/gotham-book.otf);
+}
+@font-face {
+    font-family: gotham-regular;
+    src: url(../fonts/gotham-regular.otf);
+}
+@font-face {
+    font-family: gotham-regular-italic;
+    src: url(../fonts/gotham-regular-italic.otf);
+}
+@font-face {
+    font-family: gotham-light;
+    src: url(../fonts/gotham-light.otf);
+}
+@font-face {
+    font-family: gotham-light-italic;
+    src: url(../fonts/gotham-light-italic.otf);
+}
 body {
     font-size: 16px;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 300;
+    font-family: 'gotham-light', sans-serif;
     overflow-x: hidden;
     color: #fff;
+    background: #1b2931;
 }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-weight: 700;
-}
-
-a,
-a:hover {
+a,a:hover {
     text-decoration: none;
     color: #fff;
 }
-
 img {
     max-width: 100%;
 }
-
 hr {
     color: #55C6D0;
 }
-
+.font-bold {
+    font-family: "gotham-bold";
+}
+.font-bold-italic {
+    font-family: "gotham-bold-italic";
+}
+.font-book {
+    font-family: "gotham-book";
+}
+.font-book-italic {
+    font-family: "gotham-book-italic";
+}
+.font-regular {
+    font-family: "gotham-regular";
+}
+.font-regular-italic {
+    font-family: "gotham-regular-italic";
+}
+.font-light {
+    font-family: "gotham-light";
+}
+.font-light-italic {
+    font-family: "gotham-light-italic";
+}
+section .sectionHeading,
+section.banner h1,
+#brandKitPage .titleBrandkit,
+#guideLinePage .steps .stepName,
+#hyraValidator .numberItem .number,
+#hyraValidator .numberItem,
+#hyraValidator .docsWrap .title,
+#stakingPage .poolTable .card-body .form-control {
+    font-family: "gotham-bold";
+}
+h1,h2,h3,h4,h5,h6,.btn,
+header .navbar .nav-link,
+header .navbar .dropdown-item,
+#brandKitPage table tbody tr td,
+.filterElement ul li,
+#stakingPage .poolTable .filter .status label {
+    font-family: "gotham-regular";
+}
+.textStroke {
+    color: #fff;
+    -webkit-text-fill-color: rgb(255 255 255 / 0%);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #01FFF0;
+}
 .btn {
-    font-weight: 400;
     padding: 8px 20px;
     color: #fff;
 }
@@ -56,15 +127,12 @@ hr {
     border-radius: 6px;
     border: none;
 }
-
 .boxShadowBlue {
     box-shadow: 0px 4px 13px #55C6D0;
 }
-
 .boxShadowPink {
     box-shadow: 0px 4px 13px rgba(236, 0, 140, 0.7);
 }
-
 .roundPink {
     background: #c40075db;
     border-radius: 50%;
@@ -73,12 +141,14 @@ hr {
     border: 1px solid #FC5CD9;
     box-shadow: 0px 4px 13px #EC008C;
 }
-
 .rounded-10 {
     border-radius: 10px;
 }
 .bgGrad {
     background: linear-gradient(to right, #FF0097, #00D3FF);
+}
+.bg-white {
+    background: #fff;
 }
 .goTop img {
     margin-left: 5px;
@@ -88,11 +158,10 @@ hr {
 section {
     padding: 50px 0;
 }
-
 section .sectionHeading,
 .text-gradient {
     display: inline-block;
-    background: linear-gradient(to right, #FF0097, #00D3FF);
+    background: linear-gradient(89.08deg, #FF0097 22.35%, #00D3FF 83.51%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -161,7 +230,7 @@ section.banner h1 {
     background: linear-gradient(to right, #FF0097, #00D3FF);
 }
 .filterElement ul li {
-    margin: 15px 0;
+    margin: 40px 0;
 }
 .bgGalaxy {
     background: url(../img/bg-galaxy.jpg) no-repeat center center / cover;
@@ -184,8 +253,8 @@ section.banner h1 {
 
 [class*="circleBlur-"] {
     position: absolute;
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     background: #01F0FF;
     filter: blur(514px);
 }
@@ -230,58 +299,44 @@ section.banner h1 {
     right: -23px;
 }
 /*========================== HEADER ==========================*/
-
 header {
     background: #172932;
     position: relative;
     z-index: 3;
 }
-
 header .top {
     padding: 15px 0;
 }
-
 header .top ul li:not(:last-child) {
     margin-right: 30px;
 }
-
 header .top a {
     color: #5D696F;
     display: block;
     font-size: 25px;
     line-height: 1;
 }
-
 header .top .faq-text a {
     font-size: 15px;
     font-weight: 700;
 }
-
 header .navbar {
     padding: 10px 0;
     border-top: 1px solid #28555F;
 }
-
 header .navbar .nav-item {
-    margin: 0 30px;
+    margin: 0 10px;
 }
-
 header .navbar .nav-link {
     color: #fff;
-    font-weight: 400;
 }
-
-header .navbar .dropdown-toggle::after {
-    display: none;
-}
-
 header .navbar .dropdown-menu {
     border-radius: 8px;
     border: none;
     left: 50%;
     transform: translateX(-50%);
     margin-top: 10px;
-    min-width: 12rem;
+    min-width: 13rem;
     background: linear-gradient(180deg, #FFFFFF 18.75%, rgba(255, 255, 255, 0.633333) 100%);
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(15px);
@@ -301,12 +356,16 @@ header .navbar .dropdown-menu:before {
 }
 
 header .navbar .dropdown-item {
-    padding: 10px 15px;
+    padding: 0;
+    display: inline-block;
+    width: auto;
+    margin: 15px 25px;
+    border-bottom: 2px solid transparent;
 }
 
 header .navbar .dropdown-item:focus,
 header .navbar .dropdown-item:hover {
-    color: #EC008C;
+    border-bottom-color: #EC008C;
     background: none;
 }
 
@@ -314,13 +373,19 @@ header .navbar .dropdown-item:hover {
 /*========================== HOMEPAGE ==========================*/
 
 #homepage .banner {
+    position: relative;
     padding: 100px 0;
     background: #085563 url(../img/hyperasChain.png) no-repeat center bottom / cover;
 }
+#homepage .banner .circleBlur-1 {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
 
 #homepage .banner .subHeading {
-    font-size: 38px;
-    font-weight: 300;
+    font-size: 38px;    
+    font-family: "gotham-light";
 }
 
 #homepage .bgGrid {
@@ -335,16 +400,10 @@ header .navbar .dropdown-item:hover {
     padding: 10px 40px;
     font-size: 20px;
 }
-
 #homepage .environment ul li {
     padding: 0 40px;
     font-weight: 400;
 }
-
-#homepage .environment ul li:hover {
-    color: #01FFF0;
-}
-
 #homepage .environment .item {
     background: linear-gradient(242.01deg, #FFFFFF 20.82%, rgba(255, 255, 255, 0.79) 65.38%);
     box-shadow: 17px 0px 28px rgb(85 198 208 / 15%);
@@ -354,39 +413,38 @@ header .navbar .dropdown-item:hover {
     padding: 30px 10px 20px;
     height: 100%;
 }
-
 #homepage .environment .text {
     height: 45px;
 }
-
 #homepage .environment .item .arrow {
     background: url('../img/arrowBlue.png');
     width: 24px;
     height: 25px;
     display: inline-block;
 }
-
 #homepage .environment .item .arrow:hover {
     background: url('../img/arorowWhite.png');
 }
-
-
 /*========================== OVERVIEW PAGE ==========================*/
 
 #overviewPage .banner {
     background: #172A33 url(../img/banner-overview.jpg) no-repeat center bottom / cover;
     text-align: center;
-    padding: 200px 0 240px;
+    padding: 120px 0 240px;
+    position: relative;
 }
 
 #overviewPage .ecosystem {
     margin-top: -100px;
     padding: 50px 0 250px;
     color: #58595B;
+    background: #fff;
 }
 
 #overviewPage .ecosystem .sectionHeading {
     margin-bottom: 100px;
+    position: relative;
+    z-index: 1;
 }
 
 #overviewPage .ecosystem .item {
@@ -411,7 +469,6 @@ header .navbar .dropdown-item:hover {
     width: calc(100% - 40px);
     height: 100%;
     background: url(../img/bg-item-overview.png) no-repeat left top / contain;
-    z-index: -1;
 }
 
 #overviewPage .ecosystem .item.item-1:before {
@@ -465,11 +522,11 @@ header .navbar .dropdown-item:hover {
 #overviewPage .roadmap .item .date {
     font-size: 18px;
     text-align: center;
-    margin-bottom: -50px;
+    margin-bottom: -30px;
 }
 
 #overviewPage .roadmap .item img {
-    width: 200px;
+    width: 150px;
     display: block;
     margin: 0 auto 30px;
     position: relative;
@@ -478,6 +535,11 @@ header .navbar .dropdown-item:hover {
 
 #overviewPage .roadmap .item ul {
     padding-right: 10px;
+    margin-left: 15px;
+    font-size: 14px;
+}
+#overviewPage .roadmap .item ul li:not(:last-child) {
+    margin-bottom: 8px;
 }
 
 #overviewPage .roadmap .item .imgWrap {
@@ -496,17 +558,22 @@ header .navbar .dropdown-item:hover {
 }
 
 #overviewPage .roadmap .row>div:nth-child(odd) .imgWrap .line {
-    transform: rotate(-26deg);
+    transform: rotate(-35deg);
     left: 50%;
-    bottom: 120px;
+    bottom: 95px;
 }
 
 #overviewPage .roadmap .row>div:nth-child(even) .imgWrap .line {
-    transform: rotate(26deg);
+    transform: rotate(35deg);
     left: 50%;
-    bottom: 0;
+    bottom: -30px;
 }
-
+#overviewPage .roadmap .row>div:last-child .imgWrap .line {
+    background: linear-gradient(131deg, rgba(34,193,195,1) 0%, rgba(255,255,255,0) 60%);
+}
+#overviewPage .roadmap .row>div:last-child .item .imgWrap .line:before {
+    display: none;
+}
 #overviewPage .roadmap .item .imgWrap .line:before {
     content: "";
     position: absolute;
@@ -526,36 +593,26 @@ header .navbar .dropdown-item:hover {
     top: -130px;
 }
 /*========================== ABOUT PAGE ==========================*/
-
 #aboutPage {
+    position: relative;
     background: #172932;
 }
-
-#aboutPage .overview .circleBlur-1 {
-    position: absolute;
+#aboutPage .circleBlur-1 {    
     right: -150px;
     top: 0;
     width: 501px;
     height: 501px;
-    background: #01F0FF;
-    filter: blur(550px);
 }
-
-#aboutPage .overview .circleBlur-2 {
-    position: absolute;
+#aboutPage .circleBlur-2 {    
     left: -200px;
     top: 1160px;
     width: 501px;
-    height: 501px;
-    background: #01F0FF;
-    filter: blur(550px);
+    height: 501px;    
 }
-
 #aboutPage .overview section {
     position: relative;
     z-index: 1;
 }
-
 #aboutPage .overview .squareBlur {
     background: rgb(36 60 72 / 50%);
     position: absolute;
@@ -565,7 +622,6 @@ header .navbar .dropdown-item:hover {
     height: 100%;
     z-index: -1;
 }
-
 #aboutPage .overview .squareBlur:before {
     content: "";
     background: rgb(36 60 72 / 50%);
@@ -574,8 +630,6 @@ header .navbar .dropdown-item:hover {
     height: 100%;
     left: -100%;
 }
-
-
 /* ===================== FOOTER =================== */
 
 footer,
@@ -684,7 +738,14 @@ footer .copyright {
 }
 /* ===================== VALIDATOR =================== */
 #hyraValidator {
+    position: relative;
     background: url(../img/bg-validator.jpg) #1b2a32 no-repeat center top / cover;
+}
+#hyraValidator .circleBlur-1 {
+    position: absolute;
+    bottom: -530px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 #hyraValidator .numberWrap {
     background: linear-gradient(to right, #FF0097, #00D3FF);
@@ -701,8 +762,8 @@ footer .copyright {
 }
 #hyraValidator .numberItem .number {
     font-size: 55px;
-    font-weight: 700;
     line-height: 1;
+    padding-bottom: 10px;
 }
 #hyraValidator .docsWrap {
     border: 1px solid #01FFF0;
@@ -710,6 +771,7 @@ footer .copyright {
     background: linear-gradient(290.05deg, #246B76 0.55%, rgba(36, 107, 118, 0) 96.04%);
     padding: 15px 20px;
     margin: 50px 20px 20px;
+    height: calc(100% - 50px);
 }
 #hyraValidator .docsWrap.bgright {
     background: linear-gradient(107.7deg, #246B76 -4.03%, rgba(36, 107, 118, 0) 90.57%);
@@ -730,16 +792,16 @@ footer .copyright {
 }
 #guideLinePage .circleBlur-1 {    
     left: 50%;
-    transform: translateY(-50%);
-    top: -302px;    
+    transform: translateX(calc(-50% + -200px));
+    top: -400px;    
 }
 #guideLinePage .circleBlur-2 {
-    right: 0;
-    bottom: 0;
+    right: -200px;
+    bottom: 160px;
 }
 #guideLinePage .steps .stepName {
     position: relative;
-    font-size: 25px;
+    font-size: 22px;
     margin: 25px 0;
 }
 #guideLinePage .steps .row > div:not(:last-child) .stepName:after {
@@ -759,8 +821,8 @@ footer .copyright {
     position: relative;
 }
 #contactPage .circleBlur-1 {
-    left: 0;
-    top: 0;
+    left: -240px;
+    top: -240px;
 }
 #contactPage .circleBlur-2 {
     right: 0;
@@ -797,18 +859,24 @@ footer .copyright {
 #tokenPage .hyraToken {
     margin: -200px 0;
 }
+#tokenPage .howToBuy a {
+    color: #01FFF0;
+}
+#tokenPage .howToBuy .comingSoon {
+    color: #0C94B0;
+}
 /* ===================== STAKING PAGE =================== */
 #stakingPage {
     background: #172932;
     position: relative;
 }
 #stakingPage .circleBlur-1 {
-    top: 0;
+    top: -400px;
     left: 50%;
-    transform: translateY(-50%);
+    transform: translateX(-50%);
 }
 #stakingPage .poolTable .filter {
-    margin: 0 10px 20px;
+    margin: 0 10px 40px;
 }
 #stakingPage .poolTable .filter .displayType i {
     opacity: .3;
@@ -892,8 +960,11 @@ footer .copyright {
     border-radius: 50%;
     width: 70px;
 }
+#stakingPage .poolTable .iconWrap img.switch {
+    border-color: #FF6DC4;
+}
 #stakingPage .poolTable .iconWrap .smallImg {
-    width: 50%;
+    width: 40px;
     position: absolute;
     right: -10px;
     bottom: 0;
@@ -909,7 +980,7 @@ footer .copyright {
     border-width: 1px 0 0 0;
 }
 #stakingPage .poolTable .card-body .text {
-    width: 150px;
+    width: 160px;
 }
 #stakingPage .poolTable .card-body .input-group {
     border: 1px solid rgba(1, 255, 240, 0.3);
@@ -1193,7 +1264,7 @@ footer .copyright {
     margin-bottom: 30px;
 }
 #faqPage .listFaq .accordion-button {
-    padding: 15px 0;
+    padding: 20px 0;
     color: #fff;
     box-shadow: none;
 }

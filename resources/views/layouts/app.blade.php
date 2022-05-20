@@ -66,7 +66,7 @@
 					<div class="col-md-3">
 						<h5>HYPERAS CHAIN LTD </h5>
 						<ul class="list-unstyled mb-5">
-							<li><strong>Address</strong>: 10 Anson Road # 11-20 International Plaza Singapore (079903)</li>
+							<li><span class="font-regular">Address</span>: 10 Anson Road # 11-20 International Plaza Singapore (079903)</li>
 						</ul>
 						<h5>Company</h5>
 						<ul class="list-unstyled">
@@ -129,7 +129,7 @@
 	<script type="text/javascript" src="{{ asset('js/bootstrap5-dropdown-ml-hack.js') }}"></script>
 	<script>
 		$(document).ready(function() {
-			$("#stakingPage .poolTable .moreInfo").click(function(){
+			$("#stakingPage .poolTable .moreInfo a").click(function(){
 				$(this).closest(".item").toggleClass("active");
 			});
 			$("#stakingPage .displayType i").click(function(){

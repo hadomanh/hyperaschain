@@ -1,20 +1,21 @@
 @extends('layouts.app')
 
 @section('content')
-<div id="homepage">
-	<!-- Hyperas Chain -->
+<div id="homepage">	
+	<!-- Banner -->
 	<section class="banner">
-		<div class="container">
+		<span class="circleBlur-1"></span>
+		<div class="container position-relative">
 			<div class="row align-items-center">
 				<div class="col-md-auto">
 					<h1 class="sectionHeading mb-0">Hyperas Chain</p>
 						<h3 class="subHeading">The chain of hyper assets</h3>
 						<div class="row mt-4">
 							<div class="col-md-6">
-								<a href="#" class="d-block btn btnBlue boxShadowBlue text-center">Smart Contract</a>
+								<a href="#" class="d-block btn btnBlue boxShadowBlue">Smart Contract</a>
 							</div>
 							<div class="col-md-6">
-								<a href="#" class="d-block btn btnPink boxShadowBlue">Smart Contract</a>
+								<a href="#" class="d-block btn btnPink boxShadowBlue">White Paper</a>
 							</div>
 						</div>
 						<div class="mt-3 small">
@@ -31,7 +32,7 @@
 	</section>
 
 	<!-- Wallet -->
-	<section class="wallet">
+	<section class="wallet bg-white">
 		<div class="container text-center">
 			<div class="row">
 				<div class="col-md-3">
@@ -80,7 +81,7 @@
 						<p>To meet government and corporate customers, Hyperas focuses on Know Your Customer (KYC) to ensure security, transparency and trust for all participants. join the ecosystem.</p>
 					</div>
 				</div>
-				<div class="text-center mt-4"><a href="#" class="btn readmore">READ MORE <i class="fas fa-angle-right"></i></a></div>
+				<div class="text-center mt-5"><a href="#" class="btn readmore">READ MORE <i class="fas fa-angle-right"></i></a></div>
 			</div>
 		</section>
 
@@ -88,7 +89,7 @@
 		<section class="environment text-center">
 			<div class="container">
 				<h2 class="sectionHeading">External Environment</h2>
-				<ul class="list-unstyled d-flex justify-content-center">
+				<ul class="list-unstyled d-flex justify-content-center font-bold">
 					<li>All</li>
 					<li>Real Eastate</li>
 					<li>E-Com</li>
@@ -101,21 +102,21 @@
 						<div class="item">
 							<img src="{{ asset('img/divega.png')}}" alt="">
 							<p class="text d-flex align-items-center justify-content-center">Reverse auction E-com Platform</p>
-								<a href="#"><div class="arrow"></div></a>
+							<a href="#"><div class="arrow"></div></a>
 						</div>
 					</div>
 					<div class="col-md-2">
 						<div class="item">
 							<img src="{{ asset('img/rapitalbank.png')}}" alt="">
 							<p class="text d-flex align-items-center justify-content-center">Digital Banking</p>
-								<a href="#"><div class="arrow"></div></a>
+							<a href="#"><div class="arrow"></div></a>
 						</div>
 					</div>
 					<div class="col-md-2">
 						<div class="item">
 							<img src="{{ asset('img/pindias.png')}}" alt="">
 							<p class="text d-flex align-items-center justify-content-center">Digital Real Estate Exchange</p>
-								<a href="#"><div class="arrow"></div></a>
+							<a href="#"><div class="arrow"></div></a>
 						</div>
 					</div>
 				</div>
