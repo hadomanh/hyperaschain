@@ -5,10 +5,10 @@
     <span class="circleBlur-1"></span>
     <span class="circleBlur-2"></span>
     <section class="banner text-center position-relative">
-        <div class="container">
+        <div class="container-lg">
             <h1 class="mb-5">HYPERAS FAQ</h1>
             <div class="row justify-content-center">
-                <div class="col-md-8">
+                <div class="col-lg-8 col-md-10">
                     <div class="search position-relative">
                         <input type="text" class="form-control" placeholder="Search">
                         <i class="fas fa-search"></i>
@@ -18,9 +18,9 @@
         </div>
     </section>
     <section class="listFaq position-relative">
-        <div class="container">            
+        <div class="container-lg">            
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-3 d-none d-md-block">
                     <div class="filterElement">
                         <h3 class="title mb-4"><span class="text-gradient">Category</span></h3>
                         <ul class="list-unstyled">

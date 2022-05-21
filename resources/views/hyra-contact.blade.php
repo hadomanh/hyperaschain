@@ -4,14 +4,14 @@
 <div id="contactPage">
     <span class="circleBlur-1"></span>
     <span class="circleBlur-2"></span>
-    <div class="container position-relative">
+    <div class="container-lg position-relative">
         <section class="banner text-center">
             <h1>CONTACT</h1>
             <p class="fs-3 text-gradient">Get in touch with the Hyperas team</p>
         </section>
         <section class="text-center">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 mb-5 mb-md-0">
                     <div class="contactWrap">
                         <div class="contactItem">
                             <div class="roundPink">
@@ -22,7 +22,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 mb-5 mb-md-0">
                     <div class="contactWrap">
                         <div class="contactItem">
                             <div class="roundPink">
@@ -49,7 +49,7 @@
         <section class="contactFormElement bgGrad rounded-10">
             <div class="inner rounded-10">
                 <div class="row">
-                    <div class="col-md-6 offset-md-6">
+                    <div class="col-lg-6 col-12 offset-lg-6">
                         <h3 class="sectionHeading">Contact Hyperas</h3>
                         <div class="mb-3">
                             <input type="text" class="form-control" placeholder="Your Name*">

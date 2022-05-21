@@ -4,13 +4,13 @@
 
 <div id="hyraValidator">
     <span class="circleBlur-1"></span>
-    <div class="container position-relative">
+    <div class="container-lg position-relative">
         <section class="banner text-center">
             <h1 class="mb-0">HYPERAS VALIDATOR</h1>
         </section>
         <section>
             <div class="row justify-content-center">
-                <div class="col-md-4">
+                <div class="col-lg-4 col-md-5">
                     <div class="numberWrap">
                         <div class="numberItem">
                             <div class="number text-gradient mb-2">1,234</div>
@@ -18,7 +18,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-lg-4 col-md-5">
                     <div class="numberWrap">
                         <div class="numberItem">
                             <div class="number text-gradient mb-2">34</div>
@@ -26,14 +26,14 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-5">
+                <div class="col-lg-5 col-md-6">
                     <div class="docsWrap d-flex flex-column">
                         <h3 class="title mb-3">Get Started</h3>
                         <p class="flex-grow-1">Go here for documentation related to all things Validator, from validator requirements, to troubleshooting.</p>
                         <div class="text-end font-regular"><a href="#">Go to docs <i class="fas fa-angle-right"></i></a></div>
                     </div>
                 </div>
-                <div class="col-5">
+                <div class="col-lg-5 col-md-6">
                     <div class="docsWrap d-flex flex-column bgright">
                         <h3 class="title mb-3">Validator Explorer</h3>
                         <p class="flex-grow-1">View the current list of validators, their ranking by stake amount, and information about commission below.</p>

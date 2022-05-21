@@ -4,13 +4,13 @@
 
 <!-- brand kit -->
 <div id="brandKitPage">
-    <section class="banner text-center">
-        <h1 class="mb-0">BRAND KIT</h1>
-    </section>
-    <section class="listGraphic">
-        <div class="container">
+    <div class="container-lg">
+        <section class="banner text-center">
+            <h1 class="mb-0">BRAND KIT</h1>
+        </section>
+        <section class="listGraphic">
             <div class="row">
-                <div class="col-md-6 pb-5">
+                <div class="col-md-6 pb-4">
                     <div class="item">
                         <h5 class="titleBrandkit">Branding guideline</h5>
                         <table class="table text-white mb-0">
@@ -71,8 +71,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
 </div>
 
 

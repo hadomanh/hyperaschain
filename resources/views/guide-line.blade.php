@@ -4,7 +4,7 @@
 <div id="guideLinePage">
     <span class="circleBlur-1"></span>
     <span class="circleBlur-2"></span>
-    <div class="container position-relative">
+    <div class="container-lg position-relative">
         <section class="banner text-center">
             <h1 class="mb-5">GUILDLINE</h1>
             <p class="mb-0">A decentralized exchange where cryptocurrencies and other digital assets (NFTs) are listed. Hyra Dex is considered a great step <br> forward in the mission of currency liberalization, decentralized crypto-assets of the Hyperas Chain ecosystem...</p>
@@ -44,7 +44,7 @@
         <section class="contactFormElement bgGrad rounded-10">
             <div class="inner rounded-10">
                 <div class="row">
-                    <div class="col-md-6 offset-md-6">
+                    <div class="col-lg-6 col-12 offset-lg-6">
                         <h3 class="sectionHeading">Contact Hyperas</h3>
                         <div class="mb-3">
                             <input type="text" class="form-control" placeholder="Your Name*">

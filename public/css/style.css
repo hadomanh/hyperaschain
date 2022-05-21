@@ -38,12 +38,15 @@
     font-family: gotham-light-italic;
     src: url(../fonts/gotham-light-italic.otf);
 }
+html,body {
+    overflow-x: hidden;
+}
 body {
     font-size: 16px;
-    font-family: 'gotham-light', sans-serif;
-    overflow-x: hidden;
+    font-family: 'gotham-light', sans-serif;    
     color: #fff;
     background: #1b2931;
+    padding-top: 120px;
 }
 a,a:hover {
     text-decoration: none;
@@ -179,7 +182,7 @@ section.banner h1 {
 }
 .partnersElement .item {
     width: 20%;
-    padding: 25px 0;
+    padding: 25px 15px;
 }
 .partnersElement .item a {
     filter: grayscale(1);
@@ -287,8 +290,11 @@ section.banner h1 {
 /*========================== HEADER ==========================*/
 header {
     background: #172932;
-    position: relative;
+    position: fixed;
     z-index: 3;
+    left: 0;
+    top: 0;
+    width: 100%;
 }
 header .top {
     padding: 15px 0;
@@ -343,7 +349,7 @@ header .navbar .dropdown-item {
     padding: 0;
     display: inline-block;
     width: auto;
-    margin: 15px 25px;
+    margin: 10px 15px;
     border-bottom: 2px solid transparent;
 }
 header .navbar .dropdown-item:focus,
@@ -466,7 +472,6 @@ header .navbar .dropdown-item:hover {
 #overviewPage .ecosystem .iconCenter {
     margin: -80px auto;
     width: 200px;
-    display: block;
 }
 #overviewPage .boxIframe {
     margin-top: -160px;
@@ -651,6 +656,10 @@ header .navbar .dropdown-item:hover {
     left: 50%;
     transform: translateX(-50%);
 }
+#hyraValidator .numberWrap,
+#hyraValidator .numberItem {
+    height: 100%;
+}
 #hyraValidator .numberWrap {
     background: linear-gradient(to right, #FF0097, #00D3FF);
     padding: 0 0 3px 3px;
@@ -807,6 +816,7 @@ header .navbar .dropdown-item:hover {
     border: 1px solid rgba(1, 255, 240, 0.3);
     border-radius: 30px;
     padding: 2px;
+    display: inline-block;
 }
 #stakingPage .poolTable .filter .status label {
     display: inline-block;    
@@ -1082,12 +1092,224 @@ footer .copyright {
     font-size: 13px;
 }
 /* ===================== RESPONSITE ================= */
+@media (max-width: 1180px) {
+    header .navbar .nav-item {
+        margin: 0 5px;
+    }
+}
 @media (max-width: 992px) {
-    
+    body {
+        padding-top: 130px;
+    }
+    section,
+    section.banner,
+    #faqPage .banner {
+        padding: 30px 0;
+    }
+    section.banner h1 {
+        font-size: 40px;
+    }
+    .filterElement ul li {
+        margin: 20px 0;
+    }
+    header .top .buyHyra a {
+        font-size: 18px;
+    }
+    header .navbar-toggler:focus {
+        box-shadow: none;
+        outline: none;
+    }
+    header .navbar .dropdown-menu {
+        transform: none;
+    }
+    header .navbar .dropdown-menu:before {
+        left: 30px;
+        transform: none;
+    }    
+    #homepage .banner {
+        padding: 50px 0;
+    }
+    #homepage .banner .subHeading {
+        font-size: 30px;
+    }
+    #overviewPage .banner {
+        padding: 60px 0 140px;
+    }
+    #overviewPage .ecosystem {
+        margin-top: -40px;
+    }
+    #overviewPage .ecosystem .item.item-1, 
+    #overviewPage .ecosystem .item.item-3 {
+        padding: 20px 140px 20px 0px;
+    }
+    #overviewPage .ecosystem .item.item-2, 
+    #overviewPage .ecosystem .item.item-4 {
+        padding: 20px 0 20px 140px;
+    }
+    #overviewPage .ecosystem .sectionHeading {
+        margin-bottom: 30px;
+    }
+    #overviewPage .ecosystem .iconCenter {
+        margin: -50px auto;
+        width: 150px;
+    }
+    #overviewPage .roadmap .item .date {
+        font-size: 14px;
+        margin-bottom: -20px;
+    }
+    #overviewPage .roadmap .item img {
+        width: 90px;
+    }
+    #overviewPage .roadmap .item ul {
+        padding-right: 0;
+        margin-left: 0;
+        font-size: 14px;
+    }
+    #hyraValidator .numberWrap {
+        margin: 20px 0;
+    }
+    #hyraValidator .docsWrap {
+        margin: 50px 0 20px;
+    }
+    #tokenPage .hyraToken {
+        margin: -100px 0;
+    }
+    #contactPage .contactWrap,
+    #contactPage .contactItem {
+        height: 100%;
+    }    
+    #stakingPage .poolTable .displayGrid .item {
+        margin-bottom: 20px;
+    }
+    footer .bottom {
+        padding-top: 30px;
+    }
+    footer .copyright {
+        margin: 20px 10px 0;
+    }
 }
 @media (max-width: 768px) {
     
 }
 @media (max-width: 576px) {
-    
+    body {
+        font-size: 14px;
+    }
+    header .top .buyHyra a {
+        font-size: 14px;
+    }
+    header .top ul li:not(:last-child) {
+        margin-right: 20px;
+    }
+    header .navbar .dropdown-item {
+        font-size: 14px;
+        margin: 10px 20px;
+    }
+    .partnersElement .item {
+        width: 33%;
+        padding: 10px;
+    }
+    .contactFormElement .inner {
+        padding: 20px;
+    }
+    #homepage .banner {
+        padding: 20px 0;
+        text-align: center;
+    }
+    section.banner h1 {
+        font-size: 25px;
+    }
+    section .sectionHeading {
+        font-size: 25px;
+    }
+    #homepage .banner .subHeading {
+        font-size: 22px;
+    }
+    #homepage .wallet a {
+        display: block;
+        margin: 10px 0;
+    }
+    #homepage .readmore {
+        font-size: 16px;
+    }
+    #homepage .environment .item {
+        margin: 5px 0;
+        height: auto;
+        padding: 0 10px 10px;
+    }
+    #homepage .environment ul li {
+        padding: 0 6px;
+    }
+    #guideLinePage {
+        padding: 0 0 30px;
+    }
+    #guideLinePage .steps .row > div:not(:last-child) .stepName:after {
+        display: none;
+    }
+    #hyraValidator .numberWrap, 
+    #hyraValidator .numberItem,
+    #hyraValidator .docsWrap {
+        height: auto;
+    }
+    #hyraValidator .numberWrap,
+    #hyraValidator .docsWrap {
+        margin: 10px 0;
+    }
+    #tokenPage {
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    #tokenPage .hyraToken {
+        margin: 0;
+    }
+    #tokenPage .hyraToken img {
+        display: block;
+        margin: -100px auto -50px;
+    }
+    #contactPage .contactWrap, 
+    #contactPage .contactItem {
+        height: auto;
+    }
+    #contactPage .contactWrap {
+        margin-bottom: 20px;
+    }
+    #stakingPage .poolTable .filter .searchForm input {
+        width: 100%;
+    }
+    /* #overviewPage .banner {
+        padding: 40px 0 70px;
+    }
+    #overviewPage .ecosystem {
+        margin-top: -1px;
+        padding: 20px 0 250px;
+        position: relative;
+    }
+    #overviewPage .ecosystem .sectionHeading {
+        margin-bottom: 25px;
+    }
+    #overviewPage .ecosystem .item {        
+        padding: 20px 0 0 !important;
+    }
+    #overviewPage .ecosystem .item,
+    #overviewPage .ecosystem .item .icon {
+        text-align: left !important;
+    }
+    #overviewPage .ecosystem .item:before {
+        display: none;
+    } */
+    footer .logoFooter {
+        width: 160px;
+    }
+    footer .top .footerSocial {
+        font-size: 15px;
+    }
+    footer .top ul li:not(:last-child) {
+        margin-right: 15px;
+    }
+    footer h5 {
+        font-size: 16px;
+    }
+    footer ul {
+        margin-bottom: 20px;
+    }
 }

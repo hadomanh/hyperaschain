@@ -4,7 +4,7 @@
 <div id="newsPage">
     <span class="circleBlur-1"></span>
     <span class="circleBlur-2"></span>
-    <div class="container position-relative">
+    <div class="container-lg position-relative">
         <section class="banner text-center">
             <h1 class="mb-0">NEWS & BLOG</h1>
         </section>
@@ -31,7 +31,7 @@
                 </div>
                 <div class="col-md-9">
                     <div class="row listNews">
-                        <div class="col-md-4">
+                        <div class="col-lg-4 col-md-6">
                             <div class="newsItem">
                                 <a href="#">
                                     <img src="{{ asset('img/blog.png') }}" alt="" class="w-100 rounded-2">
@@ -43,7 +43,7 @@
                                 <div class="date">April 13,2022</div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-lg-4 col-md-6">
                             <div class="newsItem">
                                 <a href="#">
                                     <img src="{{ asset('img/blog.png') }}" alt="" class="w-100 rounded-2">
@@ -55,7 +55,7 @@
                                 <div class="date">April 13,2022</div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-lg-4 col-md-6">
                             <div class="newsItem">
                                 <a href="#">
                                     <img src="{{ asset('img/blog.png') }}" alt="" class="w-100 rounded-2">
@@ -67,7 +67,7 @@
                                 <div class="date">April 13,2022</div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-lg-4 col-md-6">
                             <div class="newsItem">
                                 <a href="#">
                                     <img src="{{ asset('img/blog.png') }}" alt="" class="w-100 rounded-2">
@@ -79,7 +79,7 @@
                                 <div class="date">April 13,2022</div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-lg-4 col-md-6">
                             <div class="newsItem">
                                 <a href="#">
                                     <img src="{{ asset('img/blog.png') }}" alt="" class="w-100 rounded-2">
@@ -91,7 +91,7 @@
                                 <div class="date">April 13,2022</div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-lg-4 col-md-6">
                             <div class="newsItem">
                                 <a href="#">
                                     <img src="{{ asset('img/blog.png') }}" alt="" class="w-100 rounded-2">

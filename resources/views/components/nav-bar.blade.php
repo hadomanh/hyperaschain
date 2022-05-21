@@ -1,21 +1,22 @@
 <!-- Header -->
 <header>
     <div class="top">
-        <div class="container">
+        <div class="container-xl">
             <ul class="list-unstyled d-flex align-items-center justify-content-end mb-0">
                 <li><a href="https://twitter.com/hyperaschain" target="_blank"><i class="fab fa-twitter"></i></a></li>
                 <li><a href="" target="_blank"><i class="fab fa-telegram-plane"></i></a></li>
                 <li><a href="" target="_blank"><i class="fab fa-github"></i></a></li>
                 <li class="faq-text"><a href="{{ route('hyra-faq')}}">FAQ</a></li>
+                <li class="buyHyra d-block d-lg-none"><a href="#" class="btn btn-sm text-white btnPink boxShadowPink">Buy Hyra</a></li>
             </ul>
         </div>
     </div>
 
     <nav class="navbar navbar-expand-lg">
-        <div class="container">
+        <div class="container-xl">
             <a class="navbar-brand" href="{{ route('home') }}"><img src="{{ asset('img/logo.png') }}" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon d-flex justify-content-center align-items-center"><i class="fas fa-bars"></i></span>
+                <span class="navbar-toggler-icon d-flex justify-content-center align-items-center"><i class="fas fa-bars text-white"></i></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
@@ -76,7 +77,7 @@
                         </ul>
                     </li>
                 </ul>
-                <div class="buyHyra">
+                <div class="buyHyra d-lg-block d-none">
                     <a href="" class="btn btnPink boxShadowPink">Buy Hyra</a>
                 </div>
             </div>

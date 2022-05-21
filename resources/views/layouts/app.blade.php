@@ -44,7 +44,7 @@
 	<!-- Footer -->
 	<footer>
 		<div class="top">
-			<div class="container">
+			<div class="container-lg">
 				<div class="d-flex justify-content-between align-items-center">
 					<div class="logoFooter">
 						<img src="{{ asset('img/logoFooter.png') }}" alt="">
@@ -61,9 +61,9 @@
 			</div>
 		</div>
 		<div class="bottom">
-			<div class="container">
+			<div class="container-lg">
 				<div class="row">
-					<div class="col-md-3">
+					<div class="col-lg-3 col-md-6">
 						<h5>HYPERAS CHAIN LTD </h5>
 						<ul class="list-unstyled mb-5">
 							<li><span class="font-regular">Address</span>: 10 Anson Road # 11-20 International Plaza Singapore (079903)</li>
@@ -75,9 +75,9 @@
 							<li><a href="{{ route('hyra-contact')}}">Contact us</a></li>
 						</ul>
 					</div>
-					<div class="col-md-9">
+					<div class="col-lg-9 col-md-6">
 						<div class="row">
-							<div class="col-md-3">
+							<div class="col-lg-3 col-md-6">
 								<h5>Technology</h5>
 								<ul class="list-unstyled">
 									<li><a href="{{ route('overview')}}">Overview</a></li>
@@ -86,7 +86,7 @@
 									<li><a href="">Whitepaper</a></li>
 								</ul>
 							</div>
-							<div class="col-md-3">
+							<div class="col-lg-3 col-md-6">
 								<h5>Ecosystem</h5>
 								<ul class="list-unstyled">
 									<li><a href="">Testnet</a></li>
@@ -96,7 +96,7 @@
 									<li><a href="">Hyra Invest</a></li>
 								</ul>
 							</div>
-							<div class="col-md-3">
+							<div class="col-lg-3 col-md-6">
 								<h5>External Environment</h5>
 								<ul class="list-unstyled">
 									<li><a href="">Pindias</a></li>
@@ -104,7 +104,7 @@
 									<li><a href="">Rapital Bank</a></li>
 								</ul>
 							</div>
-							<div class="col-md-3">
+							<div class="col-lg-3 col-md-6">
 								<h5>Resource</h5>
 								<ul class="list-unstyled">
 									<li><a href="{{ route('brand-kit')}}">Brand Kit</a></li>

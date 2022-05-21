@@ -9,7 +9,7 @@
     </section>
     <div class="overview">        
         <section>
-            <div class="container">
+            <div class="container-lg">
                 <div class="row item">
                     <div class="col-md-6 order-2 order-md-1">
                         <img src="{{ asset('img/hyperas-about-2.jpg') }}" class="rounded-10">
@@ -22,8 +22,8 @@
                         <p> We firmly believe that the continuation of this process will lead to the emergence of a new understanding of shared goals, creating demand for a new model of transparent decentralized ownership. </p>
                     </div>
                 </div>
-                <div class="row mt-5 py-5 item position-relative">
-                    <span class="squareBlur"></span>
+                <div class="row mt-5 py-md-5 py-0 item position-relative">
+                    <span class="squareBlur d-none d-md-block"></span>
                     <div class="col-md-6">
                         <h3 class="text-gradient mb-3">Our Vision</h3>
                         <p>We choose to go with partners who share the same business ecosystem and corporate culture value system. We work with major service providers to blockchainise conventional business models. </p>
@@ -37,87 +37,116 @@
             </div>
         </section>
         <section class="teamElement text-center">
-            <div class="container">
+            <div class="container-lg">
                 <h2 class="sectionHeading">Core Team</h2>
                 <div class="row d-flex justify-content-center">
-                    <div class="col-lg-2 col-md-3 col-sm-4 d-flex flex-column align-items-center">
-                        <img src="{{ asset('img/francesco.png') }}" alt="">
-                        <h6 class="name">FRANCESCO</h6>
-                        <div class="position">CTO</div>
-                        <div class="social">
-                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <div class="col-lg-2 col-md-3 col-6 d-flex flex-column align-items-center">
+                        <div class="mb-4 mb-md-0">
+                            <img src="{{ asset('img/team-guiko-k.png') }}" alt="">
+                            <h6 class="name">GUIKO K</h6>
+                            <div class="position small">Technology Advisor</div>
+                            <div class="social">
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-3 col-sm-4 d-flex flex-column align-items-center">
-                        <img src="{{ asset('img/guiko-k.png') }}" alt="">
-                        <h6 class="name">GUIKO K</h6>
-                        <div class="position ">Technology Advisor</div>
-                        <div class="social">
-                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <div class="col-lg-2 col-md-3 col-6 d-flex flex-column align-items-center">
+                        <div class="mb-4 mb-md-0">
+                            <img src="{{ asset('img/team-frank-n-hawkins.png') }}" alt="">                        
+                            <h6 class="name">FRANK N.HAWKINS</h6>
+                            <div class="position small">Finance Advisor</div>
+                            <div class="social">
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-3 col-sm-4 d-flex flex-column align-items-center">
-                        <img src="{{ asset('img/frank.png') }}" alt="">
-                        <h6 class="name">FRANK N.HAWKINS</h6>
-                        <div class="position ">Finance Advisor</div>
-                        <div class="social">
-                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <div class="col-lg-2 col-md-3 col-6 d-flex flex-column align-items-center">
+                        <div class="mb-4 mb-md-0">
+                            <img src="{{ asset('img/team-francesco.png') }}" alt="">
+                            <h6 class="name">FRANCESCO</h6>
+                            <div class="position small">CTO</div>
+                            <div class="social">
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             <span class="blur-2"></span>
         </section>
-        <section class="teamElement text-center">        
-            <div class="container">
+        <section class="teamElement text-center">
+            <div class="container-lg">
                 <h2 class="sectionHeading">Advisors</h2>
                 <div class="row d-flex justify-content-center">
-                    <div class="col-lg-2 col-md-3 col-sm-4 d-flex flex-column align-items-center">
-                        <img src="{{ asset('img/francesco.png') }}" alt="">
-                        <h6 class="name">FRANCESCO</h6>
-                        <div class="position ">CTO</div>
-                        <div class="social">
-                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <div class="col-lg-2 d-none d-lg-block"></div>
+                    <div class="col-lg-2 col-md-3 col-6 d-flex flex-column align-items-center">
+                        <div class="mb-4">
+                            <img src="{{ asset('img/team-tranquangtrung.png') }}" alt="">
+                            <h6 class="name">TRAN QUANG TRUNG</h6>                    
+                            <div class="position small">Growth Advisor</div>
+                            <div class="social">
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-3 col-sm-4 d-flex flex-column align-items-center">
-                        <img src="{{ asset('img/guiko-k.png') }}" alt="">
-                        <h6 class="name">GUIKO K</h6>
-                        <div class="position ">Technology Advisor</div>
-                        <div class="social">
-                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <div class="col-lg-2 col-md-3 col-6 d-flex flex-column align-items-center">
+                        <div class="mb-4">
+                            <img src="{{ asset('img/team-steve-truong.png') }}" alt="">
+                            <h6 class="name">STEVE TRUONG</h6>
+                            <div class="position small">Managing Director PHI Group Advisor</div>
+                            <div class="social">
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-3 col-sm-4 d-flex flex-column align-items-center">
-                        <img src="{{ asset('img/frank.png') }}" alt="">
-                        <h6 class="name">FRANK N.HAWKINS</h6>
-                        <div class="position ">Finance Advisor</div>
-                        <div class="social">
-                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <div class="col-lg-2 col-md-3 col-6 d-flex flex-column align-items-center">
+                        <div class="mb-4">
+                            <img src="{{ asset('img/team-frank-n-hawkins.png') }}" alt="">
+                            <h6 class="name">FRANK N.HAWKINS</h6>
+                            <div class="position small">Finance Advisor</div>
+                            <div class="social">
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-3 col-sm-4 d-flex flex-column align-items-center">
-                        <img src="{{ asset('img/francesco.png') }}" alt="">
-                        <h6 class="name">FRANCESCO</h6>
-                        <div class="position ">CTO</div>
-                        <div class="social">
-                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <div class="col-lg-2 col-md-3 col-6 d-flex flex-column align-items-center">
+                        <div class="mb-4">
+                            <img src="{{ asset('img/team-michael-bennett.png') }}" alt="">
+                            <h6 class="name">MICHAEL BENNETT</h6>
+                            <div class="position small">Investment & Partnership Advisor</div>
+                            <div class="social">
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-2 col-md-3 col-sm-4 d-flex flex-column align-items-center">
-                        <img src="{{ asset('img/guiko-k.png') }}" alt="">
-                        <h6 class="name">GUIKO K</h6>
-                        <div class="position ">Technology Advisor</div>
-                        <div class="social">
-                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <div class="col-lg-2 d-none d-lg-block"></div>
+                    <div class="col-lg-2 col-md-3 col-6 d-flex flex-column align-items-center">
+                        <div class="mb-4">
+                            <img src="{{ asset('img/team-guiko-k.png') }}" alt="">
+                            <h6 class="name">GUIKO K</h6>
+                            <div class="position small">Technology Advisor</div>
+                            <div class="social">
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-6 d-flex flex-column align-items-center">
+                        <div class="mb-4">
+                            <img src="{{ asset('img/team-tam-t-bui.png') }}" alt="">
+                            <h6 class="name">TAM T.BUI</h6>
+                            <div class="position small">CEO PHI Group Operation Advisor</div>
+                            <div class="social">
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -127,7 +156,7 @@
 
     <!-- Investor & Partners -->
     <section class="partnersElement text-center">
-        <div class="container">
+        <div class="container-lg">
             <h1 class="sectionHeading">Investor & Partners</h1>
             <div class="row g-0 justify-content-center">
                 <div class="col-auto item"><a href="#"><img src="{{ asset('img/cello.png')}}" alt=""></a></div>

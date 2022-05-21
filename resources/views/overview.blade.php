@@ -6,7 +6,7 @@
             <h1 class="mb-0">OVERVIEW</h1>
         </section>
         <section class="ecosystem">
-            <div class="container">
+            <div class="container-lg">
                 <div class="text-center">
                     <h2 class="sectionHeading">Ecosystem</h2>
                 </div>
@@ -28,7 +28,7 @@
                         </div>
                     </div>
                 </div>
-                <img src="{{ asset('img/icon-hyperas.png')}}" alt="" width="200" class="iconCenter">
+                <img src="{{ asset('img/icon-hyperas.png')}}" alt="" width="200" class="iconCenter d-md-block d-none">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="item item-3">
@@ -50,9 +50,9 @@
             </div>
         </section>
         <div class="bgGalaxy text-white">
-            <div class="container">
+            <div class="container-lg">
                 <div class="row g-0 justify-content-center">
-                    <div class="col-md-6 boxIframe">
+                    <div class="col-lg-6 col-md-8 boxIframe">
                         <div class="videoWrapper">               
                             <iframe width="560" height="315" src="https://www.youtube.com/embed/Hi5P5wN2kqs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
@@ -63,22 +63,22 @@
                         <h2 class="sectionHeading">Technology Advantages</h2>
                     </div>
                     <div class="row mt-5">
-                        <div class="col-md-3">
+                        <div class="col-lg-3 col-md-6">
                             <div class="roundPink"><img src="{{ asset('img/icon-4.png')}}"></div>
                             <h5 class="my-3">Fast</h5>
                             <p>Block generation time 2s Testnet block time 3s Testnet validators: 3 Mainnet block time 2s Mainnet validators: 7</p>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-lg-3 col-md-6">
                             <div class="roundPink"><img src="{{ asset('img/icon-3.png')}}"></div>
                             <h5 class="my-3">High Capacity</h5>
                             <p>Large block size (up to 50 MB) can execute over 50,000 (TPS) transactions per second Salable up to 210,000 (TPS)</p>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-lg-3 col-md-6">
                             <div class="roundPink"><img src="{{ asset('img/icon-2.png')}}"></div>
                             <h5 class="my-3">Cost-Effective</h5>
                             <p>Low gas fee: 0.00001$</p>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-lg-3 col-md-6">
                             <div class="roundPink"><img src="{{ asset('img/icon-1.png')}}"></div>
                             <h5 class="my-3">Superity</h5>
                             <p>Specialized for large and complex smart contracts</p>
@@ -88,7 +88,7 @@
             </div>
 
             <section class="roadmap"> 
-                <div class="container">
+                <div class="container-lg">
                     <div class="text-center">
                         <h2 class="sectionHeading">Road map</h2>
                     </div>

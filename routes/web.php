@@ -15,67 +15,43 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Auth::routes();
 Route::get('/', function () {
     return view('welcome');
 })->name('home');
 Route::get('/overview', function () {
     return view('overview');
 })->name('overview');
-
-Route::get('/overview', function () {
-    return view('overview');
-})->name('overview');
 Route::get('/about-us', function () {
     return view('about-us');
 })->name('about-us');
-
 Route::get('/community', function () {
     return view('community');
 })->name('community');
 Route::get('/staking', function () {
     return view('staking');
 })->name('staking');
-
-
-
-Route::get('/hyra-contact', function () {
+Route::get('/contact', function () {
     return view('hyra-contact');
 })->name('hyra-contact');
-
-Route::get('/pagination/hyra-staking-2', function () {
-    return view('/pagination/hyra-staking-2');
-})->name('/pagination/hyra-staking-2');
-
-
-Route::get('/hyra-faq', function () {
+Route::get('/faq', function () {
     return view('hyra-faq');
 })->name('hyra-faq');
-Auth::routes();
-
 Route::get('/news-blog', function () {
     return view('news-blog');
 })->name('news-blog');
-
 Route::get('/brand-kit', function () {
     return view('brand-kit');
 })->name('brand-kit');
-Auth::routes();
-
-Route::get('/hyra-token', function () {
+Route::get('/token', function () {
     return view('hyra-token');
 })->name('hyra-token');
-
 Route::get('/guide-line', function () {
     return view('guide-line');
 })->name('guide-line');
-Auth::routes();
-
-Route::get('/hyra-validator', function () {
+Route::get('/validator', function () {
     return view('hyra-validator');
 })->name('hyra-validator');
-
-Auth::routes();
 Route::middleware('auth')->prefix('admin')->group(function () {
     Route::get('/', 'HomeController@index')->name('admin.index');
     Route::get('/news/toggle/{news}', [NewsController::class, 'toggle'])->name('news.toggle');
