@@ -106,25 +106,25 @@
 				</ul>
 				<hr size="4">
 				<div class="row justify-content-center mt-md-5 mt-2">
+				<div class="col-xl-2 col-md-3">
+						<div class="item">
+							<img src="{{ asset('img/pindias.png')}}" alt="">
+							<p class="text d-flex align-items-center justify-content-center">Digital Real Estate Exchange</p>
+							<a href="https://www.pindias.com" target="_blank" class="arrow"></a>
+						</div>
+					</div>
 					<div class="col-xl-2 col-md-3">
 						<div class="item">
 							<img src="{{ asset('img/divega.png')}}" alt="">
 							<p class="text d-flex align-items-center justify-content-center">Reverse auction E-com Platform</p>
-							<a href="#" class="arrow"></a>
+							<a href="https://www.divega.com" target="_blank" class="arrow"></a>
 						</div>
 					</div>
 					<div class="col-xl-2 col-md-3">
 						<div class="item">
 							<img src="{{ asset('img/rapitalbank.png')}}" alt="">
 							<p class="text d-flex align-items-center justify-content-center">Digital Banking</p>
-							<a href="#" class="arrow"></a>
-						</div>
-					</div>
-					<div class="col-xl-2 col-md-3">
-						<div class="item">
-							<img src="{{ asset('img/pindias.png')}}" alt="">
-							<p class="text d-flex align-items-center justify-content-center">Digital Real Estate Exchange</p>
-							<a href="#" class="arrow"></a>
+							<a href="https://www.rapitalbank.com" target="_blank" class="arrow"></a>
 						</div>
 					</div>
 				</div>

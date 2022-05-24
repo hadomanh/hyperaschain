@@ -58,37 +58,42 @@
                         </div>
                     </div>
                 </div>
-                <section>
+                <section class="technology">
                     <div class="text-center">
                         <h2 class="sectionHeading">Technology Advantages</h2>
                     </div>
-                    <div class="row mt-5">
+                    <div class="row mt-md-5 mt-0">
                         <div class="col-lg-3 col-md-6">
-                            <div class="roundPink"><img src="{{ asset('img/icon-4.png')}}"></div>
-                            <h5 class="my-3">Fast</h5>
-                            <p>Block generation time 2s Testnet block time 3s Testnet validators: 3 Mainnet block time 2s Mainnet validators: 7</p>
+                            <div class="item">
+                                <div class="roundPink"><img src="{{ asset('img/icon-4.png')}}"></div>
+                                <h5 class="my-3">Fast</h5>
+                                <p>Block generation time 2s Testnet block time 3s Testnet validators: 3 Mainnet block time 2s Mainnet validators: 7</p>
+                            </div>
                         </div>
                         <div class="col-lg-3 col-md-6">
-                            <div class="roundPink"><img src="{{ asset('img/icon-3.png')}}"></div>
-                            <h5 class="my-3">High Capacity</h5>
-                            <p>Large block size (up to 50 MB) can execute over 50,000 (TPS) transactions per second Salable up to 210,000 (TPS)</p>
+                            <div class="item">
+                                <div class="roundPink"><img src="{{ asset('img/icon-3.png')}}"></div>
+                                <h5 class="my-3">High Capacity</h5>
+                                <p>Large block size (up to 50 MB) can execute over 50,000 (TPS) transactions per second Salable up to 210,000 (TPS)</p>
+                            </div>
                         </div>
                         <div class="col-lg-3 col-md-6">
-                            <div class="roundPink"><img src="{{ asset('img/icon-2.png')}}"></div>
-                            <h5 class="my-3">Cost-Effective</h5>
-                            <p>Low gas fee: 0.00001$</p>
+                            <div class="item">
+                                <div class="roundPink"><img src="{{ asset('img/icon-2.png')}}"></div>
+                                <h5 class="my-3">Cost-Effective</h5>
+                                <p>Low gas fee: 0.00001$</p>
+                            </div>
                         </div>
                         <div class="col-lg-3 col-md-6">
-                            <div class="roundPink"><img src="{{ asset('img/icon-1.png')}}"></div>
-                            <h5 class="my-3">Superity</h5>
-                            <p>Specialized for large and complex smart contracts</p>
+                            <div class="item">
+                                <div class="roundPink"><img src="{{ asset('img/icon-1.png')}}"></div>
+                                <h5 class="my-3">Superity</h5>
+                                <p>Specialized for large and complex smart contracts</p>
+                            </div>
                         </div>
                     </div>
                 </section>
-            </div>
-
-            <section class="roadmap"> 
-                <div class="container-lg">
+                <section class="roadmap">
                     <div class="text-center">
                         <h2 class="sectionHeading">Road map</h2>
                     </div>
@@ -124,11 +129,11 @@
                                 </div>
                             </div>
                             <div class="col-md-2">
-                                <div class="item">
+                                <div class="item active">
                                     <h4 class="date">Q2. 2022</h4>
                                     <div class="imgWrap">
                                         <span class="line"></span>
-                                        <img src="{{ asset('img/icon-roadmap-blue.png')}}" alt="">
+                                        <img src="{{ asset('img/icon-roadmap-pink.png')}}" alt="">
                                     </div>
                                     <ul>
                                         <li>Launch of Hyperas Chain (Mainet)</li>
@@ -179,8 +184,8 @@
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
+                </section>
+            </div>
         </div>
     </div>
 @endsection

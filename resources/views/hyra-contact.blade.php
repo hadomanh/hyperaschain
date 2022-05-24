@@ -12,15 +12,15 @@
         <section class="text-center">
             <div class="row">
                 <div class="col-md-4 mb-5 mb-md-0">
-                    <div class="contactWrap">
+                    <a href="https://t.me/hyperaschaincommunity" target="_blank" class="contactWrap">
                         <div class="contactItem">
                             <div class="roundPink">
                                 <img src="{{ asset('img/Vector-contact.png')}}" alt="">
                             </div>
                             <h4>For general chat</h4>
-                            <div>Join the <a href="#">Telegram</a></div>
+                            <div>Join the Telegram</div>
                         </div>
-                    </div>
+                    </a>
                 </div>
                 <div class="col-md-4 mb-5 mb-md-0">
                     <div class="contactWrap">
@@ -29,20 +29,20 @@
                                 <img src="{{ asset('img/Framecontact.png')}}" alt="">
                             </div>
                             <h4>For press inquiries</h4>
-                            <div>Please fill out this <a href="#">Form</a></div>
+                            <div>Please fill out this Form</div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="contactWrap">
+                    <a href="{{ route('hyra-faq')}}" class="contactWrap">
                         <div class="contactItem">
                             <div class="roundPink">
                                 <img src="{{ asset('img/Framecontact1.png')}}" alt="">
                             </div>
                             <h4>For all other inquiries</h4>
-                            <div><a href="#">Hyperas.com/FAQ</a></div>
+                            <div>Hyperas.com/faq</div>
                         </div>
-                    </div>            
+                    </a>            
                 </div>
             </div>
         </section>

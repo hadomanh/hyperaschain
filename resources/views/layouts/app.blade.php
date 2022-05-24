@@ -54,8 +54,8 @@
 						<li><a href="https://www.youtube.com/channel/UC76gQwZQzZS4cPKYUOvnABQ" target="_blank"><i class="fab fa-youtube"></i></a></li>
 						<li><a href="https://twitter.com/hyperaschain" target="_blank"><i class="fab fa-twitter" target="_blank"></i></a></li>
 						<li><a href="https://www.linkedin.com/company/hyperaschainofficial" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-						<li><a href="#"><i class="fab fa-telegram-plane"target="_blank"></i></a></li>
-						<li><a href="#"><i class="fab fa-github" target="_blank"></i></a></li>
+						<li><a href="https://t.me/hyperaschainchannel"><i class="fab fa-telegram-plane"target="_blank"></i></a></li>
+						<li><a href="https://hyperaschain.gitbook.io/hyperasglobal/"><i class="fab fa-github" target="_blank"></i></a></li>
 					</ul>
 				</div>
 			</div>
@@ -99,9 +99,9 @@
 							<div class="col-lg-3 col-md-6">
 								<h5>External Environment</h5>
 								<ul class="list-unstyled">
-									<li><a href="">Pindias</a></li>
-									<li><a href="">Divega</a></li>
-									<li><a href="">Rapital Bank</a></li>
+									<li><a href="https://www.pindias.com" target="_blank">Pindias</a></li>
+									<li><a href="https://www.divega.com" target="_blank">Divega</a></li>
+									<li><a href="https://www.rapitalbank.com" target="_blank">Rapital Bank</a></li>
 								</ul>
 							</div>
 							<div class="col-lg-3 col-md-6">

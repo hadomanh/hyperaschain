@@ -322,6 +322,10 @@ header .navbar .nav-item {
 header .navbar .nav-link {
     color: #fff;
 }
+header .navbar .nav-link:hover,
+header .navbar .nav-link.show {
+    color: #ff40b1;
+}
 header .navbar .dropdown-menu {
     border-radius: 8px;
     border: none;
@@ -745,6 +749,7 @@ header .navbar .dropdown-item:hover {
     background: linear-gradient(to right, #FF0097, #00D3FF);
     padding: 0 0 3px 3px;
     border-radius: 8px;
+    display: block;
 }
 #contactPage .contactItem {
     background: #233E4B;
@@ -1276,7 +1281,7 @@ footer .copyright {
     #stakingPage .poolTable .filter .searchForm input {
         width: 100%;
     }
-    /* #overviewPage .banner {
+    #overviewPage .banner {
         padding: 40px 0 70px;
     }
     #overviewPage .ecosystem {
@@ -1296,7 +1301,77 @@ footer .copyright {
     }
     #overviewPage .ecosystem .item:before {
         display: none;
-    } */
+    }
+    #overviewPage .ecosystem {
+        padding-bottom: 140px;
+    }
+    #overviewPage .boxIframe {
+        margin-top: -120px;
+    }
+    #overviewPage .technology .item {
+        position: relative;
+        padding: 0 0 0 80px;
+    }
+    #overviewPage .technology .roundPink {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    #overviewPage .technology .roundPink img {
+        width: 35px;
+    }
+    #overviewPage .roadmap .contentRoadmap {
+        margin-top: 0;
+    }
+    #overviewPage .roadmap .row>div:nth-child(even) {
+        top: 0;
+    }
+    #overviewPage .roadmap .item {
+        margin: 10px 0;
+    }
+    #overviewPage .roadmap .item ul {
+        position: relative;
+    }
+    #overviewPage .roadmap .item ul:after,
+    #overviewPage .roadmap .item ul:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 3px;
+        height: 100%;
+        background: #30dddc;
+    }
+    #overviewPage .roadmap .item ul:after {
+        width: 3px;
+        height: 30%;
+        top: 20%;
+        background: #fff;
+        box-shadow: 0px 0px 10px 2px #30dddc;
+    }
+    #overviewPage .roadmap .item .date {
+        text-align: left;
+        margin: 0 0 10px;
+        color: #30dddc;
+        font-size: 16px;
+    }
+    #overviewPage .roadmap .item.active .date {
+        color: #fe3bbe;
+    }
+    #overviewPage .roadmap .item.active ul:after,
+    #overviewPage .roadmap .item.active ul:before {
+        background: #fe3bbe;
+    }
+    #overviewPage .roadmap .item.active ul:after {
+        background: #fff;
+        box-shadow: 0px 0px 10px 2px #fe3bbe;
+    }
+    #overviewPage .roadmap .item img {
+        margin: 0;
+    }
+    #overviewPage .roadmap .item .imgWrap {
+        display: none;
+    }
     footer .logoFooter {
         width: 160px;
     }
