@@ -81,7 +81,7 @@
 								<h5>Technology</h5>
 								<ul class="list-unstyled">
 									<li><a href="{{ route('overview')}}">Overview</a></li>
-									<li><a href="">Stake</a></li>
+									<li><a href="{{ route('staking')}}">Stake</a></li>
 									<li><a href="">Roadmap</a></li>
 									<li><a href="">Whitepaper</a></li>
 								</ul>

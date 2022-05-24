@@ -69,24 +69,32 @@
 				</div>
 				<div class="row mt-5 features">
 					<div class="col-lg-3 col-md-6">
-						<div class="roundPink"><img src="{{ asset('img/compatibilty.png')}}"></div>
-						<h5 class="my-3">Compatibilty</h5>
-						<p>Built to meet a large ecosystem, Hyperas chain is highly compatible with many other Blockchains such as: ETH / BSC / MATIC / FANTOM / TRON / ETC / POA / XDAI</p>
+						<div class="item">
+							<div class="roundPink"><img src="{{ asset('img/compatibilty.png')}}"></div>
+							<h5 class="my-3">Compatibilty</h5>
+							<p>Built to meet a large ecosystem, Hyperas chain is highly compatible with many other Blockchains such as: ETH / BSC / MATIC / FANTOM / TRON / ETC / POA / XDAI</p>
+						</div>
 					</div>
 					<div class="col-lg-3 col-md-6">
-						<div class="roundPink"><img src="{{ asset('img/diversity.png')}}"></div>
-						<h5 class="my-3">Diversity</h5>
-						<p>Hyperas Chain supports the digitization of a wide range of assets such as equity, publicly traded bonds, real estate, artwork, and more. and many other asset classes in the future.</p>
+						<div class="item">
+							<div class="roundPink"><img src="{{ asset('img/diversity.png')}}"></div>
+							<h5 class="my-3">Diversity</h5>
+							<p>Hyperas Chain supports the digitization of a wide range of assets such as equity, publicly traded bonds, real estate, artwork, and more. and many other asset classes in the future.</p>
+						</div>
 					</div>
 					<div class="col-lg-3 col-md-6">
-						<div class="roundPink"><img src="{{ asset('img/consensus-algorithm.png')}}"></div>
-						<h5 class="my-3">Consensus Algorithm</h5>
-						<p>Hyperas chain Apply Proof of Authority (PoA) consensus algorithm, as well as ST20, SAP2022 protocol to its own Blockchain platform. This algorithm promises high scalability and performance.</p>
+						<div class="item">
+							<div class="roundPink"><img src="{{ asset('img/consensus-algorithm.png')}}"></div>
+							<h5 class="my-3">Consensus Algorithm</h5>
+							<p>Hyperas chain Apply Proof of Authority (PoA) consensus algorithm, as well as ST20, SAP2022 protocol to its own Blockchain platform. This algorithm promises high scalability and performance.</p>
+						</div>
 					</div>
 					<div class="col-lg-3 col-md-6">
-						<div class="roundPink"><img src="{{ asset('img/transparency.png')}}"></div>
-						<h5 class="my-3">Transparency</h5>
-						<p>To meet government and corporate customers, Hyperas focuses on Know Your Customer (KYC) to ensure security, transparency and trust for all participants. join the ecosystem.</p>
+						<div class="item">
+							<div class="roundPink"><img src="{{ asset('img/transparency.png')}}"></div>
+							<h5 class="my-3">Transparency</h5>
+							<p>To meet government and corporate customers, Hyperas focuses on Know Your Customer (KYC) to ensure security, transparency and trust for all participants. join the ecosystem.</p>
+						</div>
 					</div>
 				</div>
 				<div class="text-center mt-lg-5 mt-3"><a href="#" class="btn readmore">READ MORE <i class="fas fa-angle-right"></i></a></div>

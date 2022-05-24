@@ -26,7 +26,7 @@
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="{{ route('overview')}}">Overview</a></li>
-                            <li><a class="dropdown-item" href="#">Stake</a></li>
+                            <li><a class="dropdown-item" href="{{ route('staking')}}">Stake</a></li>
                             <li><a class="dropdown-item" href="#">Roadmap</a></li>
                             <li><a class="dropdown-item" href="#">Whitepaper</a></li>
                         </ul>
