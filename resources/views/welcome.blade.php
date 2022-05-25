@@ -4,23 +4,22 @@
 <div id="homepage">	
 	<!-- Banner -->
 	<section class="banner">
-		<span class="circleBlur-1"></span>
-		<div class="container-lg position-relative">
+		<div class="container-lg">
 			<div class="row align-items-center">
 				<div class="col-md-auto">
 					<h1 class="sectionHeading mb-0">Hyperas Chain</p>
 					<h3 class="subHeading">The chain of hyper assets</h3>
 					<div class="row mt-4">
 						<div class="col-md-6">
-							<a href="#" class="d-block btn btnBlue boxShadowBlue mb-md-0 mb-2">Smart Contract</a>
+							<a href="#" class="d-block btn btn-lg btnBlue boxShadowBlue mb-md-0 mb-2">Smart Contract</a>
 						</div>
 						<div class="col-md-6">
-							<a href="#" class="d-block btn btnPink boxShadowBlue">White Paper</a>
+							<a href="#" class="d-block btn btn-lg btnPink boxShadowBlue">White Paper</a>
 						</div>
 					</div>
-					<div class="mt-3 small">
+					<div class="mt-3 ps-2 small">
 						<a href="#">
-							<span class="me-2 text-decoration-underline fw-normal">Audited by</span> <img src="{{ asset('img/certiklogo.png') }}" width="80">
+							<span class="me-2 text-decoration-underline font-regular">Audited by</span> <img src="{{ asset('img/certiklogo.png') }}" width="80">
 						</a>
 					</div>
 				</div>
@@ -61,7 +60,9 @@
 
 	<!-- What is Hyperas Chain? -->
 	<div class="text-white bgGrid">
-		<section class="whatIsHyperas">
+		<div class="circleBlur-1"></div>
+		<div class="circleBlur-2"></div>
+		<section class="whatIsHyperas position-relative">
 			<div class="container-lg">
 				<div class="text-center">
 					<h2 class="sectionHeading">What is Hyperas Chain?</h2>
@@ -97,7 +98,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="text-center mt-lg-5 mt-3"><a href="#" class="btn readmore">READ MORE <i class="fas fa-angle-right"></i></a></div>
+				<div class="text-center mt-lg-5 mt-3"><a href="{{ route('overview')}}" class="btn readmore">READ MORE <i class="fas fa-angle-right"></i></a></div>
 			</div>
 		</section>
 
@@ -105,14 +106,15 @@
 		<section class="environment text-center">
 			<div class="container-lg">
 				<h2 class="sectionHeading">External Environment</h2>
-				<ul class="list-unstyled d-flex justify-content-center font-bold">
-					<li>All</li>
-					<li>Real Eastate</li>
-					<li>E-Com</li>
-					<li>Healthcare</li>
-					<li>Other</li>
-				</ul>
-				<hr size="4">
+				<div class="text-center">
+					<ul class="list-unstyled d-inline-flex justify-content-center font-bold">
+						<li>All</li>
+						<li>Real Eastate</li>
+						<li>E-Com</li>
+						<li>Healthcare</li>
+						<li>Other</li>
+					</ul>
+				</div>
 				<div class="row justify-content-center mt-md-5 mt-2">
 				<div class="col-xl-2 col-md-3">
 						<div class="item">
@@ -143,7 +145,7 @@
 	<div class="text-center partnersElement">
 
 		<!-- Investor & Partners -->
-		<section class="pb-0">
+		<section class="pb-0 position-relative">
 			<div class="container-lg">
 				<h2 class="sectionHeading">Investor & Partners</h2>
 				<p>We choose to go with partners who share the same business ecosystem and corporate culture value system. We work with major service providers to blockchainise conventional business models. </p>
@@ -161,7 +163,7 @@
 		</section>
 
 		<!-- As seen on -->
-		<section>
+		<section class="position-relative">
 			<div class="container-lg">
 				<h1 class="sectionHeading">As seen on</h1>
 				<div class="row justify-content-center">

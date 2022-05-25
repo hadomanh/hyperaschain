@@ -5,7 +5,7 @@
             <ul class="list-unstyled d-flex align-items-center justify-content-end mb-0">
                 <li><a href="https://twitter.com/hyperaschain" target="_blank"><i class="fab fa-twitter"></i></a></li>
                 <li><a href="https://t.me/hyperaschainchannel" target="_blank"><i class="fab fa-telegram-plane"></i></a></li>
-                <li><a href="https://hyperaschain.gitbook.io/hyperasglobal" target="_blank"><i class="fab fa-github"></i></a></li>
+                <li><a href="https://github.com/hyperaschain-com" target="_blank"><i class="fab fa-github"></i></a></li>
                 <li class="faq-text"><a href="{{ route('hyra-faq')}}">FAQ</a></li>
                 <li class="buyHyra d-block d-lg-none"><a href="#" class="btn btn-sm text-white btnPink boxShadowPink">Buy Hyra</a></li>
             </ul>

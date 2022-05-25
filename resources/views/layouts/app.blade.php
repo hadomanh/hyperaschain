@@ -55,7 +55,7 @@
 						<li><a href="https://twitter.com/hyperaschain" target="_blank"><i class="fab fa-twitter" target="_blank"></i></a></li>
 						<li><a href="https://www.linkedin.com/company/hyperaschainofficial" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
 						<li><a href="https://t.me/hyperaschainchannel"><i class="fab fa-telegram-plane"target="_blank"></i></a></li>
-						<li><a href="https://hyperaschain.gitbook.io/hyperasglobal/"><i class="fab fa-github" target="_blank"></i></a></li>
+						<li><a href="https://github.com/hyperaschain-com"><i class="fab fa-github" target="_blank"></i></a></li>
 					</ul>
 				</div>
 			</div>
