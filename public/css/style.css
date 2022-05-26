@@ -51,6 +51,9 @@ body {
 a,a:hover {
     text-decoration: none;
     color: #fff;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 img {
     max-width: 100%;
@@ -127,6 +130,9 @@ header .navbar .dropdown-item,
 .btn:hover {
     color: #fff;
 }
+.btn:focus {
+    box-shadow: none;
+}
 .btnPink {
     background: #EC008C;    
 }
@@ -162,6 +168,19 @@ header .navbar .dropdown-item,
     box-shadow: 5px 5px 13px rgba(85, 198, 208, 0.5);
     border-radius: 6px;
     border: none;
+    position: relative;
+}
+.btnGrad:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: -2px;
+    border-radius: inherit;
+    background: linear-gradient(89.08deg, #FF0097 22.35%, #00D3FF 83.51%);
 }
 .boxShadowBlue {
     box-shadow: 0px 4px 13px #55C6D0;
@@ -240,6 +259,8 @@ section.banner h1 {
 }
 .contactFormElement .inner {
     padding: 40px;
+    position: relative;
+    z-index: 1;
     background: url(../img/bg-contact-form.jpg) no-repeat center left / cover;
 }
 .contactFormElement .form-control {
@@ -318,10 +339,12 @@ section.banner h1 {
     display: block;
     border-radius: 50%;
     background: #01FFF0;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 .form-switch .form-check-input:checked:before {
-    left: auto;
-    right: -23px;
+    left: 23px;
 }
 /*========================== HEADER ==========================*/
 header {
@@ -436,6 +459,10 @@ header .navbar .dropdown-item:hover {
     display: inline-block;
     padding: 15px 40px;
     color: #EC008C;
+}
+#homepage .readmore:hover {
+    color: #fff;
+    background: linear-gradient(89.08deg, #DE0284 6.21%, #00A4C6 83.51%);
 }
 #homepage .readmore:before {
     content: "";
@@ -808,6 +835,10 @@ header .navbar .dropdown-item:hover {
     mix-blend-mode: luminosity;
     filter: drop-shadow(0px 4px 136px #106A76);
 }
+#hyraValidator .whatIsValidator {
+    position: relative;
+    z-index: 1;
+}
 /* ===================== GUIDE LINE PAGE =================== */
 #guideLinePage {
     padding: 40px 0 80px;
@@ -924,6 +955,31 @@ header .navbar .dropdown-item:hover {
     color: #fff;
     border: none;
 }
+#stakingPage .poolTable .filter .dropdown-toggle {
+    padding-right: 40px;
+    padding-left: 15px;
+    background: #388992;
+    font-family: 'gotham-light';
+    width: 170px;
+    text-align: left;
+}
+#stakingPage .poolTable .filter .dropdown-toggle:after {
+    display: none;
+}
+#stakingPage .poolTable .filter .dropdown-menu {
+    width: 100%;
+    background: #172932;
+}
+#stakingPage .poolTable .filter .dropdown-menu a {
+    color: #fff;
+    margin: 5px;
+    width: auto;
+    padding: 10px;
+    border-radius: 3px;
+}
+#stakingPage .poolTable .filter .dropdown-menu a:hover {
+    background: #143f4b;
+}
 #stakingPage .poolTable .filter .status {
     border: 1px solid rgba(1, 255, 240, 0.3);
     border-radius: 30px;
@@ -936,6 +992,9 @@ header .navbar .dropdown-item:hover {
     line-height: 1;
     font-weight: 400;
     padding: 5px 15px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 #stakingPage .poolTable .filter .status input:checked + label {
     background: #EC008C;
@@ -951,6 +1010,7 @@ header .navbar .dropdown-item:hover {
     top: 42px;
     right: 10px;
     opacity: .7;
+    z-index: 1;
 }
 #stakingPage .poolTable .item {    
     padding: 20px;

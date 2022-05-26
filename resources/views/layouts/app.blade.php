@@ -143,6 +143,10 @@
 			$("#stakingPage .displayType .typeList").click(function(){
 				$("#stakingPage .itemDisplay.displayList").removeClass("d-none");
 			});
+			$(".dropdown-menu li a").click(function(){
+				var selText = $(this).text();
+				$(this).parents('.dropdown').find('.dropdown-toggle').text(selText);
+			});
 		});
 	</script>
 	@stack('script')

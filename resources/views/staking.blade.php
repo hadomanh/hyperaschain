@@ -33,13 +33,18 @@
                         <div class="col-md-auto mb-3 mb-md-0">
                             <div class="position-relative sort">
                                 <label class="form-label font-regular">Sort by</label>
-                                <select class="form-select" aria-label="Default select example">
-                                    <option selected>Hot</option>
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
-                                </select>
                                 <i class="fas fa-chevron-down icon"></i>
+                                <div class="dropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Hot
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a class="dropdown-item" href="#">APR</a></li>
+                                        <li><a class="dropdown-item" href="#">Eearned</a></li>
+                                        <li><a class="dropdown-item" href="#">Total staked</a></li>
+                                        <li><a class="dropdown-item" href="#">Latest</a></li>
+                                    </ul>
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-auto">
@@ -258,7 +263,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 col-md-6">
+                        <div class="col-lg-4 col-md-6">
                             <div class="item">
                                 <div class="d-flex mb-4">
                                     <div class="iconWrap">
@@ -308,7 +313,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 col-md-6">
+                        <div class="col-lg-4 col-md-6">
                             <div class="item">
                                 <div class="d-flex mb-4">
                                     <div class="iconWrap">

@@ -44,7 +44,7 @@
             </div>
         </section>
         <section class="text-center p-0"><img src="{{ asset('img/cube.png') }}" alt="" class="imgCube"></section>
-        <section class="text-center">
+        <section class="text-center whatIsValidator">
             <h2 class="sectionHeading">What is Validator with PoA-based networks?</h2>
             <p>In PoA-based networks, transactions and blocks are validated by approved accounts, known as validators. Validators run software allowing them to put transactions in blocks. The process is automated and does not require validators to be constantly monitoring their computers. It, however, does require maintaining the computer (the authority node) uncompromised.</p>
             <a href="#" class="btn btn-lg btnGrad mt-4">Become Validator</a>
