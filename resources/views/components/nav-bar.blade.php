@@ -60,7 +60,7 @@
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="{{ route('brand-kit')}}">Brand kit</a></li>
-                            <li><a class="dropdown-item" href="{{ route('news-blog')}}">Blog</a></li>
+                            <li><a class="dropdown-item" href="{{ route('news')}}">Blog</a></li>
                             <li><a class="dropdown-item" href="{{ route('guide-line')}}">Guildeline</a></li>
                             <li><a class="dropdown-item" href="{{ route('hyra-validator')}}">Become Validator <img src="{{ asset('img/icon-authenticator.svg') }}" width="22" class="ms-2"></a></li>
                         </ul>

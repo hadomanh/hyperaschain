@@ -108,7 +108,7 @@
 								<h5>Resource</h5>
 								<ul class="list-unstyled">
 									<li><a href="{{ route('brand-kit')}}">Brand Kit</a></li>
-									<li><a href="{{ route('news-blog')}}">Blog</a></li>
+									<li><a href="{{ route('news')}}">Blog</a></li>
 									<li><a href="{{ route('guide-line')}}">Guildeline</a></li>
 								</ul>
 							</div>

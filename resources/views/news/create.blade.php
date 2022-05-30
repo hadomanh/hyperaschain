@@ -18,6 +18,20 @@
             <label for="subtitleInput">Subtitle</label>
             <input type="text" name="subtitle" class="form-control" id="subtitleInput" placeholder="Subtitle" required>
         </div>
+
+        <div class="form-group">
+            <label>Category</label>
+            <select name="category" class="form-control" required>
+                <option value="announcements">Announcements</option>
+                <option value="blog" selected>Blog</option>
+                <option value="community">Community Spotlight</option>
+                <option value="developer">Developer Showcase</option>
+                <option value="education">Education</option>
+                <option value="events">Events</option>
+                <option value="finance">Finance</option>
+                <option value="governance">Governance</option>
+            </select>
+        </div>
     
         <div class="form-group">
             <label for="contentInput">Content</label>

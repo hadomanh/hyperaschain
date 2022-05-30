@@ -63,6 +63,7 @@ class NewsController extends Controller
 
         $news->title = $request->title;
         $news->subtitle = $request->subtitle;
+        $news->category = $request->category;
         $news->content = $request->content;
 
         if (!$request->filled('seo_title')) {
@@ -151,6 +152,7 @@ class NewsController extends Controller
 
         $news->title = $request->title;
         $news->subtitle = $request->subtitle;
+        $news->category = $request->category;
         $news->content = $request->content;
 
         if (!$request->filled('seo_title')) {

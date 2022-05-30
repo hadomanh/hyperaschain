@@ -17,6 +17,7 @@ class CreateNewsTable extends Migration
             $table->id();
             $table->text('title');
             $table->text('subtitle');
+            $table->text('category');
             $table->text('content');
             $table->string('thumbnail');
             $table->text('slug');

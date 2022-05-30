@@ -16,6 +16,20 @@
     </div>
 
     <div class="form-group">
+        <label>Category</label>
+        <select name="category" class="form-control" required>
+            <option value="announcements" {{ $news->category == 'announcements' ? "selected" : "" }}>Announcements</option>
+            <option value="blog" {{ $news->category == 'blog' ? "selected" : "" }}>Blog</option>
+            <option value="community" {{ $news->category == 'community' ? "selected" : "" }}>Community Spotlight</option>
+            <option value="developer" {{ $news->category == 'developer' ? "selected" : "" }}>Developer Showcase</option>
+            <option value="education" {{ $news->category == 'education' ? "selected" : "" }}>Education</option>
+            <option value="events" {{ $news->category == 'events' ? "selected" : "" }}>Events</option>
+            <option value="finance" {{ $news->category == 'finance' ? "selected" : "" }}>Finance</option>
+            <option value="governance" {{ $news->category == 'governance' ? "selected" : "" }}>Governance</option>
+        </select>
+    </div>
+
+    <div class="form-group">
         <label for="contentInput">Content</label>
         <textarea name="content" class="form-control" rows="5" id="editor" required>{!! $news->content !!}</textarea>
     </div>
